@@ -175,7 +175,7 @@ const calzado = [
     descripcion: " •Puntera: Composite / Plástico.",
     talles: [38,39,40,41,42,43,44,45,46],
     colores: [
-      { nombre: "Negro", imagenes: ["imagenes/Productos/calzado/ombu/gemaN.png","imagenes/Productos/calzado/ombu/gemaN2.png"] },
+      { nombre: "Negro", imagenes: ["imagenes/Productos/calzado/ombu/GemaN.png","imagenes/Productos/calzado/ombu/GemaN2.png"] },
       { nombre: "Gris", imagenes: ["imagenes/Productos/calzado/ombu/GemaG.png","imagenes/Productos/calzado/ombu/GemaG2.png"] }
     ]
   },
