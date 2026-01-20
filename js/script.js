@@ -60,8 +60,8 @@ const selectCategoria = document.getElementById("selectCategoria");
 const selectMarca = document.getElementById("selectMarca");
 const selectOrden = document.getElementById("selectOrden");
 const categoriasHome = [
-  { nombre: "Calzado", img: "imagenes/logos/logocalzado.png" },
-  { nombre: "Guantes", img: "imagenes/logos/logoguantes.png" },
+  { nombre: "Calzado", img: "imagenes/Logos/logocalzado.png" },
+  { nombre: "Guantes", img: "imagenes/Logos/logoguantes.png" },
   { nombre: "Protección", img: "imagenes/categorias/proteccion.png" },
   { nombre: "Accesorios", img: "imagenes/categorias/accesorios.png" },
 ];
