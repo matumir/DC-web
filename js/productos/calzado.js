@@ -172,7 +172,6 @@ const calzado = [
     subcategoria: "Zapatos",
     marca: "OMBU",
     destacado: true,
-    descripcion: " •Puntera: Composite / Plástico.",
     talles: [38,39,40,41,42,43,44,45,46],
     colores: [
       { nombre: "Negro", imagenes: ["imagenes/Productos/calzado/ombu/gemaN.png","imagenes/Productos/calzado/ombu/gemaN2.png"] },
