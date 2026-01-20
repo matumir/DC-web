@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Distribuidora Castelli</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/png" href="imagenes/Logos/logopest.png">
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+
+<header class="header">
+  <!-- LOGO -->
+  <div class="logo">
+    <img src="imagenes/Logos/logohead.png" alt="Logo">
+  </div>
+
+  <div class="header-center">
+ <div class="header-search">
+  <input
+    type="text"
+    id="buscador"
+    placeholder="Buscar productos..."
+    autocomplete="off"
+  />
+  <div id="resultadosBuscador" class="buscador-resultados oculto"></div>
+</div>
+
+
+  <nav class="header-nav">
+    <button id="btnInicio">Inicio</button>
+    <button id="btnProductos">Productos</button>
+    <button id="btnContacto">Contacto</button>
+  </nav>
+</div>
+
+  <div class="carrito-wrapper">
+  <button id="btnCarrito">
+    <img src="imagenes/Logos/Carrito.png" alt="Carrito">
+    <span id="contadorCarrito">0</span>
+  </button>
+
+  <div id="previewCarrito" class="preview-carrito"></div>
+</div>
+
+</header>
+
+
+<!-- INICIO -->
+<section id="banner-inicio">
+  <img src="imagenes/Grafico/banner.png" alt="Banner Principal">
+</section>
+<section id="inicio-categorias" class="categorias-home">
+  <h2>Categorías</h2>
+  <div id="categoriasContainer" class="categorias-cards"></div>
+  <div class="ver-todos-wrapper">
+    <button class="btn-principal" onclick="mostrarProductos()">Ver todos los productos</button>
+  </div>
+</section>
+<section id="destacados">
+  <h2>Artículos destacados</h2>
+  <div class="destacados-container">
+    <button class="flecha-destacados izquierda" onclick="moverDestacados(-1)">❮</button>
+    <div class="destacados-carrusel">
+      <div class="destacados-track" id="trackDestacados"></div>
+    </div>
+    <button class="flecha-destacados derecha" onclick="moverDestacados(1)">❯</button>
+  </div>
+</section>
+<!-- PRODUCTOS -->
+<section id="productos" class="oculto">
+
+  <!-- BREADCRUMB -->
+  <div class="breadcrumb">
+    <span onclick="mostrarInicio()">Inicio</span> /
+    <span class="activo">Productos</span>
+  </div>
+
+  <div class="productos-layout">
+
+    <!-- SIDEBAR -->
+    <aside class="productos-sidebar">
+
+      <div class="filtro">
+        <h4>Categoría</h4>
+        <select id="selectCategoria">
+          <option value="todos">Todas</option>
+          <option value="Calzado">Calzado</option>
+          <option value="Guantes">Guantes</option>
+          <option value="Protección">Protección</option>
+          <option value="Accesorios">Accesorios</option>
+        </select>
+      </div>
+      <div class="filtro">
+  <h4>Subcategoría</h4>
+  <select id="selectSubcategoria">
+    <option value="todas">Todas</option>
+  </select>
+  </div>
+      <div class="filtro">
+        <h4>Ordenar</h4>
+        <select id="selectOrden">
+          <option value="az">Nombre A–Z</option>
+          <option value="za">Nombre Z–A</option>
+        </select>
+      </div>
+
+      <div class="filtro">
+        <h4>Marca</h4>
+        <select id="selectMarca">
+          <option value="todas">Todas</option>
+        </select>
+      </div>
+<div id="filtrosActivos" class="filtros-activos"></div>
+    </aside>
+
+    <!-- CATÁLOGO -->
+    <div class="productos-contenido">
+  <div class="productos-header">
+  <span id="contadorResultados"></span>
+</div>
+
+
+  <div id="catalogo" class="catalogo"></div>
+  <div id="paginacion" class="paginacion"></div>
+</div>
+
+
+  </div>
+</section>
+
+
+<!-- DETALLE -->
+<section id="vistaProducto" class="oculto">
+
+  <button id="volverCatalogo" class="volver">
+    <i class="fa-solid fa-arrow-left"></i> Volver
+  </button>
+
+  <div class="detalle-layout">
+
+    <!-- GALERÍA -->
+    <div class="galeria-producto">
+      <div id="miniaturas" class="miniaturas"></div>
+
+      <div class="imagen-principal">
+        <span id="badgeColor" class="badge-color oculto"></span>
+        <button class="flecha izquierda" onclick="moverImagen(-1)">❮</button>
+        <img id="detalleImg" alt="Producto">
+        <button class="flecha derecha" onclick="moverImagen(1)">❯</button>
+      </div>
+    </div>
+
+    <!-- INFO -->
+    <div class="info">
+      <h2 id="detalleNombre"></h2>
+      <p><strong>Marca:</strong> <span id="detalleMarca"></span></p>
+      <p id="detalleDescripcion"></p>
+
+      <div class="campo-detalle" id="campoTalle">
+        <label for="detalleTalle">Talle</label>
+        <select id="detalleTalle"></select>
+      </div>
+
+
+<div class="campo-detalle">
+  <label id="labelColor">Color</label>
+  <div id="coloresProducto" class="colores-producto oculto"></div>
+</div>
+
+<div class="campo-detalle">
+  <label>Cantidad</label>
+  <input type="number" id="detalleCantidad" min="1" placeholder="Cantidad">
+</div>
+
+
+      <button id="detalleAgregar" class="btn-secundario">
+        <i class="fa-solid fa-cart-plus"></i> Agregar al carrito
+      </button>
+    </div>
+
+    <!-- CARRITO -->
+    <aside class="carrito">
+      <h3><i class="fa-solid fa-cart-shopping"></i> Tu carrito</h3>
+      <ul id="listaCarritoDetalle"></ul>
+
+      <button onclick="enviarWhatsapp()" class="btn-whatsapp">
+        <i class="fa-brands fa-whatsapp"></i> Consultar por WhatsApp
+      </button>
+    </aside>
+
+  </div>
+  <!-- DESCRIPCIÓN PRODUCTO -->
+
+  <div id="descripcionProducto" class="descripcion-producto oculto">
+
+  <div class="descripcion-tabs">
+    <button class="tab-btn activo" data-tab="info">Información</button>
+    <button class="tab-btn" data-tab="specs">Especificaciones</button>
+    <button class="tab-btn" data-tab="docs">Documentación</button>
+  </div>
+
+  <div class="descripcion-contenido">
+    <div id="tab-info" class="tab-panel activo"></div>
+    <div id="tab-specs" class="tab-panel"></div>
+    <div id="tab-docs" class="tab-panel"></div>
+  </div>
+
+</div>
+
+  <div id="relacionados">
+  <h3>Productos relacionados</h3>
+  <div class="carrusel-container">
+    <button class="flecha-carrusel izquierda" onclick="moverCarrusel(-1)">❮</button>
+    <div class="carrusel">
+      <div class="carrusel-track" id="carruselRelacionados"></div>
+    </div>
+
+    <button class="flecha-carrusel derecha" onclick="moverCarrusel(1)">❯</button>
+  </div>
+</div>
+</section>
+<section id="carrito" class="oculto">
+  <h2>Tu carrito</h2>
+  <div id="listaCarrito"></div>
+
+  <button onclick="enviarWhatsapp()" class="btn-whatsapp">Enviar por WhatsApp</button>
+</section>
+<div id="notificacion" class="notificacion oculto">
+  <i class="fa-solid fa-check"></i> Producto agregado
+</div>
+
+<!-- PRODUCTOS -->
+<script src="js/productos/calzado.js"></script>
+<script src="js/productos/guantes.js"></script>
+<script src="js/productos/proteccion.js"></script>
+<script src="js/productos/accesorios.js"></script>
+<script src="js/productos.js"></script>
+
+<!-- LÓGICA -->
+<script src="js/script.js"></script>
+
+<footer class="footer">
+  <div class="footer-container">
+    <!-- NAVEGACIÓN -->
+    <div class="footer-col">
+      <h4>Menú</h4>
+      <ul>
+        <li><a href="#" onclick="mostrarInicio()">Inicio</a></li>
+        <li><a href="#" onclick="mostrarProductos()">Productos</a></li>
+        <li><a href="#" onclick="mostrarContacto()">Contacto</a></li>
+        <li><a href="#" onclick="mostrarCarrito()">Carrito</a></li>
+      </ul>
+    </div>
+
+    <!-- CONTACTO -->
+    <div class="footer-col">
+  <h4>Contacto</h4>
+  <ul class="footer-contacto">
+    <li><i class="fa-solid fa-location-dot"></i> Castelli 2948, San Francisco</li>
+    <li><i class="fa-brands fa-whatsapp"></i> +54 9 3564 598969</li>
+    <li><i class="fa-solid fa-phone"></i> +54 9 3564 435909 (Tel.)</li>
+    <li><i class="fa-solid fa-envelope"></i> castellidistribuidorasf@gmail.com</li>
+  </ul>
+</div>
+
+
+    <!-- REDES -->
+    <div class="footer-col">
+  <h4>Redes sociales</h4>
+  <p>Seguinos para conocer novedades y productos.</p>
+  <div class="footer-redes">
+    <a href="https://www.instagram.com/distribuidoracastelli.sf" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-instagram"></i></a>
+    <a href="https://www.facebook.com/profile.php?id=61584264827973" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-facebook"></i></a>
+    <a href="https://wa.me/5493564598969" target="_blank" class="whatsapp"><i class="fa-brands fa-whatsapp"></i></a>
+  </div>
+</div>
+
+    <!-- MAPA -->
+<div class="footer-col footer-mapa">
+  <h4>Ubicación</h4>
+  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3404.758466896376!2d-62.099648125026775!3d-31.42078009646262!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95cb283866c553db%3A0x95cccbdd84ce2e87!2sDistribuidora%20Castelli%20de%20Juan%20Salvay!5e0!3m2!1ses-419!2sar!4v1768306948277!5m2!1ses-419!2sar" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+</div>
+  </div>
+
+  <!-- BARRA INFERIOR -->
+  <div class="footer-bottom">
+    Distribuidora Castelli © Todos los derechos reservados. Desarrollado por Mateo Miranda.
+  </div>
+</footer>
+</body>
+</html>

@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Ejemplo</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<header>
+  <h1>Tienda de ejemplo</h1>
+</header>
+
+<main>
+  <!-- PRODUCTO -->
+  <section class="producto">
+  <img src="/imagenes/Sneaker.png" alt="Sneaker">
+  <h2>Sneaker</h2>
+  <p>Calzado de seguridad Sneaker marca OMBU</p>
+
+  <!-- TALLES -->
+  <div class="talle">
+  <label for="talle">Talle:</label>
+  <select id="talle">
+    <option value="">Seleccionar talle</option>
+    <option value="38">38</option>
+    <option value="39">39</option>
+    <option value="40">40</option>
+    <option value="41">41</option>
+    <option value="42">42</option>
+    <option value="43">43</option>
+    <option value="44">44</option>
+    <option value="45">45</option>
+    <option value="46">46</option>
+  </select>
+</div>
+
+  <!-- CANTIDAD -->
+  <div class="cantidad">
+    <label for="cantidad">Cantidad:</label>
+    <input type="number" id="cantidad" min="1" value="1">
+  </div>
+
+  <button class="btn-agregar" id="btnAgregar">Agregar al carrito</button>
+</section>
+
+  <!-- CARRITO -->
+  <aside class="carrito">
+    <h2>Carrito</h2>
+    <ul id="listaCarrito">
+      <li>No hay productos en el carrito</li>
+    </ul>
+    <button class="btn-whatsapp" id="btnWhatsapp">Comprar por WhatsApp</button>
+    <p class="nota">
+      * Stock y precio a confirmar por WhatsApp
+    </p>
+  </aside>
+</main>
+
+<script src="script.js"></script>
+</body>
+</html>
