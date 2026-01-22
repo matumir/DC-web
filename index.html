@@ -50,30 +50,41 @@
 </header>
 <header class="header-mobile">
 
-  <!-- BOTÓN MENÚ -->
   <button class="btn-menu-mobile">
     <img src="imagenes/logos/menu.png" alt="Menú">
   </button>
 
-  <!-- LOGO -->
   <div class="logo-mobile">
     <img src="imagenes/logos/logopest.png" alt="Logo">
   </div>
 
-  <!-- ACCIONES DERECHA -->
   <div class="acciones-mobile">
-    <button class="btn-search-mobile">
+
+    <!-- 🔍 LUPA -->
+    <button class="btn-search-mobile" id="btnBuscarMobile">
       <img src="imagenes/logos/lupa.png" alt="Buscar">
     </button>
 
-    <button class="btn-carrito-mobile">
-      <img src="imagenes/logos/carrito.png" alt="Carrito">
+    <!-- 🛒 CARRITO -->
+    <button class="btn-carrito-mobile" id="btnCarritoMobile">
+      <img src="imagenes/logos/carritomob.png" alt="Carrito">
       <span id="contadorCarritoMobile">0</span>
     </button>
+
   </div>
 
 </header>
+<!-- MENÚ MOBILE -->
+<nav class="menu-mobile" id="menuMobile">
 
+  <button class="menu-cerrar" id="cerrarMenuMobile">
+    <img src="imagenes/logos/close.png" alt="Cerrar">
+  </button>
+
+  <button class="menu-link" data-target="inicio">Inicio</button>
+  <button class="menu-link" data-target="productos">Productos</button>
+
+</nav>
 
 <!-- INICIO -->
 <section id="banner-inicio">

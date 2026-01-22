@@ -1003,9 +1003,15 @@ function eliminarDelCarrito(index) {
   actualizarContadorCarrito();
 }
 function actualizarContadorCarrito() {
-  const contador = document.getElementById("contadorCarrito");
-  const total = carrito.reduce((acc, p) => acc + p.cantidad, 0);
-  contador.textContent = total;
+  const carrito = JSON.parse(localStorage.getItem("carrito")) || [];
+
+  const total = carrito.reduce((acc, item) => acc + item.cantidad, 0);
+
+  const contadorDesktop = document.getElementById("contadorCarrito");
+  const contadorMobile = document.getElementById("contadorCarritoMobile");
+
+  if (contadorDesktop) contadorDesktop.textContent = total;
+  if (contadorMobile) contadorMobile.textContent = total;
 }
 
 
@@ -1316,4 +1322,62 @@ document.addEventListener("DOMContentLoaded", () => {
   btnCarrito.onclick = mostrarCarrito;
 
   mostrarInicio(); // 👈 ESTO ES CLAVE
+
+
+  // =====================
+// MENÚ MOBILE
+// =====================
+
+const btnMenuMobile = document.querySelector(".btn-menu-mobile");
+const menuMobile = document.getElementById("menuMobile");
+const cerrarMenuMobile = document.getElementById("cerrarMenuMobile");
+
+btnMenuMobile?.addEventListener("click", () => {
+  menuMobile.classList.add("activo");
+});
+
+cerrarMenuMobile?.addEventListener("click", () => {
+  menuMobile.classList.remove("activo");
+});
+
+// Navegación
+document.querySelectorAll(".menu-link").forEach(btn => {
+  btn.addEventListener("click", () => {
+    const target = btn.dataset.target;
+
+    if (target === "inicio" && typeof mostrarInicio === "function") {
+      mostrarInicio();
+    }
+
+    if (target === "productos" && typeof mostrarProductos === "function") {
+      mostrarProductos();
+    }
+
+    menuMobile.classList.remove("activo");
+  });
+});
+
+});
+
+//SECCIÓN MOBILE//
+const headerMobile = document.querySelector(".header-mobile");
+
+if (headerMobile) {
+  window.addEventListener("scroll", () => {
+    headerMobile.classList.toggle("scrolled", window.scrollY > 20);
+  });
+}
+
+
+const btnBuscarMobile = document.querySelector(".btn-search-mobile");
+const buscadorMobile = document.getElementById("buscadorMobile");
+const cerrarBuscadorMobile = document.getElementById("cerrarBuscadorMobile");
+
+btnBuscarMobile?.addEventListener("click", () => {
+  buscadorMobile?.classList.add("activo");
+  buscadorMobile?.querySelector("input")?.focus();
+});
+
+cerrarBuscadorMobile?.addEventListener("click", () => {
+  buscadorMobile?.classList.remove("activo");
 });
