@@ -1,0 +1,114 @@
+/* =========================================================
+   MOBILE STYLES
+   SOLO VISUAL – NO ROMPE DESKTOP
+   Aplica hasta 768px
+========================================================= */
+
+@media (max-width: 768px) {
+    .header{
+        display:none;
+    }
+  .header-mobile {
+  position: sticky;
+  top: 0;
+  z-index: 2000;
+
+  height: 64px;
+  padding: 0 12px;
+  background: #12414a;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+    }
+
+
+
+  /* =====================
+     BOTONES GENERALES
+  ===================== */
+  .header-mobile button {
+    background: none;
+    border: none;
+    padding: 6px;
+    cursor: pointer;
+  }
+
+  .header-mobile button img {
+    width: 26px;
+    height: 26px;
+    object-fit: contain;
+  }
+    .btn-menu-mobile {
+  width: 44px;
+  height: 44px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+
+  /* =====================
+     LOGO CENTRADO
+  ===================== */
+ .logo-mobile {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  pointer-events: none;
+}
+
+.logo-mobile img {
+  height: 42px;
+  max-width: 140px;
+  object-fit: contain;
+}
+
+
+
+  /* =====================
+     ACCIONES DERECHA
+  ===================== */
+  .acciones-mobile {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.acciones-mobile button {
+  width: 44px;
+  height: 44px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+
+  /* =====================
+     CONTADOR CARRITO
+  ===================== */
+  .btn-carrito-mobile {
+    position: relative;
+    justify-self: start;
+  }
+
+  #contadorCarritoMobile {
+    position: absolute;
+    top: -4px;
+    right: -4px;
+    background: red;
+    color: white;
+    font-size: 11px;
+    font-weight: bold;
+    padding: 2px 6px;
+    border-radius: 50%;
+  }
+}

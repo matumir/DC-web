@@ -12,7 +12,9 @@ body {
   background: #f4f6f8;
   color: #333;
 }
-
+.header-mobile {
+  display: none;
+}
 /* =====================
    UTILIDADES
 ===================== */
