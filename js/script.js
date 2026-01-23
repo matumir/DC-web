@@ -132,6 +132,14 @@ function renderSubcategorias(categoria) {
 /* =====================
    BUSCADOR
 ===================== */
+// ===== BUSCADOR MOBILE =====
+const btnBuscarMobile = document.getElementById("btnBuscarMobile");
+const buscadorMobile = document.getElementById("buscadorMobile");
+const cerrarBuscadorMobile = document.getElementById("cerrarBuscadorMobile");
+
+const buscadorMobileInput = document.getElementById("buscadorMobileInput");
+const resultadosBuscadorMobile = document.getElementById("resultadosBuscadorMobile");
+
 const inputBuscador = document.getElementById("buscador");
 const resultadosBuscador = document.getElementById("resultadosBuscador");
 let indiceSeleccionado = -1;
@@ -195,29 +203,36 @@ if (inputBuscador && resultadosBuscador) {
       matches.forEach(p => {
   const imagenSrc = p.colores ? p.colores[0].imagenes[0] : p.imagenes[0];
   const item = document.createElement("div");
-  item.className = "buscador-item";
-  item.innerHTML = `
-    <img src="${imagenSrc}" alt="${p.nombre}">
-    <div class="buscador-texto">
-     ${resaltar(`${p.marca} | ${p.nombre}`, textoOriginal)}
-    </div>
-  `;
+item.className = "buscador-item";
+item.dataset.id = p.id; // 🔑 CLAVE ABSOLUTA
+item.innerHTML = `
+  <img src="${imagenSrc}" alt="${p.nombre}">
+  <div class="buscador-texto">
+    ${resaltar(`${p.marca} | ${p.nombre}`, textoOriginal)}
+  </div>
+`;
+
   item.onclick = () => {
-    resultadosBuscador.classList.add("oculto");
-    inputBuscador.value = "";
-    mostrarDetalle(p.id);
-  };
+  resultadosBuscador.classList.add("oculto");
+  buscadorMobile?.classList.remove("activo");
+
+  inputBuscador.value = "";
+  buscadorMobileInput.value = "";
+
+  mostrarDetalle(p.id);
+};
+
   resultadosBuscador.appendChild(item);
-})
-if (matches.length > 0) {
+  })
+  if (matches.length > 0) {
   indiceSeleccionado = 0;
   const items = resultadosBuscador.querySelectorAll(".buscador-item");
   if (items[0]) items[0].classList.add("activo");
-}
-;
+  }
+  ;
 
       resultadosBuscador.classList.remove("oculto");
-    }
+}
   });
 
   // 🔹 ENTER → IR A PRODUCTOS Y FILTRAR
@@ -269,8 +284,26 @@ document.addEventListener("keydown", e => {
     inputBuscador.blur();
   }
 });
+// 🔁 SINCRONIZAR BUSCADOR MOBILE → DESKTOP
+buscadorMobileInput?.addEventListener("input", () => {
+  inputBuscador.value = buscadorMobileInput.value;
+  inputBuscador.dispatchEvent(new Event("input"));
+});
 
 }
+
+// 🔁 DUPLICAR RESULTADOS DESKTOP → MOBILE
+if (resultadosBuscador && resultadosBuscadorMobile) {
+  const observer = new MutationObserver(() => {
+    resultadosBuscadorMobile.innerHTML = resultadosBuscador.innerHTML;
+  });
+
+  observer.observe(resultadosBuscador, {
+    childList: true,
+    subtree: true,
+  });
+}
+
 
 document.addEventListener("click", e => {
   if (!e.target.closest(".header-search")) {
@@ -1359,17 +1392,65 @@ document.querySelectorAll(".menu-link").forEach(btn => {
 
 });
 
-//SECCIÓN MOBILE//
-
-const btnBuscarMobile = document.querySelector(".btn-search-mobile");
-const buscadorMobile = document.getElementById("buscadorMobile");
-const cerrarBuscadorMobile = document.getElementById("cerrarBuscadorMobile");
-
+// =====================
+// BUSCADOR MOBILE
+// =====================
 btnBuscarMobile?.addEventListener("click", () => {
-  buscadorMobile?.classList.add("activo");
-  buscadorMobile?.querySelector("input")?.focus();
+  buscadorMobile.classList.add("activo");
+  buscadorMobileInput.focus();
 });
 
 cerrarBuscadorMobile?.addEventListener("click", () => {
-  buscadorMobile?.classList.remove("activo");
+  buscadorMobile.classList.remove("activo");
+
+  buscadorMobileInput.value = "";
+  inputBuscador.value = "";
+
+  resultadosBuscador.innerHTML = "";
+  resultadosBuscadorMobile.innerHTML = "";
 });
+
+const inputBuscadorMobile = document.getElementById("buscadorMobileInput");
+
+/* ENTER EN BUSCADOR MOBILE */
+inputBuscadorMobile.addEventListener("keydown", (e) => {
+  if (e.key === "Enter") {
+    e.preventDefault();
+
+    const termino = inputBuscadorMobile.value.trim().toLowerCase();
+    if (!termino) return;
+
+    // 🔑 actualizar estado global
+    busquedaActual = termino;
+
+    // ir a productos
+    ocultarSecciones();
+    productosSec.classList.remove("oculto");
+
+    aplicarFiltros();
+
+    // cerrar buscador mobile
+    buscadorMobile.classList.remove("activo");
+    document.body.style.overflow = "";
+  }
+});
+
+
+const resultadosMobile = document.getElementById("resultadosBuscadorMobile");
+
+resultadosBuscadorMobile.addEventListener("click", (e) => {
+  const item = e.target.closest(".buscador-item");
+  if (!item) return;
+
+  const id = item.dataset.id;
+  if (!id) return;
+
+  // cerrar buscador
+  buscadorMobile.classList.remove("activo");
+  document.body.style.overflow = "";
+
+  // mostrar detalle
+  mostrarDetalle(id);
+});
+
+
