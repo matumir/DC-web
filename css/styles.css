@@ -1676,3 +1676,9 @@ button {
     min-height: 300px;
   }
 }
+
+.header-mobile,
+.menu-mobile,
+.buscador-mobile {
+  display: none;
+}

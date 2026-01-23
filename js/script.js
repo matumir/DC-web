@@ -1360,14 +1360,6 @@ document.querySelectorAll(".menu-link").forEach(btn => {
 });
 
 //SECCIÓN MOBILE//
-const headerMobile = document.querySelector(".header-mobile");
-
-if (headerMobile) {
-  window.addEventListener("scroll", () => {
-    headerMobile.classList.toggle("scrolled", window.scrollY > 20);
-  });
-}
-
 
 const btnBuscarMobile = document.querySelector(".btn-search-mobile");
 const buscadorMobile = document.getElementById("buscadorMobile");
