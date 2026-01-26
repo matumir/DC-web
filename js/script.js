@@ -1122,6 +1122,10 @@ function mostrarCarrito() {
   ocultarSecciones();
   carritoSec.classList.remove("oculto");
   renderCarritoCompleto();
+  if (window.innerWidth <= 768) {
+    document.getElementById("carrito").classList.add("activo");
+    renderCarritoMobile();
+    }
 }
 function renderCarritoCompleto() {
   listaCarrito.innerHTML = "";
@@ -1355,7 +1359,8 @@ document.addEventListener("DOMContentLoaded", () => {
   btnCarrito.onclick = mostrarCarrito;
 
   mostrarInicio(); // 👈 ESTO ES CLAVE
-
+  if (btnCarritoMobile) btnCarritoMobile.onclick = mostrarCarritoMobile;
+  if (cerrarCarritoMobile) cerrarCarritoMobile.onclick = cerrarCarritoMobileFunc;
 
   // =====================
 // MENÚ MOBILE
@@ -1453,4 +1458,56 @@ resultadosBuscadorMobile.addEventListener("click", (e) => {
   mostrarDetalle(id);
 });
 
+/* =====================
+   CARRITO MÓVIL
+===================== */
+const btnCarritoMobile = document.getElementById("btnCarritoMobile");
+const cerrarCarritoMobile = document.getElementById("cerrarCarritoMobile");
 
+// Función para mostrar carrito móvil con animación
+function mostrarCarritoMobile() {
+  ocultarSecciones();
+  productosSec.classList.remove("oculto");  // Mantén productos oculto si es necesario, o ajusta según lógica
+  carritoSec.classList.remove("oculto");
+  document.getElementById("carrito").classList.add("activo");
+  renderCarritoMobile();
+}
+
+// Función para cerrar carrito móvil
+function cerrarCarritoMobileFunc() {
+  document.getElementById("carrito").classList.remove("activo");
+  // Opcional: volver a mostrar inicio o productos si es necesario
+  mostrarInicio();
+}
+
+// Renderizar carrito móvil (formato lista como preview desktop)
+function renderCarritoMobile() {
+  const lista = document.getElementById("listaCarrito");
+  lista.innerHTML = "";
+
+  if (carrito.length === 0) {
+    lista.innerHTML = "<p style='text-align: center; color: #666;'>El carrito está vacío</p>";
+    return;
+  }
+
+  carrito.forEach((p, i) => {
+    let imagenSrc = p.imagenes ? p.imagenes[0] : (p.colores ? p.colores[0].imagenes[0] : "");
+    if (p.colores && p.color) {
+      const colorIndex = p.colores.findIndex(c => c.nombre === p.color);
+      if (colorIndex !== -1) {
+        imagenSrc = p.colores[colorIndex].imagenes[0];
+      }
+    }
+
+    lista.innerHTML += `
+      <div class="carrito-item-mobile">
+        <img src="${imagenSrc}" alt="${p.nombre}">
+        <div class="detalles">
+          <strong>${p.marca} | ${p.nombre}</strong>
+          <div>Cant: ${p.cantidad} ${p.talle ? `| Talle: ${p.talle}` : ""} ${p.color ? `| Color: ${p.color}` : ""}</div>
+        </div>
+        <button onclick="eliminarDelCarrito(${i}); renderCarritoMobile();">×</button>
+      </div>
+    `;
+  });
+}
