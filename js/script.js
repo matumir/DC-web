@@ -41,7 +41,9 @@ const contadorResultados = document.getElementById("contadorResultados");
 
 const catalogo = document.getElementById("catalogo");
 const paginacion = document.getElementById("paginacion");
-
+const btnCarritoMobile = document.getElementById("btnCarritoMobile");
+const cerrarCarritoMobile = document.getElementById("cerrarCarritoMobile");
+const carritoMobile = document.getElementById("carritoMobile");
 const miniaturas = document.getElementById("miniaturas");
 const detalleImg = document.getElementById("detalleImg");
 const detalleNombre = document.getElementById("detalleNombre");
@@ -54,7 +56,8 @@ const listaCarritoDetalle = document.getElementById("listaCarritoDetalle");
 const previewCarrito = document.getElementById("previewCarrito");
 const btnCarrito = document.getElementById("btnCarrito");
 const carritoSec = document.getElementById("carrito");
-const listaCarrito = document.getElementById("listaCarrito");
+const listaCarritoDesktop = document.getElementById("listaCarritoDesktop");
+const listaCarritoMobile = document.getElementById("listaCarritoMobile");
 const relacionados = document.getElementById("relacionados");
 const selectCategoria = document.getElementById("selectCategoria");
 const selectMarca = document.getElementById("selectMarca");
@@ -1123,32 +1126,24 @@ function mostrarCarrito() {
   carritoSec.classList.remove("oculto");
   renderCarritoCompleto();
   if (window.innerWidth <= 768) {
-    document.getElementById("carrito").classList.add("activo");
-    renderCarritoMobile();
-    }
+document.getElementById("carritoMobile").classList.add("activo");
+renderCarritoMobile();
+return;
+}
 }
 function renderCarritoCompleto() {
-  listaCarrito.innerHTML = "";
+  listaCarritoDesktop.innerHTML = "";
+
   if (carrito.length === 0) {
-    listaCarrito.innerHTML = "<p>No hay productos en el carrito.</p>";
+    listaCarritoDesktop.innerHTML = "<p>No hay productos en el carrito.</p>";
     return;
   }
+
   carrito.forEach((p, i) => {
-    let imagenSrc = p.imagenes ? p.imagenes[0] : (p.colores ? p.colores[0].imagenes[0] : ""); // Fallback mejorado
-    if (p.colores && p.color) {
-      const colorIndex = p.colores.findIndex(c => c.nombre === p.color);
-      if (colorIndex !== -1) {
-        imagenSrc = p.colores[colorIndex].imagenes[0];
-      }
-    }
-    listaCarrito.innerHTML += `
+    listaCarritoDesktop.innerHTML += `
       <div class="card">
-        <img src="${imagenSrc}" alt="${p.nombre}">
         <h4>${p.marca} | ${p.nombre}</h4>
         <p>Cantidad: ${p.cantidad}</p>
-        ${p.talle ? `<p>Talle: ${p.talle}</p>` : ""}
-        ${p.color ? `<p>Color: ${p.color}</p>` : ""}
-        <button onclick="carrito.splice(${i},1);guardarCarrito()">Eliminar</button>
       </div>
     `;
   });
@@ -1461,53 +1456,56 @@ resultadosBuscadorMobile.addEventListener("click", (e) => {
 /* =====================
    CARRITO MÓVIL
 ===================== */
-const btnCarritoMobile = document.getElementById("btnCarritoMobile");
-const cerrarCarritoMobile = document.getElementById("cerrarCarritoMobile");
-
 // Función para mostrar carrito móvil con animación
 function mostrarCarritoMobile() {
-  ocultarSecciones();
-  productosSec.classList.remove("oculto");  // Mantén productos oculto si es necesario, o ajusta según lógica
-  carritoSec.classList.remove("oculto");
-  document.getElementById("carrito").classList.add("activo");
-  renderCarritoMobile();
+carritoMobile.classList.remove("oculto"); // 🔑 CLAVE
+carritoMobile.classList.add("activo");
+renderCarritoMobile();
 }
 
 // Función para cerrar carrito móvil
 function cerrarCarritoMobileFunc() {
-  document.getElementById("carrito").classList.remove("activo");
-  // Opcional: volver a mostrar inicio o productos si es necesario
-  mostrarInicio();
+  carritoMobile.classList.remove("activo");
+  carritoMobile.classList.add("oculto");
+}
+function renderCarritoMobile() {
+const lista = document.getElementById("listaCarritoMobile");
+if (!lista) return;
+
+
+lista.innerHTML = "";
+
+
+if (carrito.length === 0) {
+lista.innerHTML = "<p style='text-align:center;color:#666'>El carrito está vacío</p>";
+return;
 }
 
-// Renderizar carrito móvil (formato lista como preview desktop)
-function renderCarritoMobile() {
-  const lista = document.getElementById("listaCarrito");
-  lista.innerHTML = "";
 
-  if (carrito.length === 0) {
-    lista.innerHTML = "<p style='text-align: center; color: #666;'>El carrito está vacío</p>";
-    return;
-  }
+carrito.forEach((p, i) => {
+let imagenSrc = p.imagenes
+? p.imagenes[0]
+: (p.colores ? p.colores[0].imagenes[0] : "");
 
-  carrito.forEach((p, i) => {
-    let imagenSrc = p.imagenes ? p.imagenes[0] : (p.colores ? p.colores[0].imagenes[0] : "");
-    if (p.colores && p.color) {
-      const colorIndex = p.colores.findIndex(c => c.nombre === p.color);
-      if (colorIndex !== -1) {
-        imagenSrc = p.colores[colorIndex].imagenes[0];
-      }
-    }
 
-    lista.innerHTML += `
-      <div class="carrito-item-mobile">
-        <img src="${imagenSrc}" alt="${p.nombre}">
-        <div class="detalles">
-          <strong>${p.marca} | ${p.nombre}</strong>
-          <div>Cant: ${p.cantidad} ${p.talle ? `| Talle: ${p.talle}` : ""} ${p.color ? `| Color: ${p.color}` : ""}</div>
-        </div>
-        <button onclick="eliminarDelCarrito(${i}); renderCarritoMobile();">×</button>
-      </div>
-    `;
-  });
+if (p.colores && p.color) {
+const idx = p.colores.findIndex(c => c.nombre === p.color);
+if (idx !== -1) imagenSrc = p.colores[idx].imagenes[0];
+}
+
+
+lista.innerHTML += `
+<div class="carrito-item-mobile">
+<img src="${imagenSrc}">
+<div class="detalles">
+<strong>${p.marca} | ${p.nombre}</strong>
+<div>Cant: ${p.cantidad}
+${p.talle ? ` | Talle: ${p.talle}` : ""}
+${p.color ? ` | Color: ${p.color}` : ""}
+</div>
+</div>
+<button onclick="eliminarDelCarrito(${i}); renderCarritoMobile()">×</button>
+</div>
+`;
+});
 }

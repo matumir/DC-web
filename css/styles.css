@@ -1159,18 +1159,18 @@ button {
 /* =====================
    SECCIÓN CARRITO
 ====================== */
-#carrito {
+#carritoDesktop {
   padding: 40px 20px;
   text-align: center;
 }
 
-#carrito h2 {
+#carritoDesktop h2 {
   color: #12414a;
   margin-bottom: 30px;
   font-size: 28px;
 }
 
-#listaCarrito {
+#listaCarritoDesktop {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
   gap: 20px;
