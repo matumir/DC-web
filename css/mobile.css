@@ -306,8 +306,9 @@
 
   /* Lista de artículos (scrollable) */
   #listaCarrito {
-    flex: 1;
-    overflow-y: auto;
+    min-height: 70vh;
+    max-height: 70vh;  /* Alto fijo: 60% de la altura de la pantalla (ajusta si quieres más/menos, ej. 50vh o 70vh) */
+    overflow-y: auto;  
     padding-bottom: 20px;
   }
 
@@ -358,3 +359,4 @@
     cursor: pointer;
   }
 }
+
