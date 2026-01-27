@@ -38,6 +38,7 @@ const inicioSecciones = [
 const productosSec = document.getElementById("productos");
 const vistaProducto = document.getElementById("vistaProducto");
 const contadorResultados = document.getElementById("contadorResultados");
+const bannerCarrusel = document.querySelector(".banner-carrusel");
 
 const catalogo = document.getElementById("catalogo");
 const paginacion = document.getElementById("paginacion");
@@ -75,6 +76,10 @@ const categoriasHome = [
 ===================== */
 function ocultarSecciones() {
   document.querySelectorAll("section").forEach(s => s.classList.add("oculto"));
+   if (bannerCarrusel) {
+    bannerCarrusel.classList.add("oculto");
+    detenerAutoBanner(); // ⛔ frena el autoplay (importante)
+  }
 }
 
 function mostrarInicio() {
@@ -83,7 +88,10 @@ function mostrarInicio() {
   inicioSecciones.forEach(sec => {
     if (sec) sec.classList.remove("oculto");
   });
-
+ if (bannerCarrusel) {
+    bannerCarrusel.classList.remove("oculto");
+    reiniciarAutoBanner();
+  }
   renderInicio();
 }
 
@@ -1276,6 +1284,8 @@ function filtrarYMostrar(categoria) {
 function renderInicio() {
   renderCategoriasHome();
   renderDestacados();
+  renderBanner();
+  iniciarAutoBanner();
 }
 
 function renderCategoriasHome() {
@@ -1353,7 +1363,155 @@ const desplazamiento = indiceDestacados * productosPorDestacado * cardWidth;
 
 track.style.transform = `translateX(-${desplazamiento}px)`;
 
+
 }
+/* =====================
+   CARRUSEL BANNER
+===================== */
+const bannerTrack = document.getElementById("bannerTrack");
+const bannerIndicadores = document.getElementById("bannerIndicadores");
+
+const bannerImagenes = [
+  "imagenes/Grafico/banner.png",
+  "imagenes/Grafico/banner1.webp",
+  "imagenes/Grafico/banner2.webp",
+  "imagenes/Grafico/banner3.webp",
+  "imagenes/Grafico/banner4.png",
+  "imagenes/Grafico/banner5.jpg"
+];
+
+let bannerIndex = 0;
+let bannerAutoInterval = null;
+let bannerAutoTimeout = null;
+
+function renderBanner() {
+  bannerTrack.innerHTML = "";
+  bannerIndicadores.innerHTML = "";
+
+  bannerImagenes.forEach((src, i) => {
+    const slide = document.createElement("div");
+    slide.className = "banner-slide";
+
+    const img = document.createElement("img");
+    img.src = src;
+    img.alt = `Banner ${i+1}`;
+    slide.appendChild(img);
+    bannerTrack.appendChild(slide);
+
+    const indicador = document.createElement("div");
+    indicador.className = "banner-indicador";
+    if (i === bannerIndex) indicador.classList.add("activo");
+    indicador.onclick = () => irABanner(i);
+    bannerIndicadores.appendChild(indicador);
+
+    // Cuando la imagen carga, si es la actual, ajusta el contenedor
+    img.addEventListener("load", () => {
+      if (i === bannerIndex) ajustarAlturaContenedor();
+    });
+  });
+
+  // Observador para cambios de tamaño (responsive)
+  if (window.ResizeObserver) {
+    const ro = new ResizeObserver(() => ajustarAlturaContenedor());
+    ro.observe(document.querySelector('.banner-carrusel'));
+    // opcional: también observar imágenes si quieres
+  } else {
+    window.addEventListener('resize', ajustarAlturaContenedor);
+  }
+
+  actualizarBannerPosicion(true);
+}
+
+// Actualizar posición del track (sin cambios dinámicos de alto)
+function ajustarAlturaContenedor() {
+  const contenedor = document.querySelector('.banner-carrusel');
+  const slideActual = bannerTrack.querySelector(`.banner-slide:nth-child(${bannerIndex + 1})`);
+  if (!slideActual) return;
+
+  const img = slideActual.querySelector('img');
+  if (img && img.complete) {
+    // usa offsetHeight real de la imagen renderizada
+    const alto = img.offsetHeight;
+    if (alto && alto > 0) contenedor.style.height = alto + 'px';
+  } else if (img) {
+    img.onload = () => {
+      const alto = img.offsetHeight;
+      if (alto && alto > 0) contenedor.style.height = alto + 'px';
+    };
+  }
+}
+
+function actualizarIndicadores() {
+  const indicadores = bannerIndicadores.querySelectorAll(".banner-indicador");
+  indicadores.forEach((ind, i) => ind.classList.toggle("activo", i === bannerIndex));
+}
+
+function actualizarBannerPosicion(skipAdjust) {
+  const offset = -bannerIndex * 100;
+  bannerTrack.style.transform = `translateX(${offset}%)`;
+  actualizarIndicadores();
+  if (!skipAdjust) {
+    // espera un frame para que el navegador haya aplicado transform y layout
+    requestAnimationFrame(ajustarAlturaContenedor);
+  } else {
+    // al render inicial, forzamos ajuste
+    ajustarAlturaContenedor();
+  }
+}
+
+
+
+// Función para mover el banner (reinicia timeout)
+function moverBanner(dir) {
+  bannerIndex = (bannerIndex + dir + bannerImagenes.length) % bannerImagenes.length;
+  actualizarBannerPosicion();
+  reiniciarAutoBanner();
+}
+
+function irABanner(index) {
+  bannerIndex = index;
+  actualizarBannerPosicion();
+  reiniciarAutoBanner();
+}
+
+function iniciarAutoBanner() {
+  detenerAutoBanner();
+  bannerAutoTimeout = setTimeout(() => {
+    bannerAutoInterval = setInterval(() => moverBanner(1), 5000);
+  }, 3000);
+}
+
+function detenerAutoBanner() {
+  clearTimeout(bannerAutoTimeout);
+  clearInterval(bannerAutoInterval);
+}
+
+function reiniciarAutoBanner() {
+  detenerAutoBanner();
+  iniciarAutoBanner();
+}
+
+// Touch events para móvil (deslizable)
+let startX = 0;
+let endX = 0;
+
+// Touch events para móvil (reinicia timeout)
+bannerTrack.addEventListener("touchstart", (e) => {
+  startX = e.touches[0].clientX;
+  detenerAutoBanner();  // Pausa inmediatamente
+});
+
+bannerTrack.addEventListener("touchend", (e) => {
+  endX = e.changedTouches[0].clientX;
+  const diff = startX - endX;
+  if (Math.abs(diff) > 50) {
+    if (diff > 0) moverBanner(1);
+    else moverBanner(-1);
+  }
+  reiniciarAutoBanner();  // Reinicia después de swipe
+});
+
+
 document.addEventListener("DOMContentLoaded", () => {
   actualizarContadorCarrito();
 

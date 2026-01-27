@@ -359,5 +359,18 @@ transform: translateX(0);
     font-size: 16px;
     cursor: pointer;
   }
+
+  .banner-flecha {
+    display: none;  /* Oculta flechas en mobile */
+  }
+  .banner-indicador {
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background: rgba(255, 255, 255, 0.5);
+    cursor: pointer;
+    transition: background 0.3s ease;
+  }
+
 }
 

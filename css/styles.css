@@ -1680,3 +1680,82 @@ button {
 .buscador-mobile {
   display: none;
 }
+
+
+/* =====================
+   CARRUSEL BANNER INICIO
+===================== */
+.banner-carrusel {
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+  transition: height 300ms ease; /* suaviza cambio de alto */
+  box-sizing: border-box;
+  min-height: 0; /* opcional, controla mínimo si lo necesitas */
+}
+
+/* Track: cada slide ocupa 100% del ancho */
+.banner-track {
+  display: flex;
+  width: 100%;
+  transition: transform 0.5s ease;
+  align-items: flex-start; /* <-- CRÍTICO: evita estirar hijos */
+}
+
+/* Slide wrapper: evita que flex estire la imagen */
+.banner-slide {
+  flex: 0 0 100%;
+  display: flex;
+  justify-content: center; /* centra horizontalmente */
+  align-items: center;     /* centra verticalmente dentro de la slide */
+  overflow: hidden;
+}
+
+/* Imagen: no forzar altura, mantener proporción */
+.banner-slide img {
+  max-width: 100%;
+  height: auto;
+  object-fit: contain;
+  display: block;
+}
+
+
+
+.banner-flecha {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background: rgba(0, 0, 0, 0.5);
+  color: #fff;
+  border: none;
+  width: 50px;
+  height: 50px;
+  font-size: 24px;
+  cursor: pointer;
+  z-index: 10;
+}
+
+.banner-flecha.izquierda { left: 10px; }
+.banner-flecha.derecha { right: 10px; }
+
+.banner-indicadores {
+  position: absolute;
+  bottom: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+  gap: 10px;
+}
+
+.banner-indicador {
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  background: rgba(255, 255, 255, 0.5);
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.banner-indicador.activo {
+  background: #fff;
+}
