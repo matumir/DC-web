@@ -1521,9 +1521,32 @@ button {
 /* ======================
    CATEGORÍAS INICIO
 ====================== */
+.categorias-carrusel {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  width: 100%;     /* 🔑 oculta lo que no entra */
+  position: relative;
+}
+.categorias-viewport {
+  width: 100%;
+}
+.categorias-track {
+  display: flex;
+  flex-wrap: nowrap;     /* 🔑 JAMÁS bajar */
+  gap: 16px;
+  width: max-content;    /* 🔑 el ancho lo define el contenido */
+  will-change: transform;
+  transition: transform 0.45s ease;
+}
+
+
+
+
 #inicio-categorias {
   text-align: center;
   padding: 40px 20px;
+  position: relative;
 }
 
 #inicio-categorias h2 {
@@ -1559,26 +1582,39 @@ button {
 }
 
 .categoria-card {
+  flex: 0 0 auto;
+  width: calc((100vw - 80px) / 6);
+  min-width: 180px;
+  min-height: 200px;
   background: #fff;
   border-radius: 12px;
-  width: 180px;
-  padding: 18px;
+  padding: 16px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
   box-shadow: 0 6px 18px rgba(0,0,0,.08);
-  text-align: center;
-  transition: transform .3s ease, box-shadow .3s ease;
+  scroll-snap-align: start;
 }
+
+
+
+
 
 .categoria-card:hover {
   transform: translateY(-6px);
   box-shadow: 0 12px 28px rgba(0,0,0,.12);
 }
 
+
 .categoria-card img {
   width: 100px;
   height: 100px;
   object-fit: contain;
   margin-bottom: 10px;
+  align-self: center;
 }
+
 
 .categoria-card h3 {
    font-size: 17px;
@@ -1599,7 +1635,49 @@ button {
 .ver-todos-wrapper {
   margin-top: 20px;
 }
+#categoriasContainer {
+  display: flex;
+  flex-wrap: nowrap;
+  gap: 16px;
+  overflow-x: auto;
+  overflow-y: hidden;
+  scroll-snap-type: x mandatory;
+  -webkit-overflow-scrolling: touch;
+  /* Sin cursor grab - ahora es scroll nativo o flechas */
+}
 
+/* Wrapper para desktop */
+#categoriasWrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  position: relative;
+}
+#categoriasContainer::-webkit-scrollbar {
+  display: none;
+}
+.flecha-categoria {
+  background: #12414a;
+  color: #fff;
+  border: none;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  cursor: pointer;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 10;
+  display: none; /* Ocultas por defecto */
+}
+
+@media (min-width: 769px) {
+  .flecha-categoria {
+    display: block;
+  }
+}
 /* ======================
    DESTACADOS
 ====================== */

@@ -66,8 +66,12 @@ const selectOrden = document.getElementById("selectOrden");
 const categoriasHome = [
   { nombre: "Calzado", img: "imagenes/logos/logocalzado.png" },
   { nombre: "Guantes", img: "imagenes/logos/logoguantes.png" },
-  { nombre: "Protección", img: "imagenes/categorias/proteccion.png" },
-  { nombre: "Accesorios", img: "imagenes/categorias/accesorios.png" },
+  { nombre: "Indumentaria", img: "imagenes/categorias/proteccion.png" },
+  { nombre: "Protección en altura", img: "imagenes/categorias/accesorios.png" },
+  { nombre: "Protección craneal", img: "imagenes/categorias/accesorios.png" },
+  { nombre: "Protección facial", img: "imagenes/categorias/accesorios.png" },
+  { nombre: "Protección auditiva", img: "imagenes/categorias/accesorios.png" },
+  { nombre: "Protección ocular", img: "imagenes/categorias/accesorios.png" },
 ];
 
 
@@ -1282,7 +1286,7 @@ function filtrarYMostrar(categoria) {
 }
 
 function renderInicio() {
-  renderCategoriasHome();
+  renderCategoriasHome();                // crea las cards
   renderDestacados();
   renderBanner();
   iniciarAutoBanner();
@@ -1293,10 +1297,15 @@ function renderCategoriasHome() {
   if (!container) return;
   container.innerHTML = "";
 
+  // Limpiar flechas existentes
+  const flechasExistentes = document.querySelectorAll('.flecha-categoria');
+  flechasExistentes.forEach(flecha => flecha.remove());
+
+  // Renderizar solo las 8 categorías originales
   categoriasHome.forEach(cat => {
     container.innerHTML += `
       <div class="categoria-card">
-      <h3>${cat.nombre}</h3>
+        <h3>${cat.nombre}</h3>
         <img src="${cat.img}" alt="${cat.nombre}">
         <button onclick="filtrarYMostrar('${cat.nombre}')">
           Ver productos
@@ -1304,6 +1313,29 @@ function renderCategoriasHome() {
       </div>
     `;
   });
+
+  // Agregar flechas solo en desktop con wrapper
+  if (window.innerWidth > 768) {
+    const wrapper = document.createElement('div');
+    wrapper.id = 'categoriasWrapper';
+    container.parentNode.insertBefore(wrapper, container);
+    wrapper.appendChild(container);
+
+    wrapper.insertAdjacentHTML('afterbegin', '<button class="flecha-categoria izquierda" onclick="moverCategoria(-1)">‹</button>');
+    wrapper.insertAdjacentHTML('beforeend', '<button class="flecha-categoria derecha" onclick="moverCategoria(1)">›</button>');
+  }
+}
+
+function moverCategoria(dir) {
+  const slider = document.getElementById("categoriasContainer");
+  if (!slider) return;
+
+  const card = slider.querySelector('.categoria-card');
+  if (!card) return;
+
+  const cardWidth = card.offsetWidth + 16; // Ancho de card + gap
+  const moveAmount = cardWidth * dir; // Mover por el ancho de una card
+  slider.scrollLeft += moveAmount;
 }
 
 

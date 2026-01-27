@@ -372,5 +372,33 @@ transform: translateX(0);
     transition: background 0.3s ease;
   }
 
-}
+  /*CATEGORÍAS INICIO*/
 
+ #categoriasContainer {
+    overflow-x: auto;  /* Permite scroll horizontal nativo */
+    -webkit-overflow-scrolling: touch;  /* Suave en iOS */
+     white-space: nowrap;
+  }
+
+  .categoria-card {
+    flex: 0 0 120px;
+    width: calc((100vw - 48px) / 3);
+    min-width: 110px;
+    min-height: 150px;
+    padding: 10px;
+  }
+
+  .categoria-card img {
+    width: 48px;
+    height: 48px;
+  }
+
+  .categoria-card h3 {
+    font-size: 14px;
+  }
+
+  .categoria-card button {
+    font-size: 12px;
+    padding: 6px 8px;
+  }
+}
