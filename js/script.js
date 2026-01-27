@@ -204,16 +204,16 @@ if (inputBuscador && resultadosBuscador) {
       const matches = filtrarProductos(texto);
 
       matches.forEach(p => {
-  const imagenSrc = p.colores ? p.colores[0].imagenes[0] : p.imagenes[0];
-  const item = document.createElement("div");
-item.className = "buscador-item";
-item.dataset.id = p.id; // 🔑 CLAVE ABSOLUTA
-item.innerHTML = `
-  <img src="${imagenSrc}" alt="${p.nombre}">
-  <div class="buscador-texto">
-    ${resaltar(`${p.marca} | ${p.nombre}`, textoOriginal)}
-  </div>
-`;
+      const imagenSrc = p.colores ? p.colores[0].imagenes[0] : p.imagenes[0];
+      const item = document.createElement("div");
+      item.className = "buscador-item";
+      item.dataset.id = p.id; // 🔑 CLAVE ABSOLUTA
+      item.innerHTML = `
+      <img src="${imagenSrc}" alt="${p.nombre}">
+      <div class="buscador-texto">
+        ${resaltar(`${p.marca} | ${p.nombre}`, textoOriginal)}
+      </div>
+      `;
 
   item.onclick = () => {
   resultadosBuscador.classList.add("oculto");
@@ -807,8 +807,6 @@ function prepararDescripcion() {
     hayContenido = true;
   }
 
-  // ESPECIFICACIONES
- // ESPECIFICACIONES
 // ESPECIFICACIONES
 if (productoActual.Especificaciones) {
   tabSpecs.innerHTML = "<ul>";
@@ -1126,8 +1124,8 @@ function mostrarCarrito() {
   carritoSec.classList.remove("oculto");
   renderCarritoCompleto();
   if (window.innerWidth <= 768) {
-document.getElementById("carritoMobile").classList.add("activo");
-renderCarritoMobile();
+  document.getElementById("carritoMobile").classList.add("activo");
+  renderCarritoMobile();
 return;
 }
 }
@@ -1140,10 +1138,22 @@ function renderCarritoCompleto() {
   }
 
   carrito.forEach((p, i) => {
+    let imagenSrc = p.imagenes ? p.imagenes[0] : (p.colores ? p.colores[0].imagenes[0] : "");
+    if (p.colores && p.color) {
+      const colorIndex = p.colores.findIndex(c => c.nombre === p.color);
+      if (colorIndex !== -1) {
+        imagenSrc = p.colores[colorIndex].imagenes[0];
+      }
+    }
+
     listaCarritoDesktop.innerHTML += `
       <div class="card">
+        <img src="${imagenSrc}" alt="${p.nombre}">
         <h4>${p.marca} | ${p.nombre}</h4>
         <p>Cantidad: ${p.cantidad}</p>
+        ${p.talle ? `<p>Talle: ${p.talle}</p>` : ""}
+        ${p.color ? `<p>Color: ${p.color}</p>` : ""}
+        <button onclick="carrito.splice(${i},1);guardarCarrito()">Eliminar</button>
       </div>
     `;
   });
@@ -1469,28 +1479,21 @@ function cerrarCarritoMobileFunc() {
   carritoMobile.classList.add("oculto");
 }
 function renderCarritoMobile() {
-const lista = document.getElementById("listaCarritoMobile");
-if (!lista) return;
+  const lista = document.getElementById("listaCarritoMobile");
+  if (!lista) return;
 
-
-lista.innerHTML = "";
-
-
-if (carrito.length === 0) {
-lista.innerHTML = "<p style='text-align:center;color:#666'>El carrito está vacío</p>";
-return;
-}
-
-
-carrito.forEach((p, i) => {
-let imagenSrc = p.imagenes
-? p.imagenes[0]
-: (p.colores ? p.colores[0].imagenes[0] : "");
-
-
-if (p.colores && p.color) {
-const idx = p.colores.findIndex(c => c.nombre === p.color);
-if (idx !== -1) imagenSrc = p.colores[idx].imagenes[0];
+  lista.innerHTML = "";
+  if (carrito.length === 0) {
+  lista.innerHTML = "<p style='text-align:center;color:#666'>El carrito está vacío</p>";
+  return;
+  }
+  carrito.forEach((p, i) => {
+  let imagenSrc = p.imagenes
+  ? p.imagenes[0]
+  : (p.colores ? p.colores[0].imagenes[0] : "");
+  if (p.colores && p.color) {
+  const idx = p.colores.findIndex(c => c.nombre === p.color);
+  if (idx !== -1) imagenSrc = p.colores[idx].imagenes[0];
 }
 
 

@@ -12,9 +12,7 @@ body {
   background: #f4f6f8;
   color: #333;
 }
-.header-mobile {
-  display: none;
-}
+
 /* =====================
    UTILIDADES
 ===================== */
@@ -1178,7 +1176,7 @@ button {
   justify-items: center;
 }
 
-#listaCarrito .card {
+#listaCarritoDesktop .card {
   background: #fff;
   border-radius: 10px;
   padding: 20px;
@@ -1188,24 +1186,24 @@ button {
   max-width: 300px;
 }
 
-#listaCarrito .card img {
+#listaCarritoDesktop .card img {
   width: 100%;
   height: 150px;
   object-fit: contain;
   margin-bottom: 10px;
 }
 
-#listaCarrito .card h4 {
+#listaCarritoDesktop .card h4 {
   margin-bottom: 10px;
   color: #12414a;
 }
 
-#listaCarrito .card p {
+#listaCarritoDesktop .card p {
   margin-bottom: 10px;
   color: #666;
 }
 
-#listaCarrito.card button:hover {
+#listaCarritoDesktop.card button:hover {
   background: #e63946;
 }
 

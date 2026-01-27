@@ -111,7 +111,12 @@
 
 <!-- INICIO -->
 <section id="banner-inicio">
-  <img src="imagenes/Grafico/banner.png" alt="Banner Principal">
+  <div class="banner-carrusel">
+    <div id="bannerTrack" class="banner-track"></div>
+    <div id="bannerIndicadores" class="banner-indicadores"></div>
+    <button class="banner-flecha izquierda" onclick="moverBanner(-1)">❮</button>
+    <button class="banner-flecha derecha" onclick="moverBanner(1)">❯</button>
+  </div>
 </section>
 <section id="inicio-categorias" class="categorias-home">
   <h2>Categorías</h2>
@@ -285,7 +290,7 @@
 </section>
 <section id="carrito" class="oculto">
   <h2>Tu carrito</h2>
-  <div id="listaCarrito"></div>
+  <div id="listaCarritoDesktop"></div>
 
   <button onclick="enviarWhatsapp()" class="btn-whatsapp">Enviar por WhatsApp</button>
 </section>
