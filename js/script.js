@@ -1693,3 +1693,75 @@ ${p.color ? ` | Color: ${p.color}` : ""}
 `;
 });
 }
+
+const btnFiltrar = document.querySelector('.btn-filtrar-mobile');
+const btnCerrarFiltros = document.querySelector('.btn-cerrar-filtros');
+const sidebar = document.querySelector('.productos-sidebar');
+
+if (btnFiltrar && sidebar) {
+  btnFiltrar.addEventListener('click', () => {
+    sidebar.classList.add('activo');
+    btnFiltrar.classList.add('oculto');
+  });
+}
+
+if (btnCerrarFiltros && sidebar && btnFiltrar) {
+  btnCerrarFiltros.addEventListener('click', () => {
+  sidebar.classList.add('cerrando');
+  setTimeout(() => {
+  sidebar.classList.remove('activo', 'cerrando');
+  btnFiltrar.classList.remove('oculto');
+  }, 250);
+  });
+}
+
+const btnFiltrarTexto = document.querySelector('.btn-filtrar-mobile');
+const contadorFiltrosSpan = document.querySelector('.contador-filtros');
+
+
+const filtros = [
+document.getElementById('selectCategoria'),
+document.getElementById('selectSubcategoria'),
+document.getElementById('selectOrden'),
+document.getElementById('selectMarca')
+];
+
+
+function actualizarContadorFiltros() {
+let activos = 0;
+
+
+filtros.forEach(select => {
+if (!select) return;
+
+
+const valorDefault =
+select.querySelector('option')?.value;
+
+
+if (select.value !== valorDefault) {
+activos++;
+}
+});
+
+
+if (activos > 0) {
+btnFiltrarTexto.innerHTML = `
+<i class="fa-solid fa-filter"></i>
+Filtrar (${activos})
+`;
+} else {
+btnFiltrarTexto.innerHTML = `
+<i class="fa-solid fa-filter"></i>
+Filtrar
+`;
+}
+}
+
+
+// Escuchar cambios en filtros
+filtros.forEach(select => {
+if (select) {
+select.addEventListener('change', actualizarContadorFiltros);
+}
+});
