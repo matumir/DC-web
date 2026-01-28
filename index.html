@@ -121,9 +121,40 @@
 
 <section id="inicio-categorias" class="categorias-home">
   <h2>Categorías</h2>
-  <div id="categoriasContainer" class="categorias-cards"></div>
+
+  <div class="categorias-wrapper">
+    <!-- Flecha izquierda -->
+    <button
+      class="flecha-categoria izquierda"
+      type="button"
+      onclick="moverCategoria(-1)"
+      aria-label="Anterior"
+    >
+      ‹
+    </button>
+
+    <!-- Viewport (el que hace el recorte) -->
+    <div class="categorias-viewport">
+      <div id="categoriasContainer" class="categorias-cards">
+        <!-- Las cards se generan por JS -->
+      </div>
+    </div>
+
+    <!-- Flecha derecha -->
+    <button
+      class="flecha-categoria derecha"
+      type="button"
+      onclick="moverCategoria(1)"
+      aria-label="Siguiente"
+    >
+      ›
+    </button>
+  </div>
+
   <div class="ver-todos-wrapper">
-    <button class="btn-principal" onclick="mostrarProductos()">Ver todos los productos</button>
+    <button class="btn-principal" onclick="mostrarProductos()">
+      Ver todos los productos
+    </button>
   </div>
 </section>
 <section id="destacados">

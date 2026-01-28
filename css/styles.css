@@ -972,7 +972,11 @@ button {
   position: relative;
   width: 300px;
 }
-
+@media (min-width: 769px) {
+.buscador-mobile {
+display: none !important;
+}
+}
 #buscador {
   width: 100%;
   padding: 8px 12px;
@@ -1526,23 +1530,27 @@ button {
   align-items: center;
   gap: 14px;
   width: 100%;     /* 🔑 oculta lo que no entra */
+  overflow: visible;
   position: relative;
 }
 .categorias-viewport {
-  width: 100%;
+overflow-x: auto;
+overflow-y: hidden;
+scroll-behavior: smooth;
+width: 100%;
+scrollbar-width: none;
+}
+.categorias-viewport::-webkit-scrollbar {
+display: none;
 }
 .categorias-track {
   display: flex;
   flex-wrap: nowrap;     /* 🔑 JAMÁS bajar */
-  gap: 16px;
-  width: max-content;    /* 🔑 el ancho lo define el contenido */
+  gap: 16px; /* 🔑 el ancho lo define el contenido */
   will-change: transform;
   transition: transform 0.45s ease;
+  scroll-behavior: smooth;
 }
-
-
-
-
 #inicio-categorias {
   text-align: center;
   padding: 40px 20px;
@@ -1575,16 +1583,16 @@ button {
 }
 
 .categorias-cards {
-  display: flex;
-  justify-content: center;
-  gap: 30px;
-  flex-wrap: wrap;
+display: flex;
+gap: 16px;
+width: max-content; /* FUNDAMENTAL */
+padding: 16px 0;
 }
 
 .categoria-card {
   flex: 0 0 auto;
-  width: calc((100vw - 80px) / 6);
-  min-width: 180px;
+  width: 205px; /* ancho fijo estable */
+  min-width: 205px;
   min-height: 200px;
   background: #fff;
   border-radius: 12px;
@@ -1595,11 +1603,8 @@ button {
   align-items: center;
   box-shadow: 0 6px 18px rgba(0,0,0,.08);
   scroll-snap-align: start;
+  display: inline-flex; 
 }
-
-
-
-
 
 .categoria-card:hover {
   transform: translateY(-6px);
@@ -1631,47 +1636,59 @@ button {
   font-size: 14px;
 }
 
-
+.categorias-wrapper {
+position: relative;
+display: flex;
+align-items: center;
+width: 100%;
+max-width: 100vw;
+overflow: visible;
+padding: 0 60px; /* espacio para flechas */
+}
 .ver-todos-wrapper {
   margin-top: 20px;
 }
-#categoriasContainer {
-  display: flex;
-  flex-wrap: nowrap;
-  gap: 16px;
-  overflow-x: auto;
-  overflow-y: hidden;
-  scroll-snap-type: x mandatory;
-  -webkit-overflow-scrolling: touch;
-  /* Sin cursor grab - ahora es scroll nativo o flechas */
+/* Wrapper para desktop: ocupa 100% ancho y posicion relative */
+
+.categorias-cards, .categorias-home, #categoriasWrapper { 
+  flex-wrap: nowrap !important; 
 }
 
-/* Wrapper para desktop */
-#categoriasWrapper {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  gap: 10px;
-  position: relative;
-}
-#categoriasContainer::-webkit-scrollbar {
-  display: none;
-}
+/* Flechas: posicionadas a los lados, no tapan el contenido */
 .flecha-categoria {
-  background: #12414a;
-  color: #fff;
-  border: none;
-  width: 40px;
-  height: 40px;
-  border-radius: 50%;
-  cursor: pointer;
-  font-size: 20px;
-  position: absolute;
-  top: 50%;
-  transform: translateY(-50%);
-  z-index: 10;
-  display: none; /* Ocultas por defecto */
+position: absolute;
+top: 50%;
+transform: translateY(-50%);
+z-index: 999; /* por encima de todo */
+pointer-events: auto;
+background: #0b3c45;
+color: #fff;
+border: none;
+width: 40px;
+height: 40px;
+border-radius: 50%;
+font-size: 24px;
+cursor: pointer;
+display: flex;
+
 }
+
+
+.flecha-categoria.izquierda {
+left: 8px;
+}
+
+
+.flecha-categoria.derecha {
+right: 8px;
+}
+
+
+/* Ocultar scrollbar */
+#categoriasContainer::-webkit-scrollbar { display: none; }
+
+/* Cards: mantener tu estilo pero asegurar min-width coherente */
+
 
 @media (min-width: 769px) {
   .flecha-categoria {
@@ -1754,8 +1771,7 @@ button {
 }
 
 .header-mobile,
-.menu-mobile,
-.buscador-mobile {
+.menu-mobile {
   display: none;
 }
 

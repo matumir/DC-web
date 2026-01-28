@@ -207,7 +207,7 @@ if (inputBuscador && resultadosBuscador) {
     indiceSeleccionado = -1;
 
     // 🔹 AUTOCOMPLETE SOLO EN INICIO
-    if (estoyEnInicio()) {
+    if (true) {
       if (texto.length < 2) {
         resultadosBuscador.classList.add("oculto");
         return;
@@ -310,8 +310,9 @@ buscadorMobileInput?.addEventListener("input", () => {
 // 🔁 DUPLICAR RESULTADOS DESKTOP → MOBILE
 if (resultadosBuscador && resultadosBuscadorMobile) {
   const observer = new MutationObserver(() => {
-    resultadosBuscadorMobile.innerHTML = resultadosBuscador.innerHTML;
-  });
+  resultadosBuscadorMobile.innerHTML = resultadosBuscador.innerHTML;
+  resultadosBuscadorMobile.classList.remove("oculto");
+});
 
   observer.observe(resultadosBuscador, {
     childList: true,
@@ -319,10 +320,13 @@ if (resultadosBuscador && resultadosBuscadorMobile) {
   });
 }
 
-
 document.addEventListener("click", e => {
-  if (!e.target.closest(".header-search")) {
+  if (
+    !e.target.closest(".header-search") &&
+    !e.target.closest(".buscador-mobile")
+  ) {
     resultadosBuscador?.classList.add("oculto");
+    resultadosBuscadorMobile?.classList.add("oculto");
   }
 });
 
@@ -1295,11 +1299,7 @@ function renderInicio() {
 function renderCategoriasHome() {
   const container = document.getElementById("categoriasContainer");
   if (!container) return;
-  container.innerHTML = "";
-
-  // Limpiar flechas existentes
-  const flechasExistentes = document.querySelectorAll('.flecha-categoria');
-  flechasExistentes.forEach(flecha => flecha.remove());
+  container.innerHTML = ""; 
 
   // Renderizar solo las 8 categorías originales
   categoriasHome.forEach(cat => {
@@ -1313,29 +1313,20 @@ function renderCategoriasHome() {
       </div>
     `;
   });
-
-  // Agregar flechas solo en desktop con wrapper
-  if (window.innerWidth > 768) {
-    const wrapper = document.createElement('div');
-    wrapper.id = 'categoriasWrapper';
-    container.parentNode.insertBefore(wrapper, container);
-    wrapper.appendChild(container);
-
-    wrapper.insertAdjacentHTML('afterbegin', '<button class="flecha-categoria izquierda" onclick="moverCategoria(-1)">‹</button>');
-    wrapper.insertAdjacentHTML('beforeend', '<button class="flecha-categoria derecha" onclick="moverCategoria(1)">›</button>');
-  }
 }
 
 function moverCategoria(dir) {
-  const slider = document.getElementById("categoriasContainer");
-  if (!slider) return;
-
-  const card = slider.querySelector('.categoria-card');
+  const viewport = document.querySelector(".categorias-viewport");
+  const card = viewport.querySelector(".categoria-card");
   if (!card) return;
 
-  const cardWidth = card.offsetWidth + 16; // Ancho de card + gap
-  const moveAmount = cardWidth * dir; // Mover por el ancho de una card
-  slider.scrollLeft += moveAmount;
+  const gap = 16;
+  const move = card.offsetWidth + gap;
+
+  viewport.scrollBy({
+    left: dir * move,
+    behavior: "smooth"
+  });
 }
 
 
