@@ -1765,3 +1765,32 @@ if (select) {
 select.addEventListener('change', actualizarContadorFiltros);
 }
 });
+
+/* =====================
+SWIPE GALERÍA MOBILE
+===================== */
+
+
+let startXDetalle = 0;
+let endXDetalle = 0;
+
+
+detalleImg?.addEventListener("touchstart", (e) => {
+startXDetalle = e.touches[0].clientX;
+});
+
+
+detalleImg?.addEventListener("touchend", (e) => {
+endXDetalle = e.changedTouches[0].clientX;
+const diff = startXDetalle - endXDetalle;
+
+
+// umbral para evitar falsos movimientos
+if (Math.abs(diff) > 50) {
+if (diff > 0) {
+moverImagen(1); // swipe izquierda → siguiente
+} else {
+moverImagen(-1); // swipe derecha → anterior
+}
+}
+});
