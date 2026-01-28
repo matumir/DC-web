@@ -475,4 +475,66 @@ scroll-snap-type: x mandatory;
 .destacados-track .card {
 scroll-snap-align: start;
 }
+
+/*FOOTER*/
+
+/* Contenedor general */
+.footer-container {
+grid-template-columns: 1fr;
+justify-items: center;
+text-align: center;
+}
+
+
+/* Columnas */
+.footer-col {
+width: 100%;
+display: flex;
+flex-direction: column;
+align-items: center;
+}
+
+
+/* Títulos */
+.footer-col h4 {
+text-align: center;
+}
+
+
+/* Listas */
+.footer-col ul {
+padding: 0;
+}
+
+
+.footer-col ul li {
+text-align: center;
+}
+
+
+/* Contacto */
+.footer-contacto {
+padding: 0;
+}
+
+
+.footer-contacto li {
+justify-content: center;
+align-items: center;
+text-align: center;
+}
+
+
+/* Redes sociales */
+.footer-redes {
+justify-content: center;
+}
+
+
+/* Mapa */
+.footer-mapa iframe {
+width: 100%;
+max-width: 320px;
+height: 220px;
+}
 }
