@@ -1719,7 +1719,7 @@ right: 8px;
 .destacados-carrusel {
   overflow: hidden;
   width: 100%;
-  max-width: 1000px;
+  max-width: 1400px;
 }
 
 .destacados-track {
@@ -1734,6 +1734,14 @@ right: 8px;
   cursor: auto;
   flex-direction: column;
   height: 320px;
+}
+.categoria-card-text {
+  font-size: 12px;
+  font-weight: 600;
+  color: #777;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  margin-bottom: 6px;
 }
 .destacados-track .card h4 {
   min-height: 48px;

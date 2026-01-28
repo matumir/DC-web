@@ -433,4 +433,46 @@ padding: 0;
     -webkit-overflow-scrolling: touch;
   }
 
+  /*ARTICULOS DESTACADOS*/
+
+  /* Ocultamos flechas en mobile */
+.flecha-destacados {
+display: none;
+}
+
+/* viewport */
+.destacados-carrusel {
+overflow-x: auto;
+overflow-y: hidden;
+scroll-behavior: smooth;
+-webkit-overflow-scrolling: touch;
+}
+
+
+/* track: que mida SOLO lo que necesita */
+.destacados-track {
+width: max-content; /* 🔑 se ajusta a las cards reales */
+padding: 0 16px; /* aire visual */
+transform: none !important; /* 🔑 anula el translateX desktop */
+}
+
+
+/* cards */
+
+.destacados-track .card {
+flex: 0 0 auto;
+width: 70vw; /* más estrechas */
+max-width: 260px;
+scroll-snap-align: start;
+}
+
+
+.destacados-carrusel {
+scroll-snap-type: x mandatory;
+}
+
+
+.destacados-track .card {
+scroll-snap-align: start;
+}
 }
