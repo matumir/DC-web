@@ -33,7 +33,8 @@ const inicioSecciones = [
   document.getElementById("banner-inicio"),
   document.getElementById("inicio-categorias"),
   document.getElementById("destacados"),
-  document.getElementById("marcas")
+  document.getElementById("inicio-marcas")
+  
 ];
 
 const productosSec = document.getElementById("productos");
@@ -74,7 +75,12 @@ const categoriasHome = [
   { nombre: "Protección auditiva", img: "imagenes/categorias/accesorios.png" },
   { nombre: "Protección ocular", img: "imagenes/categorias/accesorios.png" },
 ];
-
+const marcas = [
+  {nombre: 'OMBU', imagen: 'imagenes/marcas/ombu.png'},
+  {nombre: 'Aire Libre', imagen: 'imagenes/marcas/airelibre.webp'},
+  {nombre: 'NARVIC', imagen: 'imagenes/marcas/narvic.png'},
+  {nombre: 'Libus', imagen: 'imagenes/marcas/libus.png'}
+];
 
 /* =====================
    NAVEGACIÓN
@@ -87,26 +93,52 @@ function ocultarSecciones() {
   }
 }
 
-function mostrarInicio() {
+// =====================
+// FILTRO POR MARCA
+// =====================
+document.addEventListener("click", (e) => {
+  const marcaCard = e.target.closest(".marca");
+  if (!marcaCard) return;
+
+  const marca = marcaCard.dataset.marca;
+  if (!marca) return;
+
+  // 1️⃣ Ocultar todo
   ocultarSecciones();
 
-  const seccionesInicio = [
-    "banner-inicio",
-    "inicio-categorias",
-    "destacados",
-    "marcas"
-  ];
+  // 2️⃣ Mostrar productos
+  productosSec.classList.remove("oculto");
 
-  seccionesInicio.forEach(id => {
-    const sec = document.getElementById(id);
+  // 3️⃣ Setear filtros
+  marcaActual = marca;
+  categoriaActual = "todos";
+  subcategoriaActual = "todas";
+  paginaActual = 1;
+
+  // 4️⃣ Sincronizar selects
+  selectCategoria.value = "todos";
+  selectSubcategoria.value = "todas";
+  selectMarca.value = marca;
+
+  // 5️⃣ Aplicar filtro
+  aplicarFiltros();
+});
+
+
+function mostrarInicio() {
+  ocultarSecciones();
+// 🔑 reset estado
+  categoriaActual = "todos";
+  subcategoriaActual = "todas";
+  marcaActual = "todas";
+  busquedaActual = "";
+  inicioSecciones.forEach(sec => {
     if (sec) sec.classList.remove("oculto");
   });
-
-  if (bannerCarrusel) {
+ if (bannerCarrusel) {
     bannerCarrusel.classList.remove("oculto");
     reiniciarAutoBanner();
   }
-
   renderInicio();
 }
 
@@ -555,23 +587,28 @@ function cargarMarcas() {
   const marcas = new Set();
 
   productos.forEach(p => {
-    if (
-      categoriaActual === "todos" ||
-      p.categoria === categoriaActual
-    ) {
+    if (categoriaActual === "todos" || p.categoria === categoriaActual) {
       if (p.marca) marcas.add(p.marca);
     }
   });
 
   selectMarca.innerHTML = `<option value="todas">Todas</option>`;
 
-  [...marcas]
-    .sort((a, b) => a.localeCompare(b, "es", { sensitivity: "base" }))
+  [...marcas].sort((a, b) => a.localeCompare(b, "es", { sensitivity: "base" }))
     .forEach(m => {
       selectMarca.innerHTML += `<option value="${m}">${m}</option>`;
     });
 
-  marcaActual = "todas";
+  // ❌ NO hacer esto siempre
+  // marcaActual = "todas";
+
+  // ✅ solo si la marca actual ya no existe
+  if (![...marcas].includes(marcaActual)) {
+    marcaActual = "todas";
+    selectMarca.value = "todas";
+  } else {
+    selectMarca.value = marcaActual;
+  }
 }
 function renderFiltrosActivos() {
   const cont = document.getElementById("filtrosActivos");
@@ -1806,88 +1843,58 @@ moverImagen(-1); // swipe derecha → anterior
 }
 }
 });
-/* =========================
-   DATOS DE MARCAS
-========================= */
-const marcas = [
-  { nombre: 'OMBU', img: 'imagenes/marcas/ombu.png' },
-  { nombre: 'Marca2', img: 'img/marca2.png' },
-  { nombre: 'Marca3', img: 'img/marca3.png' },
-  { nombre: 'Marca4', img: 'img/marca4.png' },
-  { nombre: 'Marca5', img: 'img/marca5.png' },
-  { nombre: 'Marca6', img: 'img/marca6.png' },
-  { nombre: 'Marca7', img: 'img/marca7.png' }
-];
 
-let indiceMarca = 0;
+/* =====================
+   RENDER MARCAS
+===================== */
+const marcasTrack = document.getElementById('marcasTrack');
 
-function renderMarcas() {
-  const sec = document.getElementById("marcas");
-  if (!sec) return;
+if (marcasTrack) {
+  marcas.forEach(marca => {
+    const link = document.createElement('a');
+    link.className = 'marca';
+    link.href = `productos.html?marca=${encodeURIComponent(marca.nombre)}`;
 
-  sec.innerHTML = `
-    <h3>Marcas</h3>
-    <div class="marcas-viewport">
-      <div class="marcas-track" id="marcasTrack"></div>
-    </div>
-  `;
+    const img = document.createElement('img');
+    img.src = marca.imagen;
+    img.alt = marca.nombre;
 
-  const track = document.getElementById("marcasTrack");
-
-  // marcas únicas desde productos
-  const marcas = [...new Set(productos.map(p => p.marca).filter(Boolean))];
-
-  marcas.forEach(nombreMarca => {
-    const item = document.createElement("div");
-    item.className = "marca-item";
-
-    // normalizar nombre → archivo
-    const imgSrc = `imagenes/marcas/${nombreMarca
-      .toLowerCase()
-      .replace(/\s+/g, "-")}.png`;
-
-    item.innerHTML = `
-      <img src="${imgSrc}" alt="${nombreMarca}" loading="lazy">
-    `;
-
-    item.onclick = () => {
-      marcaActual = nombreMarca;
-
-      ocultarSecciones();
-      productosSec.classList.remove("oculto");
-
-      selectMarca.value = nombreMarca;
-      aplicarFiltros();
-    };
-
-    track.appendChild(item);
+    link.appendChild(img);
+    marcasTrack.appendChild(link);
   });
 }
 
+let indiceMarca = 0;
+
 function moverMarcas(direccion) {
   const track = document.getElementById('marcasTrack');
-  const viewport = document.querySelector('.marcas-viewport');
-  const card = track.querySelector('.marca');
-  if (!card) return;
+  const marcas = document.querySelectorAll('.marca');
+  if (!track || marcas.length === 0) return;
 
   const gap = 20;
-  const paso = card.offsetWidth + gap;
-  const visibles = Math.floor(viewport.offsetWidth / paso);
-  const total = track.children.length;
-  const max = Math.max(0, total - visibles);
+  const anchoMarca = marcas[0].offsetWidth + gap;
+  const visibles = Math.floor(track.parentElement.offsetWidth / anchoMarca);
+  const maxIndice = marcas.length - visibles;
 
   indiceMarca += direccion;
-  indiceMarca = Math.max(0, Math.min(indiceMarca, max));
+  indiceMarca = Math.max(0, Math.min(indiceMarca, maxIndice));
 
-  track.style.transform = `translateX(-${indiceMarca * paso}px)`;
+  track.style.transform = `translateX(-${indiceMarca * anchoMarca}px)`;
 }
 
-document.getElementById('marcaPrev').onclick = () => moverMarcas(-1);
-document.getElementById('marcaNext').onclick = () => moverMarcas(1);
+function renderMarcas() {
+  const track = document.getElementById("marcasTrack");
+  if (!track) return;
 
+  track.innerHTML = "";
 
-function filtrarPorMarca(marca) {
-  // Ejemplo:
-  productosFiltrados = productos.filter(p => p.marca === marca);
-  renderProductos(productosFiltrados);
+  marcas.forEach(m => {
+    const div = document.createElement("div");
+    div.className = "marca";
+    div.dataset.marca = m.nombre;
+
+    div.innerHTML = `<img src="${m.imagen}" alt="${m.nombre}">`;
+
+    track.appendChild(div);
+  });
 }

@@ -737,6 +737,51 @@ transform: translateY(-10px);
   object-fit: contain;
   scroll-snap-align: center;
   }
+   .marcas {
+    margin: 10px auto;
+    padding: 0 16px;
+  }
 
+  .marcas h3 {
+    font-size: 30px;
+    margin-bottom: 16px;
+  }
 
+  /* Swipe nativo */
+  .marcas-viewport {
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+    -webkit-overflow-scrolling: touch;
+  }
+
+  .marcas-viewport::-webkit-scrollbar {
+    display: none;
+  }
+
+  .marcas-track {
+    gap: 14px;
+  }
+
+  .marca {
+    flex: 0 0 46%;
+    height: 90px;
+    scroll-snap-align: center;
+  }
+
+  .marca img {
+    max-width: 110px;
+    max-height: 55px;
+  }
+
+  .marcas-carrusel .flecha {
+    display: none;
+  }
+
+  .marcas-viewport {
+    padding: 12px 0;
+    overflow-x: auto;
+  }
+  .marca img {
+    filter: grayscale(0%);
+  }
 }

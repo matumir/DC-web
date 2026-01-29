@@ -167,7 +167,19 @@
     <button class="flecha-destacados derecha" onclick="moverDestacados(1)">❯</button>
   </div>
 </section>
-<section id="marcas" class="marcas"></section>
+<section id="inicio-marcas" class="marcas">
+  <h3>Marcas que trabajamos</h3>
+
+  <div class="marcas-carrusel">
+    <button class="flecha izquierda" onclick="moverMarcas(-1)">‹</button>
+
+    <div class="marcas-viewport">
+      <div class="marcas-track" id="marcasTrack"></div>
+    </div>
+
+    <button class="flecha derecha" onclick="moverMarcas(1)">›</button>
+  </div>
+</section>
 <!-- PRODUCTOS -->
 <section id="productos" class="oculto">
 

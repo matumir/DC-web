@@ -1459,11 +1459,11 @@ display: none !important;
 
 /* BARRA INFERIOR */
 .footer-bottom {
-  background: #0b2c4d;
+  background: #4abcb1;
   text-align: center;
   padding: 12px;
   font-size: 13px;
-  color: #cfd8dc;
+  color: #000000;
 }
 /* =====================
    MAPA FOOTER
@@ -1700,6 +1700,7 @@ right: 8px;
 ====================== */
 #destacados {
   padding: 50px 20px;
+  padding-top: 5px;
   text-align: center;
 }
 
@@ -1726,6 +1727,7 @@ right: 8px;
   display: flex;
   transition: transform 0.4s ease;
   gap: 12px;
+  padding: 12px 0;
 }
 
 .destacados-track .card {
@@ -1868,37 +1870,35 @@ display: none;
 .btn-cerrar-filtros {
 display: none;
 }
-/* =========================
+
+/* =====================
    SECCIÓN MARCAS
-========================= */
+===================== */
 .marcas {
   max-width: 1400px;
-  margin: 100px auto;
-  padding: 50px 30px;          /* ⬅ más aire */
-  position: relative;
-  z-index: 1;
-
-  background: #f4f6f8;         /* ⬅ fondo suave */
-  border-radius: 20px;
+  margin: 10px auto;
+  padding: 0 30px;
 }
 
 .marcas h3 {
-  text-align: center;
   font-size: 30px;
-  margin-bottom: 30px;
+  margin-bottom: 20px;
   color: #12414a;
+  font-weight: 700;
+  text-align: center;
 }
 
-/* CONTENEDOR */
-.marcas-wrapper {
+/* CONTENEDOR CARRUSEL */
+.marcas-carrusel {
   position: relative;
   display: flex;
   align-items: center;
 }
 
-/* VIEWPORT */
+/* VENTANA */
 .marcas-viewport {
   overflow: hidden;
+  padding: 12px 50px;
   width: 100%;
 }
 
@@ -1907,65 +1907,60 @@ display: none;
   display: flex;
   gap: 20px;
   transition: transform 0.4s ease;
+  overflow: visible;
 }
 
-/* CARD */
-/* ======================
-   CARD DE MARCA (FIXED)
-====================== */
-
+/* CARD MARCA */
 .marca {
-  flex: 0 0 190px;
-  height: 120px;
-  background: #ffffff;
-
+  flex: 0 0 160px;
+  height: 100px;
+  background: #fff;
   border-radius: 14px;
-  border: 1px solid #e2e6ea;   /* ⬅ BORDE visible */
-
   display: flex;
   align-items: center;
   justify-content: center;
-
-  box-shadow: 0 6px 14px rgba(0,0,0,.10); /* ⬅ sombra más clara */
   cursor: pointer;
 
-  overflow: hidden;
+  box-shadow: 0 4px 10px rgba(0,0,0,.08);
   transition: 
-    transform .25s ease,
-    box-shadow .25s ease,
-    border-color .25s ease;
-} 
-
-.marca:hover {
-  transform: translateY(-6px);
-  box-shadow: 0 14px 30px rgba(0,0,0,.14);
-  border-color: #12414a33; /* ⬅ feedback visual */
+    transform .2s ease,
+    box-shadow .2s ease,
+    border .2s ease;
+  border: 2px solid transparent;
 }
 
 .marca img {
-  width: auto !important;   /* 🔴 pisa estilos globales */
-  height: auto !important;
-  max-width: 140px;
-  max-height: 70px;
-
+  max-width: 120px;
+  max-height: 60px;
   object-fit: contain;
-
   filter: grayscale(100%);
   opacity: .85;
-  transition: filter .3s ease, opacity .3s ease, transform .3s ease;
+  transition: filter .2s ease, opacity .2s ease;
+}
+
+/* HOVER */
+.marca:hover {
+   transform: scale(1.05);
+  box-shadow: 0 6px 16px rgba(0,0,0,.12);
 }
 
 .marca:hover img {
-  filter: grayscale(0);
+  filter: grayscale(0%);
   opacity: 1;
-  transform: scale(1.05);
 }
 
-/* FLECHAS */
-.flecha {
-  position: absolute;
-  top: 50%;
-  transform: translateY(-50%);
+/* ACTIVA (marca filtrada) */
+.marca.activa {
+  border-color: #12414a;
+  box-shadow: 0 6px 16px rgba(18,65,74,.25);
+}
+
+.marca.activa img {
+  filter: grayscale(0%);
+  opacity: 1;
+}
+/* FLECHAS DESKTOP */
+.marcas-carrusel .flecha {
   background: rgba(18,65,74,.9);
   color: #fff;
   border: none;
@@ -1973,44 +1968,26 @@ display: none;
   height: 38px;
   border-radius: 50%;
   cursor: pointer;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
   z-index: 5;
-}
-
-.flecha.izquierda { left: -20px; }
-.flecha.derecha   { right: -20px; }
-
-@media (max-width: 768px) {
-  .flecha { display: none; }
-}
-.marcas-viewport {
-  -webkit-overflow-scrolling: touch;
-}
-
-.marcas-track {
-  display: flex;
-  gap: 24px;
-  padding: 12px 0;
-}
-
-.marca-item {
-  flex: 0 0 auto;
-  width: 120px;
-  height: 70px;
   display: flex;
   align-items: center;
   justify-content: center;
-  cursor: pointer;
+
+  transition: background .2s ease, transform .2s ease;
 }
 
-.marca-item img {
-  max-width: 100%;
-  max-height: 100%;
-  object-fit: contain;
-  filter: grayscale(100%);
-  transition: filter 0.2s ease, transform 0.2s ease;
-}
-
-.marca-item:hover img {
-  filter: grayscale(0%);
+.marcas-carrusel .flecha:hover {
+  background: #12414a;
   transform: scale(1.05);
+}
+
+.marcas-carrusel .flecha.izquierda {
+  left: 0;
+}
+
+.marcas-carrusel .flecha.derecha {
+  right: 0;
 }
