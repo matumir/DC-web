@@ -1921,3 +1921,90 @@ function renderMarcas() {
     track.appendChild(div);
   });
 }
+
+function mostrarNosotros() {
+  ocultarSecciones();
+  const nosotros = document.getElementById('nosotros');
+  nosotros.classList.remove('oculto');
+
+  window.scrollTo({ top: 0, behavior: 'smooth' });
+
+  iniciarAnimacionesNosotros();
+  observarNosotros(); // 👈 CLAVE
+}
+const btnNosotros = document.getElementById("btnNosotros");
+if (btnNosotros) {
+  btnNosotros.addEventListener("click", mostrarNosotros);
+  ocultarSecciones();
+
+  const nosotros = document.getElementById("nosotros");
+  nosotros.classList.remove("oculto");
+
+  // 🔑 esperar a que el navegador lo pinte
+  requestAnimationFrame(() => {
+    iniciarAnimacionesNosotros();
+  });
+}
+
+document.querySelectorAll(".btn-nosotros").forEach(btn => {
+  ocultarSecciones();
+
+  const nosotros = document.getElementById("nosotros");
+  nosotros.classList.remove("oculto");
+
+  // 🔑 esperar a que el navegador lo pinte
+  requestAnimationFrame(() => {
+    iniciarAnimacionesNosotros();
+  });
+});
+
+function iniciarAnimacionesNosotros() {
+  const elementos = document.querySelectorAll(
+    "#nosotros .animar-nosotros"
+  );
+
+  if (!elementos.length) return;
+
+  // limpiar observer anterior
+  if (observerNosotros) observerNosotros.disconnect();
+
+  observerNosotros = new IntersectionObserver((entries) => {
+    entries.forEach(entry => {
+      if (entry.isIntersecting) {
+        entry.target.classList.add("visible");
+        observerNosotros.unobserve(entry.target);
+      }
+    });
+  }, {
+    threshold: 0.2
+  });
+
+  elementos.forEach(el => {
+    el.classList.remove("visible"); // reset real
+    observerNosotros.observe(el);
+  });
+}
+/* =========================
+   OBSERVER SECCIÓN NOSOTROS
+========================= */
+
+const observerNosotros = new IntersectionObserver(
+  (entries) => {
+    entries.forEach(entry => {
+      if (entry.isIntersecting) {
+        entry.target.classList.add("animar");
+      } else {
+        entry.target.classList.remove("animar");
+      }
+    });
+  },
+  { threshold: 0.2 }
+);
+function observarNosotros() {
+  const elementos = document.querySelectorAll("#nosotros .animable");
+
+  elementos.forEach(el => {
+    el.classList.remove("animar"); // reset
+    observerNosotros.observe(el);
+  });
+}

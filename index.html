@@ -34,7 +34,7 @@
   <nav class="header-nav">
     <button id="btnInicio">Inicio</button>
     <button id="btnProductos">Productos</button>
-    <button id="btnContacto">Contacto</button>
+    <button id="btnNosotros">Nosotros</button>
   </nav>
 </div>
 
@@ -75,7 +75,7 @@
       <h2>Tu carrito</h2>
       <div id="listaCarritoMobile"></div>
       <button onclick="enviarWhatsapp()" class="btn-whatsapp">
-      Enviar por WhatsApp
+      <i class="fa-brands fa-whatsapp"></i> Consultar por WhatsApp
       </button>
     </section>
   </div>
@@ -180,6 +180,69 @@
     <button class="flecha derecha" onclick="moverMarcas(1)">›</button>
   </div>
 </section>
+<section id="nosotros" class="nosotros oculto">
+  <!-- HERO -->
+  <div class="nosotros-hero animable">
+    <img src="imagenes/Grafico/nosotros1.webp" alt="Sobre nosotros">
+    <div class="nosotros-hero-texto">
+      <h2>SOBRE NOSOTROS</h2>
+      <p>Tu seguridad, nuestro compromiso.</p>
+    </div>
+  </div>
+
+ <div class="nosotros-texto animable">
+  <h2>COMPROMETIDOS CON TU SEGURIDAD HACE MÁS DE 25 AÑOS</h2>
+  <p>
+    Distribuimos todo tipo de artículos para <strong>garantizar tu seguridad</strong>. Trabajamos con marcas reconocidas y ofrecemos soluciones
+    confiables para empresas y trabajadores.
+  </p>
+</div>
+<div class="nosotros-divider"></div>
+    <div class="nosotros-secciones">
+
+  <div class="nosotros-mision animable">
+  <div class="mision-grid">
+    
+    <div class="mision-texto">
+      <h3>Nuestra misión: <span>Proteger con calidad y compromiso.</span></h3>
+      <p>
+        Trabajamos cada día para ofrecer artículos de seguridad industrial que cumplan con los más altos estándares de calidad, 
+        garantizando la protección y el bienestar de quienes los utilizan. Seleccionamos productos confiables y certificados, 
+        manteniendo precios competitivos y soluciones eficientes, 
+        porque entendemos que la seguridad no es un costo, sino una responsabilidad.
+      </p>
+    </div>
+
+    <div class="mision-imagen">
+      <img src="imagenes/Grafico/nosotros2.jpg"Nuestra misión">
+    </div>
+
+  </div>
+</div>
+
+  <div class="nosotros-bloque">
+    <h3>Nuestra visión</h3>
+    <p>
+      Convertirnos en un referente del rubro, priorizando la confianza y el profesionalismo.
+    </p>
+  </div>
+
+  <div class="nosotros-bloque">
+    <h3>Cómo trabajamos</h3>
+    <p>
+      Seleccionamos cuidadosamente cada producto y acompañamos al cliente en todo el proceso.
+    </p>
+  </div>
+
+  <div class="nosotros-bloque">
+    <h3>Nuestros valores</h3>
+    <p>
+      Transparencia, responsabilidad, compromiso y mejora continua.
+    </p>
+  </div>
+
+</div>
+</section>
 <!-- PRODUCTOS -->
 <section id="productos" class="oculto">
 
@@ -187,6 +250,7 @@
   <div class="breadcrumb">
     <span onclick="mostrarInicio()">Inicio</span> /
     <span class="activo">Productos</span>
+    <span class="activo">Nosotros</span>
   </div>
 
   <button class="btn-filtrar-mobile">
@@ -344,7 +408,9 @@
   <h2>Tu carrito</h2>
   <div id="listaCarritoDesktop"></div>
 
-  <button onclick="enviarWhatsapp()" class="btn-whatsapp">Enviar por WhatsApp</button>
+  <button onclick="enviarWhatsapp()" class="btn-whatsapp">
+    <i class="fa-brands fa-whatsapp"></i> Consultar por WhatsApp
+  </button>
 </section>
 <div id="notificacion" class="notificacion oculto">
   <i class="fa-solid fa-check"></i> Producto agregado
@@ -368,7 +434,7 @@
       <ul>
         <li><a href="#" onclick="mostrarInicio()">Inicio</a></li>
         <li><a href="#" onclick="mostrarProductos()">Productos</a></li>
-        <li><a href="#" onclick="mostrarContacto()">Contacto</a></li>
+        <li><a href="#" onclick="mostrarNosotros()">Nosotros</a></li>
         <li><a href="#" onclick="mostrarCarrito()">Carrito</a></li>
       </ul>
     </div>
