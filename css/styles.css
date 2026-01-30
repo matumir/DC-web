@@ -1893,12 +1893,13 @@ display: none;
   position: relative;
   display: flex;
   align-items: center;
+  padding: 0 33px;
 }
 
 /* VENTANA */
 .marcas-viewport {
   overflow: hidden;
-  padding: 12px 50px;
+  padding: 12px;
   width: 100%;
 }
 
@@ -1908,6 +1909,7 @@ display: none;
   gap: 20px;
   transition: transform 0.4s ease;
   overflow: visible;
+  padding: 8px 6px;
 }
 
 /* CARD MARCA */
@@ -1969,25 +1971,21 @@ display: none;
   border-radius: 50%;
   cursor: pointer;
   position: absolute;
-  top: 50%;
-  transform: translateY(-50%);
   z-index: 5;
   display: flex;
   align-items: center;
   justify-content: center;
-
-  transition: background .2s ease, transform .2s ease;
+  transition: background .2s ease;
 }
 
 .marcas-carrusel .flecha:hover {
   background: #12414a;
-  transform: scale(1.05);
 }
 
 .marcas-carrusel .flecha.izquierda {
-  left: 0;
+  left: -10px;
 }
 
 .marcas-carrusel .flecha.derecha {
-  right: 0;
+  right: -10px;
 }

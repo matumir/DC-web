@@ -77,9 +77,26 @@ const categoriasHome = [
 ];
 const marcas = [
   {nombre: 'OMBU', imagen: 'imagenes/marcas/ombu.png'},
+  {nombre: 'CAS', imagen: 'imagenes/marcas/cas.png'},
   {nombre: 'Aire Libre', imagen: 'imagenes/marcas/airelibre.webp'},
   {nombre: 'NARVIC', imagen: 'imagenes/marcas/narvic.png'},
-  {nombre: 'Libus', imagen: 'imagenes/marcas/libus.png'}
+  {nombre: 'Libus', imagen: 'imagenes/marcas/libus.png'},
+  {nombre: 'S.P.I SHIELD', imagen: 'imagenes/marcas/spi.webp'},
+  {nombre: 'GEO', imagen: 'imagenes/marcas/geo.png'},
+  {nombre: 'BLADI', imagen: 'imagenes/marcas/bladi.png'},
+  {nombre: 'GUADAL', imagen: 'imagenes/marcas/guadal.png'},
+  {nombre: 'PAMPERO', imagen: 'imagenes/marcas/pampero.webp'},
+  {nombre: 'DE PASCALE', imagen: 'imagenes/marcas/depascale.png'},
+  {nombre: 'WORK SAFE', imagen: 'imagenes/marcas/worksafe.avif'},
+  {nombre: 'VICSA', imagen: 'imagenes/marcas/vicsa.jpg'},
+  {nombre: 'GUPLAS TEX', imagen: 'imagenes/marcas/guplastex.png'},
+  {nombre: 'BELLAZZI', imagen: 'imagenes/marcas/bellazzi.png'},
+  {nombre: 'GLOVEX', imagen: 'imagenes/marcas/glovex.png'},
+  {nombre: 'DELTA PLUS', imagen: 'imagenes/marcas/deltaplus.svg'},
+  {nombre: 'STEELPRO', imagen: 'imagenes/marcas/steelpro.png'},
+  {nombre: 'FRAVIDA', imagen: 'imagenes/marcas/fravida.png'},
+  {nombre: '3M', imagen: 'imagenes/marcas/3m.jpg'},
+  {nombre: 'BLACK PANTHER', imagen: 'imagenes/marcas/blackpanther.png'},
 ];
 
 /* =====================
@@ -109,18 +126,24 @@ document.addEventListener("click", (e) => {
   // 2️⃣ Mostrar productos
   productosSec.classList.remove("oculto");
 
-  // 3️⃣ Setear filtros
+  // 3️⃣ Estado global
   marcaActual = marca;
   categoriaActual = "todos";
   subcategoriaActual = "todas";
   paginaActual = 1;
+  busquedaActual = "";
 
-  // 4️⃣ Sincronizar selects
+  // 4️⃣ Sincronizar selects base
   selectCategoria.value = "todos";
   selectSubcategoria.value = "todas";
-  selectMarca.value = marca;
 
-  // 5️⃣ Aplicar filtro
+  // 5️⃣ 🔑 Cargar marcas ANTES de setear el value
+  cargarMarcas();
+
+  // 6️⃣ Ahora sí, seleccionar la marca
+  selectMarca.value = marcaActual;
+
+  // 7️⃣ Aplicar filtros
   aplicarFiltros();
 });
 
