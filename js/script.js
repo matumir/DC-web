@@ -80,7 +80,7 @@ const marcas = [
   {nombre: 'CAS', imagen: 'imagenes/marcas/cas.png'},
   {nombre: 'Aire Libre', imagen: 'imagenes/marcas/airelibre.webp'},
   {nombre: 'NARVIC', imagen: 'imagenes/marcas/narvic.png'},
-  {nombre: 'Libus', imagen: 'imagenes/marcas/libus.png'},
+  {nombre: 'LIBUS', imagen: 'imagenes/marcas/libus.png'},
   {nombre: 'S.P.I SHIELD', imagen: 'imagenes/marcas/spi.webp'},
   {nombre: 'GEO', imagen: 'imagenes/marcas/geo.png'},
   {nombre: 'BLADI', imagen: 'imagenes/marcas/bladi.png'},
