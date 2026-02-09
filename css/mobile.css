@@ -537,7 +537,11 @@ width: 100%;
 max-width: 320px;
 height: 220px;
 }
-
+@media (max-width: 768px) {
+  footer li a[onclick="mostrarCarrito()"] {
+    display: none;
+  }
+}
 
 /*FILTROS*/
 
@@ -800,4 +804,6 @@ transform: translateY(-10px);
   height: 300px;
   overflow: hidden;
 }
+
+
 }

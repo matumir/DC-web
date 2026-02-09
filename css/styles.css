@@ -2075,30 +2075,6 @@ display: none;
   gap: 25px;
 }
 
-.nosotros-bloque {
-  background: #fff;
-  border-radius: 14px;
-  padding: 28px;
-  box-shadow: 0 6px 18px rgba(0,0,0,.08);
-  transition: transform .25s ease, box-shadow .25s ease;
-}
-
-.nosotros-bloque:hover {
-  transform: translateY(-4px);
-  box-shadow: 0 12px 28px rgba(0,0,0,.12);
-}
-
-.nosotros-bloque h3 {
-  color: #12414a;
-  margin-bottom: 10px;
-  font-size: 22px;
-}
-
-.nosotros-bloque p {
-  color: #555;
-  line-height: 1.6;
-  font-size: 15px;
-}
 /* =========================
    NOSOTROS - TEXTO
 ========================= */
@@ -2130,7 +2106,7 @@ display: none;
 
 .nosotros-mision {
   max-width: 1200px;
-  margin: 80px auto;
+  margin: 40px auto;
   padding: 0 20px;
 }
 
@@ -2189,7 +2165,7 @@ display: none;
 .nosotros-divider {
   width: 100%;
   max-width: 1200px;
-  height: 1px;
+  height: 2px;
   background: linear-gradient(
     to right,
     transparent,
@@ -2197,4 +2173,84 @@ display: none;
     transparent
   );
   margin: 70px auto;
+}
+
+.nosotros-porque {
+  max-width: 1200px;
+  margin: 10px auto;
+  padding: 0 20px;
+}
+
+/* Texto */
+.porque-texto h3 {
+  font-size: 28px;
+  font-weight: 700;
+  color: #12414a;
+  margin-bottom: 20px;
+  justify-content: center;
+  text-align: center;
+}
+
+.porque-texto h3 span {
+  font-weight: 400;
+  color: #666;
+}
+
+.porque-texto p {
+  font-size: 16px;
+  line-height: 1.7;
+  color: #212121;
+}
+
+/* LISTA - POR QUÉ ELEGIRNOS */
+.porque-lista {
+  list-style: none;
+  padding: 0;
+  margin: 0 auto;
+  max-width: 900px;
+}
+
+.porque-lista li {
+  display: flex;  /* ícono alineado con el título */
+  gap: 16px;
+  align-items: center;
+  padding: 20px 0;
+  border-bottom: 1px solid #e0e0e0;
+}
+.porque-lista li i {
+  width: 65px;
+  height: 65px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  font-size: 30px;
+  color: #12414a;
+
+  background-color: #e9f2f4;
+  border-radius: 50%;
+
+  flex-shrink: 0;
+}
+.porque-lista li > div {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+.porque-lista li:last-child {
+  border-bottom: none;
+}
+
+.porque-lista strong {
+  display: block;
+  font-size: 20px;
+  color: #12414a;
+  margin-bottom: 6px;
+}
+
+.porque-lista span {
+  font-size: 16px;
+  line-height: 1.6;
+  color: #333;
 }
