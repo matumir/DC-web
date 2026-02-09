@@ -66,5 +66,124 @@ const guantes = [
     colores: [
       { nombre: "Verde", imagenes: ["imagenes/Productos/guantes/sintéticos/acrilonv1.webp","imagenes/Productos/guantes/sintéticos/acrilonv2.webp"] }
     ]
+  },
+  {
+    id: "guantes-5",
+    nombre: "Guante descarne ",
+    Descripcion: "Descarne amarillo americano puño corto de algodón tejido con refuerzo.",
+    Especificaciones: "Puño: Americano. \n Refuerzo: En palma.",
+    Documentacion: [
+    { nombre: "Ficha técnica no disponible" }
+    ],
+    categoria: "Guantes",
+    subcategoria: "Cuero",
+    marca: "BELLAZZI",
+    destacado: false,
+    talles: ["ÚNICO"],
+    colores: [
+      { nombre: "Amarillo", imagenes: ["imagenes/Productos/guantes/cuero/descarne.png"] }
+    ]
+  },
+  {
+    id: "guantes-6",
+    nombre: "Guante soldador forrado",
+    Descripcion: "Guante descarne Forrado para soldador rojo.",
+    Especificaciones: "Puño: Largo. \n Material: Descarne.",
+    Documentacion: [
+    { nombre: "Ficha técnica no disponible" }
+    ],
+    categoria: "Guantes",
+    subcategoria: "Cuero",
+    marca: "BELLAZZI",
+    destacado: false,
+    talles: ["ÚNICO"],
+    colores: [
+      { nombre: "Rojo", imagenes: ["imagenes/Productos/guantes/cuero/soldador.png"] }
+    ]
+  },
+  {
+    id: "guantes-7",
+    nombre: "Guante vaqueta 1/2 paseo",
+    Descripcion: "Guante vaqueta amarilla medio paseo.",
+    Especificaciones: "Puño: Elastizado. \n Material: Vaqueta.",
+    Documentacion: [
+    { nombre: "Ficha técnica no disponible" }
+    ],
+    categoria: "Guantes",
+    subcategoria: "Cuero",
+    marca: "BELLAZZI",
+    destacado: false,
+    talles: [8,9,10,11],
+    colores: [
+      { nombre: "Amarillo", imagenes: ["imagenes/Productos/guantes/cuero/vaquetamedio.png"] }
+    ]
+  },
+  {
+    id: "guantes-8",
+    nombre: "Guante vaqueta combinado c/ descarne",
+    Descripcion: "Guante vaqueta amarilla americano combinado con descarne puño corto con refuerzo",
+    Especificaciones: "Puño: Americano. \n Material: Vaqueta c/ descarne",
+    Documentacion: [
+    { nombre: "Ficha técnica no disponible" }
+    ],
+    categoria: "Guantes",
+    subcategoria: "Cuero",
+    marca: "BELLAZZI",
+    destacado: false,
+    talles: ["ÚNICO"],
+    colores: [
+      { nombre: "Amarillo", imagenes: ["imagenes/Productos/guantes/cuero/vaquetacomb.png"] }
+    ]
+  },
+  {
+    id: "guantes-9",
+    nombre: "Guante vaqueta cubre dieléctrico",
+    Descripcion: "Guante vaqueta amarilla cubre DIELECTRICO",
+    Especificaciones: "Puño: Largo. \n Material: Vaqueta (apto dieléctrico)",
+    Documentacion: [
+    { nombre: "Ficha técnica no disponible" }
+    ],
+    categoria: "Guantes",
+    subcategoria: "Cuero",
+    marca: "BELLAZZI",
+    destacado: false,
+    talles: ["ÚNICO"],
+    colores: [
+      { nombre: "Amarillo", imagenes: ["imagenes/Productos/guantes/cuero/vaquetadiel.png"] }
+    ]
+  },
+  {
+    id: "guantes-10",
+    nombre: "Guante descarne",
+    Descripcion: "Tareas de Mantenimiento.\nMetalmecánicas.\nPetróleo.\n Petroquímica.",
+    Especificaciones: "Puño: Corto. \n Material: Descarne \nRefuerzo: Simple\nProducto certificado: Norma IRAM 3607-3608. ",
+    Documentacion: [
+    { nombre: "Ficha técnica", url: "fichas/guantes/dps/descarne.pdf" }
+    ],
+    categoria: "Guantes",
+    subcategoria: "Cuero",
+    marca: "DE PASCALE",
+    destacado: false,
+    talles: ["ÚNICO"],
+    colores: [
+      { nombre: "Gris", imagenes: ["imagenes/Productos/guantes/cuero/descarnedep1.png","imagenes/Productos/guantes/cuero/descarnedep2.png","imagenes/Productos/guantes/cuero/descarnedep3.png"] }
+    ]
+  },
+  {
+    id: "guantes-11",
+    nombre: "Guante Tejido S/Costura G7 Anticorte",
+    Descripcion: "Equipo de protección personal que protege la mano o una parte de ella contra riesgos mecánicos.\nConstruido con hilado de HPPE, fibra de polietileno de alto rendimiento, tiene una resistencia a la tensión 15 veces superior a la del acero (sobre una base peso por peso), compuesto de UHMWPE, Spandex y Nylon que asegura niveles de protección al corte máximos.\nEsta fibra resistente a los cortes se puede lavar y volver a usar sin que se vea afectada su capacidad de protección. Esto aumenta considerablemente la vida útil de los guantes a la vez que reduce apreciablemente el costo. HPPE es extremadamente resistente a la abrasión, la humedad, los rayos UV y los productos químicos. La fibra HPPE es muy suave y se adapta a la temperatura de la piel. Esto minimiza la sudoración puesto que transfiere la humedad al exterior del guante.",
+    Especificaciones: "Material: Tejido anticorte.",
+    Documentacion: [
+    { nombre: "Ficha técnica", url: "fichas/guantes/dps/tejido anticorte g7.pdf" }
+    ],
+    categoria: "Guantes",
+    subcategoria: "Anti corte",
+    marca: "DE PASCALE",
+    destacado: false,
+    talles: [9,10],
+    colores: [
+      { nombre: "Blanco", imagenes: ["imagenes/Productos/guantes/anticorte/tejidog71.png","imagenes/Productos/guantes/anticorte/tejidog72.png"] }
+    ]
   }
 ];
