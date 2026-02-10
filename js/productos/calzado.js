@@ -99,7 +99,7 @@ const calzado = [
     categoria: "Calzado",
     subcategoria: "Botines",
     marca: "OMBU",
-    destacado: true,
+    destacado: false,
     talles: [38,39,40,41,42,43,44,45,46],
     colores: [
       { nombre: "Negro", imagenes: ["imagenes/Productos/calzado/ombu/fundidor.png","imagenes/Productos/calzado/ombu/fundidor2.png"] }
@@ -116,7 +116,7 @@ const calzado = [
     categoria: "Calzado",
     subcategoria: "Botines",
     marca: "OMBU",
-    destacado: true,
+    destacado: false,
     descripcion: " •Puntera: Acero. ",
     talles: [38,39,40,41,42,43,44,45,46],
     colores: [
@@ -134,7 +134,7 @@ const calzado = [
     categoria: "Calzado",
     subcategoria: "Zapatos",
     marca: "OMBU",
-    destacado: true,
+    destacado: false,
     descripcion: " •Puntera: Acero / Plástico.",
     talles: [38,39,40,41,42,43,44,45,46],
     colores: [
@@ -171,7 +171,7 @@ const calzado = [
     categoria: "Calzado",
     subcategoria: "Zapatos",
     marca: "OMBU",
-    destacado: true,
+    destacado: false,
     descripcion: " •Puntera: Composite / Plástico.",
     talles: [38,39,40,41,42,43,44,45,46],
     colores: [
@@ -521,7 +521,7 @@ const calzado = [
     { nombre: "Ficha técnica no disponible"}
     ],
     subcategoria: "Zapatillas",
-    marca: "Aire Libre",
+    marca: "AIRE LIBRE",
     destacado: false,
     talles: [39,40,41,42,43,44,45,46],
     colores: [

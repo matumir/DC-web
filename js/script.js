@@ -78,7 +78,7 @@ const categoriasHome = [
 const marcas = [
   {nombre: 'OMBU', imagen: 'imagenes/marcas/ombu.png'},
   {nombre: 'CAS', imagen: 'imagenes/marcas/cas.png'},
-  {nombre: 'Aire Libre', imagen: 'imagenes/marcas/airelibre.webp'},
+  {nombre: 'AIRE LIBRE', imagen: 'imagenes/marcas/airelibre.webp'},
   {nombre: 'NARVIC', imagen: 'imagenes/marcas/narvic.png'},
   {nombre: 'LIBUS', imagen: 'imagenes/marcas/libus.png'},
   {nombre: 'S.P.I SHIELD', imagen: 'imagenes/marcas/spi.webp'},
@@ -89,7 +89,7 @@ const marcas = [
   {nombre: 'DE PASCALE', imagen: 'imagenes/marcas/depascale.png'},
   {nombre: 'WORK SAFE', imagen: 'imagenes/marcas/worksafe.avif'},
   {nombre: 'VICSA', imagen: 'imagenes/marcas/vicsa.jpg'},
-  {nombre: 'GUPLAS TEX', imagen: 'imagenes/marcas/guplastex.png'},
+  {nombre: 'GUPLASTEX', imagen: 'imagenes/marcas/guplastex.png'},
   {nombre: 'BELLAZZI', imagen: 'imagenes/marcas/bellazzi.png'},
   {nombre: 'GLOVEX', imagen: 'imagenes/marcas/glovex.png'},
   {nombre: 'DELTA PLUS', imagen: 'imagenes/marcas/deltaplus.svg'},
