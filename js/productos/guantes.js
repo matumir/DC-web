@@ -401,7 +401,7 @@ const guantes = [
     categoria: "Guantes",
     subcategoria: "Tejidos y recubiertos",
     marca: "S.P.I SHIELD",
-    destacado: false,
+    destacado: true,
     talles: [9,10],
     colores: [
       { nombre: "Naranja", imagenes: ["imagenes/Productos/guantes/tejidosrecubiertos/tejidolatexrugpalm1.webp","imagenes/Productos/guantes/tejidosrecubiertos/tejidolatexrugpalm2.webp"] }
@@ -520,7 +520,7 @@ const guantes = [
     categoria: "Guantes",
     subcategoria: "Tejidos y recubiertos",
     marca: "VICSA",
-    destacado: false,
+    destacado: true,
     talles: [9],
     colores: [
       { nombre: "Amarillo", imagenes: ["imagenes/Productos/guantes/tejidosrecubiertos/multiflex.png"] }
@@ -554,7 +554,7 @@ const guantes = [
     categoria: "Guantes",
     subcategoria: "Dieléctricos",
     marca: "GLOVEX",
-    destacado: false,
+    destacado: true,
     talles: [10,11],
     colores: [
       { nombre: "Negro", imagenes: ["imagenes/Productos/guantes/dielectricos/0.png","imagenes/Productos/guantes/dielectricos/guantes.png"] }

@@ -190,7 +190,7 @@ const calzado = [
     categoria: "Calzado",
     subcategoria: "Botines",
     marca: "CAS",
-    destacado: true,
+    destacado: false,
     talles: [38,39,40,41,42,43,44,45,46],
     colores: [
       { nombre: "Negro", imagenes: ["imagenes/Productos/calzado/cas/botpampa.png"] }
@@ -241,7 +241,7 @@ const calzado = [
     categoria: "Calzado",
     subcategoria: "Zapatos",
     marca: "CAS",
-    destacado: true,
+    destacado: false,
     talles: [38,39,40,41,42,43,44,45,46],
     colores: [
       { nombre: "Negro", imagenes: ["imagenes/Productos/calzado/cas/pampa.png","imagenes/Productos/calzado/cas/pampa2.png","imagenes/Productos/calzado/cas/pampa3.png"] }

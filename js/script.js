@@ -1056,11 +1056,12 @@ function obtenerColorCSS(nombre) {
     beige: "#d6c3a3",
     marron: "rgb(146, 91, 2)",
     blanco: "#fff",
-    azul: "#1e88e5",
+    azul: "#0038b1",
     rojo: "#e53935",
     verde: "#43a047",
     amarillo: "#fdd835",
-    naranja: "#fb8c00"
+    naranja: "#fb8c00",
+    azulino: "#318bc8"
   };
 
   return mapa[nombre.toLowerCase()] || "#ccc";
