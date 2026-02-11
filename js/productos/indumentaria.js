@@ -108,4 +108,23 @@ const indumentaria = [
       { nombre: "AZUL", imagenes: ["imagenes/Productos/indumentaria/mamelucos/mamelucoombu.png","imagenes/Productos/indumentaria/mamelucos/guiamamelucoombu.png"] }
     ]
   },
+  {
+    id: "indumentaria-7",
+    nombre: "Camisa de Trabajo ",
+    Descripcion: "La Camisa de Trabajo está confeccionada en gabardina 6 oz, 100% algodón, con construcción sarga 2/1, lo que le otorga una excelente combinación de resistencia, confort y durabilidad. Su tejido firme y respirable la convierte en una prenda ideal para el uso diario en entornos laborales exigentes.\nDiseñada con un corte clásico, cuenta con cuello tradicional, puños con botón y bolsillos frontales funcionales que aportan practicidad y presencia profesional. Las costuras reforzadas aseguran mayor resistencia al desgaste y prolongan la vida útil de la prenda.",
+    Especificaciones: "Confeccionada en gabardina 6 oz (100% algodón) con construcción sarga 2/1/s.\nCosturas reforzadas.\nOfrece durabilidad, comodidad y resistencia al desgaste diario.\nDiseño clásico de camisa de trabajo con cuello tradicional, puños con botón y bolsillos frontales funcionales",
+    Documentacion: [
+    { nombre: "Ficha técnica no disponible"}
+    ],
+    categoria: "Indumentaria",
+    subcategoria: "Camisas",
+    marca: "PAMPERO",
+    destacado: true,
+    talles: [38,40,42,44,46,48,50,52,54,56],
+    colores: [
+      { nombre: "BEIGE", imagenes: ["imagenes/Productos/indumentaria/camisas/camisapamperobeige.png"]},
+      { nombre: "AZUL", imagenes: ["imagenes/Productos/indumentaria/camisas/camisapamperoazul.png"] },
+      { nombre: "VERDE", imagenes: ["imagenes/Productos/indumentaria/camisas/camisapamperoverde.png"]}
+    ]
+  },
 ];

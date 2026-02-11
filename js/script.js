@@ -1422,7 +1422,8 @@ function renderDestacados() {
 
   const destacados = productos
     .filter(p => p.destacado)
-    .slice(0, 15);
+    .sort(() => Math.random() - 0.5)
+    .slice(0, 20);
 
   destacados.forEach(p => {
     const imagen = p.colores
