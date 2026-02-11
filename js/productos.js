@@ -3,7 +3,7 @@ console.log("productos.js cargado");
 const productos = [
   ...calzado,
   ...guantes,
-  ...proteccion,
+  ...indumentaria,
   ...accesorios
 ];
 

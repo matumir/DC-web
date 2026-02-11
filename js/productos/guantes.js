@@ -530,9 +530,9 @@ const guantes = [
     id: "guantes-32",
     nombre: "Guante Dieléctrico Clase 00",
     Descripcion: "Los guantes dieléctricos Glovex darán una efectiva protección contra el choque eléctrico evitando quemaduras, severas lesiones o el riesgo de muerte; cuando están en buenas condiciones y son usados de manera correcta respetando los voltajes de uso.",
-    Especificaciones: "Norma: IRAM 3604/98, IEC 903/88, ASMT D-120 USA.\nTensión de Prueba: 2500v a 5000v.\nTensión de uso: 500v.\nCorriente de fuga hasta: 14 (mA)\nEspesor: 0.5\nUso: Directo\nColor de etiqueta: Beige\nTensión resistida: 5.000\nPrueba absorción de humedad: Por lote\nEnsayo transener: 3 (mA)",
+    Especificaciones: "Norma: IRAM 3604/98, IEC 903/88, ASMT D-120 USA.\nTensión de Prueba: 2.500v a 5.000v.\nTensión de uso: 500v.\nCorriente de fuga hasta: 14 (mA)\nEspesor: 0.5\nUso: Directo\nColor de etiqueta: Beige\nTensión resistida: 5.000\nPrueba absorción de humedad: Por lote\nEnsayo transener: 3 (mA)",
     Documentacion: [
-    { nombre: "Manual de", url: "/fichas/guantes/glovex/manual de uso.pdf"}
+    { nombre: "Manual de uso y calidad", url: "/fichas/guantes/glovex/manual de uso.pdf"}
     ],
     categoria: "Guantes",
     subcategoria: "Dieléctricos",
@@ -542,5 +542,159 @@ const guantes = [
     colores: [
       { nombre: "Negro", imagenes: ["imagenes/Productos/guantes/dielectricos/00.png","imagenes/Productos/guantes/dielectricos/guantes.png"] }
     ]
+  },
+  {
+    id: "guantes-33",
+    nombre: "Guante Dieléctrico Clase 0",
+    Descripcion: "Los guantes dieléctricos Glovex darán una efectiva protección contra el choque eléctrico evitando quemaduras, severas lesiones o el riesgo de muerte; cuando están en buenas condiciones y son usados de manera correcta respetando los voltajes de uso.",
+    Especificaciones: "Norma: IRAM 3604/98, IEC 903/88, ASMT D-120 USA.\nTensión de Prueba: 5.000v a 10.000v.\nTensión de uso: 1000v.\nCorriente de fuga hasta: 14 (mA)\nEspesor: 1.0\nUso: Directo\nColor de etiqueta: Rojo\nTensión resistida: 10.000\nPrueba absorción de humedad: Por lote\nEnsayo transener: 3 (mA)",
+    Documentacion: [
+    { nombre: "Manual de uso y calidad", url: "/fichas/guantes/glovex/manual de uso.pdf"}
+    ],
+    categoria: "Guantes",
+    subcategoria: "Dieléctricos",
+    marca: "GLOVEX",
+    destacado: false,
+    talles: [10,11],
+    colores: [
+      { nombre: "Negro", imagenes: ["imagenes/Productos/guantes/dielectricos/0.png","imagenes/Productos/guantes/dielectricos/guantes.png"] }
+    ]
+  },
+  {
+    id: "guantes-34",
+    nombre: "Guante Dieléctrico Clase 1",
+    Descripcion: "Los guantes dieléctricos Glovex darán una efectiva protección contra el choque eléctrico evitando quemaduras, severas lesiones o el riesgo de muerte; cuando están en buenas condiciones y son usados de manera correcta respetando los voltajes de uso.",
+    Especificaciones: "Norma: IRAM 3604/98, IEC 903/88, ASMT D-120 USA.\nTensión de Prueba: 10.000v a 20.000v.\nTensión de uso: 7.500v.\nCorriente de fuga hasta: 14 (mA)\nEspesor: 1.5\nUso: Maniobras\nColor de etiqueta: Blanco\nTensión resistida: 20.000\nPrueba absorción de humedad: Por lote\nEnsayo transener: 5 (mA)",
+    Documentacion: [
+    { nombre: "Manual de uso y calidad", url: "/fichas/guantes/glovex/manual de uso.pdf"}
+    ],
+    categoria: "Guantes",
+    subcategoria: "Dieléctricos",
+    marca: "GLOVEX",
+    destacado: false,
+    talles: [10,11],
+    colores: [
+      { nombre: "Negro", imagenes: ["imagenes/Productos/guantes/dielectricos/1.png","imagenes/Productos/guantes/dielectricos/guantes.png"] }
+    ]
+  },
+  {
+    id: "guantes-35",
+    nombre: "Guante Dieléctrico Clase 2",
+    Descripcion: "Los guantes dieléctricos Glovex darán una efectiva protección contra el choque eléctrico evitando quemaduras, severas lesiones o el riesgo de muerte; cuando están en buenas condiciones y son usados de manera correcta respetando los voltajes de uso.",
+    Especificaciones: "Norma: IRAM 3604/98, IEC 903/88, ASMT D-120 USA.\nTensión de Prueba: 20.000v a 30.000v.\nTensión de uso: 17.000v.\nCorriente de fuga hasta: 14 (mA)\nEspesor: 2.3\nUso: Maniobras\nColor de etiqueta: Amarillo\nTensión resistida: 30.000\nPrueba absorción de humedad: Por lote\nEnsayo transener: 5 (mA)",
+    Documentacion: [
+    { nombre: "Manual de uso y calidad", url: "/fichas/guantes/glovex/manual de uso.pdf"}
+    ],
+    categoria: "Guantes",
+    subcategoria: "Dieléctricos",
+    marca: "GLOVEX",
+    destacado: false,
+    talles: [10,11],
+    colores: [
+      { nombre: "Negro", imagenes: ["imagenes/Productos/guantes/dielectricos/2.png","imagenes/Productos/guantes/dielectricos/guantes.png"] }
+    ]
+  },
+  {
+    id: "guantes-36",
+    nombre: "Guante Tejido Moteado",
+    Descripcion: "Guante confeccionado en algodón/poliéster tejido moteado, ideal para tareas generales que requieren protección liviana y buen agarre. Brinda comodidad, respirabilidad y resistencia al desgaste, siendo una opción práctica para trabajos de carga, depósito y mantenimiento.",
+    Especificaciones: "Material: Algodón / poliéster tejido\nDiseño moteado para mayor resistencia al desgaste.  \nBuena respirabilidad y confort.\nAjuste flexible y cómodo\nPuño elastizado\nUso recomendado: tareas generales, carga y descarga, depósito, mantenimiento.\nProtección liviana contra suciedad y abrasión leve.",
+    Documentacion: [
+    { nombre: "Ficha técnica no disponible"}
+    ],
+    categoria: "Guantes",
+    subcategoria: "Tejidos",
+    marca: "Genérico",
+    destacado: false,
+    talles: ["ÚNICO"],
+    colores: [
+      { nombre: "BLANCO", imagenes: ["imagenes/Productos/guantes/tejidos/moteado.png"] }
+    ]
+  },
+  {
+    id: "guantes-37",
+    nombre: "Guante Tejido Moteado Pesado",
+    Descripcion: "Guante confeccionado en tejido reforzado de algodón/poliéster, ideal para tareas que requieren mayor resistencia y durabilidad. Su trama más gruesa brinda mejor protección frente a la abrasión y mayor vida útil en trabajos exigentes, manteniendo comodidad y buen ajuste.",
+    Especificaciones: "Material: Algodón / poliéster tejido pesado\nDiseño moteado reforzado.\nBuena respirabilidad y confort.\nMayor gramaje y resistencia al desgaste\nPuño elastizado\nUso recomendado: construcción, carga pesada, industria y mantenimiento.\nProtección superior contra abrasión y suciedad.",
+    Documentacion: [
+    { nombre: "Ficha técnica no disponible"}
+    ],
+    categoria: "Guantes",
+    subcategoria: "Tejidos",
+    marca: "Genérico",
+    destacado: false,
+    talles: ["ÚNICO"],
+    colores: [
+      { nombre: "BLANCO", imagenes: ["imagenes/Productos/guantes/tejidos/moteadopesado.png"] }
+    ]
+  },
+  {
+    id: "guantes-38",
+    nombre: "Guante Tejido Terrycloth",
+    Descripcion: "Guante confeccionado en tejido tipo terry (rizo), que ofrece mayor capacidad de absorción y confort en tareas donde se requiere manipulación continua. Su textura interna brinda sensación acolchada y buena resistencia al uso frecuente, siendo ideal para trabajos generales y manipulación de piezas.",
+    Especificaciones: "Material: Algodón tejido tipo terrycloth (rizo)\nAlta absorción de humedad.\nInterior acolchado y confortable.\nBuena resistencia al desgaste\nPuño elastizado\nUso recomendado: tareas generales, manipulación de materiales, mantenimiento y depósito.\nProtección liviana contra abrasión y suciedad.",
+    Documentacion: [
+    { nombre: "Ficha técnica no disponible"}
+    ],
+    categoria: "Guantes",
+    subcategoria: "Tejidos",
+    marca: "Genérico",
+    destacado: false,
+    talles: ["ÚNICO"],
+    colores: [
+      { nombre: "BLANCO", imagenes: ["imagenes/Productos/guantes/tejidos/terrycloth.png"] }
+    ]
+  },
+  {
+    id: "guantes-39",
+    nombre: "Guante Tejido Terrycloth Moteado",
+    Descripcion: "Guante confeccionado en algodón tejido tipo terry (rizo) con recubrimiento moteado que mejora el agarre y la resistencia al desgaste. Combina absorción, confort y mayor adherencia, siendo una excelente opción para tareas de manipulación donde se requiere firmeza y durabilidad.",
+    Especificaciones: "Material: Algodón tejido tipo terrycloth (rizo)\nDiseño moteado para mejor agarre\nAlta absorción de humedad.\nInterior acolchado y confortable.\nMayor resistencia a la abrasión\nPuño elastizado\nUso recomendado: manipulación de materiales, carga y descarga, mantenimiento e industria.\nProtección moderada contra abrasión y suciedad.",
+    Documentacion: [
+    { nombre: "Ficha técnica no disponible"}
+    ],
+    categoria: "Guantes",
+    subcategoria: "Tejidos",
+    marca: "Genérico",
+    destacado: false,
+    talles: ["ÚNICO"],
+    colores: [
+      { nombre: "BLANCO", imagenes: ["imagenes/Productos/guantes/tejidos/terryclothmoteado.png"] }
+    ]
+  },
+  {
+    id: "guantes-40",
+    nombre: "Guante Tejido Laminado",
+    Descripcion: "Guante confeccionado en soporte textil con recubrimiento laminado que mejora la resistencia y la protección frente a la abrasión y el contacto con superficies exigentes. Ofrece buen agarre, durabilidad y comodidad para tareas industriales y de manipulación general.",
+    Especificaciones: "Material: Soporte textil con recubrimiento laminado  \nMayor resistencia a la abrasión\nAlta absorción de humedad.\nBuen nivel de agarre.\nFlexible y cómodo para uso prolongado.\nPuño elastizado\nUso recomendado: industria, construcción, logística y mantenimiento.\nProtección moderada frente a suciedad y desgaste.",
+    Documentacion: [
+    { nombre: "Ficha técnica no disponible"}
+    ],
+    categoria: "Guantes",
+    subcategoria: "Tejidos",
+    marca: "Genérico",
+    destacado: false,
+    talles: ["ÚNICO"],
+    colores: [
+      { nombre: "BLANCO", imagenes: ["imagenes/Productos/guantes/tejidos/laminado.png"] }
+    ]
+  },
+  {
+    id: "guantes-41",
+    nombre: "Guante Tejido Laminado",
+    Descripcion: "Guante confeccionado en fibra natural, ideal para tareas generales que requieren protección liviana y buena transpirabilidad. Ofrece comodidad y flexibilidad para trabajos de manipulación básica, siendo una opción práctica y económica para uso diario.",
+    Especificaciones: "Material: Fibra natural tejida (algodón).\nLiviano y confortable.\nBuena respirabilidad.\nFlexible y de fácil adaptación a la mano.\nPuño elastizado\nUso recomendado: tareas generales, depósito, mantenimiento y manipulación liviana.\nProtección básica frente a suciedad y abrasión leve.",
+    Documentacion: [
+    { nombre: "Ficha técnica no disponible"}
+    ],
+    categoria: "Guantes",
+    subcategoria: "Tejidos",
+    marca: "Genérico",
+    destacado: false,
+    talles: ["ÚNICO"],
+    colores: [
+      { nombre: "BLANCO", imagenes: ["imagenes/Productos/guantes/tejidos/tejidonatural.png"] }
+    ]
   }
+  
 ];
