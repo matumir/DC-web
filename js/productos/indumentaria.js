@@ -45,7 +45,7 @@ const indumentaria = [
     { nombre: "Ficha técnica no disponible"}
     ],
     categoria: "Indumentaria",
-    subcategoria: "Bombachas",
+    subcategoria: "Pantalones",
     marca: "OMBU",
     destacado: true,
     talles: [36,38,40,42,44,46,48,50,52,54,56,58,60,62,64,66,68],
@@ -102,7 +102,7 @@ const indumentaria = [
     categoria: "Indumentaria",
     subcategoria: "Mamelucos",
     marca: "OMBU",
-    destacado: true,
+    destacado: false,
     talles: ["S","M","L","XL","XXL","XXXL","4XL"],
     colores: [
       { nombre: "AZUL", imagenes: ["imagenes/Productos/indumentaria/mamelucos/mamelucoombu.png","imagenes/Productos/indumentaria/mamelucos/guiamamelucoombu.png"] }
@@ -125,6 +125,191 @@ const indumentaria = [
       { nombre: "BEIGE", imagenes: ["imagenes/Productos/indumentaria/camisas/camisapamperobeige.png"]},
       { nombre: "AZUL", imagenes: ["imagenes/Productos/indumentaria/camisas/camisapamperoazul.png"] },
       { nombre: "VERDE", imagenes: ["imagenes/Productos/indumentaria/camisas/camisapamperoverde.png"]}
+    ]
+  },
+  {
+    id: "indumentaria-8",
+    nombre: "Pantalón de Trabajo ",
+    Descripcion: "El Pantalón de Trabajo está confeccionado en gabardina 8 oz, 100% algodón, ofreciendo una excelente combinación de resistencia, confort y durabilidad para el uso diario en entornos laborales exigentes. Su tejido firme proporciona buena estructura sin resignar comodidad ni libertad de movimiento.\nDiseñado para brindar practicidad y funcionalidad, incorpora bolsillos traseros tipo ojal, bolsillo carpintero lateral y cartera con cierre de poliéster resistente. Además, cuenta con fondo de bolsillos en gabardina, lo que aumenta la resistencia en zonas de mayor desgaste.\nLas costuras reforzadas aseguran mayor vida útil y mejor comportamiento ante el uso intensivo, convirtiéndolo en una prenda confiable para actividades industriales, técnicas y de mantenimiento.",
+    Especificaciones: "Pantalón de trabajo confeccionado en gabardina 8 oz, 100% algodón.\nPresenta bolsillos traseros tipo ojal, bolsillo carpintero en lateral, cartera con cierre de poliéster y fondo de bolsillos en gabardina.\nCosturas reforzadas.",
+    Documentacion: [
+    { nombre: "Ficha técnica no disponible"}
+    ],
+    categoria: "Indumentaria",
+    subcategoria: "Pantalones",
+    marca: "PAMPERO",
+    destacado: true,
+    talles: [38,40,42,44,46,48,50,52,54,56],
+    colores: [
+      { nombre: "BEIGE", imagenes: ["imagenes/Productos/indumentaria/pantalones/pantbeigepamp.png"]},
+      { nombre: "AZUL", imagenes: ["imagenes/Productos/indumentaria/pantalones/pantazulpamp.png"] },
+      { nombre: "VERDE", imagenes: ["imagenes/Productos/indumentaria/pantalones/pantverdepamp.png"]}
+    ]
+  },
+  {
+    id: "indumentaria-9",
+    nombre: "Pantalón Cargo Elastizado",
+    Descripcion: "El Pantalón Cargo Elastizado combina diseño actual y funcionalidad laboral en una prenda resistente y versátil. Confeccionado en gabardina 8 oz con lavado gastado, ofrece una estética moderna sin resignar durabilidad ni confort para el uso diario.\nSu calce slim brinda un ajuste más estilizado, mientras que los múltiples bolsillos aportan practicidad: bolsillos laterales con tapa y broche a presión, bolsillos frontales diagonales y bolsillos traseros tipo ojal con tapa.\nIncorpora recorte horizontal a la altura de la rodilla, que mejora la movilidad y refuerza una de las zonas de mayor exigencia. La cintura con pasadores, botón metálico y bragueta con cierre completan un diseño sólido y funcional.\nLas triple costura en laterales y entrepierna, junto con costuras reforzadas, aseguran máxima resistencia y mayor vida útil en jornadas intensivas.",
+    Especificaciones: "Pantalón Cargo de calce slim, confeccionado en gabardina 8 oz con lavado gastado.\n Presenta bolsillos laterales con tapa y broche a presión, bolsillos frontales diagonales y bolsillos traseros tipo ojal con tapa. \nIncluye recorte horizontal a la altura de la rodilla para mayor movilidad y refuerzo. \nCintura con pasadores, cierre con botón metálico y bragueta con cierre. \nTriple costura en laterales y entrepierna, costuras reforzadas.",
+    Documentacion: [
+    { nombre: "Ficha técnica no disponible"}
+    ],
+    categoria: "Indumentaria",
+    subcategoria: "Pantalones",
+    marca: "PAMPERO",
+    destacado: true,
+    talles: [38,40,42,44,46,48,50,52,54],
+    colores: [
+      { nombre: "AZUL", imagenes: ["imagenes/Productos/indumentaria/pantalones/cargelastizadoazul.png"]},
+      { nombre: "BEIGE", imagenes: ["imagenes/Productos/indumentaria/pantalones/cargelastizadobeige.png"] },
+      { nombre: "VERDE", imagenes: ["imagenes/Productos/indumentaria/pantalones/cargelastizadoverde.png"]}
+    ]
+  },
+  {
+    id: "indumentaria-10",
+    nombre: "Pantalón Cargo Ripstop Antidesgarro",
+    Descripcion: "El Pantalón Cargo Antidesgarro está diseñado para ofrecer máxima resistencia y rendimiento en entornos de trabajo exigentes. Confeccionado en ripstop 7.8 oz, su estructura antidesgarro evita que pequeños cortes o rasgaduras se expandan, garantizando mayor vida útil de la prenda.\nSu composición 60% poliéster y 40% algodón combina durabilidad estructural, estabilidad de forma y buena respirabilidad, brindando comodidad durante jornadas prolongadas.\nIncorpora bolsillos con tapa y cierre de velcro para mayor seguridad, recortes estratégicos en trasero y piernas que aportan refuerzo y mejor adaptación al movimiento, y cartera con cierre resistente.\nLas triple costuras en laterales y entrepierna, junto con costuras reforzadas, aseguran alta resistencia a la tracción y excelente desempeño frente al desgaste diario.",
+    Especificaciones: "Pantalón Cargo confeccionado en ripstop antidesgarro de 7.8 oz. \nComposición 60% poliéster y 40% algodón.\nTejido de alta resistencia a la tracción y mayor durabilidad.\nPresenta bolsillos con tapa y cierre de velcro, recortes en trasero y piernas y cartera con cierre.\nTriple costura en laterales y entrepierna, costuras reforzadas",
+    Documentacion: [
+    { nombre: "Ficha técnica no disponible"}
+    ],
+    categoria: "Indumentaria",
+    subcategoria: "Pantalones",
+    marca: "PAMPERO",
+    destacado: false,
+    talles: [38,40,42,44,46,48,50,52,54],
+    colores: [
+      { nombre: "VERDE", imagenes: ["imagenes/Productos/indumentaria/pantalones/cargantiverde.png"]},
+      { nombre: "AZUL", imagenes: ["imagenes/Productos/indumentaria/pantalones/cargantiazul.png"]},
+      { nombre: "BEIGE", imagenes: ["imagenes/Productos/indumentaria/pantalones/cargantibeige.png"] },
+    ]
+  },
+  {
+    id: "indumentaria-11",
+    nombre: "Pantalón Corte Chino",
+    Descripcion: "El Pantalón Corte Chino combina estética moderna y funcionalidad en una prenda versátil para uso laboral o diario. Confeccionado en gabardina con confort, ofrece un equilibrio ideal entre estructura, suavidad y libertad de movimiento.\nSu pierna angosta aporta un calce actual y estilizado, sin resignar comodidad durante la jornada. Presenta cintura con ojal y botón, además de presillas para cinturón que garantizan un ajuste seguro.\nEl diseño se completa con bolsillos delanteros diagonales de fácil acceso y bolsillos traseros tipo ojal, brindando practicidad y una terminación prolija.",
+    Especificaciones: "Pantalón chino confeccionado en gabardina con confort. \nPierna angosta. \nCintura con ojal y botón. \nPresillas para el cinturón.\nDelantero con bolsillos diagonales y trasero con bolsillos ojal.",
+    Documentacion: [
+    { nombre: "Ficha técnica no disponible"}
+    ],
+    categoria: "Indumentaria",
+    subcategoria: "Pantalones",
+    marca: "PAMPERO",
+    destacado: false,
+    talles: [38,40,42,44,46,48,50,52,54],
+    colores: [
+      { nombre: "BEIGE", imagenes: ["imagenes/Productos/indumentaria/pantalones/chinobeige.png"]},
+      { nombre: "NEGRO", imagenes: ["imagenes/Productos/indumentaria/pantalones/chinonegro.png"] },
+    ]
+  },
+  {
+    id: "indumentaria-12",
+    nombre: "Bombacha de Campo Lisa",
+    Descripcion: "La Bombacha de Campo para Hombre está confeccionada en gabardina 8 oz, sarga 3/1/S, un tejido resistente que garantiza durabilidad y excelente comportamiento frente al uso intensivo en actividades rurales y laborales.\nSu diseño funcional incorpora cartera con cierre, cintura con presillas para cinturón y trabillas ajustables con botón tanto en la cintura como en la botamanga, permitiendo un ajuste firme y personalizado.\nLa estructura reforzada, junto con la triple costura en laterales y costuras reforzadas en puntos de mayor tensión, asegura mayor vida útil y resistencia a la tracción, incluso en jornadas exigentes.",
+    Especificaciones: "Bombacha de campo para hombre confeccionada en gabardina 8 oz, sarga 3/1/S.\nPresenta triple costura en laterales, cartera con cierre.\nCintura con presillas para cinturón y trabillas ajustables con botón tanto en la cintura como en la botamanga.\nCosturas reforzadas para mayor resistencia.",
+    Documentacion: [
+    { nombre: "Ficha técnica no disponible"}
+    ],
+    categoria: "Indumentaria",
+    subcategoria: "Bombachas",  
+    marca: "PAMPERO",
+    destacado: true,
+    talles: [38,40,42,44,46,48,50,52,54,56,58,60],
+    colores: [
+      { nombre: "BEIGE", imagenes: ["imagenes/Productos/indumentaria/pantalones/bombpampbeige.png"]},
+      { nombre: "VERDE", imagenes: ["imagenes/Productos/indumentaria/pantalones/bombpampverde.png"] },
+      { nombre: "AZUL", imagenes: ["imagenes/Productos/indumentaria/pantalones/bombpampazul.png"] }
+    ]
+  },
+  {
+    id: "indumentaria-13",
+    nombre: "Bombacha de Campo Alforzada",
+    Descripcion: "La Bombacha de Campo Alforzada está confeccionada en gabardina 8 oz, 100% algodón, ofreciendo una combinación ideal de resistencia, confort y durabilidad para el trabajo rural diario.\nSu diseño alforzado proporciona mayor amplitud y libertad de movimiento, adaptándose a tareas que requieren esfuerzo constante y desplazamientos frecuentes. Incorpora cartera con cierre, cintura con presillas para cinturón y trabillas ajustables con botón en cintura y botamanga, permitiendo un ajuste firme y personalizado.\nLa triple costura en laterales y entrepierna, junto con costuras reforzadas en puntos críticos, garantiza una estructura sólida y mayor vida útil frente al desgaste intensivo.",
+    Especificaciones: "Bombacha alforzada confeccionada en gabardina 8 oz. \nMaterial: 100% algodón. \nPresenta triple costura en laterales y entrepierna, cartera con cierre. \nCintura con presillas para cinturón y trabillas ajustables con botón tanto en la cintura como en la botamanga. \nCosturas reforzadas",
+    Documentacion: [
+    { nombre: "Ficha técnica no disponible"}
+    ],
+    categoria: "Indumentaria",
+    subcategoria: "Bombachas",  
+    marca: "PAMPERO",
+    destacado: false,
+    talles: [38,40,42,44,46,48,50,52,54,56,58,60],
+    colores: [
+      { nombre: "BEIGE", imagenes: ["imagenes/Productos/indumentaria/pantalones/bombalfpampbeige.png"]},
+      { nombre: "VERDE", imagenes: ["imagenes/Productos/indumentaria/pantalones/bombalfpampverde.png"] }
+    ]
+  },
+  {
+    id: "indumentaria-14",
+    nombre: "Buzo Polar Medio Cierre",
+    Descripcion: "El Buzo Polar de Medio Cierre es una prenda ideal para brindar abrigo y comodidad en jornadas laborales o actividades al aire libre. Confeccionado en polar 100% poliéster, ofrece excelente capacidad térmica, suavidad al tacto y secado rápido.\nSu diseño incorpora cuello alto de 9,5 cm con cierre a la vista, permitiendo regular la ventilación según la necesidad y proporcionando mayor protección frente al frío y el viento.",
+    Especificaciones: "Buzo cuello alto 9.5 cm con cierre a la vista. \nComposición: Polar, 100% poliéster.",
+    Documentacion: [
+    { nombre: "Ficha técnica no disponible"}
+    ],
+    categoria: "Indumentaria",
+    subcategoria: "Abrigo",  
+    marca: "PAMPERO",
+    destacado: false,
+    talles: ["S","M","L","XL","XXL","XXXL"],
+    colores: [
+      { nombre: "AZUL", imagenes: ["imagenes/Productos/indumentaria/abrigo/buzomediopampazul.png"]},
+      { nombre: "NEGRO", imagenes: ["imagenes/Productos/indumentaria/abrigo/buzomediopampnegro.png"] }
+    ]
+  },
+  {
+    id: "indumentaria-15",
+    nombre: "Chaleco Polar",
+    Descripcion: "El Chaleco Polar es una prenda versátil y funcional, ideal para brindar abrigo sin limitar la movilidad. Confeccionado en polar 100% poliéster, ofrece excelente aislación térmica, suavidad al tacto y rápido secado, siendo una opción práctica para el trabajo o uso diario.\nSu diseño básico incorpora cuello alto, acceso frontal con cierre a la vista y bolsillos laterales, aportando comodidad y funcionalidad. La etiqueta marcaria Pampero en el lateral refuerza su identidad y calidad.",
+    Especificaciones: "Chaleco básico polar.\nAcceso con cierre a la vista.\nCuello alto y bolsillos laterales.\nEtiqueta marcaria Pampero en el lateral.\nComposición: 100% poliéster.",
+    Documentacion: [
+    { nombre: "Ficha técnica no disponible"}
+    ],
+    categoria: "Indumentaria",
+    subcategoria: "Abrigo",  
+    marca: "PAMPERO",
+    destacado: false,
+    talles: ["S","M","L","XL","XXL","XXXL"],
+    colores: [
+      { nombre: "AZUL", imagenes: ["imagenes/Productos/indumentaria/abrigo/chalecopampazul.png"]},
+      { nombre: "NEGRO", imagenes: ["imagenes/Productos/indumentaria/abrigo/chalecopampnegro.png"] }
+    ]
+  },
+  {
+    id: "indumentaria-16",
+    nombre: "Campera Polar",
+    Descripcion: "La Campera Polar es una prenda térmica diseñada para brindar abrigo, comodidad y funcionalidad en jornadas laborales o actividades al aire libre. Confeccionada en polar 100% poliéster, ofrece excelente capacidad de aislamiento, suavidad al tacto y secado rápido.\nSu diseño incorpora cierre frontal completo, cuello alto para mayor protección contra el frío y bolsillos frontales amplios que aportan practicidad y confort. Los puños elastizados favorecen un mejor ajuste, ayudando a conservar la temperatura corporal.",
+    Especificaciones: "Material Térmico: Polar 100% poliéster, de excelente capacidad aislante y secado rápido.\nCierre Frontal Completo: Sistema de apertura total que facilita la colocación y permite regular la ventilación.\nCuello Alto Protector: Diseñado para resguardar cuello y zona superior del pecho frente al frío y el viento.\nBolsillos Frontales Funcionales: Amplios y prácticos para resguardar manos u objetos personales.\nPuños Elastizados: Mejor ajuste en muñecas para conservar la temperatura corporal.\nLiviana y Versátil: deal para uso laboral, actividades al aire libre o como prenda complementaria en climas fríos.",
+    Documentacion: [
+    { nombre: "Ficha técnica no disponible"}
+    ],
+    categoria: "Indumentaria",
+    subcategoria: "Abrigo",  
+    marca: "PAMPERO",
+    destacado: false,
+    talles: ["S","M","L","XL","XXL","XXXL"],
+    colores: [
+      { nombre: "NEGRO", imagenes: ["imagenes/Productos/indumentaria/abrigo/camperapampnegro.png"] },
+      { nombre: "AZUL", imagenes: ["imagenes/Productos/indumentaria/abrigo/camperapampazul.png"]}
+    ]
+  },
+  {
+    id: "indumentaria-17",
+    nombre: "Campera Softshell",
+    Descripcion: "Esta campera está confeccionada en tela softshell con reflectivo, lo que brinda gran visibilidad de la persona que lo usa. Incluye tres bolsillos y es un modelo al cuerpo, lo que la hace práctica y versátil.",
+    Especificaciones: "Modelo al cuerpo con recortes.\nTres bolsillos.\nEspalda más larga.",
+    Documentacion: [
+    { nombre: "Ficha técnica no disponible"}
+    ],
+    categoria: "Indumentaria",
+    subcategoria: "Abrigo",  
+    marca: "PAMPERO",
+    destacado: false,
+    talles: ["S","M","L","XL","XXL","XXXL"],
+    colores: [
+      { nombre: "GRIS", imagenes: ["imagenes/Productos/indumentaria/abrigo/camperasoftshellgris.png"] },
+      { nombre: "NEGRO", imagenes: ["imagenes/Productos/indumentaria/abrigo/camperasoftshellnegro.png"] },
+      { nombre: "AZUL", imagenes: ["imagenes/Productos/indumentaria/abrigo/camperasoftshellazul.png"]}
     ]
   },
 ];
