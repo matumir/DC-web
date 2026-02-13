@@ -1056,12 +1056,15 @@ function obtenerColorCSS(nombre) {
     beige: "#d6c3a3",
     marron: "rgb(146, 91, 2)",
     blanco: "#fff",
-    azul: "#0038b1",
+    azul: "#002678",
     rojo: "#e53935",
     verde: "#43a047",
     amarillo: "#fdd835",
     naranja: "#fb8c00",
-    azulino: "#318bc8"
+    azulino: "#318bc8",
+    caqui: "#f2debc",
+    "verde oliva": "#495745",
+    "azul marino": "#061534"
   };
 
   return mapa[nombre.toLowerCase()] || "#ccc";
@@ -1273,7 +1276,7 @@ function renderRelacionados() {
   indiceCarrusel = 0;
 
   const relacionadosFiltrados = productos.filter(
-    p => p.categoria === productoActual.categoria && p.id !== productoActual.id
+    p => p.categoria === productoActual.categoria && p.subcategoria === productoActual.subcategoria && p.id !== productoActual.id
   );
 
   relacionadosFiltrados.forEach(p => {

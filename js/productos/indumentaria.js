@@ -312,4 +312,255 @@ const indumentaria = [
       { nombre: "AZUL", imagenes: ["imagenes/Productos/indumentaria/abrigo/camperasoftshellazul.png"]}
     ]
   },
+  {
+    id: "indumentaria-18",
+    nombre: "Camisa Manga Corta",
+    Descripcion: "La Camisa Workwear Manga Corta A/L está confeccionada en sarga 6 oz, un tejido resistente y estable pensado para jornadas reales de trabajo. Incorpora un bolsillo en el pecho con tabla central para mayor funcionalidad y una tabla en la espalda que suma amplitud y comodidad en el calce, logrando un fit clásico pero con movilidad real.\nSu diseño simple, limpio y duradero refleja el ADN industrial de A/L: prendas prácticas, sólidas y preparadas para bancar uso diario sin perder estilo.",
+    Especificaciones: "Tejido Sarga 6 oz: Construcción firme y estable, ideal para soportar el uso intensivo diario sin perder estructura ni forma.\nAlta Resistencia al Desgaste: Tela pensada para jornadas reales de trabajo, con excelente comportamiento frente a la fricción y el lavado frecuente.\nBolsillo Funcional con Tabla Central: Bolsillo en pecho con diseño estructurado que aporta practicidad y refuerzo adicional.\nTabla Trasera para Mayor Movilidad: Detalle en la espalda que mejora la amplitud de movimiento y el confort durante la jornada.\nCalce Clásico con Movimiento Real: Fit tradicional que combina presentación prolija con comodidad activa.\nDiseño Industrial Minimalista: Estética limpia y funcional, alineada al ADN workwear: prendas sólidas, prácticas y preparadas para uso diario.",
+    Documentacion: [
+    { nombre: "Ficha técnica no disponible"}
+    ],
+    categoria: "Indumentaria",
+    subcategoria: "Camisas",  
+    marca: "AIRE LIBRE",
+    destacado: false,
+    talles: ["S","M","L","XL","XXL"],
+    colores: [
+      { nombre: "VERDE OLIVA", imagenes: ["imagenes/Productos/indumentaria/camisas/camisaairelibreverde.png"] },
+      { nombre: "CAQUI", imagenes: ["imagenes/Productos/indumentaria/camisas/camisaairelibrebeige.png","imagenes/Productos/indumentaria/camisas/guicamisamcairelibre.jpg"] },
+    ]
+  },
+  {
+    id: "indumentaria-19",
+    nombre: "Camisa Manga Larga",
+    Descripcion: "La Camisa de Trabajo A/L es un clásico industrial hecho para durar. Confeccionada en sarga de 6 onzas, firme y resistente, ofrece ese equilibrio perfecto entre estructura, comodidad y estilo urbano.\nLos bolsillos con tapa en el pecho suman capacidad real de uso y un look funcional que no falla. Es de esas camisas que sirven para todo: laburo, calle, talleres, bici o días largos donde necesitás una prenda que acompañe sin romperse.\nLínea industrial real, de diseño argentino, con la estética limpia y práctica que distingue a A/L. Hecha acá. Probada donde vos estás.",
+    Especificaciones: "Sarga 6 oz de Alta Resistencia: Tejido firme y estructurado que garantiza durabilidad y excelente comportamiento frente al uso intensivo diario.\nEstructura Equilibrada: Combina solidez y comodidad, permitiendo movilidad sin perder forma ni presencia.\nBolsillos con Tapa en Pecho: Diseño funcional que aporta mayor capacidad de guardado y refuerza el carácter utilitario de la prenda.\nCosturas Reforzadas: Confección pensada para soportar fricción, movimiento constante y lavados frecuentes.\nCalce Clásico Workwear: Fit tradicional con caída recta, adaptable tanto a uso laboral como urbano.\nDiseño Industrial Argentino: Estética limpia, práctica y auténtica, alineada a la identidad A/L: prendas hechas para durar, probadas en el día a día.",
+    Documentacion: [
+    { nombre: "Ficha técnica no disponible"}
+    ],
+    categoria: "Indumentaria",
+    subcategoria: "Camisas",  
+    marca: "AIRE LIBRE",
+    destacado: false,
+    talles: ["S","M","L","XL","XXL"],
+    colores: [
+      { nombre: "VERDE OLIVA", imagenes: ["imagenes/Productos/indumentaria/camisas/camisamlaireverde.png"] },
+      {nombre: "AZUL", imagenes: ["imagenes/Productos/indumentaria/camisas/camisamlaireazul.png"]},
+      { nombre: "CAQUI", imagenes: ["imagenes/Productos/indumentaria/camisas/camisamlairecaqui.png","imagenes/Productos/indumentaria/camisas/guiacamisamlairelibre.png"] },
+    ]
+  },
+  {
+    id: "indumentaria-20",
+    nombre: "Bermuda Cargo",
+    Descripcion: "La Bermuda de Trabajo A/L está confeccionada en gabardina mediana, resistente y estable, ideal para jornadas de uso intensivo. Cuenta con costuras reforzadas que aumentan la durabilidad y soportan tareas exigentes sin perder estructura. Incluye bolsillos cargo traseros con tabla central y bolsillo lateral, pensados para ofrecer mayor capacidad de guardado y funcionalidad real en el día a día.\nEs una prenda firme, práctica y alineada al ADN industrial de A/L: diseño simple, materiales robustos y rendimiento diario asegurado.",
+    Especificaciones: "Gabardina Mediana de Alta Resistencia: Tejido firme y estable, preparado para soportar uso intensivo sin deformarse ni perder estructura.\nCosturas Reforzadas: Confección robusta que incrementa la vida útil de la prenda y resiste tareas exigentes y movimiento constante.\nBolsillos Cargo Funcionales: Bolsillos traseros con tabla central que aportan mayor capacidad y resistencia estructural.\nBolsillo Lateral Utilitario: Diseñado para facilitar el acceso rápido a herramientas u objetos de uso frecuente.\nEstructura Workwear Real: Prenda pensada para acompañar jornadas largas, combinando practicidad, comodidad y durabilidad.",
+    Documentacion: [
+    { nombre: "Ficha técnica no disponible"}
+    ],
+    categoria: "Indumentaria",
+    subcategoria: "Bermudas",  
+    marca: "AIRE LIBRE",
+    destacado: false,
+    talles: [38,40,42,44,46,48,50,52,54,56],
+    colores: [
+      { nombre: "VERDE", imagenes: ["imagenes/Productos/indumentaria/bermudas/bermudacargoalverde.png"] },
+      { nombre: "AZUL", imagenes: ["imagenes/Productos/indumentaria/bermudas/bermudacargoalazul.png"]},
+      { nombre: "CAQUI", imagenes: ["imagenes/Productos/indumentaria/bermudas/bermudacargoalcaqui.png","imagenes/Productos/indumentaria/bermudas/guiabermudacargoal.png"] },
+    ]
+  },
+  {
+    id: "indumentaria-21",
+    nombre: "Pantalón Cargo Sin Pinzas",
+    Descripcion: "El Pantalón de Trabajo A/L está confeccionado en sarga de 8 onzas, un tejido resistente pensado para soportar uso intenso sin perder comodidad. Sus costuras reforzadas garantizan durabilidad en las zonas más exigidas, mientras que los bolsillos cargo y los bolsillos traseros con tabla ofrecen gran capacidad de guardado, perfectos para herramientas, accesorios o lo que necesites tener a mano durante la jornada.\nEs un pantalón robusto, práctico y con una estética industrial que también encaja perfecto en looks urbanos. Diseño simple, funcionalidad real y la solidez A/L en cada detalle.",
+    Especificaciones: "Sarga 8 oz de Alta Resistencia: Tejido firme y estructurado, diseñado para soportar uso intensivo sin comprometer comodidad ni movilidad.\nDiseño Sin Pinzas: Corte recto y limpio que aporta mayor libertad de movimiento y una estética más moderna y versátil.\nCosturas Reforzadas: Refuerzos en puntos de mayor tensión que incrementan la durabilidad y resistencia al desgaste diario.\nBolsillos Cargo Funcionales: Amplia capacidad de guardado para herramientas y accesorios de uso frecuente.\nBolsillos Traseros con Tabla: Estructura reforzada que mejora la resistencia y funcionalidad.\nEstética Industrial Versátil: Prenda robusta y práctica que funciona tanto en entornos laborales como en looks urbanos.",
+    Documentacion: [
+    { nombre: "Ficha técnica no disponible"}
+    ],
+    categoria: "Indumentaria",
+    subcategoria: "Pantalones",  
+    marca: "AIRE LIBRE",
+    destacado: false,
+    talles: [38,40,42,44,46,48,50,52,54,56,58,60],
+    colores: [
+      { nombre: "CAQUI", imagenes: ["imagenes/Productos/indumentaria/pantalones/sinpinzascaqui.png"] },
+      { nombre: "AZUL", imagenes: ["imagenes/Productos/indumentaria/pantalones/sinpinzasazul.png"]},
+      { nombre: "VERDE", imagenes: ["imagenes/Productos/indumentaria/pantalones/sinpinzasverde.png","imagenes/Productos/indumentaria/pantalones/guiasinpinzas.webp"] },
+    ]
+  },
+  {
+    id: "indumentaria-22",
+    nombre: "Pantalón Cargo Elastizado",
+    Descripcion: "El Pantalón Prelavado A/L está confeccionado en un tejido elastizado que combina comodidad, resistencia y libertad de movimiento desde el primer uso. Su cintura continua con cuerpo asegura un calce firme y prolijo, ideal para jornadas largas o rutinas activas.\nLos recortes en rodillas con pinzas están diseñados para acompañar el movimiento natural del cuerpo, aportando mayor ergonomía y confort. La funcionalidad se completa con una variedad de bolsillos bien resueltos: un bolsillo ojal en la pierna izquierda, bolsillos cargo con fuelle y tapas con broches ocultos, y bolsillos traseros internos, también con broches ocultos, que mantienen una estética limpia y técnica a la vez.\nEl prelavado del tejido le da una textura más relajada y una sensación de uso inmediato, logrando un pantalón versátil para trabajo, ciudad o planes donde necesitás resistencia sin perder estilo.",
+    Especificaciones: "Tejido Elastizado de Alto Confort: Material flexible que aporta libertad de movimiento, mejor adaptación al cuerpo y comodidad desde el primer uso.\nProceso Prelavado: Acabado que otorga textura más relajada, tacto suave y sensación de uso inmediato sin comprometer resistencia.\nCintura Continua con Cuerpo: Estructura firme y prolija que mejora el calce y aporta mayor estabilidad durante la jornada.\nRecortes Ergonómicos en Rodilla con Pinzas: Diseño técnico que acompaña el movimiento natural, aumentando confort y movilidad en tareas activas.",
+    Documentacion: [
+    { nombre: "Ficha técnica no disponible"}
+    ],
+    categoria: "Indumentaria",
+    subcategoria: "Pantalones",  
+    marca: "AIRE LIBRE",
+    destacado: false,
+    talles: [38,40,42,44,46,48,50,52,54,56],
+    colores: [
+      { nombre: "NEGRO", imagenes: ["imagenes/Productos/indumentaria/pantalones/cargoelastizadoalnegro.png"] },
+      { nombre: "AZUL", imagenes: ["imagenes/Productos/indumentaria/pantalones/cargoelastizadoalazul.png"]},
+      { nombre: "VERDE", imagenes: ["imagenes/Productos/indumentaria/pantalones/cargoelastizadoalverde.png","imagenes/Productos/indumentaria/pantalones/guiacargoelastizadoal.webp"] },
+    ]
+  },
+  {
+    id: "indumentaria-23",
+    nombre: "Camperón Trucker",
+    Descripcion: "El Camperón Trucker está confeccionado en resistente tela Trucker, pensado para brindar abrigo y protección en climas fríos. Incorpora forro matelaseado en tafeta con guata de 200 g, ofreciendo excelente aislación térmica.\nCuenta con cuello alto, capucha desmontable y tapa cierre para mayor resguardo frente al viento. Los puños de ribb, bolsillos tipo ojal, bolsillo interno y ajuste con cordón completan un diseño funcional y cómodo.\nUna prenda robusta y versátil, ideal para trabajo o uso diario en invierno.",
+    Especificaciones: "Confeccionado en tela Trucker\nForro matelaseado en tafeta.\nEntretela de guata 200 gr.\nCuello Alto.\nCapucha desmontable.\nTapa cierre.\nPuños de ribb.\nBolsillos ojal y bolsillo interno.\nAjustable con cordón.",
+    Documentacion: [
+    { nombre: "Ficha técnica no disponible"}
+    ],
+    categoria: "Indumentaria",
+    subcategoria: "Abrigo",  
+    marca: "GUADAL",
+    destacado: false,
+    talles: ["S","M","L","XL","XXL","XXXL"],
+    colores: [
+      { nombre: "BLANCO", imagenes: ["imagenes/Productos/indumentaria/abrigo/camperontruckerblanco.png"] },
+      { nombre: "NEGRO", imagenes: ["imagenes/Productos/indumentaria/abrigo/camperontruckernegro.png"]},
+      { nombre: "AZUL", imagenes: ["imagenes/Productos/indumentaria/abrigo/camperontruckerazul.png"] },
+    ]
+  },
+  {
+    id: "indumentaria-24",
+    nombre: "Chaleco Trucker",
+    Descripcion: "El Chaleco Trucker está confeccionado en resistente tela Trucker, ideal para brindar abrigo sin limitar la movilidad. Incorpora forro matelaseado en tafeta con guata de 200 g, asegurando excelente aislación térmica en climas fríos.\nSu diseño incluye cuello alto y cierre a la vista, además de laterales elastizados en cintura que mejoran el ajuste y la comodidad. Cuenta con dos bolsillos externos laterales y un bolsillo interno, ofreciendo practicidad y funcionalidad para el uso diario.",
+    Especificaciones: "Confeccionado en tela Trucker\nForro matelaseado en Tafeta\nEntretela de guata 200 gr.\nCuello alto.\nCierre a la vista.\nCintura con laterales elastizados.\nDos bolsillos externos laterales y uno interno.",
+    Documentacion: [
+    { nombre: "Ficha técnica no disponible"}
+    ],
+    categoria: "Indumentaria",
+    subcategoria: "Abrigo",  
+    marca: "GUADAL",
+    destacado: false,
+    talles: ["S","M","L","XL","XXL","XXXL"],
+    colores: [
+      { nombre: "NEGRO", imagenes: ["imagenes/Productos/indumentaria/abrigo/chalecotruckernegro.png"]},
+      { nombre: "AZUL", imagenes: ["imagenes/Productos/indumentaria/abrigo/chalecotruckerazul.png"] },
+    ]
+  },
+  {
+    id: "indumentaria-25",
+    nombre: "Mameluco Trucker",
+    Descripcion: "El Mameluco Trucker está confeccionado en resistente tela Trucker y forrado con guata matelaseada de 200 g, brindando excelente protección térmica para trabajos en condiciones frías.\nIncorpora cuello alto y capucha desmontable para mayor versatilidad, además de tapa cierre que mejora la protección contra el viento. Su diseño funcional incluye manga ranglan para mayor movilidad, puños ribb, cintura elastizada y cierre en botamangas, asegurando ajuste y confort durante toda la jornada.\nCuenta con bolsillos plaque laterales, aportando practicidad y capacidad de guardado.",
+    Especificaciones: "Confeccionado en tela Trucker\nForrado con guata matelaseada de 200 gr\nCuello alto\nCapucha desmontable\nPuños ribb\nCintura elastizada\nTapa cierre\nManga ranglan\nBolsillos plaque en laterales\nCierre en botamangas",
+    Documentacion: [
+    { nombre: "Ficha técnica no disponible"}
+    ],
+    categoria: "Indumentaria",
+    subcategoria: "Abrigo",  
+    marca: "GUADAL",
+    destacado: false,
+    talles: ["S","M","L","XL","XXL","XXXL"],
+    colores: [
+      { nombre: "AZUL", imagenes: ["imagenes/Productos/indumentaria/abrigo/mamelucotrucker1.png","imagenes/Productos/indumentaria/abrigo/mamelucotrucker2.png"] },
+    ]
+  },
+  {
+    id: "indumentaria-26",
+    nombre: "Camiseta Térmica Primera Piel",
+    Descripcion: "La Primera Piel está diseñada para acompañar cada movimiento con comodidad y rendimiento: confeccionada en microfibra de poliéster 100%, ofrece transporte de humedad hacia el exterior, secado rápido y excelente respirabilidad, manteniendo la piel siempre seca y fresca; sus microcámaras de aire generan una termorregulación natural que conserva el calor corporal cuando es necesario, convirtiéndola en una prenda ligera, durable y fácil de cuidar, ideal para largas jornadas y actividades que exigen confort y protección constante.",
+    Especificaciones: "Microfibra 100% Poliéster: Tejido liviano y resistente que brinda suavidad al contacto con la piel y excelente durabilidad.\nTransporte de Humedad: Sistema que expulsa la transpiración hacia el exterior, ayudando a mantener la piel seca durante toda la jornada.\nSecado Rápido: Material de rápida evaporación que mejora el confort en actividades intensas o climas variables.\nAlta Respirabilidad: Permite la circulación del aire, evitando acumulación de calor y humedad.\nTermorregulación Natural: Microcámaras de aire que conservan el calor corporal cuando es necesario, manteniendo equilibrio térmico.\nLigera y de Fácil Mantenimiento: Prenda liviana, resistente al uso frecuente y de sencillo cuidado.\nIdeal como Primera Capa: Diseñada para usarse en contacto directo con la piel, aportando confort y protección constante.",
+    Documentacion: [
+    { nombre: "Ficha técnica no disponible"}
+    ],
+    categoria: "Indumentaria",
+    subcategoria: "Abrigo",  
+    marca: "CAS",
+    destacado: false,
+    talles: ["S","M","L","XL","XXL","XXXL"],
+    colores: [
+      { nombre: "NEGRO", imagenes: ["imagenes/Productos/indumentaria/abrigo/termicacas1.png","imagenes/Productos/indumentaria/abrigo/termicacas2.png"] },
+    ]
+  },
+  {
+    id: "indumentaria-27",
+    nombre: "Traje Ejecutivo Para Lluvia",
+    Descripcion: "El TRAJE DE AGUA OMBU fue desarrollado para realizar actividades al aire libre, donde se requiera estar protegido del agua y la humedad. Los materiales que lo componen son flexibles, resistentes, y de excelente calidad. Debido a las características de la tela resulta muy liviano y ocupa muy poco espacio presentándose en un practico estuche con cierre.\nIdeal para actividades como: Pesca, Náutica, Camping, Caza, Fumigación, Lavaderos, Tareas Rurales, entre otras.\nConfeccionados en PVC y Poliéster, la tela de esta prenda, además de brindar protección contra el agua y la humedad, ofrece mucha comodidad, por su textura suave y liviana. Una contribución importante a la impermeabilidad del traje de agua compacto es la costura cosida y sellada, la cual le otorga excelente terminación y calidad.",
+    Especificaciones: "Espesor 18 micrones\nChaqueta con capucha fija incorporada en el cuello\nDoble cierre con solapa y broches a presión\nVentilación en axilas y espalda\nPantalón con elástico en la cintura\nBotamanga ajustable con broches a presión\nDoble puño\nDos bolsillos con solapa\nDos bolsillos pasamanos",
+    Documentacion: [
+    { nombre: "Ficha técnica no disponible"}
+    ],
+    categoria: "Indumentaria",
+    subcategoria: "Para Lluvia",  
+    marca: "OMBU",
+    destacado: false,
+    talles: ["M","L","XL","XXL","XXXL","4XL"],
+    colores: [
+      { nombre: "AZUL MARINO", imagenes: ["imagenes/Productos/indumentaria/lluvia/trajeejecutivo1.png","imagenes/Productos/indumentaria/lluvia/trajeejecutivo2.png","imagenes/Productos/indumentaria/lluvia/guiatrajeejecutivoombu.png"] },
+    ]
+  },
+  {
+    id: "indumentaria-28",
+    nombre: "Capa de Lluvia",
+    Descripcion: "La Capa de lluvia OMBU fue desarrollada para realizar actividades al aire libre, donde se requiera estar protegido del agua y la humedad. Los materiales que la componen son flexibles, resistentes y de excelente calidad. Debido a las características de la tela, resulta muy liviana y ocupa muy poco espacio.",
+    Especificaciones: "Confeccionado en PVC / Poliéster / PVC 32 Micrones\nMás liviano y flexible\nCosturas selladas\nBotones de cierre\nCapucha desmontable",
+    Documentacion: [
+    { nombre: "Ficha técnica no disponible"}
+    ],
+    categoria: "Indumentaria",
+    subcategoria: "Para Lluvia",  
+    marca: "OMBU",
+    destacado: false,
+    talles: ["M","L","XL","XXL","XXXL"],
+    colores: [
+      { nombre: "AMARILLO", imagenes: ["imagenes/Productos/indumentaria/lluvia/capadelluvia1.png","imagenes/Productos/indumentaria/lluvia/capadelluvia2.png","imagenes/Productos/indumentaria/lluvia/guiacapadelluvia.png"] },
+    ]
+  },
+  {
+    id: "indumentaria-28",
+    nombre: "Traje de Lluvia",
+    Descripcion: "El Traje de Lluvia en PVC 32 micrones está diseñado para brindar protección total frente a la lluvia y la humedad en entornos laborales exigentes. Confeccionado en material impermeable de alta resistencia, ofrece una barrera eficaz contra el agua sin comprometer funcionalidad.\nLa chaqueta incorpora capucha desmontable, sistema de ventilación con red, cierre frontal y puños elásticos, permitiendo mayor confort y adaptación según las condiciones climáticas. El jardinero cuenta con broches en la bragueta y botamangas, además de refuerzo en la entrepierna, asegurando durabilidad en zonas de mayor movimiento.",
+    Especificaciones: "PVC 32 Micrones de Alta Impermeabilidad: Material resistente que brinda protección total frente a lluvia y humedad constante.\nProtección Integral: Conjunto compuesto por chaqueta y jardinero para cobertura completa del cuerpo.\nChaqueta con Capucha Desmontable: Permite adaptarse a distintas condiciones climáticas y necesidades de uso.\nSistema de Ventilación con Red: Favorece la circulación de aire interior, reduciendo la condensación y mejorando el confort.\nCierre Frontal Seguro: Facilita la colocación y asegura protección frente al ingreso de agua.\nPuños Elásticos: Mejor ajuste en muñecas para evitar filtraciones.\nJardinero con Broches en Bragueta y Botamangas: Ajuste práctico y mayor protección en zonas expuestas.\nRefuerzo en Entrepierna: Mayor resistencia en área de alta exigencia y movimiento constante.",
+    Documentacion: [
+    { nombre: "Ficha técnica no disponible"}
+    ],
+    categoria: "Indumentaria",
+    subcategoria: "Para Lluvia",  
+    marca: "OMBU",
+    destacado: false,
+    talles: ["M","L","XL","XXL","XXXL"],
+    colores: [
+      { nombre: "AMARILLO", imagenes: ["imagenes/Productos/indumentaria/lluvia/trajedelluvia.png"] },
+    ]
+  },
+  {
+    id: "indumentaria-29",
+    nombre: "Poncho Resero PVC",
+    Descripcion: "El Poncho Resero de PVC está diseñado para brindar protección total contra la lluvia en actividades rurales y trabajos a la intemperie. Confeccionado en poliéster recubierto en PVC de 0,18 mm de espesor, ofrece resistencia, flexibilidad y cobertura amplia frente a condiciones climáticas adversas.\nSus costuras cosidas y termoselladas garantizan impermeabilidad 100%, evitando filtraciones incluso bajo lluvias intensas. Incorpora capucha integrada con cordón de ajuste, cuello regulable con broches a presión y ventilación en axilas, mejorando el confort durante el uso prolongado.\nCon una amplitud de 4,50 metros, brinda excelente cobertura y libertad de movimiento. Diseño unisex, práctico y robusto, ideal para el campo y tareas al aire libre.",
+    Especificaciones: "Material: Poliester y PVC\nEspesor: 0.18mm\nCosturas cosidas y termoselladas\n100% Impermeable\nUnisex\nCapucha incorporada en el cuero con cordón de ajuste\nCuello ajustable con broches a presión\nVentilación en acilas\nAMPLITUD: 4.50mts",
+    Documentacion: [
+    { nombre: "Ficha técnica no disponible"}
+    ],
+    categoria: "Indumentaria",
+    subcategoria: "Para Lluvia",  
+    marca: "Genérico",
+    destacado: false,
+    talles: ["ÚNICO"],
+    colores: [
+      { nombre: "NEGRO", imagenes: ["imagenes/Productos/indumentaria/lluvia/resero.png"] },
+    ]
+  },
+  {
+    id: "indumentaria-30",
+    nombre: "Poncho Liviano PVC",
+    Descripcion: "El Poncho Liviano de PVC es una capa de lluvia práctica y funcional, ideal para situaciones de emergencia o uso eventual. Confeccionado en PVC 100% impermeable, brinda protección efectiva frente a la lluvia sin agregar peso innecesario.\nSu material más liviano y flexible permite guardarlo y transportarlo fácilmente, convirtiéndolo en una opción conveniente para tener siempre a mano. Gracias a su diseño amplio, ofrece buena cobertura y comodidad durante el uso.",
+    Especificaciones: "PVC 100% Impermeable: Material resistente al agua que garantiza protección frente a lluvia y humedad.\nDiseño Liviano y Flexible: Fácil de plegar y transportar, ideal para uso eventual o de emergencia.\nMedidas Amplias: 95 cm de largo x 122 cm de ancho, proporcionando cobertura adecuada del torso y parte superior del cuerpo.\nUso Práctico y Rápido: Colocación sencilla para protección inmediata ante cambios climáticos.\nIdeal para Emergencias: Recomendado para actividades al aire libre, eventos, viajes o situaciones imprevistas.",
+    Documentacion: [
+    { nombre: "Ficha técnica no disponible"}
+    ],
+    categoria: "Indumentaria",
+    subcategoria: "Para Lluvia",  
+    marca: "Genérico",
+    destacado: false,
+    talles: ["ÚNICO"],
+    colores: [
+      { nombre: "AZUL", imagenes: ["imagenes/Productos/indumentaria/lluvia/poncho1.png"] },
+      { nombre: "VERDE", imagenes: ["imagenes/Productos/indumentaria/lluvia/poncho2.png"]}
+    ]
+  },
 ];
