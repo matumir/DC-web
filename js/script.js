@@ -72,7 +72,7 @@ const categoriasHome = [
   { nombre: "Protección en altura", img: "imagenes/logos/altura.png" },
   { nombre: "Protección craneal", img: "imagenes/logos/craneal.png" },
   { nombre: "Protección facial", img: "imagenes/logos/facial.png" },
-  { nombre: "Protección auditiva", img: "imagenes/categorias/accesorios.png" },
+  { nombre: "Protección auditiva", img: "imagenes/logos/auditiva.png" },
   { nombre: "Protección ocular", img: "imagenes/categorias/accesorios.png" },
 ];
 const marcas = [
@@ -1655,7 +1655,9 @@ document.querySelectorAll(".menu-link").forEach(btn => {
     if (target === "productos" && typeof mostrarProductos === "function") {
       mostrarProductos();
     }
-
+    if (target === "nosotros" && typeof mostrarNosotros === "function") {
+      mostrarNosotros();
+    }
     menuMobile.classList.remove("activo");
   });
 });
