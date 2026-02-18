@@ -4,7 +4,9 @@ const productos = [
   ...calzado,
   ...guantes,
   ...indumentaria,
-  ...altura
+  ...altura,
+  ...craneal,
+  ...facial
 ];
 
 console.log("Productos unificados:", productos);

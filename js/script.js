@@ -70,8 +70,8 @@ const categoriasHome = [
   { nombre: "Guantes", img: "imagenes/logos/logoguantes.png" },
   { nombre: "Indumentaria", img: "imagenes/logos/camisin.png" },
   { nombre: "Protección en altura", img: "imagenes/logos/altura.png" },
-  { nombre: "Protección craneal", img: "imagenes/categorias/accesorios.png" },
-  { nombre: "Protección facial", img: "imagenes/categorias/accesorios.png" },
+  { nombre: "Protección craneal", img: "imagenes/logos/craneal.png" },
+  { nombre: "Protección facial", img: "imagenes/logos/facial.png" },
   { nombre: "Protección auditiva", img: "imagenes/categorias/accesorios.png" },
   { nombre: "Protección ocular", img: "imagenes/categorias/accesorios.png" },
 ];

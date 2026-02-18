@@ -85,7 +85,7 @@ const altura = [
     ]
   },
   {
-    id: "altura-5",
+    id: "altura-6",
     nombre: "Cinturón liniero",
     Descripcion: "Composición del soporte principal : Acero - poliéster | Hebilla manual | Puntos de anclaje de sujeción de trabajo : 2 - laterales",
     Especificaciones: "Número de puntos de anclaje de sujeción de trabajo : 2\nPuntos de anclaje de sujeción de trabajo : laterales",
@@ -102,7 +102,7 @@ const altura = [
     ]
   },
   {
-    id: "altura-6",
+    id: "altura-7",
     nombre: "Cabo de vida de cinta CV21",
     Descripcion: "Composición del soporte principal : Acero - poliéster | Tamaño mínimo del elemento de amarre : 1 m | Tamaño máximo del elemento de amarre : 1,5 m",
     Especificaciones: "Tipo de equipamiento : Eslinga de cinta plana",
@@ -119,7 +119,7 @@ const altura = [
     ]
   },
   {
-    id: "altura-7",
+    id: "altura-8",
     nombre: "Cabo de vida de cinta CV1020",
     Descripcion: "Composición del soporte principal : Acero - poliéster | Hebilla manual - Acero | Tamaño mínimo del elemento de amarre : 1,2 m | Tamaño máximo del elemento de amarre : 2 m",
     Especificaciones: "Tipo de equipamiento : Eslinga de cinta plana",
@@ -133,6 +133,74 @@ const altura = [
     talles: ["ÚNICO"],
     imagenes: [
       "imagenes/Productos/altura/cinturones/cv1020.png"
+    ]
+  },
+  {
+    id: "altura-9",
+    nombre: "Cabo de vida de cinta CV1020A",
+    Descripcion: "Composición del soporte principal : Acero - poliéster | Hebilla manual | Tamaño mínimo del elemento de amarre : 1,3 m | Tamaño máximo del elemento de amarre : 2 m | Compatibilidad : Compatible con todo tipo de arneses",
+    Especificaciones: "Tipo de equipamiento : Absorbedor de energía en cincha cabestro",
+    Documentacion: [
+    { nombre: "Ficha técnica", url: "/fichas/altura/deltaplus/ficha cv1020a.pdf"}
+    ],
+    categoria: "Protección en altura",
+    subcategoria: "Cinturones / Cabos",  
+    marca: "DELTA PLUS",
+    destacado: false,
+    talles: ["ÚNICO"],
+    imagenes: [
+      "imagenes/Productos/altura/cinturones/cv1020a.png"
+    ]
+  },
+  {
+    id: "altura-10",
+    nombre: "Cabo de vida de cinta CV21A",
+    Descripcion: "Composición del soporte principal : Acero - poliéster | Tamaño máximo del elemento de amarre : 1,5 m | Compatibilidad : Compatible con todo tipo de arneses",
+    Especificaciones: "Tipo de equipamiento : Absorbedor de energía en cincha cabestro",
+    Documentacion: [
+    { nombre: "Ficha técnica", url: "/fichas/altura/deltaplus/ficha cv21a.pdf"}
+    ],
+    categoria: "Protección en altura",
+    subcategoria: "Cinturones / Cabos",  
+    marca: "DELTA PLUS",
+    destacado: false,
+    talles: ["ÚNICO"],
+    imagenes: [
+      "imagenes/Productos/altura/cinturones/cv21a.png"
+    ]
+  },
+  {
+    id: "altura-11  ",
+    nombre: "Cabo de vida de cinta CV1026EA",
+    Descripcion: "Composición del soporte principal : Acero - poliéster | Largo : 1,5 m | Compatibilidad : Compatible con todo tipo de arneses",
+    Especificaciones: "Tipo de equipamiento : Cinta elástica, hebillas acanaladas",
+    Documentacion: [
+    { nombre: "Ficha técnica", url: "/fichas/altura/deltaplus/ficha cv1026ea.pdf"}
+    ],
+    categoria: "Protección en altura",
+    subcategoria: "Cinturones / Cabos",  
+    marca: "DELTA PLUS",
+    destacado: false,
+    talles: ["ÚNICO"],
+    imagenes: [
+      "imagenes/Productos/altura/cinturones/cv1026ea1.png","imagenes/Productos/altura/cinturones/cv1026ea2.png"
+    ]
+  },
+  {
+    id: "altura-12  ",
+    nombre: "Cabo de vida de cinta CV1026AC",
+    Descripcion: "Composición del soporte principal : Acero - poliéster | Tamaño máximo del elemento de amarre : 1,5 m",
+    Especificaciones: "Longitud máxima (m) : 1,5 m",
+    Documentacion: [
+    { nombre: "Ficha técnica", url: "/fichas/altura/deltaplus/ficha cv1026ac.pdf"}
+    ],
+    categoria: "Protección en altura",
+    subcategoria: "Cinturones / Cabos",  
+    marca: "DELTA PLUS",
+    destacado: false,
+    talles: ["ÚNICO"],
+    imagenes: [
+      "imagenes/Productos/altura/cinturones/cv1026ac.png"
     ]
   },
 ];
