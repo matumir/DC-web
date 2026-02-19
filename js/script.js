@@ -73,7 +73,7 @@ const categoriasHome = [
   { nombre: "Protección craneal", img: "imagenes/logos/craneal.png" },
   { nombre: "Protección facial", img: "imagenes/logos/facial.png" },
   { nombre: "Protección auditiva", img: "imagenes/logos/auditiva.png" },
-  { nombre: "Protección ocular", img: "imagenes/categorias/accesorios.png" },
+  { nombre: "Protección ocular", img: "imagenes/logos/ocular.png" },
 ];
 const marcas = [
   {nombre: 'OMBU', imagen: 'imagenes/marcas/ombu.png'},
