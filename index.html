@@ -159,6 +159,7 @@
   </div>
 </section>
 <section id="destacados">
+  <div class="divisor"></div>
   <h2>Artículos destacados</h2>
   <div class="destacados-container">
     <button class="flecha-destacados izquierda" onclick="moverDestacados(-1)">❮</button>
@@ -169,6 +170,7 @@
   </div>
 </section>
 <section id="inicio-marcas" class="marcas">
+  <div class="divisor"></div>
   <h3>Marcas que trabajamos</h3>
 
   <div class="marcas-carrusel">
@@ -305,6 +307,7 @@
           <option value="Protección facial">Protección facial</option>
           <option value="Protección auditiva">Protección auditiva</option>
           <option value="Protección ocular">Protección ocular</option>
+          <option value="Sujeción de cargas">Sujeción de cargas</option>
         </select>
       </div>
       <div class="filtro">
@@ -379,7 +382,7 @@
       </div>
 
 
-<div class="campo-detalle">
+<div class="campo-detalle" id="campoColor">
   <label id="labelColor">Color</label>
   <div id="coloresProducto" class="colores-producto oculto"></div>
 </div>
@@ -425,7 +428,8 @@
 </div>
 
   <div id="relacionados">
-  <h3>Productos relacionados</h3>
+    <div class="divisor"></div>
+  <h3>También te puede interesar ⬇️</h3>
   <div class="carrusel-container">
     <button class="flecha-carrusel izquierda" onclick="moverCarrusel(-1)">❮</button>
     <div class="carrusel">
@@ -460,6 +464,7 @@
 <script src="js/productos/facial.js"></script>
 <script src="js/productos/auditiva.js"></script>
 <script src="js/productos/ocular.js"></script>
+<script src="js/productos/cargas.js"></script>
 <script src="js/productos.js"></script>
 
 <!-- LÓGICA -->

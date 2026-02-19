@@ -74,6 +74,7 @@ const categoriasHome = [
   { nombre: "Protección facial", img: "imagenes/logos/facial.png" },
   { nombre: "Protección auditiva", img: "imagenes/logos/auditiva.png" },
   { nombre: "Protección ocular", img: "imagenes/logos/ocular.png" },
+  { nombre: "Sujeción de cargas", img: "imagenes/logos/cargas.png" }
 ];
 const marcas = [
   {nombre: 'OMBU', imagen: 'imagenes/marcas/ombu.png'},
@@ -1001,17 +1002,21 @@ function prepararCantidad() {
 }
 
 function prepararColores() {
- document.getElementById("labelColor").style.display = "block";
- 
+  const labelColor = document.getElementById("labelColor");
   coloresProducto.innerHTML = "";
 
+  // 🔴 SI NO TIENE COLORES → OCULTAR TODO
   if (!productoActual.colores || productoActual.colores.length === 0) {
     coloresProducto.classList.add("oculto");
+    labelColor.classList.add("oculto");
     colorSeleccionado = null;
     return;
   }
 
+  // 🟢 SI TIENE COLORES → MOSTRAR TODO
   coloresProducto.classList.remove("oculto");
+  labelColor.classList.remove("oculto");
+
   colorSeleccionado = 0;
 
   productoActual.colores.forEach((color, index) => {
@@ -1024,30 +1029,31 @@ function prepararColores() {
     if (index === 0) item.classList.add("activo");
 
     item.onclick = () => {
-  colorSeleccionado = index;
+      colorSeleccionado = index;
 
-  document
-    .querySelectorAll(".color-item")
-    .forEach(c => c.classList.remove("activo"));
+      document
+        .querySelectorAll(".color-item")
+        .forEach(c => c.classList.remove("activo"));
 
-  item.classList.add("activo");
+      item.classList.add("activo");
 
-  const primeraImgColor = galeriaImagenes.findIndex(
-    img => img.colorIndex === index
-  );
+      const primeraImgColor = galeriaImagenes.findIndex(
+        img => img.colorIndex === index
+      );
 
-  if (primeraImgColor !== -1) {
-    imagenIndex = primeraImgColor;
-    cargarImagenPrincipal();
-    cargarMiniaturas();
-  }
+      if (primeraImgColor !== -1) {
+        imagenIndex = primeraImgColor;
+        cargarImagenPrincipal();
+        cargarMiniaturas();
+      }
 
-  actualizarBadgeColor();
-};
+      actualizarBadgeColor();
+    };
 
     coloresProducto.appendChild(item);
   });
 }
+
 function obtenerColorCSS(nombre) {
   const mapa = {
     negro: "#000",

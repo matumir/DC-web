@@ -11,7 +11,7 @@ const craneal = [
     subcategoria: "Cascos",  
     marca: "LIBUS",
     destacado: false,
-    talles: ["ÚNICO"],
+    
     colores: [
       { nombre: "AMARILLO", imagenes: ["imagenes/Productos/craneal/cascoamarillo.png"] },
       { nombre: "AZUL", imagenes: ["imagenes/Productos/craneal/cascoazul.png"] },
@@ -33,7 +33,7 @@ const craneal = [
     subcategoria: "Cascos",  
     marca: "LIBUS",
     destacado: false,
-    talles: ["ÚNICO"],
+    
     imagenes: [
       "imagenes/Productos/craneal/gorracasquete1.png","imagenes/Productos/craneal/gorracasquete2.png"
     ]

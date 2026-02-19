@@ -11,7 +11,7 @@ const facial = [
     subcategoria: "Protectores faciales",  
     marca: "FRAVIDA",
     destacado: false,
-    talles: ["ÚNICO"],
+    
     imagenes: [
       "imagenes/Productos/facial/20201.png","imagenes/Productos/facial/20202.png","imagenes/Productos/facial/20203.png"
     ]
@@ -28,7 +28,7 @@ const facial = [
     subcategoria: "Soldadura",  
     marca: "FRAVIDA",
     destacado: false,
-    talles: ["ÚNICO"],
+    
     imagenes: [
       "imagenes/Productos/facial/2550.png"
     ]
@@ -45,7 +45,7 @@ const facial = [
     subcategoria: "Soldadura",  
     marca: "FRAVIDA",
     destacado: false,
-    talles: ["ÚNICO"],
+    
     imagenes: [
       "imagenes/Productos/facial/2560.png"
     ]
@@ -62,7 +62,7 @@ const facial = [
     subcategoria: "Soldadura",  
     marca: "FRAVIDA",
     destacado: false,
-    talles: ["ÚNICO"],
+    
     imagenes: [
       "imagenes/Productos/facial/2570.png"
     ]
@@ -79,7 +79,7 @@ const facial = [
     subcategoria: "Soldadura",  
     marca: "BLACK PANTHER",
     destacado: false,
-    talles: ["ÚNICO"],
+    
     imagenes: [
       "imagenes/Productos/facial/mascara1.png","imagenes/Productos/facial/mascara2.png"
     ]
@@ -96,7 +96,7 @@ const facial = [
     subcategoria: "Protectores faciales",  
     marca: "LIBUS",
     destacado: false,
-    talles: ["ÚNICO"],
+    
     imagenes: [
       "imagenes/Productos/facial/soporte.png"
     ]
@@ -113,7 +113,7 @@ const facial = [
     subcategoria: "Protectores faciales",  
     marca: "LIBUS",
     destacado: false,
-    talles: ["ÚNICO"],
+    
     imagenes: [
       "imagenes/Productos/facial/protec2.png","imagenes/Productos/facial/protec1.png"
     ]

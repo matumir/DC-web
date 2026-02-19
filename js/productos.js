@@ -8,7 +8,8 @@ const productos = [
   ...craneal,
   ...facial,
   ...auditiva,
-  ...ocular
+  ...ocular,
+  ...cargas
 ];
 
 console.log("Productos unificados:", productos);

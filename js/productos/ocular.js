@@ -11,7 +11,7 @@ const ocular = [
     subcategoria: "Anteojos",  
     marca: "LIBUS",
     destacado: false,
-    talles: ["ÚNICO"],
+    
     imagenes: [
       "imagenes/Productos/ocular/argon.png","imagenes/Productos/ocular/argon2.png","imagenes/Productos/ocular/argon3.png"
     ]
@@ -28,7 +28,7 @@ const ocular = [
     subcategoria: "Anteojos",  
     marca: "LIBUS",
     destacado: false,
-    talles: ["ÚNICO"],
+    
     imagenes: [
       "imagenes/Productos/ocular/ecoline.png","imagenes/Productos/ocular/ecoline2.png","imagenes/Productos/ocular/ecoline3.png"
     ]
@@ -45,7 +45,7 @@ const ocular = [
     subcategoria: "Anteojos",  
     marca: "LIBUS",
     destacado: false,
-    talles: ["ÚNICO"],
+    
     imagenes: [
       "imagenes/Productos/ocular/hayat.png","imagenes/Productos/ocular/hayat2.png","imagenes/Productos/ocular/haya3.png"
     ]
@@ -62,7 +62,7 @@ const ocular = [
     subcategoria: "Anteojos",  
     marca: "LIBUS",
     destacado: false,
-    talles: ["ÚNICO"],
+    
     imagenes: [
       "imagenes/Productos/ocular/argonelite.png","imagenes/Productos/ocular/argonelite2.png","imagenes/Productos/ocular/argonelite3.png"
     ]
@@ -79,7 +79,7 @@ const ocular = [
     subcategoria: "Anteojos",  
     marca: "STEELPRO",
     destacado: false,
-    talles: ["ÚNICO"],
+    
     imagenes: [
       "imagenes/Productos/ocular/demon.png"
     ]
@@ -96,7 +96,7 @@ const ocular = [
     subcategoria: "Anteojos",  
     marca: "STEELPRO",
     destacado: false,
-    talles: ["ÚNICO"],
+    
     imagenes: [
       "imagenes/Productos/ocular/nitro.png"
     ]
@@ -113,7 +113,7 @@ const ocular = [
     subcategoria: "Antiparras",  
     marca: "STEELPRO",
     destacado: false,
-    talles: ["ÚNICO"],
+    
     imagenes: [
       "imagenes/Productos/ocular/everest.png"
     ]
@@ -130,7 +130,7 @@ const ocular = [
     subcategoria: "Antiparras",  
     marca: "FRAVIDA",
     destacado: false,
-    talles: ["ÚNICO"],
+    
     imagenes: [
       "imagenes/Productos/ocular/1700.png"
     ]
@@ -147,7 +147,7 @@ const ocular = [
     subcategoria: "Antiparras",  
     marca: "FRAVIDA",
     destacado: false,
-    talles: ["ÚNICO"],
+    
     imagenes: [
       "imagenes/Productos/ocular/1702.png"
     ]

@@ -1265,7 +1265,8 @@ display: none !important;
 
 #relacionados h3 {
   color: #12414a;
-  margin-bottom: 20px;
+  margin-bottom: 40px;
+  font-size: 25px;
 }
 
 .carrusel-container {
@@ -2192,7 +2193,18 @@ display: none;
 /* =========================
    DIVISOR ENTRE SECCIONES
 ========================= */
-
+.divisor {
+  width: 100%;
+  max-width: 1200px;
+  height: 2px;
+  background: linear-gradient(
+    to right,
+    transparent,
+    #4abcb1,
+    transparent
+  );
+  margin: 30px auto;
+}
 .nosotros-divider {
   width: 100%;
   max-width: 1200px;

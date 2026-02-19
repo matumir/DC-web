@@ -11,7 +11,7 @@ const auditiva = [
     subcategoria: "Copa / Tapones",  
     marca: "LIBUS",
     destacado: false,
-    talles: ["ÚNICO"],
+    
     imagenes: [
       "imagenes/Productos/auditiva/alternative.png","imagenes/Productos/auditiva/alternative2.png","imagenes/Productos/auditiva/alternative3.png"
     ]
@@ -28,7 +28,7 @@ const auditiva = [
     subcategoria: "Copa / Tapones",  
     marca: "LIBUS",
     destacado: false,
-    talles: ["ÚNICO"],
+    
     imagenes: [
       "imagenes/Productos/auditiva/l-320.png","imagenes/Productos/auditiva/l-3202.png","imagenes/Productos/auditiva/l-3203.png"
     ]
@@ -45,7 +45,7 @@ const auditiva = [
     subcategoria: "Copa / Tapones",  
     marca: "LIBUS",
     destacado: false,
-    talles: ["ÚNICO"],
+    
     imagenes: [
       "imagenes/Productos/auditiva/l-340.png","imagenes/Productos/auditiva/l-3402.png","imagenes/Productos/auditiva/l-3403.png"
     ]
@@ -62,7 +62,7 @@ const auditiva = [
     subcategoria: "Copa / Tapones",  
     marca: "LIBUS",
     destacado: false,
-    talles: ["ÚNICO"],
+    
     imagenes: [
       "imagenes/Productos/auditiva/l-360.png","imagenes/Productos/auditiva/l-3602.png","imagenes/Productos/auditiva/l-3603.png"
     ]
@@ -79,7 +79,7 @@ const auditiva = [
     subcategoria: "Copa / Tapones",  
     marca: "LIBUS",
     destacado: false,
-    talles: ["ÚNICO"],
+    
     imagenes: [
       "imagenes/Productos/auditiva/l-320casco.png","imagenes/Productos/auditiva/l-320casco3.png","imagenes/Productos/auditiva/l-320casco2.png"
     ]
@@ -96,7 +96,7 @@ const auditiva = [
     subcategoria: "Copa / Tapones",  
     marca: "LIBUS",
     destacado: false,
-    talles: ["ÚNICO"],
+    
     imagenes: [
       "imagenes/Productos/auditiva/l-340casco.png","imagenes/Productos/auditiva/l-340casco2.png","imagenes/Productos/auditiva/l-340casco3.png"
     ]
@@ -113,7 +113,7 @@ const auditiva = [
     subcategoria: "Copa / Tapones",  
     marca: "LIBUS",
     destacado: false,
-    talles: ["ÚNICO"],
+    
     imagenes: [
       "imagenes/Productos/auditiva/endo1.png","imagenes/Productos/auditiva/endo2.png"
     ]
@@ -130,7 +130,7 @@ const auditiva = [
     subcategoria: "Copa / Tapones",  
     marca: "FRAVIDA",
     destacado: false,
-    talles: ["ÚNICO"],
+    
     imagenes: [
       "imagenes/Productos/auditiva/4005.png",
     ]
@@ -147,7 +147,7 @@ const auditiva = [
     subcategoria: "Copa / Tapones",  
     marca: "FRAVIDA",
     destacado: false,
-    talles: ["ÚNICO"],
+    
     imagenes: [
       "imagenes/Productos/auditiva/4006.png",
     ]
@@ -164,7 +164,7 @@ const auditiva = [
     subcategoria: "Copa / Tapones",  
     marca: "STEELPRO",
     destacado: false,
-    talles: ["ÚNICO"],
+    
     imagenes: [
       "imagenes/Productos/auditiva/samurai.png",
     ]
@@ -181,7 +181,7 @@ const auditiva = [
     subcategoria: "Copa / Tapones",  
     marca: "STEELPRO",
     destacado: false,
-    talles: ["ÚNICO"],
+    
     imagenes: [
       "imagenes/Productos/auditiva/jumbo1.png","imagenes/Productos/auditiva/jumbo2.png"
     ]
@@ -198,7 +198,7 @@ const auditiva = [
     subcategoria: "Copa / Tapones",  
     marca: "STEELPRO",
     destacado: false,
-    talles: ["ÚNICO"],
+    
     imagenes: [
       "imagenes/Productos/auditiva/cm-502.png"
     ]
@@ -215,7 +215,7 @@ const auditiva = [
     subcategoria: "Copa / Tapones",  
     marca: "3M",
     destacado: false,
-    talles: ["ÚNICO"],
+    
     imagenes: [
       "imagenes/Productos/auditiva/cm-502.png"
     ]
@@ -232,7 +232,7 @@ const auditiva = [
     subcategoria: "Copa / Tapones",  
     marca: "3M",
     destacado: false,
-    talles: ["ÚNICO"],
+    
     imagenes: [
       "imagenes/Productos/auditiva/1110.png"
     ]
@@ -249,7 +249,7 @@ const auditiva = [
     subcategoria: "Copa / Tapones",  
     marca: "DE PASCALE",
     destacado: false,
-    talles: ["ÚNICO"],
+    
     imagenes: [
       "imagenes/Productos/auditiva/tipovincha.png","imagenes/Productos/auditiva/tipovincha2.png"
     ]
