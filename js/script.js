@@ -25,7 +25,7 @@ let ordenActual = "az";
 const selectSubcategoria = document.getElementById("selectSubcategoria");
 let subcategoriaActual = "todas";
 let busquedaActual = "";
-
+let indiceCategoria = 0;
 /* =====================
    REFERENCIAS
 ===================== */
@@ -511,36 +511,107 @@ function renderPaginacion(total) {
   const totalPaginas = Math.ceil(total / productosPorPagina);
   if (totalPaginas <= 1) return;
 
-  // ANTERIOR
+  const ancho = window.innerWidth;
+
+  // 🔹 Cantidad máxima de números visibles según ancho
+  let maxNumeros;
+
+  if (ancho < 480) {
+    maxNumeros = 3; // mobile chico
+  } else if (ancho < 768) {
+    maxNumeros = 5; // mobile grande
+  } else {
+    maxNumeros = 9; // desktop
+  }
+
+  // 🔹 BOTÓN ANTERIOR
   const btnPrev = document.createElement("button");
-  btnPrev.textContent = "Anterior";
+  btnPrev.textContent = "‹";
   btnPrev.disabled = paginaActual === 1;
   btnPrev.onclick = () => cambiarPagina(paginaActual - 1);
   paginacion.appendChild(btnPrev);
 
-  // NÚMEROS
-  for (let i = 1; i <= totalPaginas; i++) {
-    const btn = document.createElement("button");
-    btn.textContent = i;
+  let inicio = Math.max(1, paginaActual - Math.floor(maxNumeros / 2));
+  let fin = inicio + maxNumeros - 1;
 
-    if (i === paginaActual) {
+  if (fin > totalPaginas) {
+    fin = totalPaginas;
+    inicio = Math.max(1, fin - maxNumeros + 1);
+  }
+
+  // 🔹 Mostrar primera página + ...
+  if (inicio > 1) {
+    agregarBotonPagina(1);
+    if (inicio > 2) {
+      agregarEllipsis();
+    }
+  }
+
+  // 🔹 Números centrales
+  for (let i = inicio; i <= fin; i++) {
+    agregarBotonPagina(i);
+  }
+
+  // 🔹 Mostrar ... + última página
+  if (fin < totalPaginas) {
+    if (fin < totalPaginas - 1) {
+      agregarEllipsis();
+    }
+    agregarBotonPagina(totalPaginas);
+  }
+
+  // 🔹 BOTÓN SIGUIENTE
+  const btnNext = document.createElement("button");
+  btnNext.textContent = "›";
+  btnNext.disabled = paginaActual === totalPaginas;
+  btnNext.onclick = () => cambiarPagina(paginaActual + 1);
+  paginacion.appendChild(btnNext);
+
+  // 🔹 Funciones auxiliares
+  function agregarBotonPagina(numero) {
+    const btn = document.createElement("button");
+    btn.textContent = numero;
+
+    if (numero === paginaActual) {
       btn.classList.add("activa");
       btn.disabled = true;
     }
 
-    btn.onclick = () => cambiarPagina(i);
+    btn.onclick = () => cambiarPagina(numero);
     paginacion.appendChild(btn);
   }
 
-  // SIGUIENTE
-  const btnNext = document.createElement("button");
-  btnNext.textContent = "Siguiente";
-  btnNext.disabled = paginaActual === totalPaginas;
-  btnNext.onclick = () => cambiarPagina(paginaActual + 1);
-  paginacion.appendChild(btnNext);
+  function agregarEllipsis() {
+    const span = document.createElement("button");
+    span.textContent = "...";
+    span.disabled = true;
+    paginacion.appendChild(span);
+  }
 }
+function crearBotonNumero(i, totalPaginas) {
+  const btn = document.createElement("button");
+  btn.textContent = i;
 
+  if (i === paginaActual) {
+    btn.classList.add("activa");
+    btn.disabled = true;
+  }
 
+  btn.onclick = () => cambiarPagina(i);
+  return btn;
+}
+window.addEventListener("resize", () => {
+  renderPaginacion(listaActual.length);
+});
+function crearEllipsis() {
+  const btn = document.createElement("button");
+  btn.textContent = "...";
+  btn.disabled = true;
+  return btn;
+}
+window.addEventListener("resize", () => {
+  renderPaginacion(productosFiltrados.length);
+});
 function cambiarPagina(p) {
   paginaActual = p;
   renderProductos(listaActual);
@@ -1399,15 +1470,23 @@ function renderCategoriasHome() {
   });
 }
 
-function moverCategoria(dir) {
+function moverCategoria(direccion) {
   const viewport = document.querySelector(".categorias-viewport");
-  const card = viewport.querySelector(".categoria-card");
-  if (!card) return;
+  const track = document.getElementById("categoriasContainer");
+  const cards = track.querySelectorAll(".categoria-card");
 
-  const gap = 16;
-  const move = card.offsetWidth + gap;
+  if (!viewport || cards.length === 0) return;
 
-  
+  const gap = 16; // el gap que uses en CSS
+  const anchoCard = cards[0].offsetWidth + gap;
+
+  const visibles = Math.floor(viewport.offsetWidth / anchoCard);
+  const maxIndice = cards.length - visibles;
+
+  indiceCategoria += direccion;
+  indiceCategoria = Math.max(0, Math.min(indiceCategoria, maxIndice));
+
+  track.style.transform = `translateX(-${indiceCategoria * anchoCard}px)`;
 }
 
 
