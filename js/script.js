@@ -1407,10 +1407,7 @@ function moverCategoria(dir) {
   const gap = 16;
   const move = card.offsetWidth + gap;
 
-  viewport.scrollBy({
-    left: dir * move,
-    behavior: "smooth"
-  });
+  
 }
 
 
