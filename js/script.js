@@ -74,7 +74,8 @@ const categoriasHome = [
   { nombre: "Protección facial", img: "imagenes/logos/facial.png" },
   { nombre: "Protección auditiva", img: "imagenes/logos/auditiva.png" },
   { nombre: "Protección ocular", img: "imagenes/logos/ocular.png" },
-  { nombre: "Sujeción de cargas", img: "imagenes/logos/cargas.png" }
+  { nombre: "Sujeción de cargas", img: "imagenes/logos/cargas.png" },
+  { nombre: "Insumos", img: "imagenes/logos/insumos.png" }
 ];
 const marcas = [
   {nombre: 'OMBU', imagen: 'imagenes/marcas/ombu.png'},
