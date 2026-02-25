@@ -98,6 +98,7 @@ const marcas = [
   {nombre: 'FRAVIDA', imagen: 'imagenes/marcas/fravida.png'},
   {nombre: '3M', imagen: 'imagenes/marcas/3m.jpg'},
   {nombre: 'BLACK PANTHER', imagen: 'imagenes/marcas/blackpanther.png'},
+  {nombre: 'ELEGANTE', imagen: 'imagenes/marcas/elegante.png'}
 ];
 
 /* =====================
@@ -1477,7 +1478,7 @@ function moverCategoria(direccion) {
 
   if (!viewport || cards.length === 0) return;
 
-  const gap = 16; // el gap que uses en CSS
+  const gap = 16;
   const anchoCard = cards[0].offsetWidth + gap;
 
   const visibles = Math.floor(viewport.offsetWidth / anchoCard);
@@ -1486,7 +1487,10 @@ function moverCategoria(direccion) {
   indiceCategoria += direccion;
   indiceCategoria = Math.max(0, Math.min(indiceCategoria, maxIndice));
 
-  track.style.transform = `translateX(-${indiceCategoria * anchoCard}px)`;
+  viewport.scrollTo({
+    left: indiceCategoria * anchoCard,
+    behavior: "smooth"
+  });
 }
 
 

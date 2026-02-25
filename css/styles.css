@@ -29,7 +29,7 @@ button {
    HEADER
 ===================== */
 .header {
-  background: #4abcb1;
+  background: #12414a;
   color: #fff;
   display: flex;
   align-items: center;
@@ -1585,6 +1585,7 @@ overflow-y: hidden;
 scroll-behavior: smooth;
 width: 100%;
 scrollbar-width: none;
+-webkit-overflow-scrolling: touch;
 }
 .categorias-viewport::-webkit-scrollbar {
 display: none;
@@ -1635,9 +1636,7 @@ width: max-content; /* FUNDAMENTAL */
 padding: 16px 0;
 transition: transform 0.3s ease;
 }
-.categorias-viewport {
-  overflow: hidden;
-}
+
 .categoria-card {
   flex: 0 0 auto;
   width: 205px; /* ancho fijo estable */
