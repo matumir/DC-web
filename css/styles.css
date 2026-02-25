@@ -151,12 +151,19 @@ button {
   box-shadow: 0 4px 10px rgba(0,0,0,.1);
   transition: transform .25s ease, box-shadow .25s ease;
   animation: fadeUp 0.4s ease both;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 .card h4 {
   min-height: 48px;
-  max-height: 48px;
-  overflow: hidden;
+  max-height: unset;
+  overflow: visible;
   margin-top: 0px;
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
 }
 .card:hover {
   transform: translateY(-8px);
@@ -1317,9 +1324,10 @@ display: none !important;
   height: 100%;
 }
 .carrusel-track .card h4 {
-  min-height: 48px;
-  max-height: 48px;
-  overflow: hidden;
+ min-height: unset;
+  max-height: unset;
+  overflow: visible;
+  margin-bottom: 5px;
 }
 @media (max-width: 900px) {
   .carrusel-track .card {
@@ -1795,8 +1803,12 @@ right: 8px;
 }
 .destacados-track .card h4 {
   min-height: 48px;
-  max-height: 48px;
+  max-height: unset;
+  overflow: visible;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
   overflow: hidden;
+  margin-bottom: 10px;
 }
 .flecha-destacados {
   background: #12414a;
