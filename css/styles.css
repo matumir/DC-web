@@ -1330,6 +1330,10 @@ display: none !important;
   max-height: unset;
   overflow: visible;
   margin-bottom: 5px;
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
 }
 @media (max-width: 900px) {
   .carrusel-track .card {

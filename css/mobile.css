@@ -439,6 +439,16 @@ padding: 0;
 
   .categoria-card h3 {
     font-size: 14px;
+    white-space: normal;
+    word-break: break-word;    /* evita desbordes */
+  
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+
+  overflow: hidden;
+  line-height: 1.2;
+  min-height: 2.4em;   
   }
 
   .categoria-card button {
@@ -573,12 +583,17 @@ height: 220px;
 .card h4{
   margin-top: 0;
   align-content: center;
+  margin-bottom: 5px;
 }
 .destacados-track .card img {
   width: 100%;
   height: 160px;
   min-height: 160px;
   margin-bottom: 0px;
+}
+.destacados-track .card h4 {
+  margin-bottom: 0px;
+  align-content: center;
 }
 /* BOTÓN FILTRAR */
 .btn-filtrar-mobile {

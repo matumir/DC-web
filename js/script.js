@@ -99,7 +99,8 @@ const marcas = [
   {nombre: 'FRAVIDA', imagen: 'imagenes/marcas/fravida.png'},
   {nombre: '3M', imagen: 'imagenes/marcas/3m.jpg'},
   {nombre: 'BLACK PANTHER', imagen: 'imagenes/marcas/blackpanther.png'},
-  {nombre: 'ELEGANTE', imagen: 'imagenes/marcas/elegante.png'}
+  {nombre: 'ELEGANTE', imagen: 'imagenes/marcas/elegante.png'},
+  {nombre: 'MAKE', imagen: 'imagenes/marcas/make.png'}
 ];
 
 /* =====================
@@ -111,6 +112,7 @@ function ocultarSecciones() {
     bannerCarrusel.classList.add("oculto");
     detenerAutoBanner(); // ⛔ frena el autoplay (importante)
   }
+  window.scrollTo(0, 0);
 }
 
 // =====================

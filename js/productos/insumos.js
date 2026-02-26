@@ -82,5 +82,260 @@ const insumos = [
       "imagenes/Productos/insumos/papel/toalla1029.png"
     ]
   },
-
+{
+    id: "insumos-6",
+    nombre: "Aromatizador de ambientes - Cítrico",
+    Descripcion: "Es la opción perfecta para mantener tu hogar siempre fresco y agradable. Se adapta fácilmente a cualquier difusor automático estándar.\nTransforma cada espacio en un ambiente puro y confortable. Su formato práctico asegura un uso prolongado y constante, manteniendo la frescura sin esfuerzo.",
+    Especificaciones: "Volumen de la unidad: 270 mL.\nPeso de la unidad: 185 g.\nUnidades por pack: 1.\nCompatible con difusor automáticos estándar\nFragancia fresca y duradera para todos los ambientes",
+    Documentacion: [
+    { nombre: "Ficha técnica no disponible"}
+    ],
+    categoria: "Insumos",
+    subcategoria: "Aromatizantes",  
+    marca: "MAKE",
+    destacado: false,
+    imagenes: [
+      "imagenes/Productos/insumos/aromatizantes/citrico.png"
+    ]
+  },
+  {
+    id: "insumos-7",
+    nombre: "Aromatizador de ambientes - Frutilla",
+    Descripcion: "Es la opción perfecta para mantener tu hogar siempre fresco y agradable. Se adapta fácilmente a cualquier difusor automático estándar.\nTransforma cada espacio en un ambiente puro y confortable. Su formato práctico asegura un uso prolongado y constante, manteniendo la frescura sin esfuerzo.",
+    Especificaciones: "Volumen de la unidad: 270 mL.\nPeso de la unidad: 185 g.\nUnidades por pack: 1.\nCompatible con difusor automáticos estándar\nFragancia fresca y duradera para todos los ambientes",
+    Documentacion: [
+    { nombre: "Ficha técnica no disponible"}
+    ],
+    categoria: "Insumos",
+    subcategoria: "Aromatizantes",  
+    marca: "MAKE",
+    destacado: false,
+    imagenes: [
+      "imagenes/Productos/insumos/aromatizantes/frutilla.png"
+    ]
+  },
+  {
+    id: "insumos-8",
+    nombre: "Aromatizador de ambientes - Antitabaco",
+    Descripcion: "Es la opción perfecta para mantener tu hogar siempre fresco y agradable. Se adapta fácilmente a cualquier difusor automático estándar.\nTransforma cada espacio en un ambiente puro y confortable. Su formato práctico asegura un uso prolongado y constante, manteniendo la frescura sin esfuerzo.",
+    Especificaciones: "Volumen de la unidad: 270 mL.\nPeso de la unidad: 185 g.\nUnidades por pack: 1.\nCompatible con difusor automáticos estándar\nFragancia fresca y duradera para todos los ambientes",
+    Documentacion: [
+    { nombre: "Ficha técnica no disponible"}
+    ],
+    categoria: "Insumos",
+    subcategoria: "Aromatizantes",  
+    marca: "MAKE",
+    destacado: false,
+    imagenes: [
+      "imagenes/Productos/insumos/aromatizantes/antitabaco.png"
+    ]
+  },
+  {
+    id: "insumos-9",
+    nombre: "Aromatizador de ambientes - Black Passion",
+    Descripcion: "Es la opción perfecta para mantener tu hogar siempre fresco y agradable. Se adapta fácilmente a cualquier difusor automático estándar.\nTransforma cada espacio en un ambiente puro y confortable. Su formato práctico asegura un uso prolongado y constante, manteniendo la frescura sin esfuerzo.",
+    Especificaciones: "Volumen de la unidad: 270 mL.\nPeso de la unidad: 185 g.\nUnidades por pack: 1.\nCompatible con difusor automáticos estándar\nFragancia fresca y duradera para todos los ambientes",
+    Documentacion: [
+    { nombre: "Ficha técnica no disponible"}
+    ],
+    categoria: "Insumos",
+    subcategoria: "Aromatizantes",  
+    marca: "MAKE",
+    destacado: false,
+    imagenes: [
+      "imagenes/Productos/insumos/aromatizantes/black.png"
+    ]
+  },
+  {
+    id: "insumos-10",
+    nombre: "Aromatizador de ambientes - Happy Baby",
+    Descripcion: "Es la opción perfecta para mantener tu hogar siempre fresco y agradable. Se adapta fácilmente a cualquier difusor automático estándar.\nTransforma cada espacio en un ambiente puro y confortable. Su formato práctico asegura un uso prolongado y constante, manteniendo la frescura sin esfuerzo.",
+    Especificaciones: "Volumen de la unidad: 270 mL.\nPeso de la unidad: 185 g.\nUnidades por pack: 1.\nCompatible con difusor automáticos estándar\nFragancia fresca y duradera para todos los ambientes",
+    Documentacion: [
+    { nombre: "Ficha técnica no disponible"}
+    ],
+    categoria: "Insumos",
+    subcategoria: "Aromatizantes",  
+    marca: "MAKE",
+    destacado: false,
+    imagenes: [
+      "imagenes/Productos/insumos/aromatizantes/happybaby.png"
+    ]
+  },
+  {
+    id: "insumos-11",
+    nombre: "Aromatizador de ambientes - Coco",
+    Descripcion: "Es la opción perfecta para mantener tu hogar siempre fresco y agradable. Se adapta fácilmente a cualquier difusor automático estándar.\nTransforma cada espacio en un ambiente puro y confortable. Su formato práctico asegura un uso prolongado y constante, manteniendo la frescura sin esfuerzo.",
+    Especificaciones: "Volumen de la unidad: 270 mL.\nPeso de la unidad: 185 g.\nUnidades por pack: 1.\nCompatible con difusor automáticos estándar\nFragancia fresca y duradera para todos los ambientes",
+    Documentacion: [
+    { nombre: "Ficha técnica no disponible"}
+    ],
+    categoria: "Insumos",
+    subcategoria: "Aromatizantes",  
+    marca: "MAKE",
+    destacado: false,
+    imagenes: [
+      "imagenes/Productos/insumos/aromatizantes/coco.png"
+    ]
+  },
+  {
+    id: "insumos-12",
+    nombre: "Aromatizador de ambientes - Fahrenheit",
+    Descripcion: "Es la opción perfecta para mantener tu hogar siempre fresco y agradable. Se adapta fácilmente a cualquier difusor automático estándar.\nTransforma cada espacio en un ambiente puro y confortable. Su formato práctico asegura un uso prolongado y constante, manteniendo la frescura sin esfuerzo.",
+    Especificaciones: "Volumen de la unidad: 270 mL.\nPeso de la unidad: 185 g.\nUnidades por pack: 1.\nCompatible con difusor automáticos estándar\nFragancia fresca y duradera para todos los ambientes",
+    Documentacion: [
+    { nombre: "Ficha técnica no disponible"}
+    ],
+    categoria: "Insumos",
+    subcategoria: "Aromatizantes",  
+    marca: "MAKE",
+    destacado: false,
+    imagenes: [
+      "imagenes/Productos/insumos/aromatizantes/fahren.png"
+    ]
+  },
+  {
+    id: "insumos-13",
+    nombre: "Aromatizador de ambientes - Golden Coin",
+    Descripcion: "Es la opción perfecta para mantener tu hogar siempre fresco y agradable. Se adapta fácilmente a cualquier difusor automático estándar.\nTransforma cada espacio en un ambiente puro y confortable. Su formato práctico asegura un uso prolongado y constante, manteniendo la frescura sin esfuerzo.",
+    Especificaciones: "Volumen de la unidad: 270 mL.\nPeso de la unidad: 185 g.\nUnidades por pack: 1.\nCompatible con difusor automáticos estándar\nFragancia fresca y duradera para todos los ambientes",
+    Documentacion: [
+    { nombre: "Ficha técnica no disponible"}
+    ],
+    categoria: "Insumos",
+    subcategoria: "Aromatizantes",  
+    marca: "MAKE",
+    destacado: false,
+    imagenes: [
+      "imagenes/Productos/insumos/aromatizantes/goldencoin.png"
+    ]
+  },
+  {
+    id: "insumos-14",
+    nombre: "Aromatizador de ambientes - Aire Limpio",
+    Descripcion: "Es la opción perfecta para mantener tu hogar siempre fresco y agradable. Se adapta fácilmente a cualquier difusor automático estándar.\nTransforma cada espacio en un ambiente puro y confortable. Su formato práctico asegura un uso prolongado y constante, manteniendo la frescura sin esfuerzo.",
+    Especificaciones: "Volumen de la unidad: 270 mL.\nPeso de la unidad: 185 g.\nUnidades por pack: 1.\nCompatible con difusor automáticos estándar\nFragancia fresca y duradera para todos los ambientes",
+    Documentacion: [
+    { nombre: "Ficha técnica no disponible"}
+    ],
+    categoria: "Insumos",
+    subcategoria: "Aromatizantes",  
+    marca: "MAKE",
+    destacado: false,
+    imagenes: [
+      "imagenes/Productos/insumos/aromatizantes/airelimpio.png"
+    ]
+  },
+  {
+    id: "insumos-15",
+    nombre: "Aromatizador de ambientes - Bamboo",
+    Descripcion: "Es la opción perfecta para mantener tu hogar siempre fresco y agradable. Se adapta fácilmente a cualquier difusor automático estándar.\nTransforma cada espacio en un ambiente puro y confortable. Su formato práctico asegura un uso prolongado y constante, manteniendo la frescura sin esfuerzo.",
+    Especificaciones: "Volumen de la unidad: 270 mL.\nPeso de la unidad: 185 g.\nUnidades por pack: 1.\nCompatible con difusor automáticos estándar\nFragancia fresca y duradera para todos los ambientes",
+    Documentacion: [
+    { nombre: "Ficha técnica no disponible"}
+    ],
+    categoria: "Insumos",
+    subcategoria: "Aromatizantes",  
+    marca: "MAKE",
+    destacado: false,
+    imagenes: [
+      "imagenes/Productos/insumos/aromatizantes/bamboo.png"
+    ]
+  },
+  {
+    id: "insumos-16",
+    nombre: "Aromatizador de ambientes - Celebrity",
+    Descripcion: "Es la opción perfecta para mantener tu hogar siempre fresco y agradable. Se adapta fácilmente a cualquier difusor automático estándar.\nTransforma cada espacio en un ambiente puro y confortable. Su formato práctico asegura un uso prolongado y constante, manteniendo la frescura sin esfuerzo.",
+    Especificaciones: "Volumen de la unidad: 270 mL.\nPeso de la unidad: 185 g.\nUnidades por pack: 1.\nCompatible con difusor automáticos estándar\nFragancia fresca y duradera para todos los ambientes",
+    Documentacion: [
+    { nombre: "Ficha técnica no disponible"}
+    ],
+    categoria: "Insumos",
+    subcategoria: "Aromatizantes",  
+    marca: "MAKE",
+    destacado: false,
+    imagenes: [
+      "imagenes/Productos/insumos/aromatizantes/celebrity.png"
+    ]
+  },
+  {
+    id: "insumos-17",
+    nombre: "Aromatizador de ambientes - Vainilla",
+    Descripcion: "Es la opción perfecta para mantener tu hogar siempre fresco y agradable. Se adapta fácilmente a cualquier difusor automático estándar.\nTransforma cada espacio en un ambiente puro y confortable. Su formato práctico asegura un uso prolongado y constante, manteniendo la frescura sin esfuerzo.",
+    Especificaciones: "Volumen de la unidad: 270 mL.\nPeso de la unidad: 185 g.\nUnidades por pack: 1.\nCompatible con difusor automáticos estándar\nFragancia fresca y duradera para todos los ambientes",
+    Documentacion: [
+    { nombre: "Ficha técnica no disponible"}
+    ],
+    categoria: "Insumos",
+    subcategoria: "Aromatizantes",  
+    marca: "MAKE",
+    destacado: false,
+    imagenes: [
+      "imagenes/Productos/insumos/aromatizantes/vainilla.png"
+    ]
+  },
+  {
+    id: "insumos-17",
+    nombre: "Aromatizador de ambientes - Jazmín Sunset",
+    Descripcion: "Es la opción perfecta para mantener tu hogar siempre fresco y agradable. Se adapta fácilmente a cualquier difusor automático estándar.\nTransforma cada espacio en un ambiente puro y confortable. Su formato práctico asegura un uso prolongado y constante, manteniendo la frescura sin esfuerzo.",
+    Especificaciones: "Volumen de la unidad: 270 mL.\nPeso de la unidad: 185 g.\nUnidades por pack: 1.\nCompatible con difusor automáticos estándar\nFragancia fresca y duradera para todos los ambientes",
+    Documentacion: [
+    { nombre: "Ficha técnica no disponible"}
+    ],
+    categoria: "Insumos",
+    subcategoria: "Aromatizantes",  
+    marca: "MAKE",
+    destacado: false,
+    imagenes: [
+      "imagenes/Productos/insumos/aromatizantes/jazmin.png"
+    ]
+  },
+  {
+    id: "insumos-18",
+    nombre: "Aromatizador de ambientes - Chicle",
+    Descripcion: "Es la opción perfecta para mantener tu hogar siempre fresco y agradable. Se adapta fácilmente a cualquier difusor automático estándar.\nTransforma cada espacio en un ambiente puro y confortable. Su formato práctico asegura un uso prolongado y constante, manteniendo la frescura sin esfuerzo.",
+    Especificaciones: "Volumen de la unidad: 270 mL.\nPeso de la unidad: 185 g.\nUnidades por pack: 1.\nCompatible con difusor automáticos estándar\nFragancia fresca y duradera para todos los ambientes",
+    Documentacion: [
+    { nombre: "Ficha técnica no disponible"}
+    ],
+    categoria: "Insumos",
+    subcategoria: "Aromatizantes",  
+    marca: "MAKE",
+    destacado: false,
+    imagenes: [
+      "imagenes/Productos/insumos/aromatizantes/chicle.png"
+    ]
+  },
+  {
+    id: "insumos-20",
+    nombre: "Aromatizador de ambientes - Koni",
+    Descripcion: "Es la opción perfecta para mantener tu hogar siempre fresco y agradable. Se adapta fácilmente a cualquier difusor automático estándar.\nTransforma cada espacio en un ambiente puro y confortable. Su formato práctico asegura un uso prolongado y constante, manteniendo la frescura sin esfuerzo.",
+    Especificaciones: "Volumen de la unidad: 270 mL.\nPeso de la unidad: 185 g.\nUnidades por pack: 1.\nCompatible con difusor automáticos estándar\nFragancia fresca y duradera para todos los ambientes",
+    Documentacion: [
+    { nombre: "Ficha técnica no disponible"}
+    ],
+    categoria: "Insumos",
+    subcategoria: "Aromatizantes",  
+    marca: "MAKE",
+    destacado: false,
+    imagenes: [
+      "imagenes/Productos/insumos/aromatizantes/koni.png"
+    ]
+  },
+  {
+    id: "insumos-21",
+    nombre: "Aromatizador de ambientes - Papaya",
+    Descripcion: "Es la opción perfecta para mantener tu hogar siempre fresco y agradable. Se adapta fácilmente a cualquier difusor automático estándar.\nTransforma cada espacio en un ambiente puro y confortable. Su formato práctico asegura un uso prolongado y constante, manteniendo la frescura sin esfuerzo.",
+    Especificaciones: "Volumen de la unidad: 270 mL.\nPeso de la unidad: 185 g.\nUnidades por pack: 1.\nCompatible con difusor automáticos estándar\nFragancia fresca y duradera para todos los ambientes",
+    Documentacion: [
+    { nombre: "Ficha técnica no disponible"}
+    ],
+    categoria: "Insumos",
+    subcategoria: "Aromatizantes",  
+    marca: "MAKE",
+    destacado: false,
+    imagenes: [
+      "imagenes/Productos/insumos/aromatizantes/papaya.png"
+    ]
+  },
 ]
