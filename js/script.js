@@ -733,7 +733,7 @@ function renderFiltrosActivos() {
 if (busquedaActual && busquedaActual.trim() !== "") {
   activos.push({
     tipo: "busqueda",
-    valor: `Búsqueda: "${busquedaActual}`
+    valor: `Búsqueda: "${busquedaActual}"`
   });
 }
 
