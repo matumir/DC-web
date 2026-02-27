@@ -311,7 +311,7 @@ if (inputBuscador && resultadosBuscador) {
   resultadosBuscador.appendChild(item);
   })
   if (matches.length > 0) {
-  indiceSeleccionado = 0;
+  indiceSeleccionado = -1;
   const items = resultadosBuscador.querySelectorAll(".buscador-item");
   if (items[0]) items[0].classList.add("activo");
   }

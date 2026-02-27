@@ -91,7 +91,7 @@ const insumos = [
     { nombre: "Ficha técnica no disponible"}
     ],
     categoria: "Insumos",
-    subcategoria: "Aromatizantes",  
+    subcategoria: "Aromatizadores",  
     marca: "MAKE",
     destacado: false,
     imagenes: [
@@ -107,7 +107,7 @@ const insumos = [
     { nombre: "Ficha técnica no disponible"}
     ],
     categoria: "Insumos",
-    subcategoria: "Aromatizantes",  
+    subcategoria: "Aromatizadores",  
     marca: "MAKE",
     destacado: false,
     imagenes: [
@@ -123,7 +123,7 @@ const insumos = [
     { nombre: "Ficha técnica no disponible"}
     ],
     categoria: "Insumos",
-    subcategoria: "Aromatizantes",  
+    subcategoria: "Aromatizadores",  
     marca: "MAKE",
     destacado: false,
     imagenes: [
@@ -139,7 +139,7 @@ const insumos = [
     { nombre: "Ficha técnica no disponible"}
     ],
     categoria: "Insumos",
-    subcategoria: "Aromatizantes",  
+    subcategoria: "Aromatizadores",  
     marca: "MAKE",
     destacado: false,
     imagenes: [
@@ -155,7 +155,7 @@ const insumos = [
     { nombre: "Ficha técnica no disponible"}
     ],
     categoria: "Insumos",
-    subcategoria: "Aromatizantes",  
+    subcategoria: "Aromatizadores",  
     marca: "MAKE",
     destacado: false,
     imagenes: [
@@ -171,7 +171,7 @@ const insumos = [
     { nombre: "Ficha técnica no disponible"}
     ],
     categoria: "Insumos",
-    subcategoria: "Aromatizantes",  
+    subcategoria: "Aromatizadores",  
     marca: "MAKE",
     destacado: false,
     imagenes: [
@@ -187,7 +187,7 @@ const insumos = [
     { nombre: "Ficha técnica no disponible"}
     ],
     categoria: "Insumos",
-    subcategoria: "Aromatizantes",  
+    subcategoria: "Aromatizadores",  
     marca: "MAKE",
     destacado: false,
     imagenes: [
@@ -203,7 +203,7 @@ const insumos = [
     { nombre: "Ficha técnica no disponible"}
     ],
     categoria: "Insumos",
-    subcategoria: "Aromatizantes",  
+    subcategoria: "Aromatizadores",  
     marca: "MAKE",
     destacado: false,
     imagenes: [
@@ -219,7 +219,7 @@ const insumos = [
     { nombre: "Ficha técnica no disponible"}
     ],
     categoria: "Insumos",
-    subcategoria: "Aromatizantes",  
+    subcategoria: "Aromatizadores",  
     marca: "MAKE",
     destacado: false,
     imagenes: [
@@ -235,7 +235,7 @@ const insumos = [
     { nombre: "Ficha técnica no disponible"}
     ],
     categoria: "Insumos",
-    subcategoria: "Aromatizantes",  
+    subcategoria: "Aromatizadores",  
     marca: "MAKE",
     destacado: false,
     imagenes: [
@@ -251,7 +251,7 @@ const insumos = [
     { nombre: "Ficha técnica no disponible"}
     ],
     categoria: "Insumos",
-    subcategoria: "Aromatizantes",  
+    subcategoria: "Aromatizadores",  
     marca: "MAKE",
     destacado: false,
     imagenes: [
@@ -267,7 +267,7 @@ const insumos = [
     { nombre: "Ficha técnica no disponible"}
     ],
     categoria: "Insumos",
-    subcategoria: "Aromatizantes",  
+    subcategoria: "Aromatizadores",  
     marca: "MAKE",
     destacado: false,
     imagenes: [
@@ -283,7 +283,7 @@ const insumos = [
     { nombre: "Ficha técnica no disponible"}
     ],
     categoria: "Insumos",
-    subcategoria: "Aromatizantes",  
+    subcategoria: "Aromatizadores",  
     marca: "MAKE",
     destacado: false,
     imagenes: [
@@ -299,7 +299,7 @@ const insumos = [
     { nombre: "Ficha técnica no disponible"}
     ],
     categoria: "Insumos",
-    subcategoria: "Aromatizantes",  
+    subcategoria: "Aromatizadores",  
     marca: "MAKE",
     destacado: false,
     imagenes: [
@@ -315,7 +315,7 @@ const insumos = [
     { nombre: "Ficha técnica no disponible"}
     ],
     categoria: "Insumos",
-    subcategoria: "Aromatizantes",  
+    subcategoria: "Aromatizadores",  
     marca: "MAKE",
     destacado: false,
     imagenes: [
@@ -331,11 +331,235 @@ const insumos = [
     { nombre: "Ficha técnica no disponible"}
     ],
     categoria: "Insumos",
-    subcategoria: "Aromatizantes",  
+    subcategoria: "Aromatizadores",  
     marca: "MAKE",
     destacado: false,
     imagenes: [
       "imagenes/Productos/insumos/aromatizantes/papaya.png"
+    ]
+  },
+  {
+    id: "insumos-22",
+    nombre: "Aromatizador de ambientes - Violetas",
+    Descripcion: "Es la opción perfecta para mantener tu hogar siempre fresco y agradable. Se adapta fácilmente a cualquier difusor automático estándar.\nTransforma cada espacio en un ambiente puro y confortable. Su formato práctico asegura un uso prolongado y constante, manteniendo la frescura sin esfuerzo.",
+    Especificaciones: "Volumen de la unidad: 270 mL.\nPeso de la unidad: 185 g.\nUnidades por pack: 1.\nCompatible con difusor automáticos estándar\nFragancia fresca y duradera para todos los ambientes",
+    Documentacion: [
+    { nombre: "Ficha técnica no disponible"}
+    ],
+    categoria: "Insumos",
+    subcategoria: "Aromatizadores",  
+    marca: "MAKE",
+    destacado: false,
+    imagenes: [
+      "imagenes/Productos/insumos/aromatizantes/violetas.png"
+    ]
+  },
+  {
+    id: "insumos-23",
+    nombre: "Aromatizador de ambientes - Misterio",
+    Descripcion: "Es la opción perfecta para mantener tu hogar siempre fresco y agradable. Se adapta fácilmente a cualquier difusor automático estándar.\nTransforma cada espacio en un ambiente puro y confortable. Su formato práctico asegura un uso prolongado y constante, manteniendo la frescura sin esfuerzo.",
+    Especificaciones: "Volumen de la unidad: 270 mL.\nPeso de la unidad: 185 g.\nUnidades por pack: 1.\nCompatible con difusor automáticos estándar\nFragancia fresca y duradera para todos los ambientes",
+    Documentacion: [
+    { nombre: "Ficha técnica no disponible"}
+    ],
+    categoria: "Insumos",
+    subcategoria: "Aromatizadores",  
+    marca: "MAKE",
+    destacado: false,
+    imagenes: [
+      "imagenes/Productos/insumos/aromatizantes/misterio.png"
+    ]
+  },
+   {
+    id: "insumos-24",
+    nombre: "Aromatizador de ambientes - Uva/Naranja",
+    Descripcion: "Es la opción perfecta para mantener tu hogar siempre fresco y agradable. Se adapta fácilmente a cualquier difusor automático estándar.\nTransforma cada espacio en un ambiente puro y confortable. Su formato práctico asegura un uso prolongado y constante, manteniendo la frescura sin esfuerzo.",
+    Especificaciones: "Volumen de la unidad: 270 mL.\nPeso de la unidad: 185 g.\nUnidades por pack: 1.\nCompatible con difusor automáticos estándar\nFragancia fresca y duradera para todos los ambientes",
+    Documentacion: [
+    { nombre: "Ficha técnica no disponible"}
+    ],
+    categoria: "Insumos",
+    subcategoria: "Aromatizadores",  
+    marca: "MAKE",
+    destacado: false,
+    imagenes: [
+      "imagenes/Productos/insumos/aromatizantes/uvanaranja.png"
+    ]
+  },
+  {
+    id: "insumos-25",
+    nombre: "Aromatizador de ambientes - Té Verde",
+    Descripcion: "Es la opción perfecta para mantener tu hogar siempre fresco y agradable. Se adapta fácilmente a cualquier difusor automático estándar.\nTransforma cada espacio en un ambiente puro y confortable. Su formato práctico asegura un uso prolongado y constante, manteniendo la frescura sin esfuerzo.",
+    Especificaciones: "Volumen de la unidad: 270 mL.\nPeso de la unidad: 185 g.\nUnidades por pack: 1.\nCompatible con difusor automáticos estándar\nFragancia fresca y duradera para todos los ambientes",
+    Documentacion: [
+    { nombre: "Ficha técnica no disponible"}
+    ],
+    categoria: "Insumos",
+    subcategoria: "Aromatizadores",  
+    marca: "MAKE",
+    destacado: false,
+    imagenes: [
+      "imagenes/Productos/insumos/aromatizantes/teverde.png"
+    ]
+  },
+  {
+    id: "insumos-26",
+    nombre: "Aromatizador de ambientes - Pomelo",
+    Descripcion: "Es la opción perfecta para mantener tu hogar siempre fresco y agradable. Se adapta fácilmente a cualquier difusor automático estándar.\nTransforma cada espacio en un ambiente puro y confortable. Su formato práctico asegura un uso prolongado y constante, manteniendo la frescura sin esfuerzo.",
+    Especificaciones: "Volumen de la unidad: 270 mL.\nPeso de la unidad: 185 g.\nUnidades por pack: 1.\nCompatible con difusor automáticos estándar\nFragancia fresca y duradera para todos los ambientes",
+    Documentacion: [
+    { nombre: "Ficha técnica no disponible"}
+    ],
+    categoria: "Insumos",
+    subcategoria: "Aromatizadores",  
+    marca: "MAKE",
+    destacado: false,
+    imagenes: [
+      "imagenes/Productos/insumos/aromatizantes/pomelo.png"
+    ]
+  },
+  {
+    id: "insumos-27",
+    nombre: "Aromatizador de ambientes - New Style",
+    Descripcion: "Es la opción perfecta para mantener tu hogar siempre fresco y agradable. Se adapta fácilmente a cualquier difusor automático estándar.\nTransforma cada espacio en un ambiente puro y confortable. Su formato práctico asegura un uso prolongado y constante, manteniendo la frescura sin esfuerzo.",
+    Especificaciones: "Volumen de la unidad: 270 mL.\nPeso de la unidad: 185 g.\nUnidades por pack: 1.\nCompatible con difusor automáticos estándar\nFragancia fresca y duradera para todos los ambientes",
+    Documentacion: [
+    { nombre: "Ficha técnica no disponible"}
+    ],
+    categoria: "Insumos",
+    subcategoria: "Aromatizadores",  
+    marca: "MAKE",
+    destacado: false,
+    imagenes: [
+      "imagenes/Productos/insumos/aromatizantes/newstyle.png"
+    ]
+  },
+  {
+    id: "insumos-28",
+    nombre: "Aromatizador de ambientes - Oceánico",
+    Descripcion: "Es la opción perfecta para mantener tu hogar siempre fresco y agradable. Se adapta fácilmente a cualquier difusor automático estándar.\nTransforma cada espacio en un ambiente puro y confortable. Su formato práctico asegura un uso prolongado y constante, manteniendo la frescura sin esfuerzo.",
+    Especificaciones: "Volumen de la unidad: 270 mL.\nPeso de la unidad: 185 g.\nUnidades por pack: 1.\nCompatible con difusor automáticos estándar\nFragancia fresca y duradera para todos los ambientes",
+    Documentacion: [
+    { nombre: "Ficha técnica no disponible"}
+    ],
+    categoria: "Insumos",
+    subcategoria: "Aromatizadores",  
+    marca: "MAKE",
+    destacado: false,
+    imagenes: [
+      "imagenes/Productos/insumos/aromatizantes/oceanico.png"
+    ]
+  },
+  {
+    id: "insumos-29",
+    nombre: "Aromatizador de ambientes - Soleado",
+    Descripcion: "Es la opción perfecta para mantener tu hogar siempre fresco y agradable. Se adapta fácilmente a cualquier difusor automático estándar.\nTransforma cada espacio en un ambiente puro y confortable. Su formato práctico asegura un uso prolongado y constante, manteniendo la frescura sin esfuerzo.",
+    Especificaciones: "Volumen de la unidad: 270 mL.\nPeso de la unidad: 185 g.\nUnidades por pack: 1.\nCompatible con difusor automáticos estándar\nFragancia fresca y duradera para todos los ambientes",
+    Documentacion: [
+    { nombre: "Ficha técnica no disponible"}
+    ],
+    categoria: "Insumos",
+    subcategoria: "Aromatizadores",  
+    marca: "MAKE",
+    destacado: false,
+    imagenes: [
+      "imagenes/Productos/insumos/aromatizantes/soleado.png"
+    ]
+  },
+  {
+    id: "insumos-30",
+    nombre: "Aromatizador de ambientes - Menta Eucaliptus",
+    Descripcion: "Es la opción perfecta para mantener tu hogar siempre fresco y agradable. Se adapta fácilmente a cualquier difusor automático estándar.\nTransforma cada espacio en un ambiente puro y confortable. Su formato práctico asegura un uso prolongado y constante, manteniendo la frescura sin esfuerzo.",
+    Especificaciones: "Volumen de la unidad: 270 mL.\nPeso de la unidad: 185 g.\nUnidades por pack: 1.\nCompatible con difusor automáticos estándar\nFragancia fresca y duradera para todos los ambientes",
+    Documentacion: [
+    { nombre: "Ficha técnica no disponible"}
+    ],
+    categoria: "Insumos",
+    subcategoria: "Aromatizadores",  
+    marca: "MAKE",
+    destacado: false,
+    imagenes: [
+      "imagenes/Productos/insumos/aromatizantes/menta.png"
+    ]
+  },
+  {
+    id: "insumos-31",
+    nombre: "Aromatizador de ambientes - Lavanda",
+    Descripcion: "Es la opción perfecta para mantener tu hogar siempre fresco y agradable. Se adapta fácilmente a cualquier difusor automático estándar.\nTransforma cada espacio en un ambiente puro y confortable. Su formato práctico asegura un uso prolongado y constante, manteniendo la frescura sin esfuerzo.",
+    Especificaciones: "Volumen de la unidad: 270 mL.\nPeso de la unidad: 185 g.\nUnidades por pack: 1.\nCompatible con difusor automáticos estándar\nFragancia fresca y duradera para todos los ambientes",
+    Documentacion: [
+    { nombre: "Ficha técnica no disponible"}
+    ],
+    categoria: "Insumos",
+    subcategoria: "Aromatizadores",  
+    marca: "MAKE",
+    destacado: false,
+    imagenes: [
+      "imagenes/Productos/insumos/aromatizantes/lavanda.png"
+    ]
+  },
+  {
+    id: "insumos-32",
+    nombre: "Aromatizador de ambientes - Rosas",
+    Descripcion: "Es la opción perfecta para mantener tu hogar siempre fresco y agradable. Se adapta fácilmente a cualquier difusor automático estándar.\nTransforma cada espacio en un ambiente puro y confortable. Su formato práctico asegura un uso prolongado y constante, manteniendo la frescura sin esfuerzo.",
+    Especificaciones: "Volumen de la unidad: 270 mL.\nPeso de la unidad: 185 g.\nUnidades por pack: 1.\nCompatible con difusor automáticos estándar\nFragancia fresca y duradera para todos los ambientes",
+    Documentacion: [
+    { nombre: "Ficha técnica no disponible"}
+    ],
+    categoria: "Insumos",
+    subcategoria: "Aromatizadores",  
+    marca: "MAKE",
+    destacado: false,
+    imagenes: [
+      "imagenes/Productos/insumos/aromatizantes/rosas.png"
+    ]
+  },
+  {
+    id: "insumos-33",
+    nombre: "Aromatizador de ambientes - Red Glamour",
+    Descripcion: "Es la opción perfecta para mantener tu hogar siempre fresco y agradable. Se adapta fácilmente a cualquier difusor automático estándar.\nTransforma cada espacio en un ambiente puro y confortable. Su formato práctico asegura un uso prolongado y constante, manteniendo la frescura sin esfuerzo.",
+    Especificaciones: "Volumen de la unidad: 270 mL.\nPeso de la unidad: 185 g.\nUnidades por pack: 1.\nCompatible con difusor automáticos estándar\nFragancia fresca y duradera para todos los ambientes",
+    Documentacion: [
+    { nombre: "Ficha técnica no disponible"}
+    ],
+    categoria: "Insumos",
+    subcategoria: "Aromatizadores",  
+    marca: "MAKE",
+    destacado: false,
+    imagenes: [
+      "imagenes/Productos/insumos/aromatizantes/red.png"
+    ]
+  },
+  {
+    id: "insumos-34",
+    nombre: "Aromatizador de ambientes - Limón",
+    Descripcion: "Es la opción perfecta para mantener tu hogar siempre fresco y agradable. Se adapta fácilmente a cualquier difusor automático estándar.\nTransforma cada espacio en un ambiente puro y confortable. Su formato práctico asegura un uso prolongado y constante, manteniendo la frescura sin esfuerzo.",
+    Especificaciones: "Volumen de la unidad: 270 mL.\nPeso de la unidad: 185 g.\nUnidades por pack: 1.\nCompatible con difusor automáticos estándar\nFragancia fresca y duradera para todos los ambientes",
+    Documentacion: [
+    { nombre: "Ficha técnica no disponible"}
+    ],
+    categoria: "Insumos",
+    subcategoria: "Aromatizadores",  
+    marca: "MAKE",
+    destacado: false,
+    imagenes: [
+      "imagenes/Productos/insumos/aromatizantes/limon.png"
+    ]
+  },
+   {
+    id: "insumos-35",
+    nombre: "Dispenser analógico",
+    Descripcion: "Solución práctica y funcional para mantener ambientes perfumados de forma continua. Permite regular manualmente la frecuencia de disparo según la necesidad del espacio.\nDe fácil uso e instalación, es ideal para hogares, oficinas y comercios. Su diseño compacto y discreto se adapta a cualquier entorno. Compatible con fragancias en aerosol estándar.",
+    Especificaciones: "Dispenser analógico de fácil uso\nPerfuma y renueva ambientes\nIdeal para el hogar, oficinas o comercios",
+    Documentacion: [
+    { nombre: "Ficha técnica no disponible"}
+    ],
+    categoria: "Insumos",
+    subcategoria: "Aromatizadores",  
+    marca: "MAKE",
+    destacado: false,
+    imagenes: [
+      "imagenes/Productos/insumos/aromatizantes/dispenser.png"
     ]
   },
 ]
