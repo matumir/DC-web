@@ -754,4 +754,84 @@ const insumos = [
       "imagenes/Productos/insumos/botiquines/142.1.png","imagenes/Productos/insumos/botiquines/142.2.png"
     ]
   },
+   {
+    id: "insumos-47",
+    nombre: "Extintor 1kg manual a base de polvo ABC (233 x 110mm)",
+    Descripcion: "EXTINTOR:\nExcelente potencial extintor en un equipo liviano de fácil manejo.\nRecipiente de chapa de acero.\nPintura en polvo poliéster-epoxi de alta resistencia a la intemperie.\nVálvula de latón forjado, con manómetro de control de carga incorporado, palancas de sostén y accionamiento de acero.\nManguera de caucho sintético y tobera plástica.\n\nAGENTE EXTINTOR:\nPolvo químico seco ABC 60 y ABC 90. Apto para fuegos clase ABC\nSello IRAM – Aprobación DPS\nAplicaciones (1kg): Vehículos livianos, autoelevadores, embarcaciones.\nNo Apto: Vehículos pesados, bares, restaurantes, escuelas, hospitales, industrias, comercios, locales de reuniones, cines, oficinas y viviendas.",
+    Especificaciones: "Capacidad nominal: 1 kg\nAltura (mm): 233\nAncho (mm): 110\nProfundidad/Diámetro (mm): 101,6\nPeso cargado (kg): 2\nLongitud de manguera (m): NO\NAlcance mínimo (m): 1,5\nPresión de servicio (MPa): 1,4\nPresión de prueba (MPa): 3,5\nPotencial extintor: 1A-3B\nSoporte standard: NO\nNorma IRAM Nro.: 3523",
+    Documentacion: [
+    { nombre: "Ficha técnica no disponible"}
+    ],
+    categoria: "Insumos",
+    subcategoria: "Extintores",  
+    marca: "YUKON",
+    destacado: false,
+    imagenes: [
+      "imagenes/Productos/insumos/extintores/1kg1.png"
+    ]
+  },
+  {
+    id: "insumos-48",
+    nombre: "Extintor 1kg manual a base de polvo ABC (345 x 90mm)",
+    Descripcion: "EXTINTOR:\nExcelente potencial extintor en un equipo liviano de fácil manejo.\nRecipiente de chapa de acero.\nPintura en polvo poliéster-epoxi de alta resistencia a la intemperie.\nVálvula de latón forjado, con manómetro de control de carga incorporado, palancas de sostén y accionamiento de acero.\nManguera de caucho sintético y tobera plástica.\n\nAGENTE EXTINTOR:\nPolvo químico seco ABC 60 y ABC 90. Apto para fuegos clase ABC\nSello IRAM – Aprobación DPS\nAplicaciones (1kg): Vehículos livianos, autoelevadores, embarcaciones.\nNo Apto: Vehículos pesados, bares, restaurantes, escuelas, hospitales, industrias, comercios, locales de reuniones, cines, oficinas y viviendas.",
+    Especificaciones: "Capacidad nominal: 1 kg\nAltura (mm): 345\nAncho (mm): 90\nProfundidad/Diámetro (mm): 76,2\nPeso cargado (kg): 2\nLongitud de manguera (m): NO\NAlcance mínimo (m): 1,5\nPresión de servicio (MPa): 1,4\nPresión de prueba (MPa): 3,5\nPotencial extintor: 1A-3B\nSoporte standard: NO\nNorma IRAM Nro.: 3523",
+    Documentacion: [
+    { nombre: "Ficha técnica no disponible"}
+    ],
+    categoria: "Insumos",
+    subcategoria: "Extintores",  
+    marca: "YUKON",
+    destacado: false,
+    imagenes: [
+      "imagenes/Productos/insumos/extintores/1kg2.png"
+    ]
+  },
+  {
+    id: "insumos-49",
+    nombre: "Extintor 2.5kg manual a base de polvo ABC",
+    Descripcion: "EXTINTOR:\nExcelente potencial extintor en un equipo liviano de fácil manejo.\nRecipiente de chapa de acero.\nPintura en polvo poliéster-epoxi de alta resistencia a la intemperie.\nVálvula de latón forjado, con manómetro de control de carga incorporado, palancas de sostén y accionamiento de acero.\nManguera de caucho sintético y tobera plástica.\n\nAGENTE EXTINTOR:\nPolvo químico seco ABC 60 y ABC 90. Apto para fuegos clase ABC\nSello IRAM – Aprobación DPS\nAplicaciones (2,5kg; 5kg; 10kg): Vehículos pesados, bares, restaurantes, escuelas, hospitales, industrias y comercios, locales de reuniones, cines,oficinas, viviendas.\nNo Apto: Vehículos livianos, autoelevadores, embarcaciones.",
+    Especificaciones: "Capacidad nominal: 2,5 kg\nAltura (mm): 440 \nAncho (mm): 220\nProfundidad/Diámetro (mm): 125\nPeso cargado (kg): 5\nLongitud de manguera (m): 0,36\NAlcance mínimo (m): 2\nPresión de servicio (MPa): 1,4\nPresión de prueba (MPa): 3,5\nPotencial extintor: 3A-20B\nSoporte standard: PARED\nNorma IRAM Nro.: 3523",
+    Documentacion: [
+    { nombre: "Ficha técnica no disponible"}
+    ],
+    categoria: "Insumos",
+    subcategoria: "Extintores",  
+    marca: "YUKON",
+    destacado: false,
+    imagenes: [
+      "imagenes/Productos/insumos/extintores/2.5kg.png"
+    ]
+  },
+  {
+    id: "insumos-50",
+    nombre: "Extintor 5kg manual a base de polvo ABC",
+    Descripcion: "EXTINTOR:\nExcelente potencial extintor en un equipo liviano de fácil manejo.\nRecipiente de chapa de acero.\nPintura en polvo poliéster-epoxi de alta resistencia a la intemperie.\nVálvula de latón forjado, con manómetro de control de carga incorporado, palancas de sostén y accionamiento de acero.\nManguera de caucho sintético y tobera plástica.\n\nAGENTE EXTINTOR:\nPolvo químico seco ABC 60 y ABC 90. Apto para fuegos clase ABC\nSello IRAM – Aprobación DPS\nAplicaciones (2,5kg; 5kg; 10kg): Vehículos pesados, bares, restaurantes, escuelas, hospitales, industrias y comercios, locales de reuniones, cines,oficinas, viviendas.\nNo Apto: Vehículos livianos, autoelevadores, embarcaciones.",
+    Especificaciones: "Capacidad nominal: 5 kg\nAltura (mm): 510 \nAncho (mm): 230\nProfundidad/Diámetro (mm): 155\nPeso cargado (kg): 8,5\nLongitud de manguera (m): 0,45\NAlcance mínimo (m): 3\nPresión de servicio (MPa): 1,4\nPresión de prueba (MPa): 3,5\nPotencial extintor: 6A-40B\nSoporte standard: PARED\nNorma IRAM Nro.: 3523",
+    Documentacion: [
+    { nombre: "Ficha técnica no disponible"}
+    ],
+    categoria: "Insumos",
+    subcategoria: "Extintores",  
+    marca: "YUKON",
+    destacado: false,
+    imagenes: [
+      "imagenes/Productos/insumos/extintores/5kg.png"
+    ]
+  },
+  {
+    id: "insumos-51",
+    nombre: "Extintor 10kg manual a base de polvo ABC",
+    Descripcion: "EXTINTOR:\nExcelente potencial extintor en un equipo liviano de fácil manejo.\nRecipiente de chapa de acero.\nPintura en polvo poliéster-epoxi de alta resistencia a la intemperie.\nVálvula de latón forjado, con manómetro de control de carga incorporado, palancas de sostén y accionamiento de acero.\nManguera de caucho sintético y tobera plástica.\n\nAGENTE EXTINTOR:\nPolvo químico seco ABC 60 y ABC 90. Apto para fuegos clase ABC\nSello IRAM – Aprobación DPS\nAplicaciones (2,5kg; 5kg; 10kg): Vehículos pesados, bares, restaurantes, escuelas, hospitales, industrias y comercios, locales de reuniones, cines,oficinas, viviendas.\nNo Apto: Vehículos livianos, autoelevadores, embarcaciones.",
+    Especificaciones: "Capacidad nominal: 5 kg\nAltura (mm): 510 \nAncho (mm): 230\nProfundidad/Diámetro (mm): 155\nPeso cargado (kg): 8,5\nLongitud de manguera (m): 0,45\NAlcance mínimo (m): 3\nPresión de servicio (MPa): 1,4\nPresión de prueba (MPa): 3,5\nPotencial extintor: 6A-40B\nSoporte standard: PARED\nNorma IRAM Nro.: 3523",
+    Documentacion: [
+    { nombre: "Ficha técnica no disponible"}
+    ],
+    categoria: "Insumos",
+    subcategoria: "Extintores",  
+    marca: "YUKON",
+    destacado: false,
+    imagenes: [
+      "imagenes/Productos/insumos/extintores/5kg.png"
+    ]
+  },
 ]
