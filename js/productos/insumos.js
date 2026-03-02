@@ -562,4 +562,196 @@ const insumos = [
       "imagenes/Productos/insumos/aromatizantes/dispenser.png"
     ]
   },
+  {
+    id: "insumos-36",
+    nombre: "Botiquín económico",
+    Descripcion: "Botiquines de Plástico Poliestireno Cristal.\nMedidas: 100 x 62 x 52 mm\nCantidad de productos: 6",
+    Especificaciones: "Contenido: \n1 sobre de gasa esteril hidrofila en trozos 10 x 10 cm.\n1×10 aposito protector adhesivo.\n1 sobre de algodón hidrofilo.\n1 par de guantes descartables de polietileno.\n1 tela adhesiva n° 1 12,5 cm x 1 metro.\n1 fco. agua oxigenada x 10 cc. uso externo.",
+    Documentacion: [
+    { nombre: "Ficha técnica no disponible"}
+    ],
+    categoria: "Insumos",
+    subcategoria: "Botiquines",  
+    marca: "PRACTY BOTIQUIN",
+    destacado: false,
+    imagenes: [
+      "imagenes/Productos/insumos/botiquines/100.png"
+    ]
+  },
+  {
+    id: "insumos-37",
+    nombre: "Botiquín plástico N° 1",
+    Descripcion: "Botiquines de Plástico Poliestireno Cristal.\nMedidas: 160 x 110 x 25 mm\nCantidad de productos: 8",
+    Especificaciones: "Contenido: \n1 sobre de gasa estéril hidrófila de 10 x 10 cm.\n1 sobre de algodón hidrófilo.\n1 sobre de alcohol. uso externo.\n1 fco. de agua oxigenada 10 vol. uso externo.\n1×10 apósitos protector adhesivos.\n1 venda tipo Cambric orillada 5cm. de ancho x 3 metros.\n1 tela adhesiva N° 1 12.5mm x 1metro.\n1 par de guantes descartables de polietileno.",
+    Documentacion: [
+    { nombre: "Ficha técnica no disponible"}
+    ],
+    categoria: "Insumos",
+    subcategoria: "Botiquines",  
+    marca: "PRACTY BOTIQUIN",
+    destacado: false,
+    imagenes: [
+      "imagenes/Productos/insumos/botiquines/101.png"
+    ]
+  },
+  {
+    id: "insumos-38",
+    nombre: "Botiquín plástico N° 2",
+    Descripcion: "Botiquines de Plástico Poliestireno Cristal.\nMedidas: 160 x 110 x 25 mm\nCantidad de productos: 8",
+    Especificaciones: "Contenido: \n1 sobre de gasa estéril hidrófila de 10 x 10 cm.\n1 sobre de algodón hidrófilo.\n1 sobre de alcohol. uso externo.\n1 fco. de agua oxigenada 10 vol. uso externo.\n1×10 apósitos protector adhesivos.\n1 venda tipo Cambric orillada 5cm. de ancho x 3 metros.\n1 tela adhesiva N° 1 12.5mm x 1metro.\n1 par de guantes descartables de polietileno.",
+    Documentacion: [
+    { nombre: "Ficha técnica no disponible"}
+    ],
+    categoria: "Insumos",
+    subcategoria: "Botiquines",  
+    marca: "PRACTY BOTIQUIN",
+    destacado: false,
+    imagenes: [
+      "imagenes/Productos/insumos/botiquines/102.png"
+    ]
+  },
+  {
+    id: "insumos-39",
+    nombre: "Botiquín plástico N° 3",
+    Descripcion: "Botiquines de Plástico Poliestireno Cristal.\nMedidas: 178 x 116 x 42 mm\nCantidad de productos: 10",
+    Especificaciones: "Contenido:\n1 fco. agua oxigenada 10v x 100cc. uso externo.\n1 fco solución Timerosal x 60 cc . uso externo.\n1×10 apósito protector adhesivo.\n1 sobre algodón hidrófilo.\n2 sobres de gasa estéril hidrófila de 10 x 10 cm.\n1 par de guantes descartables de polietileno.\n1 sobre de alcohol.\n1 venda tipo Cambric orillada 5cm. de ancho x 3 metros.\n1 tela adhesiva N° 3 12.5mm x 2 metros.",
+    Documentacion: [
+    { nombre: "Ficha técnica no disponible"}
+    ],
+    categoria: "Insumos",
+    subcategoria: "Botiquines",  
+    marca: "PRACTY BOTIQUIN",
+    destacado: false,
+    imagenes: [
+      "imagenes/Productos/insumos/botiquines/103.png"
+    ]
+  },
+  {
+    id: "insumos-40",
+    nombre: "Botiquín plástico N° 4",
+    Descripcion: "Botiquines de Plástico Poliestireno Cristal.\nMedidas: 178 x 116 x 42 mm\nCantidad de productos: 11",
+    Especificaciones: "Contenido:\n3 sobres de gasa estéril hidrófila de 10 x 10 cm.\n1 sobre de algodón hidrófilo.\n1 x 10 apósitos protector adhesivos.\n1 tela adhesiva N° 1 12.5 mm x 1metro.\n1 fco. sol. Timerosal x 30 cc. uso externo.\n1 fco. agua oxigenada 10 vol x 30 cc. uso ext.\n1 apósito quirúrgico estéril.\n1 venda tipo Cambric orillada 5cm x 3 metros.\n2 par de guantes descartables de polietileno.\n1 tubo de látex para ligadura.\n1 sobre de alcohol. uso externo.",
+    Documentacion: [
+    { nombre: "Ficha técnica no disponible"}
+    ],
+    categoria: "Insumos",
+    subcategoria: "Botiquines",  
+    marca: "PRACTY BOTIQUIN",
+    destacado: false,
+    imagenes: [
+      "imagenes/Productos/insumos/botiquines/104.png"
+    ]
+  },
+  {
+    id: "insumos-41",
+    nombre: "Botiquín plástico N° 5",
+    Descripcion: "Botiquines de Plástico Corrugado plástico.\nMedidas: 220 x 110 x 140 mm\nCantidad de productos: 25",
+    Especificaciones: "Contenido:\n7 sobres de gasa hidrófila estéril.\n1 sobre de algodón hidrófilo x 70 grs.\n2 sobres de alcohol. uso externo.\n1 sobre de bicarbonato de sodio x 25 grs.\n1 venda tipo Cambric orillada x 5 cm x 3 metros.\n1×10 apósitos protector adhesivo.\n1 tubo de latex para ligadura.\n1 fco. agua oxigenada 10 vol. x 100 cc.\n1 apósito quirúrgico estéril.\n1 fco. solución antiséptica Timerosal x 60 cc. uso externo.\n1 tela adhesiva N° 5 12,5 mm. x 4 mts.\n1 pinza para sacar astillas.\n1 copita lava ojos plástica.\n1 jabón antiséptico por 100 gramos.\n2 pares de guantes descartables de polietileno.\n1 tijera de metal.\n1 guía de primeros auxilios.",
+    Documentacion: [
+    { nombre: "Ficha técnica no disponible"}
+    ],
+    categoria: "Insumos",
+    subcategoria: "Botiquines",  
+    marca: "PRACTY BOTIQUIN",
+    destacado: false,
+    imagenes: [
+      "imagenes/Productos/insumos/botiquines/105.png","imagenes/Productos/insumos/botiquines/105.2.jpg"
+    ]
+  },
+  {
+    id: "insumos-41",
+    nombre: "Botiquín de madera laqueada N° 6",
+    Descripcion: "Botiquines de Madera / Madera tradicional\nMadera natural laqueada.\nMedidas: 185 x 138 x 105 mm\nCantidad de productos: 24",
+    Especificaciones: "Contenido:\n7 Sobres de Gasa Estéril Hidrófila de 10 x 10 cm.\n1 sobre de algodón Hidrófilo x 70grs.\n2 sobres de alcohol. Uso externo.\n1 sobre de bicarbonato de Sodio x 25grs.\n1 Apósito quirúrgico estéril\n1 venda tipo Cambric orillada x 5cm. x 3 metros.\n1 x 10 apósito protector adhesivo.\n1 tubo de látex para ligaduras.\n1 fco. agua oxigenada 10 vol. x 100cc. Uso externo.\n1 fco. sol. antiséptica Timerosal x 60 cc. Uso externo.\n1 tela Adhesiva N°5 12.5 mm x 4 mts.\n1 pinza saca astillas.\n1 tijera de metal plegable.\n1 copita lava ojos plásticos.\n1 jabón antiséptico x 100 gramos.\n1 par de Guantes Descartables.\n1 guía de primeros auxilios.",
+    Documentacion: [
+    { nombre: "Ficha técnica no disponible"}
+    ],
+    categoria: "Insumos",
+    subcategoria: "Botiquines",  
+    marca: "PRACTY BOTIQUIN",
+    destacado: false,
+    imagenes: [
+      "imagenes/Productos/insumos/botiquines/206.png","imagenes/Productos/insumos/botiquines/206.2.jpg"
+    ]
+  },
+  {
+    id: "insumos-42",
+    nombre: "Botiquín de madera fibrofácil N° 8",
+    Descripcion: "Botiquines de madera / Línea económica / Regular line Madera.\nMedidas: 245 x 170 x 100 mm\nCantidad de productos: 27",
+    Especificaciones: "Contenido:\n7 sobres de gasa estéril hidrófila en trozos de 10 x 10 cm.\n1 sobre de algodón hidrófilo x 70grs.\n2 sobres de alcohol. uso externo.\n1 sobre bicarbonato de sodio x 25grs\n1 venda tipo Cambric orillada x 5 cm. x 3 mts.\n1 venda tipo Cambric orillada x 7cm. x 3 mts.\n1 x 10 apósito protector adhesivo.\n1 tubo de látex para ligaduras.\n1 fco. agua oxigenada 10 vol. x 100 cc. uso externo.\n1 apósito quirúrgico estéril.\n1 fco. solución antiséptica Timerosal x 60 cc. uso externo.\n1 tela adhesiva N° 5 12.5 mm. x 4 mts.\n1 pinza saca astillas.\n1 copita lava ojos plástica.\n1 jabón antiséptico x 100 grs.\n2 pares de guantes polietileno.\n1 tijera de metal.\n1 espejo 14 x 8cm.\n1 guía de primeros auxilios.",
+    Documentacion: [
+    { nombre: "Ficha técnica no disponible"}
+    ],
+    categoria: "Insumos",
+    subcategoria: "Botiquines",  
+    marca: "PRACTY BOTIQUIN",
+    destacado: false,
+    imagenes: [
+      "imagenes/Productos/insumos/botiquines/252.1.png","imagenes/Productos/insumos/botiquines/252.2.png"
+    ]
+  },
+  {
+    id: "insumos-43",
+    nombre: "Botiquín de madera fibrofácil N° 10",
+    Descripcion: "Botiquines de madera / Línea económica / Regular line Madera.\nMedidas: 365 x 270 x 100 mm\nCantidad de productos: 29",
+    Especificaciones: "Contenido:\n1 x 12 sobres de gasa estéril hidrófila en trozos de 10 x 10 cm.\n1 paquete de algodón hidrófilo x 70 grs.\n1 venda tipo Cambric orillada x 5 cm. x 3 mts.\n1 venda tipo Cambric orillada x 7 cm. x 3 mts.\n1 venda tipo Cambric orillada x 10 cm. x 3 mts.\n1 jabón antiséptico x 100 gramos.\n2 x 10 apósito protector adhesivo.\n1 tubo de látex para ligaduras.\n1 fco. agua oxigenada 10 vol. x 450 cc. uso externo.\n1 fco. solución antiséptica Timerosal x 100 cc. uso externo.\n1 apósito quirúrgico estéril.\n1 jeringa descartable x 5 cm. c/a.\n1 tela adhesiva N° 5 12.5 mm. x 4 mts.\n1 tela adhesiva N° 6 2.5 mm. x 4 mts.\n1 copita lava ojos plástica.\n1 fco. de alcohol x 250 cm. uso externo.\n1 par de guantes descartables de látex.\n1 caja de bicarbonato de sodio x 250 grs.\n1 pinza saca astillas.\n1 tijera de metal.\n6 pares de guantes descartables polietileno.\n1 espejo de 14 x 8 cm.\n1 guía de primeros auxilios.",
+    Documentacion: [
+    { nombre: "Ficha técnica no disponible"}
+    ],
+    categoria: "Insumos",
+    subcategoria: "Botiquines",  
+    marca: "PRACTY BOTIQUIN",
+    destacado: false,
+    imagenes: [
+      "imagenes/Productos/insumos/botiquines/254.1.png","imagenes/Productos/insumos/botiquines/254.2.png"
+    ]
+  },
+  {
+    id: "insumos-44",
+    nombre: "Botiquín de metal pintado",
+    Descripcion: "Botiquines metálicos Regular line\nChapa pintura expoxi.\nMedidas: 283 x 228 x 74 mm\nCantidad de productos: 29",
+    Especificaciones: "Contenido:\n8 sobres de gasa estéril hidrófila 10 x 10 cm.\n1 venda tipo Cambric orillada x 5 cm. x 3 mts.\n1 venda tipo Cambric orillada x 7 cm. x 3 mts.\n2 x 10 apósito protector adhesivo.\n1 jabón antiséptico x 100 grs.\n1 sobre bicarbonato de sodio x 25 grs.\n1 apósito quirúrgico estéril.\n1 fco. agua oxigenada 10 vol. x 100 cc. uso externo.\n1 fco. solución antiséptica Timerosal x 60 cc. uso externo.\n1 tubo de látex para ligaduras.\n1 tijera de metal plegable.\n1 copita lava ojos plástica.\n1 tela adhesiva N° 5 12.5 mm. x 4 mts.\n1 tela adhesiva N° 6 25 mm. x 4 mts.\n1 paquete de algodón x 70 grs.\n3 pares de guantes descartables polietileno.\n1 fco de alcohol x 250 cc. uso externo.\n1 pinza saca astillas.\n1 guía de primeros auxilios.",
+    Documentacion: [
+    { nombre: "Ficha técnica no disponible"}
+    ],
+    categoria: "Insumos",
+    subcategoria: "Botiquines",  
+    marca: "PRACTY BOTIQUIN",
+    destacado: false,
+    imagenes: [
+      "imagenes/Productos/insumos/botiquines/351.1.png","imagenes/Productos/insumos/botiquines/351.2.png"
+    ]
+  },
+  {
+    id: "insumos-45",
+    nombre: "Botiquín tela plástica (bolso) N° 2",
+    Descripcion: "Botiquines de Plástico Tela plástica.\nMedidas: 370 x 150 x 260 mm\nCantidad de productos: 26",
+    Especificaciones: "Contenido: \n2 x 10 apósito protector adhesivo.\n1 jabón antiséptico x 100 gramos.\n11 sobres de gasa estéril hidrófila en trozos 10 x 10 cm.\n1 copita lava ojos plástica.\n1 fco. agua oxigenada 10 vol. x 250 cc. uso externo.\n1 apósito quirúrgico estéril.\n1 fco. alcohol x 250 cc. uso externo\n1 fco. solución Timerosal x 100 cc. uso externo.\n1 paquete de algodón hidrófilo x 70 grs.\n1 par de guantes de látex descartable.\n5 pares de guantes descartables de polietileno.\n1 pinza saca astillas.\n1 tela adhesiva N° 5 12.5 mm. x 4 mts.\n1 tela adhesiva 2.5 mm. x 4 mts.\n1 sobre de bicarbonato de sodio x 25 gramos.\n1 tijera de metal.\n1 tubo de látex para ligadura.\n1 venda tipo Cambric orillada x 5 cm. x 3 mts.\n1 venda tipo Cambric orillada x 7 cm x 3 mts.\n1 venda tipo Cambric orillada x 10 cm. x 3 mts.\n1 guía de primeros auxilios.",
+    Documentacion: [
+    { nombre: "Ficha técnica no disponible"}
+    ],
+    categoria: "Insumos",
+    subcategoria: "Botiquines",  
+    marca: "PRACTY BOTIQUIN",
+    destacado: false,
+    imagenes: [
+      "imagenes/Productos/insumos/botiquines/144.png",
+    ]
+  },
+  {
+    id: "insumos-46",
+    nombre: "Botiquín tela plástica (cartera) N° 1",
+    Descripcion: "Botiquines de Plástico Simil Cuero.\nMedidas: 190 x 110 x 40 mm\nCantidad de productos: 10",
+    Especificaciones: "Contenido:\n2 sobres de gasa estéril hidrófila en trozos de 10 x 10 cm.\n1 fco. de agua oxigenada 10vol. x 30 cc. uso externo.\n1 x 10 apósito protector adhesivo.\n1 sobre de alcohol. uso externo.\n1 sobre de algodón hidrófilo.\n1 venda tipo Cambric orillada x 5 cm. x 3 mts.\n1 tela adhesiva N° 1 12.5 mm. x 1 metro.\n2 pares de guantes descartables de polietileno.",
+    Documentacion: [
+    { nombre: "Ficha técnica no disponible"}
+    ],
+    categoria: "Insumos",
+    subcategoria: "Botiquines",  
+    marca: "PRACTY BOTIQUIN",
+    destacado: false,
+    imagenes: [
+      "imagenes/Productos/insumos/botiquines/142.1.png","imagenes/Productos/insumos/botiquines/142.2.png"
+    ]
+  },
 ]

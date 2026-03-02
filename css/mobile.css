@@ -449,6 +449,7 @@ padding: 0;
   overflow: hidden;
   line-height: 1.2;
   min-height: 2.4em;   
+  align-content: center;
   }
 
   .categoria-card button {
@@ -584,6 +585,7 @@ height: 220px;
   margin-top: 0;
   align-content: center;
   margin-bottom: 5px;
+  
 }
 .destacados-track .card img {
   width: 100%;
