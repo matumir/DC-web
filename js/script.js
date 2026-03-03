@@ -74,6 +74,7 @@ const categoriasHome = [
   { nombre: "Protección facial", img: "imagenes/logos/facial.png" },
   { nombre: "Protección auditiva", img: "imagenes/logos/auditiva.png" },
   { nombre: "Protección ocular", img: "imagenes/logos/ocular.png" },
+  { nombre: "Protección respiratoria", img: "imagenes/logos/respiratoria.png" },
   { nombre: "Sujeción de cargas", img: "imagenes/logos/cargas.png" },
   { nombre: "Insumos", img: "imagenes/logos/insumos.png" }
 ];
@@ -102,7 +103,8 @@ const marcas = [
   {nombre: 'ELEGANTE', imagen: 'imagenes/marcas/elegante.png'},
   {nombre: 'MAKE', imagen: 'imagenes/marcas/make.png'},
   {nombre: 'PRACTY BOTIQUIN', imagen: 'imagenes/marcas/practybotiquin.png'},
-  {nombre: 'YUKON', imagen: 'imagenes/marcas/yukon.png'}
+  {nombre: 'YUKON', imagen: 'imagenes/marcas/yukon.png'},
+  {nombre: 'LA MEJOR', imagen: 'imagenes/marcas/lamejor.png'}
 ];
 
 /* =====================
@@ -287,7 +289,15 @@ if (inputBuscador && resultadosBuscador) {
       }
 
       const matches = filtrarProductos(texto);
-
+      if (matches.length === 0) {
+        resultadosBuscador.innerHTML = `
+          <div class="buscador-sin-resultados">
+            No se encontraron productos
+          </div>
+        `;
+        resultadosBuscador.classList.remove("oculto");
+        return;
+      }
       matches.forEach(p => {
       const imagenSrc = p.colores ? p.colores[0].imagenes[0] : p.imagenes[0];
       const item = document.createElement("div");
@@ -451,9 +461,10 @@ function renderProductos(lista) {
         </div>
       `;
     });
-
+    if (lista.length != 0){
     actualizarContador(total, ini, fin);
     renderPaginacion(total);
+    }
   }, 400);
 }
 function cargarSubcategorias() {
@@ -661,6 +672,17 @@ if (busquedaActual) {
 
   listaActual = lista;
   paginaActual = 1;
+
+   // 🔥 SI NO HAY RESULTADOS
+  if (lista.length === 0) {
+    catalogo.innerHTML = `
+      <div class="sin-resultados">
+        <h3>No encontramos productos para "${busquedaActual}"</h3>
+        <p>Intentá con otra palabra clave.</p>
+      </div>
+    `;
+    return;
+  }
   renderProductos(listaActual);
   renderFiltrosActivos();
 
@@ -1358,10 +1380,24 @@ function renderRelacionados() {
   carrusel.innerHTML = "";
   indiceCarrusel = 0;
 
-  const relacionadosFiltrados = productos.filter(
-    p => p.categoria === productoActual.categoria && p.subcategoria === productoActual.subcategoria && p.id !== productoActual.id
+  // 1️⃣ Primero intentamos por SUBCATEGORÍA
+  let relacionadosFiltrados = productos.filter(
+    p =>
+      p.categoria === productoActual.categoria &&
+      p.subcategoria === productoActual.subcategoria &&
+      p.id !== productoActual.id
   );
 
+  // 2️⃣ Si no hay resultados, buscamos solo por CATEGORÍA
+  if (relacionadosFiltrados.length === 0) {
+    relacionadosFiltrados = productos.filter(
+      p =>
+        p.categoria === productoActual.categoria &&
+        p.id !== productoActual.id
+    );
+  }
+
+  // 3️⃣ Renderizamos
   relacionadosFiltrados.forEach(p => {
     const imagenSrc = p.colores
       ? p.colores[0].imagenes[0]
@@ -1372,20 +1408,18 @@ function renderRelacionados() {
     card.onclick = () => mostrarDetalle(p.id);
 
     card.innerHTML = `
-  <img src="${imagenSrc}" alt="${p.nombre}">
-  <h4>${p.marca} | ${p.nombre}</h4>
-  <button class="btn-ver fijo" onclick="mostrarDetalle('${p.id}')">
-    Ver detalle
-  </button>
-`;
-
+      <img src="${imagenSrc}" alt="${p.nombre}">
+      <h4>${p.marca} | ${p.nombre}</h4>
+      <button class="btn-ver fijo" onclick="mostrarDetalle('${p.id}')">
+        Ver detalle
+      </button>
+    `;
 
     carrusel.appendChild(card);
   });
 
   actualizarCarrusel();
 }
-
 function moverCarrusel(dir) {
   const cards = document.querySelectorAll("#carruselRelacionados .card");
   const totalGrupos = Math.ceil(cards.length / productosPorCarrusel);

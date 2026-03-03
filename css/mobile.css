@@ -856,6 +856,14 @@ transform: translateY(-10px);
   height: 300px;
   overflow: hidden;
 }
-
+.buscador-sin-resultados {
+  background: #f2f2f2;
+  padding: 14px;
+  border-radius: 10px;
+  margin-top: 6px;
+  text-align: center;
+  font-size: 14px;
+  color: #333;
+}
 
 }

@@ -571,7 +571,7 @@ const insumos = [
     { nombre: "Ficha técnica no disponible"}
     ],
     categoria: "Insumos",
-    subcategoria: "Botiquines",  
+    subcategoria: "Salud",  
     marca: "PRACTY BOTIQUIN",
     destacado: false,
     imagenes: [
@@ -587,7 +587,7 @@ const insumos = [
     { nombre: "Ficha técnica no disponible"}
     ],
     categoria: "Insumos",
-    subcategoria: "Botiquines",  
+    subcategoria: "Salud",  
     marca: "PRACTY BOTIQUIN",
     destacado: false,
     imagenes: [
@@ -603,7 +603,7 @@ const insumos = [
     { nombre: "Ficha técnica no disponible"}
     ],
     categoria: "Insumos",
-    subcategoria: "Botiquines",  
+    subcategoria: "Salud",  
     marca: "PRACTY BOTIQUIN",
     destacado: false,
     imagenes: [
@@ -619,7 +619,7 @@ const insumos = [
     { nombre: "Ficha técnica no disponible"}
     ],
     categoria: "Insumos",
-    subcategoria: "Botiquines",  
+    subcategoria: "Salud",  
     marca: "PRACTY BOTIQUIN",
     destacado: false,
     imagenes: [
@@ -635,7 +635,7 @@ const insumos = [
     { nombre: "Ficha técnica no disponible"}
     ],
     categoria: "Insumos",
-    subcategoria: "Botiquines",  
+    subcategoria: "Salud",  
     marca: "PRACTY BOTIQUIN",
     destacado: false,
     imagenes: [
@@ -651,7 +651,7 @@ const insumos = [
     { nombre: "Ficha técnica no disponible"}
     ],
     categoria: "Insumos",
-    subcategoria: "Botiquines",  
+    subcategoria: "Salud",  
     marca: "PRACTY BOTIQUIN",
     destacado: false,
     imagenes: [
@@ -667,7 +667,7 @@ const insumos = [
     { nombre: "Ficha técnica no disponible"}
     ],
     categoria: "Insumos",
-    subcategoria: "Botiquines",  
+    subcategoria: "Salud",  
     marca: "PRACTY BOTIQUIN",
     destacado: false,
     imagenes: [
@@ -683,7 +683,7 @@ const insumos = [
     { nombre: "Ficha técnica no disponible"}
     ],
     categoria: "Insumos",
-    subcategoria: "Botiquines",  
+    subcategoria: "Salud",  
     marca: "PRACTY BOTIQUIN",
     destacado: false,
     imagenes: [
@@ -699,7 +699,7 @@ const insumos = [
     { nombre: "Ficha técnica no disponible"}
     ],
     categoria: "Insumos",
-    subcategoria: "Botiquines",  
+    subcategoria: "Salud",  
     marca: "PRACTY BOTIQUIN",
     destacado: false,
     imagenes: [
@@ -715,7 +715,7 @@ const insumos = [
     { nombre: "Ficha técnica no disponible"}
     ],
     categoria: "Insumos",
-    subcategoria: "Botiquines",  
+    subcategoria: "Salud",  
     marca: "PRACTY BOTIQUIN",
     destacado: false,
     imagenes: [
@@ -731,7 +731,7 @@ const insumos = [
     { nombre: "Ficha técnica no disponible"}
     ],
     categoria: "Insumos",
-    subcategoria: "Botiquines",  
+    subcategoria: "Salud",  
     marca: "PRACTY BOTIQUIN",
     destacado: false,
     imagenes: [
@@ -747,7 +747,7 @@ const insumos = [
     { nombre: "Ficha técnica no disponible"}
     ],
     categoria: "Insumos",
-    subcategoria: "Botiquines",  
+    subcategoria: "Salud",  
     marca: "PRACTY BOTIQUIN",
     destacado: false,
     imagenes: [
@@ -822,7 +822,7 @@ const insumos = [
     id: "insumos-51",
     nombre: "Extintor 10kg manual a base de polvo ABC",
     Descripcion: "EXTINTOR:\nExcelente potencial extintor en un equipo liviano de fácil manejo.\nRecipiente de chapa de acero.\nPintura en polvo poliéster-epoxi de alta resistencia a la intemperie.\nVálvula de latón forjado, con manómetro de control de carga incorporado, palancas de sostén y accionamiento de acero.\nManguera de caucho sintético y tobera plástica.\n\nAGENTE EXTINTOR:\nPolvo químico seco ABC 60 y ABC 90. Apto para fuegos clase ABC\nSello IRAM – Aprobación DPS\nAplicaciones (2,5kg; 5kg; 10kg): Vehículos pesados, bares, restaurantes, escuelas, hospitales, industrias y comercios, locales de reuniones, cines,oficinas, viviendas.\nNo Apto: Vehículos livianos, autoelevadores, embarcaciones.",
-    Especificaciones: "Capacidad nominal: 5 kg\nAltura (mm): 510 \nAncho (mm): 230\nProfundidad/Diámetro (mm): 155\nPeso cargado (kg): 8,5\nLongitud de manguera (m): 0,45\NAlcance mínimo (m): 3\nPresión de servicio (MPa): 1,4\nPresión de prueba (MPa): 3,5\nPotencial extintor: 6A-40B\nSoporte standard: PARED\nNorma IRAM Nro.: 3523",
+    Especificaciones: "Capacidad nominal: 10 kg\nAltura (mm): 670 \nAncho (mm): 260\nProfundidad/Diámetro (mm): 185\nPeso cargado (kg): 16,3\nLongitud de manguera (m): 0,51\NAlcance mínimo (m): 3\nPresión de servicio (MPa): 1,4\nPresión de prueba (MPa): 3,5\nPotencial extintor: 6A-60B\nSoporte standard: PARED\nNorma IRAM Nro.: 3523",
     Documentacion: [
     { nombre: "Ficha técnica no disponible"}
     ],
@@ -831,7 +831,55 @@ const insumos = [
     marca: "YUKON",
     destacado: false,
     imagenes: [
-      "imagenes/Productos/insumos/extintores/5kg.png"
+      "imagenes/Productos/insumos/extintores/10kg.png"
+    ]
+  },
+  {
+    id: "insumos-52",
+    nombre: "Crema desengrasante limpiamanos 500g",
+    Descripcion: "Potencia y eficacia para la limpieza profunda de manos. Las cremas desengrasantes LA MEJOR están formuladas para remover grasa, aceites, lubricantes y suciedad difícil, dejando las manos limpias y suaves sin resecarlas.\nIdeales para talleres mecánicos, industrias, comercios y trabajos donde la suciedad es intensa y persistente.",
+    Especificaciones: "Alta capacidad de limpieza\nFórmula eficaz contra grasa pesada\nFácil enjuague\nApta para uso frecuente",
+    Documentacion: [
+    { nombre: "Ficha técnica no disponible"}
+    ],
+    categoria: "Insumos",
+    subcategoria: "Higiene",  
+    marca: "LA MEJOR",
+    destacado: false,
+    imagenes: [
+      "imagenes/Productos/insumos/higiene/cremalamejor0.5.png"
+    ]
+  },
+  {
+    id: "insumos-53",
+    nombre: "Crema desengrasante limpiamanos 1kg",
+    Descripcion: "Potencia y eficacia para la limpieza profunda de manos. Las cremas desengrasantes LA MEJOR están formuladas para remover grasa, aceites, lubricantes y suciedad difícil, dejando las manos limpias y suaves sin resecarlas.\nIdeales para talleres mecánicos, industrias, comercios y trabajos donde la suciedad es intensa y persistente.",
+    Especificaciones: "Alta capacidad de limpieza\nFórmula eficaz contra grasa pesada\nFácil enjuague\nApta para uso frecuente",
+    Documentacion: [
+    { nombre: "Ficha técnica no disponible"}
+    ],
+    categoria: "Insumos",
+    subcategoria: "Higiene",  
+    marca: "LA MEJOR",
+    destacado: false,
+    imagenes: [
+      "imagenes/Productos/insumos/higiene/cremalamejor1.png"
+    ]
+  },
+  {
+    id: "insumos-54",
+    nombre: "Crema desengrasante limpiamanos 3.5kg",
+    Descripcion: "Potencia y eficacia para la limpieza profunda de manos. Las cremas desengrasantes LA MEJOR están formuladas para remover grasa, aceites, lubricantes y suciedad difícil, dejando las manos limpias y suaves sin resecarlas.\nIdeales para talleres mecánicos, industrias, comercios y trabajos donde la suciedad es intensa y persistente.",
+    Especificaciones: "Alta capacidad de limpieza\nFórmula eficaz contra grasa pesada\nFácil enjuague\nApta para uso frecuente",
+    Documentacion: [
+    { nombre: "Ficha técnica no disponible"}
+    ],
+    categoria: "Insumos",
+    subcategoria: "Higiene",  
+    marca: "LA MEJOR",
+    destacado: false,
+    imagenes: [
+      "imagenes/Productos/insumos/higiene/cremalamejor3.5.png"
     ]
   },
 ]
