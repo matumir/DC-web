@@ -21,7 +21,7 @@ const respiratoria = [
     Descripcion: "Respirador reutilizable de medio rostro.\nProtección respiratoria conveniente y compatible.\nBrinda protección cómoda y confiable para las vías respiratorias y es útil en muchas situaciones, ya que ayuda a proteger contra partículas y una amplia variedad de gases y vapores, según la certificación del NIOSH.\nBrinda protección cómoda y confiable para las vías respiratorias cuando se combina con los cartuchos o filtros de partículas 3M™ (como los cartuchos para vapores orgánicos/gases ácidos) o con un sistema de dos líneas de aire.\nSe debe utilizar con los cartuchos serie 6000 3M™; los filtros de las series 2000, 2200, 7000 o 5000 3M™; o los sistemas de provisión de aire dobles 3M™ contra una variedad de peligros causados por gases, vapores y partículas según aprobación del NIOSH.\nNo debe utilizarse en ambientes que representen un peligro inmediato para la vida o la salud (IDLH, por sus siglas en inglés).",
     Especificaciones: "Filtra polvo\nPeso: 250g\nAltura: 13,3 cm\nLargo 9 cm\nAncho: 12 cm\nSellado facial de silicona para mayor comodidad",
     Documentacion: [
-    { nombre: "Ficha técnica", url: "/fichas/respiratoria/3m/mascara6800.pdf"}
+    { nombre: "Ficha técnica", url: "/fichas/respiratoria/3m/semimascaras.pdf"}
     ],
     categoria: "Protección respiratoria",
     subcategoria: "Máscaras / Semimáscaras",  
@@ -29,6 +29,22 @@ const respiratoria = [
     destacado: false,
     imagenes: [
       "imagenes/Productos/respiratoria/3m/semimascara6300.png"
+    ]
+  },
+   {
+    id: "respiratoria-3",
+    nombre: "Semimáscara 6200 (Mediana)",
+    Descripcion: "Respirador reutilizable de medio rostro.\nProtección respiratoria conveniente y compatible.\nBrinda protección cómoda y confiable para las vías respiratorias y es útil en muchas situaciones, ya que ayuda a proteger contra partículas y una amplia variedad de gases y vapores, según la certificación del NIOSH.\nBrinda protección cómoda y confiable para las vías respiratorias cuando se combina con los cartuchos o filtros de partículas 3M™ (como los cartuchos para vapores orgánicos/gases ácidos) o con un sistema de dos líneas de aire.\nSe debe utilizar con los cartuchos serie 6000 3M™; los filtros de las series 2000, 2200, 7000 o 5000 3M™; o los sistemas de provisión de aire dobles 3M™ contra una variedad de peligros causados por gases, vapores y partículas según aprobación del NIOSH.\nNo debe utilizarse en ambientes que representen un peligro inmediato para la vida o la salud (IDLH, por sus siglas en inglés).",
+    Especificaciones: "Filtra polvo\nPeso: 250g\nAltura: 13,3 cm\nLargo 9 cm\nAncho: 12 cm\nSellado facial de silicona para mayor comodidad",
+    Documentacion: [
+    { nombre: "Ficha técnica", url: "/fichas/respiratoria/3m/semimascaras.pdf"}
+    ],
+    categoria: "Protección respiratoria",
+    subcategoria: "Máscaras / Semimáscaras",  
+    marca: "3M",
+    destacado: false,
+    imagenes: [
+      "imagenes/Productos/respiratoria/3m/semimascara6200.png"
     ]
   },
 ]

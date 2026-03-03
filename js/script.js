@@ -222,6 +222,51 @@ function renderSubcategorias(categoria) {
 /* =====================
    BUSCADOR
 ===================== */
+
+/* ===============================
+   NORMALIZAR TEXTO
+================================= */
+function normalizarTexto(texto) {
+  return texto
+    .normalize("NFD")
+    .replace(/[\u0300-\u036f]/g, "")
+    .toLowerCase()
+    .trim();
+}
+
+/* ===============================
+   DISTANCIA DE LEVENSHTEIN
+   (para tolerancia a errores)
+================================= */
+function distanciaLevenshtein(a, b) {
+  const matrix = [];
+
+  for (let i = 0; i <= b.length; i++) {
+    matrix[i] = [i];
+  }
+
+  for (let j = 0; j <= a.length; j++) {
+    matrix[0][j] = j;
+  }
+
+  for (let i = 1; i <= b.length; i++) {
+    for (let j = 1; j <= a.length; j++) {
+      if (b.charAt(i - 1) === a.charAt(j - 1)) {
+        matrix[i][j] = matrix[i - 1][j - 1];
+      } else {
+        matrix[i][j] = Math.min(
+          matrix[i - 1][j - 1] + 1,
+          matrix[i][j - 1] + 1,
+          matrix[i - 1][j] + 1
+        );
+      }
+    }
+  }
+
+  return matrix[b.length][a.length];
+}
+
+
 // ===== BUSCADOR MOBILE =====
 const btnBuscarMobile = document.getElementById("btnBuscarMobile");
 const buscadorMobile = document.getElementById("buscadorMobile");
@@ -255,20 +300,58 @@ function estoyEnInicio() {
 
 
 function filtrarProductos(texto) {
-  return productos.filter(p =>
-    p.nombre.toLowerCase().includes(texto) ||
-    p.categoria.toLowerCase().includes(texto) ||
-    (p.marca && p.marca.toLowerCase().includes(texto))
-  );
+  const query = normalizarTexto(texto);
+
+  if (!query) return productos;
+
+  const resultados = productos.map(p => {
+    const nombre = normalizarTexto(p.nombre);
+    const categoria = normalizarTexto(p.categoria);
+    const marca = p.marca ? normalizarTexto(p.marca) : "";
+
+    let score = 0;
+
+    // 🎯 Coincidencia exacta en nombre (máxima prioridad)
+    if (nombre === query) score += 100;
+
+    // 🎯 Empieza con la búsqueda
+    if (nombre.startsWith(query)) score += 50;
+
+    // 🎯 Contiene la búsqueda
+    if (nombre.includes(query)) score += 30;
+
+    if (marca.includes(query)) score += 20;
+    if (categoria.includes(query)) score += 10;
+
+    // 🎯 Tolerancia a errores (1 o 2 letras mal)
+    const palabrasNombre = nombre.split(" ");
+    palabrasNombre.forEach(palabra => {
+      const distancia = distanciaLevenshtein(palabra, query);
+      if (distancia === 1) score += 15;
+    });
+
+    return { producto: p, score };
+  });
+
+  return resultados
+    .filter(r => r.score > 0)
+    .sort((a, b) => b.score - a.score)
+    .map(r => r.producto);
 }
 
 function resaltar(texto, query) {
   if (!query) return texto;
 
-  const safeQuery = query.replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
-  const regex = new RegExp(`(${safeQuery})`, "ig");
+  const textoNormalizado = normalizarTexto(texto);
+  const queryNormalizado = normalizarTexto(query);
 
-  return texto.replace(regex, "<strong>$1</strong>");
+  const index = textoNormalizado.indexOf(queryNormalizado);
+  if (index === -1) return texto;
+
+  return texto.replace(
+    new RegExp(`(${query})`, "i"),
+    "<strong>$1</strong>"
+  );
 }
 
 
