@@ -152,4 +152,21 @@ const ocular = [
       "imagenes/Productos/ocular/1702.png"
     ]
   },
+  {
+    id: "ocular-10",
+    nombre: "Anteojos de seguridad MIRAGE",
+    Descripcion: "Modelo ultra liviano de policarbonato Oftalmológico, con tratamiento Anti-rayaduras , Anti- Estático con filtro 99,9% de protección UV. Su diseño tiene marcos y patillas de Nylon telescópicas regulables con monturas anatómicas de goma hipo alergénica, además es muy resistente dado a sus propiedades anti fatiga.",
+    Especificaciones: "Anti - Estático\nAnti - Impacto\nAnti - Rayadura\nFiltro UV 99,9%\nPuente nasal de silicona",
+    Documentacion: [
+      { nombre: "Ficha técnica", url: "/fichas/ocular/steelpro/mirage.pdf"}
+    ],
+    categoria: "Protección ocular",
+    subcategoria: "Anteojos",  
+    marca: "STEELPRO",
+    destacado: false,
+    colores: [
+      { nombre: "Claro", imagenes: ["imagenes/Productos/ocular/mirage3.png","imagenes/Productos/ocular/mirage4.jpg"] },
+      { nombre: "Gris", imagenes: ["imagenes/Productos/ocular/mirage.png","imagenes/Productos/ocular/mirage2.png"] }
+    ]
+  },
 ]

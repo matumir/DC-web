@@ -1252,7 +1252,8 @@ function obtenerColorCSS(nombre) {
     azulino: "#318bc8",
     caqui: "#f2debc",
     "verde oliva": "#495745",
-    "azul marino": "#061534"
+    "azul marino": "#061534",
+    claro: "#d4d4d49e"
   };
 
   return mapa[nombre.toLowerCase()] || "#ccc";
