@@ -205,7 +205,7 @@ const auditiva = [
   },
   {
     id: "auditiva-13",
-    nombre: "Protector auditivo de copa Peltor 31DB",
+    nombre: "Protector auditivo de copa Peltor OPTIME II 31DB",
     Descripcion: "3M™ PELTOR™ Optime™ Orejeras II han sido desarrollados para entornos exigentes con riesgo de ruido. Una opción adecuada para entornos con ruido industrial considerable o maquinaria de construcción, como aeropuertos y trabajos agrícolas.\nObtenga protección auditiva de alto nivel que amortigua incluso las frecuencias extremadamente bajas con las 3M™ PELTOR™ Optime™ Orejeras II. Son ideales para su uso en entornos exigentes y ruidosos con un ruido industrial considerable, como aeropuertos, obras de construcción y durante el trabajo agrícola. Nuestras orejeras reducen los niveles de ruido hasta 31 dB y tienen anillos de sellado llenos de una combinación única de líquido y espuma. El gran espacio dentro de las copas ayuda a reducir la acumulación de calor y humedad, y las almohadillas suaves y anchas ayudan a disminuir la presión alrededor de las orejas, haciéndolas cómodas de usar durante largos períodos. Los cojines y las inserciones de espuma, disponibles como kits de higiene, son fáciles de reemplazar si se desgastan o dañan, lo que prolonga la vida útil del producto",
     Especificaciones: "Reduce los niveles de ruido hasta 31 dB\nAnillos de sellado llenos de una combinación única de líquido y espuma\nEl gran espacio dentro de las tazas ayuda a minimizar la acumulación de calor y humedad\nLas almohadillas suaves y anchas ayudan a reducir la presión alrededor de las orejas\nCojines e insertos disponibles como kits de higiene de repuesto\nLa diadema está acolchada y cubierta para un uso cómodo y limpio",
     Documentacion: [
@@ -217,7 +217,7 @@ const auditiva = [
     destacado: false,
     
     imagenes: [
-      "imagenes/Productos/auditiva/cm-502.png"
+      "imagenes/Productos/auditiva/peltor1.png","imagenes/Productos/auditiva/peltor2.png"
     ]
   },
   {

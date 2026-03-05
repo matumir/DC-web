@@ -242,7 +242,7 @@ const respiratoria = [
     ]
   },
   {
-    id: "respiratoria-15",
+    id: "respiratoria-16",
     nombre: "Filtro para partículas P95(x2 un.)",
     Descripcion: "Los filtros de partículas tipo bayoneta 3M™ tienen la aprobación de NIOSH y brindan protección conveniente contra una amplia variedad de polvos, neblinas y otras partículas. Tienen una conexión tipo bayoneta que se adapta a cualquier respirador reutilizable tipo bayoneta 3M™, para ofrecer baja resistencia a la respiración y un buen equilibrio con un diseño delgado.\nVersátiles y fáciles de instalar: los filtros de partículas tipo bayoneta 3M™ brindan protección contra una amplia variedad de polvos, nieblas y otras partículas. Los filtros de partículas 3M™ Serie 2000 y Serie 2200 brindan baja resistencia a la respiración y un buen equilibrio con un diseño delgado. Son resistentes al fuego y fáciles de instalar. Solo elija el tipo de filtro adecuado para sus necesidades y requisitos individuales, alinee la conexión y gire para bloquearlo en su lugar con un cuarto de vuelta.",
     Especificaciones: "Aprobados por el NIOSH para entornos que contienen ciertas partículas oleosas y no oleosas\nLa conexión tipo bayoneta se adapta a una gran variedad de respiradores reutilizables 3M™ de rostro completo\nÚselos con el respirador reutilizable 3M™ de medio rostro y de rostro completo aprobado por NIOSH Serie 6000, 6500, 7500, 7800S o FF-400; o con los respiradores 3M™ Scott™ AV-3000 SureSeal o AV-3000 HT\nLos filtros pueden ayudar a reducir la exposición a inhalación de ciertas partículas biológicas que están presentes en el aire\nLos medios electrostáticos avanzados (AEM) están diseñados para proporcionar comodidad, ligereza y facilidad para respirar\nCuarto de vuelta para una instalación rápida y sencilla\nResistentes al fuego\nÚselos para protección en entornos peligrosos. Solo para uso ocupacional/en el lugar de trabajo",
@@ -258,7 +258,7 @@ const respiratoria = [
     ]
   },
   {
-    id: "respiratoria-16",
+    id: "respiratoria-17",
     nombre: "Filtro para partículas con alivio p/ vapor orgánico y gás ácido (x2 un.)",
     Descripcion: "Los filtros de partículas tipo bayoneta 3M™ tienen la aprobación de NIOSH y brindan protección conveniente contra una amplia variedad de polvos, neblinas y otras partículas. Tienen una conexión tipo bayoneta que se adapta a cualquier respirador reutilizable tipo bayoneta 3M™, para ofrecer baja resistencia a la respiración y un buen equilibrio con un diseño delgado.\nVersátiles y fáciles de instalar: los filtros de partículas tipo bayoneta 3M™ brindan protección contra una amplia variedad de polvos, nieblas y otras partículas. Los filtros de partículas 3M™ Serie 2000 y Serie 2200 brindan baja resistencia a la respiración y un buen equilibrio con un diseño delgado. Son resistentes al fuego y fáciles de instalar. Solo elija el tipo de filtro adecuado para sus necesidades y requisitos individuales, alinee la conexión y gire para bloquearlo en su lugar con un cuarto de vuelta.",
     Especificaciones: "Aprobados por el NIOSH para entornos que contienen ciertas partículas oleosas y no oleosas\nLa conexión tipo bayoneta se adapta a una gran variedad de respiradores reutilizables 3M™ de rostro completo\nÚselos con el respirador reutilizable 3M™ de medio rostro y de rostro completo aprobado por NIOSH Serie 6000, 6500, 7500, 7800S o FF-400; o con los respiradores 3M™ Scott™ AV-3000 SureSeal o AV-3000 HT\nLos filtros pueden ayudar a reducir la exposición a inhalación de ciertas partículas biológicas que están presentes en el aire\nLos medios electrostáticos avanzados (AEM) están diseñados para proporcionar comodidad, ligereza y facilidad para respirar\nCuarto de vuelta para una instalación rápida y sencilla\nResistentes al fuego\nÚselos para protección en entornos peligrosos. Solo para uso ocupacional/en el lugar de trabajo",
@@ -274,7 +274,7 @@ const respiratoria = [
     ]
   },
   {
-    id: "respiratoria-17",
+    id: "respiratoria-18",
     nombre: "Filtro para partículas P100 (x2 un.)",
     Descripcion: "Los filtros de partículas tipo bayoneta 3M™ tienen la aprobación de NIOSH y brindan protección conveniente contra una amplia variedad de polvos, neblinas y otras partículas. Tienen una conexión tipo bayoneta que se adapta a cualquier respirador reutilizable tipo bayoneta 3M™, para ofrecer baja resistencia a la respiración y un buen equilibrio con un diseño delgado.\nVersátiles y fáciles de instalar: los filtros de partículas tipo bayoneta 3M™ brindan protección contra una amplia variedad de polvos, nieblas y otras partículas. Los filtros de partículas 3M™ Serie 2000 y Serie 2200 brindan baja resistencia a la respiración y un buen equilibrio con un diseño delgado. Son resistentes al fuego y fáciles de instalar. Solo elija el tipo de filtro adecuado para sus necesidades y requisitos individuales, alinee la conexión y gire para bloquearlo en su lugar con un cuarto de vuelta.",
     Especificaciones: "Aprobados por el NIOSH para entornos que contienen ciertas partículas oleosas y no oleosas\nLa conexión tipo bayoneta se adapta a una gran variedad de respiradores reutilizables 3M™ de rostro completo\nÚselos con el respirador reutilizable 3M™ de medio rostro y de rostro completo aprobado por NIOSH Serie 6000, 6500, 7500, 7800S o FF-400; o con los respiradores 3M™ Scott™ AV-3000 SureSeal o AV-3000 HT\nLos filtros pueden ayudar a reducir la exposición a inhalación de ciertas partículas biológicas que están presentes en el aire\nLos medios electrostáticos avanzados (AEM) están diseñados para proporcionar comodidad, ligereza y facilidad para respirar\nCuarto de vuelta para una instalación rápida y sencilla\nResistentes al fuego\nÚselos para protección en entornos peligrosos. Solo para uso ocupacional/en el lugar de trabajo",
@@ -290,7 +290,7 @@ const respiratoria = [
     ]
   },
   {
-    id: "respiratoria-18",
+    id: "respiratoria-19",
     nombre: "Filtro para partículas P100 para ozono y vap. orgánicos (x2 un.)",
     Descripcion: "Los filtros de partículas tipo bayoneta 3M™ tienen la aprobación de NIOSH y brindan protección conveniente contra una amplia variedad de polvos, neblinas y otras partículas. Tienen una conexión tipo bayoneta que se adapta a cualquier respirador reutilizable tipo bayoneta 3M™, para ofrecer baja resistencia a la respiración y un buen equilibrio con un diseño delgado.\nVersátiles y fáciles de instalar: los filtros de partículas tipo bayoneta 3M™ brindan protección contra una amplia variedad de polvos, nieblas y otras partículas. Los filtros de partículas 3M™ Serie 2000 y Serie 2200 brindan baja resistencia a la respiración y un buen equilibrio con un diseño delgado. Son resistentes al fuego y fáciles de instalar. Solo elija el tipo de filtro adecuado para sus necesidades y requisitos individuales, alinee la conexión y gire para bloquearlo en su lugar con un cuarto de vuelta.",
     Especificaciones: "Aprobados por el NIOSH para entornos que contienen ciertas partículas oleosas y no oleosas\nLa conexión tipo bayoneta se adapta a una gran variedad de respiradores reutilizables 3M™ de rostro completo\nÚselos con el respirador reutilizable 3M™ de medio rostro y de rostro completo aprobado por NIOSH Serie 6000, 6500, 7500, 7800S o FF-400; o con los respiradores 3M™ Scott™ AV-3000 SureSeal o AV-3000 HT\nLos filtros pueden ayudar a reducir la exposición a inhalación de ciertas partículas biológicas que están presentes en el aire\nLos medios electrostáticos avanzados (AEM) están diseñados para proporcionar comodidad, ligereza y facilidad para respirar\nCuarto de vuelta para una instalación rápida y sencilla\nResistentes al fuego\nÚselos para protección en entornos peligrosos. Solo para uso ocupacional/en el lugar de trabajo",
@@ -303,6 +303,185 @@ const respiratoria = [
     destacado: false,
     imagenes: [
       "imagenes/Productos/respiratoria/3m/filtropart4.png"
+    ]
+  },
+  {
+    id: "respiratoria-20",
+    nombre: "Respirador desechable tipo Copa con válvula (humos y neblinas)",
+    Descripcion: "Los Respiradores para partículas tipo Copa 3M™ serie 8000 son respiradores livianos y desechables diseñados para brindar protección respiratoria cómoda y confiable en situaciones donde se justifica la protección respiratoria contra partículas y pueden brindar protección contra ciertas partículas no basadas en aceite.",
+    Especificaciones: "Diseñado para cumplir con los estándares de certificación de NIOSH\nAlgunos modelos están disponibles con la Válvula de exhalación 3M™ Cool Flow™ para ayudar a liberar el aliento exhalado cálido y húmedo del interior del respirador\nLas opciones de clip nasal ajustable permiten proporcionar un sellado personalizado\nAlgunos modelos están disponibles con correas con hebilla totalmente ajustables o diademas elásticas dobles para máxima comodidad y eficacia\nMedio filtrante patentado por 3M, diseñado para facilitar la respiración",
+    Documentacion: [
+    { nombre: "Ficha técnica", url: "/fichas/respiratoria/3m/8822.pdf"}
+    ],
+    categoria: "Protección respiratoria",
+    subcategoria: "Respiradores / Cubrebocas",  
+    marca: "3M",
+    destacado: false,
+    imagenes: [
+      "imagenes/Productos/respiratoria/3m/8822.png"
+    ]
+  },
+  {
+    id: "respiratoria-21",
+    nombre: "Respirador desechable tipo Copa con válvula (humos y neblinas)",
+    Descripcion: "Los Respiradores para partículas tipo Copa 3M™ serie 8000 son respiradores livianos y desechables diseñados para brindar protección respiratoria cómoda y confiable en situaciones donde se justifica la protección respiratoria contra partículas y pueden brindar protección contra ciertas partículas no basadas en aceite.",
+    Especificaciones: "Respirador utilizado contra material particulado y polvos no perjudiciales de lijado, esmerilado, aserrado y las partículas de aislamiento\nProporciona 95% de eficiencia de filtración contra los aerosoles sólidos y líquidos que no contengan aceite\nPinza nasal ajustable que reduce la posibilidad de que se empañen las gafas y ayuda a garantizar una costumbre y sello seguro\nRespirador desechable Aprobado NIOSH: N95",
+    Documentacion: [
+    { nombre: "Ficha técnica", url: "/fichas/respiratoria/3m/8210.pdf"}
+    ],
+    categoria: "Protección respiratoria",
+    subcategoria: "Respiradores / Cubrebocas",  
+    marca: "3M",
+    destacado: false,
+    imagenes: [
+      "imagenes/Productos/respiratoria/3m/8210.png"
+    ]
+  },
+
+//========================
+//        FRAVIDA
+//========================
+
+  {
+    id: "respiratoria-22",
+    nombre: "Respirador desechable para partículas N95 con válvula",
+    Descripcion: "Mascarilla diseñada para brindar protección respiratoria efectiva, reteniendo partículas sólidas y/o acuosas no aceitosas.\nCuenta con una pieza filtrante confeccionada en tela de microfibras, que permite la retención de hasta un 95% de polvos no tóxicos y neblinas generadas durante diversas tareas industriales o laborales.",
+    Especificaciones: "Mascarilla que ofrece protección respiratoria, reteniendo partículas sólidas y/o acuosas.\nPieza filtrante confeccionada con tela de microfibra.\nSe utiliza para una retención del 95% de polvos no tóxicos y neblinas.\nTelas de microfibras filtrante 95% y tela soporte.\nElástico de sujeción",
+    Documentacion: [
+    { nombre: "Ficha técnica", url: "/fichas/respiratoria/fravida/5410.pdf"}
+    ],
+    categoria: "Protección respiratoria",
+    subcategoria: "Respiradores / Cubrebocas",  
+    marca: "FRAVIDA",
+    destacado: false,
+    imagenes: [
+      "imagenes/Productos/respiratoria/fravida/5410.png"
+    ]
+  },
+   {
+    id: "respiratoria-23",
+    nombre: "Respirador desechable tipo Copa con carbón activado",
+    Descripcion: "Mascarilla filtrante diseñada para brindar protección respiratoria eficaz, cómoda e higiénica en ambientes con partículas sólidas, líquidas y ciertos vapores orgánicos molestos.",
+    Especificaciones: "Eficiencia de filtrado mínima del 95%, apta para retener partículas sólidas y/o acuosas no aceitosas.\nDiseño anatómico tipo copa, que garantiza una excelente comodidad y ajuste facial.\nClip nasal ajustable y soportes para elásticos que aseguran un óptimo sellado al contorno del rostro, adaptable a diferentes tipos de cara.\nFabricada con material hipoalergénico, ideal para uso prolongado",
+    Documentacion: [
+    { nombre: "Ficha técnica", url: "/fichas/respiratoria/fravida/5420c.pdf"}
+    ],
+    categoria: "Protección respiratoria",
+    subcategoria: "Respiradores / Cubrebocas",  
+    marca: "FRAVIDA",
+    destacado: false,
+    imagenes: [
+      "imagenes/Productos/respiratoria/fravida/5420c.png"
+    ]
+  },
+  {
+    id: "respiratoria-24",
+    nombre: "Respirador desechable para partículas N95",
+    Descripcion: "Mascarilla diseñada para brindar protección respiratoria efectiva, reteniendo partículas sólidas y/o acuosas no aceitosas.\nCuenta con una pieza filtrante confeccionada en tela de microfibras, que permite la retención de hasta un 95% de polvos no tóxicos y neblinas generadas durante diversas tareas industriales o laborales.",
+    Especificaciones: "Mascarilla que ofrece protección respiratoria, reteniendo partículas sólidas y/o acuosas.\nPieza filtrante confeccionada con tela de microfibra.\nSe utiliza para una retención del 95% de polvos no tóxicos y neblinas.\nTelas de microfibras filtrante 95% y tela soporte.\nElástico de sujeción",
+    Documentacion: [
+    { nombre: "Ficha técnica", url: "/fichas/respiratoria/fravida/5415.pdf"}
+    ],
+    categoria: "Protección respiratoria",
+    subcategoria: "Respiradores / Cubrebocas",  
+    marca: "FRAVIDA",
+    destacado: false,
+    imagenes: [
+      "imagenes/Productos/respiratoria/fravida/5415.png"
+    ]
+  },
+//==============================
+//           MAXFIL
+//==============================
+
+{
+    id: "respiratoria-25",
+    nombre: "Barbijo para polvos 500 (x15 un.)",
+    Descripcion: "Mascara facial contra polvos no tóxicos de partículas finas con retención superior al 80% de partículas de 2 micrones, formada por 2 capas, con banda e inserto metálico para ajuste nasal.\nBarbijo confeccionado con tela (no tejida) con alta capacidad de filtrado y retención de partículas. Doble tela, doble banda de sujeción e inserto metálico ubicado entre las 2 capas proporcionando mas seguridad y confort al uso.",
+    Especificaciones: "Máscara facial para protección contra polvos no tóxicos y partículas finas\nCapacidad de filtrado superior al 80% de partículas de 2 micrones\nConfeccionada con tela no tejida de alta capacidad de filtración\nDoble capa de material filtrante para mayor protección\nInserto metálico nasal que permite un mejor ajuste al rostro\nDoble banda elástica de sujeción para mayor estabilidad y confort\nDiseño liviano y cómodo para uso prolongado\nIdeal para tareas con presencia de polvo y partículas en suspensión",
+    Documentacion: [
+    { nombre: "No disponible"}
+    ],
+    categoria: "Protección respiratoria",
+    subcategoria: "Respiradores / Cubrebocas",  
+    marca: "MAXFIL",
+    destacado: false,
+    imagenes: [
+      "imagenes/Productos/respiratoria/maxfil/500.png"
+    ]
+  },
+  {
+    id: "respiratoria-26",
+    nombre: "Barbijo descartable 100 (x50 un.)",
+    Descripcion: "Máscara facial contra polvos no toxicos inertes y/o molestos mayores a 5 micrones, con una banda elastica e inserto métalico para ajuste nasal.",
+    Especificaciones: "Máscara facial para protección contra polvos no tóxicos.\nCapacidad de filtrado hasta 5 micrones\nCuenta con banda elástica\nDoble capa de material filtrante para mayor protección\nInserto metálico nasal que permite un mejor ajuste al rostro\nDoble banda elástica de sujeción para mayor estabilidad y confort\nDiseño liviano y cómodo para uso prolongado.",
+    Documentacion: [
+    { nombre: "No disponible"}
+    ],
+    categoria: "Protección respiratoria",
+    subcategoria: "Respiradores / Cubrebocas",  
+    marca: "MAXFIL",
+    destacado: false,
+    imagenes: [
+      "imagenes/Productos/respiratoria/maxfil/100.png"
+    ]
+  },
+
+  //================================
+  //        STRONG SAFETY
+  //================================
+ {
+    id: "respiratoria-27",
+    nombre: "Mascarilla descartable para polvos (x50 un.)",
+    Descripcion: "Máscara facial contra polvos no toxicos inertes y/o molestos mayores a 5 micrones, con una banda elastica e inserto métalico para ajuste nasal.",
+    Especificaciones: "Máscara facial para protección contra polvos no tóxicos.\nCapacidad de filtrado hasta 5 micrones\nCuenta con banda elástica\nDoble capa de material filtrante para mayor protección\nInserto metálico nasal que permite un mejor ajuste al rostro\nDoble banda elástica de sujeción para mayor estabilidad y confort\nDiseño liviano y cómodo para uso prolongado.",
+    Documentacion: [
+    { nombre: "No disponible"}
+    ],
+    categoria: "Protección respiratoria",
+    subcategoria: "Respiradores / Cubrebocas",  
+    marca: "STRONG SAFETY",
+    destacado: false,
+    imagenes: [
+      "imagenes/Productos/respiratoria/strong/descartable.png"
+    ]
+  },
+//===============================
+//            LIBUS
+//===============================
+{
+    id: "respiratoria-28",
+    nombre: "Respirador descartable 1730 N95 (x20 un.)",
+    Descripcion: "Mascarilla traidiconal estilo copa con banda elástica fijada a la máscara por ultrasonido y libre de látex",
+    Especificaciones: "Mascarilla tradicional estilo copa.\nDescartable.\nFabricados en doble capa de alta calidad.\nResistente al aplastamiento.\nDurabilidad en ambientes cálidos y húmedos.\nClip nasal de fácil ajuste con almohadilla espumada interior.\nCombinable con otros equipos de seguridad, incluyendo la protección ocular y auditiva.\nSELLO FACIAL: Estándar contacto directo de la mascarilla.\nEXHALACIÓN: Directa.",
+    Documentacion: [
+    { nombre: "Ficha técnica", url: "fichas/respiratoria/libus/1730.pdf"}
+    ],
+    categoria: "Protección respiratoria",
+    subcategoria: "Respiradores / Cubrebocas",  
+    marca: "LIBUS",
+    destacado: false,
+    imagenes: [
+      "imagenes/Productos/respiratoria/libus/1730.png"
+    ]
+  },
+//==============================
+//          STEELPRO
+//==============================
+{
+    id: "respiratoria-29",
+    nombre: "Respirador descartable R95 F333V (x10 un.)",
+    Descripcion: "Respirador diseñado con el fin de lograr una mayor comodidadal mismo tiempo una efectiva frescura interior al usuario, tantoen su colocación y respiración gracias a su válvula de exhalación. Su forma convexa, el diseño de sus bandas elásticas y elclip de aluminio para el ajuste a la nariz; aseguran un excelentesello, adaptándose a un amplio rango de tamaños de cara.El respirador de libre de mantenimiento brinda una efectiva confortable protección respiratoria contra partículas sólidas ylíquidas con presencia en aceite en bajas concentraciones",
+    Especificaciones: "Diseño ultraliviano y ergonómico.\nTela no tejida en Poliuretano - poliéster.\nVálvula de exhalación de aire fresco.\nHebillas termo-selladas.\nElástico doble para mejor ajuste.\nMaterial filtrante de color blanco.",
+    Documentacion: [
+    { nombre: "Ficha técnica", url: "fichas/respiratoria/steelpro/f333v.pdf"}
+    ],
+    categoria: "Protección respiratoria",
+    subcategoria: "Respiradores / Cubrebocas",  
+    marca: "LIBUS",
+    destacado: false,
+    imagenes: [
+      "imagenes/Productos/respiratoria/steelpro/f333v.png"
     ]
   },
   ]
