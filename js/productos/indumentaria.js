@@ -563,4 +563,55 @@ const indumentaria = [
       { nombre: "VERDE", imagenes: ["imagenes/Productos/indumentaria/lluvia/poncho2.png"]}
     ]
   },
+  {
+    id: "indumentaria-31",
+    nombre: "Faja Protectora Lumbar",
+    Descripcion: "La Faja de protección lumbar  es la única confeccionada con elastano reforzado, su malla elastizada y sus bandas laterales regulables permiten una excelente movilidad para el trabajo.Posee gran superficie de ajuste y ballenas (entre 4 y 6 según talle), con cinta antideslizante ubicadas en la parte interna trasera.",
+    Especificaciones: "S entre 80 y 90 cm de cintura (SE TOMA A LA ALTURA DEL CINTURÓN)\nM entre 90 y 100 cm.\nL entre 100 y 110 cm.\nXL entre 110 y 120 cm.\nXXL entre 120 y 130 cm.",
+    Documentacion: [
+    { nombre: "No disponible"}
+    ],
+    categoria: "Indumentaria",
+    subcategoria: "Fajas Protectoras Lumbares",  
+    marca: "STRONG SAFETY",
+    destacado: false,
+    talles: ["S","M","L","XL","XXL","XXXL"],
+    imagenes: [
+      "imagenes/Productos/indumentaria/fajas/fajastrong.png","imagenes/Productos/indumentaria/fajas/fajastrong2.png"
+    ]
+  },
+  {
+    id: "indumentaria-32",
+    nombre: "Faja Protectora Lumbar",
+    Descripcion: "La Faja de Protección Lumbar OMBU combina funcionalidad superior y diseño ergonómico para ofrecer una solución integral en el soporte lumbar para ambientes laborales. Diseñada con elastano reforzado y una estructura de malla elastizada, esta faja se caracteriza por su capacidad de ajuste personalizado y su diseño que no compromete la movilidad del usuario.",
+    Especificaciones: "Material: Elastano reforzado para durabilidad y flexibilidad.\nEstructura: Malla elastizada que permite la transpirabilidad y las ballenas con cinta antideslizante aseguran una colocación óptima.\nAjuste: Bandas laterales regulables y tiradores elásticos que se adaptan a diferentes tallas, desde S hasta XXL.\nSoporte: Ballenas posteriores con cinta antideslizante para un soporte firme y estable en la zona lumbar.\nCierre: Velcro de alta resistencia para un cierre seguro y duradero.\nConfección: Diseño pensado para proporcionar una amplia superficie de ajuste, adaptándose perfectamente al cuerpo del trabajador.\n\nGUÍA DE TALLES:\nS entre 80 y 90 cm de cintura (SE TOMA A LA ALTURA DEL CINTURÓN)\nM entre 90 y 100 cm.\nL entre 100 y 110 cm.\nXL entre 110 y 120 cm.\nXXL entre 120 y 130 cm.",
+    Documentacion: [
+    { nombre: "No disponible"}
+    ],
+    categoria: "Indumentaria",
+    subcategoria: "Fajas Protectoras Lumbares",  
+    marca: "OMBU",
+    destacado: false,
+    talles: ["S","M","L","XL","XXL"],
+    imagenes: [
+      "imagenes/Productos/indumentaria/fajas/fajaombu.png","imagenes/Productos/indumentaria/fajas/fajaombu2.webp"
+    ]
+  },
+  {
+    id: "indumentaria-33",
+    nombre: "Protector lumbar",
+    Descripcion: "MAXIMO ESFUERZO está diseñada bajo un concepto anatómico simétrico. Su función principal es la de apoyar a la zona lumbar central con ballenas que refuerzan la columna. Está provista con sus tiradores de soporte elástico.",
+    Especificaciones: "Tiradores Elasticos regulables\nMalla elastizada reforzada\nBandas Lateralas y regulables\nGran Superficie de ajuste en el cuerpo principal\nVelcro de alta ressitencia\nBallenas en la parte posterior provista con cinta antideslizante para evitar su desplazamiento\n\nGUÍA DE TALLES:\nTALLE 1 (S): 85 \n95 CM\nTALLE 2 (M): 95 \n105 CM\nTALLE 3 (L): 105 \n115 CM\nTALLE 4 (XL): 115 \n125 CM\nTALLE 5 (XXL): 125 \n135 CM",
+Documentacion: [
+    { nombre: "No disponible"}
+    ],
+    categoria: "Indumentaria",
+    subcategoria: "Fajas Protectoras Lumbares",  
+    marca: "MAXIMO ESFUERZO",
+    destacado: false,
+    talles: ["S","M","L","XL","XXL"],
+    imagenes: [
+      "imagenes/Productos/indumentaria/fajas/fajamax.png","imagenes/Productos/indumentaria/fajas/fajamax2.webp"
+    ]
+  },
 ];

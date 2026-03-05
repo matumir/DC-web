@@ -105,6 +105,7 @@ const marcas = [
   {nombre: 'PRACTY BOTIQUIN', imagen: 'imagenes/marcas/practybotiquin.png'},
   {nombre: 'YUKON', imagen: 'imagenes/marcas/yukon.png'},
   {nombre: 'STRONG SAFETY', imagen: 'imagenes/marcas/strongsafety.png'},
+  {nombre: 'MAXIMO ESFUERZO', imagen: 'imagenes/marcas/maximoesfuerzo.png'},
   {nombre: 'LA MEJOR', imagen: 'imagenes/marcas/lamejor.png'}
 ];
 
