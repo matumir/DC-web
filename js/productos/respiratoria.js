@@ -484,4 +484,169 @@ const respiratoria = [
       "imagenes/Productos/respiratoria/steelpro/f333v.png"
     ]
   },
+
+  //==============================
+  //          FRAVIDA 
+  //==============================
+
+  {
+    id: "respiratoria-30",
+    nombre: "Semimáscara Comfos I (1 filtro)",
+    Descripcion: "La Semimáscara COMFOS 1 está diseñada para brindar protección respiratoria con un alto nivel de confort durante jornadas de uso prolongadas. Su cuerpo de material termoplástico ofrece un sello hermético y adaptable al rostro, permitiendo un uso continuo con mínima incomodidad.\nCuenta con un arnés de sujeción de 4 puntos con doble banda elástica, que asegura un ajuste firme y estable. El sistema de regulación es desmontable y recambiable mediante hebillas de colocación simple, facilitando la limpieza y el mantenimiento del equipo.\nIncorpora dos válvulas de exhalación y una válvula de inhalación, que permiten el acople de filtros compatibles para una protección eficiente frente a partículas y contaminantes presentes en el ambiente de trabajo. Su diseño combina seguridad, practicidad y comodidad, siendo ideal para entornos donde se requiere protección respiratoria confiable.",
+    Especificaciones: "Su adecuado sello permite un uso continuo con mínima incomodidad y su sistema de sujeción facilita un perfecto ajuste.\nCuerpo termoplástico de gran hermeticidad y confort.\nrnés de sujeción de 4 puntos, posee doble banda elástica con sistema de regulación desmontable y recambiable, mediante hebilla de colocación simple y rápida para su mejor higienización.\nCon dos válvulas exhaladoras y una válvula inhaladoras que permite el acople de un filtro.",
+    Documentacion: [
+    { nombre: "No disponible"}
+    ],
+    categoria: "Protección respiratoria",
+    subcategoria: "Máscaras / Semimáscaras",  
+    marca: "FRAVIDA",
+    destacado: false,
+    imagenes: [
+      "imagenes/Productos/respiratoria/fravida/comfos1.png"
+    ]
+  },
+  {
+    id: "respiratoria-31",
+    nombre: "Semimáscara Comfos II (2 filtros)",
+    Descripcion: "La Semimáscara COMFOS 2 está diseñada para brindar protección respiratoria confiable en entornos de trabajo exigentes. Su sistema de doble vía permite el uso con filtros simples o mixtos de la serie 5300, ofreciendo una barrera eficiente frente a partículas sólidas, líquidas y diversos contaminantes químicos.\nCuenta con conexión por rosca, lo que asegura un acople firme y seguro de los filtros, permitiendo un recambio rápido sin comprometer la estanqueidad del equipo.\nSu diseño ergonómico con arnés de sujeción ajustable proporciona un ajuste cómodo y estable, ideal para jornadas prolongadas de uso. Está fabricada en caucho termoplástico (TPE) hipoalergénico, material que garantiza un excelente sellado facial, alta resistencia al desgaste y al calor. Además, no posee partes metálicas, lo que la hace apta para entornos donde se requiere protección dieléctrica.",
+    Especificaciones: "Protección total en entornos exigentes: Este respirador de dos vías ha sido diseñado para ofrecer la máxima seguridad y confort en trabajos con exposición a partículas sólidas, líquidas y una amplia gama de contaminantes químicos. Compatible con filtros sencillos y mixtos de la serie 5300, proporciona una barrera eficiente y versátil contra distintos tipos de riesgos ambientales.\nConexión segura y confiable: Gracias a su sistema de conexión por rosca, el cambio de filtros es rápido y firme, asegurando una protección constante sin comprometer la estanqueidad del equipo.\nDiseño ergonómico y adaptable: Incluye un arnés de sujeción ajustable, fabricado con materiales ligeros y resistentes, que garantiza un ajuste personalizado y cómodo durante largas jornadas laborales.\nMateriales de alta calidad y durabilidad: Fabricado en caucho termoplástico (TPE) hipoalergénico, este respirador combina un excelente sellado facial con una notable resistencia al calor y al desgaste. Libre de partes metálicas, es ideal para ambientes donde la conductividad eléctrica debe evitarse.",
+    Documentacion: [
+    { nombre: "Ficha técnica", url: "fichas/respiratoria/fravida/5330.pdf"}
+    ],
+    categoria: "Protección respiratoria",
+    subcategoria: "Máscaras / Semimáscaras",  
+    marca: "FRAVIDA",
+    destacado: false,
+    imagenes: [
+      "imagenes/Productos/respiratoria/fravida/comfos2.png"
+    ]
+  },
+  {
+    id: "respiratoria-32",
+    nombre: "Filtro para vapores orgánicos con rosca (x2 un.)",
+    Descripcion: "Protección respiratoria especializada para ambientes con alta concentración de contaminantes químicos.\nEste filtro químico ha sido diseñado para brindar una defensa eficaz frente a gases ácidos y vapores orgánicos, combinando materiales de alta calidad y un diseño funcional para un rendimiento confiable.",
+    Especificaciones: "Cápsula plástica resistente, que contiene carbón activado de alta pureza, el cual actúa como agente filtrante específico para retener gases y vapores peligrosos.\nIdentificación visual mediante etiqueta amarilla, que facilita su correcta selección y uso.\nCompatibilidad exclusiva con semimáscaras FRAVIDA modelos Comfos I y Comfos II.\nDiseñado para uso dual, reteniendo simultáneamente gases ácidos y vapores orgánicos.",
+    Documentacion: [
+    { nombre: "Ficha técnica", url: "fichas/respiratoria/fravida/filtrovo.pdf"}
+    ],
+    categoria: "Protección respiratoria",
+    subcategoria: "Componentes p/ máscaras",  
+    marca: "FRAVIDA",
+    destacado: false,
+    imagenes: [
+      "imagenes/Productos/respiratoria/fravida/filtrovo.png"
+    ]
+  },
+  {
+    id: "respiratoria-33",
+    nombre: "Filtro para gases ácidos y vapores orgánicos c/ rosca (x2 un.)",
+    Descripcion: "Protección respiratoria especializada para ambientes con alta concentración de contaminantes químico\nEste filtro químico ha sido diseñado para brindar una defensa eficaz frente a gases ácidos y vapores orgánicos, combinando materiales de alta calidad y un diseño funcional para un rendimiento confiable.",
+    Especificaciones: "Cápsula plástica resistente, que contiene carbón activado de alta pureza, el cual actúa como agente filtrante específico para retener gases y vapores peligrosos.\nIdentificación visual mediante etiqueta amarilla, que facilita su correcta selección y uso.\nCompatibilidad exclusiva con semimáscaras FRAVIDA modelos Comfos I y Comfos II.\nDiseñado para uso dual, reteniendo simultáneamente gases ácidos y vapores orgánicos.",
+    Documentacion: [
+    { nombre: "No disponible"}
+    ],
+    categoria: "Protección respiratoria",
+    subcategoria: "Componentes p/ máscaras",  
+    marca: "FRAVIDA",
+    destacado: false,
+    imagenes: [
+      "imagenes/Productos/respiratoria/fravida/filtrogv.png"
+    ]
+  },
+  {
+    id: "respiratoria-34",
+    nombre: "Filtro Particulado Sólido y/o Acuoso Tipo N-95 (x2 un.)",
+    Descripcion: "El Filtro Mecánico Gris de FRAVIDA está desarrollado para brindar protección respiratoria confiable frente a partículas sólidas y/o acuosas en suspensión. Es ideal para entornos donde se generan polvo, nieblas, fibras u otros contaminantes no gaseosos.",
+    Especificaciones: "Cápsula: Plástico ABS de alto impacto\nMedio filtrante: Tela de microfibras de alta eficiencia\nIRAM 3648 y 3649-1, Enfoque B (equivalente NIOSH)\nApto para su uso en ambientes con contaminantes hasta 10 veces el valor límite permisible, según Ley 19587 Art. 61 y Decreto M.T. y S.S. 351/79",
+    Documentacion: [
+    { nombre: "Ficha técnica", url: "fichas/respiratoria/fravida/filtropart.pdf"}
+    ],
+    categoria: "Protección respiratoria",
+    subcategoria: "Componentes p/ máscaras",  
+    marca: "FRAVIDA",
+    destacado: false,
+    imagenes: [
+      "imagenes/Productos/respiratoria/fravida/filtropart.png"
+    ]
+  },
+  {
+    id: "respiratoria-35",
+    nombre: "Prefiltros para partículas N95 (x2 un.)",
+    Descripcion: "Potenciá la eficacia de tu sistema de respiración con una primera línea de defensa confiable.\nEste prefiltro mecánico está diseñado para retener hasta el 95% de partículas no tóxicas y neblinas de hasta 0,3 micrones, brindando una capa adicional de seguridad respiratoria en entornos de riesgo.\nIdeal para ser utilizado en combinación con filtros químicos, prolonga la vida útil de los mismos y refuerza la protección ante contaminantes físicos presentes en el aire.",
+    Especificaciones: "Filtración eficiente: Confeccionado en tela de microfibras de alta tecnología, que actúa como barrera efectiva ante partículas sólidas y líquidas en suspensión.\nCompatibilidad total: Perfecto para combinar con filtros químicos, mejorando el rendimiento del conjunto filtrante.\nVersatilidad de uso: Aplicable a una gran variedad de industrias, procesos y tareas donde el polvo y los aerosoles representan un riesgo constante.",
+    Documentacion: [
+    { nombre: "Ficha técnica", url: "fichas/respiratoria/fravida/prefiltro.pdf"}
+    ],
+    categoria: "Protección respiratoria",
+    subcategoria: "Componentes p/ máscaras",  
+    marca: "FRAVIDA",
+    destacado: false,
+    imagenes: [
+      "imagenes/Productos/respiratoria/fravida/prefiltro.png"
+    ]
+  },
+  {
+    id: "respiratoria-36",
+    nombre: "Retenedor para prefiltros redondos (x2 un.)",
+    Descripcion: "Protección efectiva frente a polvos, neblinas y contaminantes sólidos no tóxicos.\nEste filtro mecánico está diseñado para ofrecer una barrera confiable contra partículas sólidas y acuosas, con una eficiencia del 95 % para partículas de hasta 0.3 micrones, brindando seguridad respiratoria en entornos industriales exigentes.",
+    Especificaciones: "Tela de microfibras de alta densidad, diseñada para una excelente capacidad de filtrado.\nFormato a rosca, sin cápsula, de fácil instalación y uso.\nAlta compatibilidad con equipos de protección respiratoria con conexión directa.\nExcelente respirabilidad con bajo nivel de resistencia al flujo de aire.",
+    Documentacion: [
+    { nombre: "No disponible"}
+    ],
+    categoria: "Protección respiratoria",
+    subcategoria: "Componentes p/ máscaras",  
+    marca: "FRAVIDA",
+    destacado: false,
+    imagenes: [
+      "imagenes/Productos/respiratoria/fravida/retenedor.png"
+    ]
+  },
+  {
+    id: "respiratoria-37",
+    nombre: "Kit 'Pintor' (Comfos II + Filtro VO + Antiparra + Retenedor + Prefiltro)",
+    Descripcion: "Kit Pintor – Protección para trabajos de pintura\nEl Kit Pintor reúne los elementos esenciales de protección personal para trabajar con pinturas, solventes y partículas en suspensión de forma más segura.\nIncluye: \nSemimáscara COMFOS II \n2 Filtros para vapores orgánicos \n2 Prefiltros partículas N95 \n2 Retenedores para prefiltros redondos\nAntiparra 1702.",
+    Especificaciones: "Ver detalle en productos individuales.",
+    Documentacion: [
+    { nombre: "No disponible"}
+    ],
+    categoria: "Protección respiratoria",
+    subcategoria: "Kits",  
+    marca: "FRAVIDA",
+    destacado: false,
+    imagenes: [
+      "imagenes/Productos/respiratoria/fravida/pintor.png","imagenes/Productos/respiratoria/fravida/comfos2.png","imagenes/Productos/respiratoria/fravida/filtrovo.png","imagenes/Productos/respiratoria/fravida/prefiltro.png","imagenes/Productos/respiratoria/fravida/retenedor.png","imagenes/Productos/ocular/1702.png"
+    ]
+  },
+  {
+    id: "respiratoria-37",
+    nombre: "Kit 'Fumigador' (Comfos II + Filtro GV + Antiparra + Retenedor + Prefiltro)",
+    Descripcion: "Kit Fumigador – Protección para trabajos con agroquímicos\nEl Kit Fumigador reúne los elementos esenciales de protección personal para trabajar con agroquímicos.\nIncluye: \nSemimáscara COMFOS II \n2 Filtros para gases ácidos y vapores orgánicos\n2 Prefiltros partículas N95 \n2 Retenedores para prefiltros redondos\nAntiparra 1702.",
+    Especificaciones: "Ver detalle en productos individuales.",
+    Documentacion: [
+    { nombre: "No disponible"}
+    ],
+    categoria: "Protección respiratoria",
+    subcategoria: "Kits",  
+    marca: "FRAVIDA",
+    destacado: false,
+    imagenes: [
+      "imagenes/Productos/respiratoria/fravida/fumigador.png","imagenes/Productos/respiratoria/fravida/comfos2.png","imagenes/Productos/respiratoria/fravida/filtrogv.png","imagenes/Productos/respiratoria/fravida/prefiltro.png","imagenes/Productos/respiratoria/fravida/retenedor.png","imagenes/Productos/ocular/1702.png"
+    ]
+  },
+  {
+    id: "respiratoria-38",
+    nombre: "Máscara FullFace (encastre bayoneta)",
+    Descripcion: "La máscara panorámica Fravida está diseñada para ofrecer una solución completa y segura en ambientes donde la protección del rostro y las vías respiratorias es fundamental. Su visor amplio proporciona un excelente campo visual, mientras que su estructura resistente garantiza durabilidad frente a agentes químicos y ralladuras.",
+    Especificaciones: "Diseño ergonómico y confortable: Liviana y de excelente balance, esta máscara asegura comodidad incluso durante usos prolongados. Su compatibilidad con filtros de conexión tipo bayoneta Fravida la convierte en una opción práctica y eficaz para una amplia variedad de industrias.\nMateriales de alta calidad: Fabricada en silicona de gran flexibilidad y resistencia, brinda un sello facial seguro sin comprometer la comodidad. Incorpora un arnés tipo pulpo, adaptable y regulable, con hebillas de fijación en los extremos que permiten una sujeción firme y personalizada.",
+    Documentacion: [
+    { nombre: "Ficha técnica", url: "fichas/respiratoria/fravida/fullface.pdf"}
+    ],
+    categoria: "Protección respiratoria",
+    subcategoria: "Máscaras / Semimáscaras",  
+    marca: "FRAVIDA",
+    destacado: false,
+    imagenes: [
+      "imagenes/Productos/respiratoria/fravida/fullface.png"
+    ]
+  },
   ]
