@@ -186,6 +186,7 @@ function mostrarProductos(lista = productos) {
   listaActual = lista;
   renderProductos(lista);
   cargarMarcas();
+  limpiarFiltros();
 }
 
 function renderSubcategorias(categoria) {
