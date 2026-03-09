@@ -478,7 +478,7 @@ const respiratoria = [
     ],
     categoria: "Protección respiratoria",
     subcategoria: "Respiradores / Cubrebocas",  
-    marca: "LIBUS",
+    marca: "STEELPRO",
     destacado: false,
     imagenes: [
       "imagenes/Productos/respiratoria/steelpro/f333v.png"
@@ -762,6 +762,139 @@ const respiratoria = [
     destacado: false,
     imagenes: [
       "imagenes/Productos/respiratoria/segurind/mascara.png"
+    ]
+  },
+
+//===============================
+//            LIBUS
+//===============================
+
+{
+    id: "respiratoria-46",
+    nombre: "Máscara Cara Completa 9955 ",
+    Descripcion: "Máscara respiratoria que cubre toda la cara. Reutilizable y de bajo mantenimiento.\nPuede trabajar con filtros de partículas o cartuchos químicos recambiables.\nAprobación NIOSH conforme al tipo de filtro / cartucho utilizado.\nBrinda protección respiratoria, ocular y facial.",
+    Especificaciones: " Máscara exterior fabricada en silicona hipo-alergénica.\nVisor clase 1. Provisto de tratamiento antirrayadura y anti-empaño.\nOfrece un amplio campo visual libre de distorsión.\nMáscarilla interior en silicona provista de válvulas completamente planaspara brindar máximo confort.\nSistema bi-filtro: porta filtros ubicados simétricamente en los laterales para unperfecto balance de peso y no interferir el campo visual.\nConector de filtro aletado para optimizar el flujo de aire y la duración del filtro.\nSuspensión de 6 puntos con malla textil y correas ajustables, para un sello perfecto a la cara.",
+    Documentacion: [
+    { nombre: "Ficha Técnica", url: "fichas/respiratoria/libus/mascara.pdf"}
+    ],
+    categoria: "Protección respiratoria",
+    subcategoria: "Máscaras / Semimáscaras",  
+    marca: "LIBUS",
+    destacado: false,
+    imagenes: [
+      "imagenes/Productos/respiratoria/libus/mascara.png"
+    ]
+  },
+  {
+    id: "respiratoria-47",
+    nombre: "Semimáscara Serie 9000",
+    Descripcion: "Respirador de media cara, compuesta por una Mascarilla fabricada en elastómero hipo-alergénico lo que la hace suave y confortable sobre al cara, posee una junta facial desmontable que mantiene la forma y limpieza de la máscara luego de su uso.",
+    Especificaciones: "Máscara respiratoria que cubre nariz y boca.\nReutilizable y de bajo mantenimiento.\nPuede trabajar con filtros de partículas o cartuchos quimicos recambiables.\nAprobación NIOSH conforme al tipo de filtro / cartucho utilizado.\nCombinable con otros equipos de seguridad, incluyendo la protección ocular y auditiva.\nSistema bi-filtro: porta filtros ubicados simétricamente en los laterales para un perfecto balance de peso y no interferir el campo visual.\nSuspensión centrada y con correas de fácil ajuste, lo que garantiza el correcto calce a la cara.",
+    Documentacion: [
+    { nombre: "Ficha Técnica", url: "fichas/respiratoria/libus/semimascara.pdf"}
+    ],
+    categoria: "Protección respiratoria",
+    subcategoria: "Máscaras / Semimáscaras",  
+    marca: "LIBUS",
+    destacado: false,
+    imagenes: [
+      "imagenes/Productos/respiratoria/libus/mascara.png"
+    ]
+  },
+  {
+    id: "respiratoria-48",
+    nombre: "Filtro G01 - Vapores Orgánicos (x2 un.)",
+    Descripcion: "Cartucho químico para mascaras reutilizables Linea 9000. Los cartuchos y filtros se comercializan aparte de los respiradores reutilizables",
+    Especificaciones: "TIPO DE CONTAMINANTE: VAPORES ORGÁNICOS.",
+    Documentacion: [
+    { nombre: "Ficha Técnica", url: "fichas/respiratoria/libus/filtrovo.pdf"}
+    ],
+    categoria: "Protección respiratoria",
+    subcategoria: "Componentes p/ máscaras",  
+    marca: "LIBUS",
+    destacado: false,
+    imagenes: [
+      "imagenes/Productos/respiratoria/libus/filtrovo.png"
+    ]
+  },
+  {
+    id: "respiratoria-49",
+    nombre: "Filtro G03 - Vapores Orgánicos / Gases Ácidos (x2 un.)",
+    Descripcion: "Cartucho químico para mascaras reutilizables Linea 9000. Los cartuchos y filtros se comercializan aparte de los respiradores reutilizables",
+    Especificaciones: "TIPO DE CONTAMINANTE: VAPORES ORGÁNICOS y GASES ÁCIDOS.",
+    Documentacion: [
+    { nombre: "Ficha Técnica", url: "fichas/respiratoria/libus/filtrovoga.pdf"}
+    ],
+    categoria: "Protección respiratoria",
+    subcategoria: "Componentes p/ máscaras",  
+    marca: "LIBUS",
+    destacado: false,
+    imagenes: [
+      "imagenes/Productos/respiratoria/libus/filtrovoga.png"
+    ]
+  },
+  {
+    id: "respiratoria-50",
+    nombre: "Filtro G70 P100 - Partículas (x2 un.)",
+    Descripcion: "Cartucho químico para mascaras reutilizables Linea 9000. Los cartuchos y filtros se comercializan aparte de los respiradores reutilizables",
+    Especificaciones: "NIOSH P100\nEn cartucho plástico cerrado para proteger el elemento filtrante de sprays, salpicaduras y humedad.\nTIPO DE CONTAMINANTE: Todo tipo de partículas con eficiencia MIN de filtrado = 99,97%.",
+    Documentacion: [
+    { nombre: "Ficha Técnica", url: "fichas/respiratoria/libus/filtrop100.pdf"}
+    ],
+    categoria: "Protección respiratoria",
+    subcategoria: "Componentes p/ máscaras",  
+    marca: "LIBUS",
+    destacado: false,
+    imagenes: [
+      "imagenes/Productos/respiratoria/libus/filtrop100.png"
+    ]
+  },
+  {
+    id: "respiratoria-51",
+    nombre: "Prefiltros para partículas P95 (x2 un.)",
+    Descripcion: "Filtro para partículas P95 para cartucho respirador L-9000. Los cartuchos y filtros se comercializan aparte de los respiradores reutilizables",
+    Especificaciones: "TIPO DE CONTAMINANTE: Todo tipo de partícula con eficiencia MIN de filtrado = 95%",
+    Documentacion: [
+    { nombre: "Ficha Técnica", url: "fichas/respiratoria/libus/prefiltro.pdf"}
+    ],
+    categoria: "Protección respiratoria",
+    subcategoria: "Componentes p/ máscaras",  
+    marca: "LIBUS",
+    destacado: false,
+    imagenes: [
+      "imagenes/Productos/respiratoria/libus/prefiltro.png"
+    ]
+  },
+  {
+    id: "respiratoria-52",
+    nombre: "Soporte prefiltros (x2 un.)",
+    Descripcion: "Soporte para prefiltros respirador L-9000. Los cartuchos y filtros se comercializan aparte de los respiradores reutilizables",
+    Especificaciones: "Soporte prefiltro para cartucho químico.",
+    Documentacion: [
+    { nombre: "Ficha Técnica", url: "fichas/respiratoria/libus/soporte.pdf"}
+    ],
+    categoria: "Protección respiratoria",
+    subcategoria: "Componentes p/ máscaras",  
+    marca: "LIBUS",
+    destacado: false,
+    imagenes: [
+      "imagenes/Productos/respiratoria/libus/soporte.png"
+    ]
+  },
+  {
+    id: "respiratoria-53",
+    nombre: "Repuesto Arnés Máscara 9955",
+    Descripcion: "Arnés de repuesto para máscara cara completa 9955",
+    Especificaciones: "",
+    Documentacion: [
+    { nombre: "No disponible"}
+    ],
+    categoria: "Protección respiratoria",
+    subcategoria: "Componentes p/ máscaras",  
+    marca: "LIBUS",
+    destacado: false,
+    imagenes: [
+      "imagenes/Productos/respiratoria/libus/arnes.png"
     ]
   },
   ]
