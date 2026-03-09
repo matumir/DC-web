@@ -106,6 +106,7 @@ const marcas = [
   {nombre: 'YUKON', imagen: 'imagenes/marcas/yukon.png'},
   {nombre: 'STRONG SAFETY', imagen: 'imagenes/marcas/strongsafety.png'},
   {nombre: 'MAXIMO ESFUERZO', imagen: 'imagenes/marcas/maximoesfuerzo.png'},
+  {nombre: 'SEGURIND', imagen: 'imagenes/marcas/segurind.png'},
   {nombre: 'LA MEJOR', imagen: 'imagenes/marcas/lamejor.png'}
 ];
 
@@ -1532,7 +1533,7 @@ detalleImg.onclick = abrirZoom;
    WHATSAPP
 ===================== */
 function enviarWhatsapp() {
-  let msg = "Hola, quiero consultar por:\n";
+  let msg = "*PEDIDO WEB*\nHola, quiero consultar por:\n";
   carrito.forEach(p => {
     msg += `-${p.marca} | ${p.nombre} ${p.talle ? `(${p.talle})` : ""} ${p.color ? ` - ${p.color}` : ""} x ${p.cantidad}\n`;
   });

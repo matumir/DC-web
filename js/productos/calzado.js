@@ -82,7 +82,6 @@ const calzado = [
     subcategoria: "Botines",
     marca: "OMBU",
     destacado: true,
-    descripcion: " •Puntera: Acero / Plástico. ",
     talles: [38,39,40,41,42,43,44,45,46],
     colores: [
       { nombre: "Negro", imagenes: ["imagenes/Productos/calzado/ombu/botozono.png","imagenes/Productos/calzado/ombu/botozono2.png"] }
@@ -117,7 +116,6 @@ const calzado = [
     subcategoria: "Botines",
     marca: "OMBU",
     destacado: false,
-    descripcion: " •Puntera: Acero. ",
     talles: [38,39,40,41,42,43,44,45,46],
     colores: [
       { nombre: "Marron", imagenes: ["imagenes/Productos/calzado/ombu/cobalto.png","imagenes/Productos/calzado/ombu/cobalto2.png"] }
@@ -135,7 +133,7 @@ const calzado = [
     subcategoria: "Zapatos",
     marca: "OMBU",
     destacado: false,
-    descripcion: " •Puntera: Acero / Plástico.",
+    
     talles: [38,39,40,41,42,43,44,45,46],
     colores: [
       { nombre: "Negro", imagenes: ["imagenes/Productos/calzado/ombu/prusiano.png","imagenes/Productos/calzado/ombu/prusiano2.png","imagenes/Productos/calzado/ombu/prusiano3.png"] }
@@ -153,11 +151,10 @@ const calzado = [
     subcategoria: "Zapatos",
     marca: "OMBU",
     destacado: true,
-    descripcion: " •Puntera: Acero / Plástico.",
     talles: [38,39,40,41,42,43,44,45,46],
     colores: [
       { nombre: "Negro", imagenes: ["imagenes/Productos/calzado/ombu/OzonoN.png","imagenes/Productos/calzado/ombu/OzonoN2.png"] },
-      { nombre: "Marron", imagenes: ["imagenes/Productos/calzado/ombu/OzonoM.png","imagenes/Productos/calzado/ombu/OzonoM2.png"] }
+      { nombre: "Marron", imagenes: ["imagenes/Productos/calzado/ombu/OzonoM2.png"] }
     ]
   },
   {
@@ -172,7 +169,7 @@ const calzado = [
     subcategoria: "Zapatos",
     marca: "OMBU",
     destacado: false,
-    descripcion: " •Puntera: Composite / Plástico.",
+    
     talles: [38,39,40,41,42,43,44,45,46],
     colores: [
       { nombre: "Negro", imagenes: ["imagenes/Productos/calzado/ombu/GemaN.png","imagenes/Productos/calzado/ombu/GemaN2.png"] },
@@ -346,7 +343,6 @@ const calzado = [
     subcategoria: "Botines",
     marca: "BLADI",
     destacado: false,
-    descripcion: " •Puntera: Plástico / Acero.",
     talles: [38,39,40,41,42,43,44,45,46],
     colores: [
       { nombre: "Negro", imagenes: ["imagenes/Productos/calzado/bladi/421n.png"] },

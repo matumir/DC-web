@@ -649,4 +649,119 @@ const respiratoria = [
       "imagenes/Productos/respiratoria/fravida/fullface.png"
     ]
   },
+//==================================
+//            SEGURIND
+//==================================
+  {
+    id: "respiratoria-39",
+    nombre: "Semimáscara Monofiltro",
+    Descripcion: "La Semi-Máscara Segurind monofiltro está compuesta por un caucho termoplástico atoxico, libre de FTALATOS. Lo que permite un óptimo uso en las distintas circunstancias climáticas ya que el material a bajas o altas temperaturas conserva sus características sin permitir que el respirador se endurezca o se ablande. Posee una gran plasticidad y tersura superficial, ofrece uno de los más confortables adaptadores faciales disponibles actualmente, con excelente factor de calce y suave sellado. De gran Diseño adaptable al 95 por ciento de nuestro tipo racial, permite calzar en un amplio rango de tamaños y configuraciones faciales. El adaptador facial no resbalará sobre el rostro del usuario, aún con profusa transpiración. Fácil higienización y desinfección, gracias a la superficie sin poros, y con buena resistencia al ozono.",
+    Especificaciones: "Fabricada en caucho termoplástico atóxico, libre de ftalatos.\nSistema monofiltro para protección respiratoria.\nMantiene sus propiedades en bajas y altas temperaturas, sin endurecerse ni deformarse.\nMaterial con alta plasticidad y superficie suave, que brinda gran confort al usuario.\nExcelente ajuste y sellado facial.\nDiseño ergonómico adaptable a la mayoría de los rostros (aprox. 95%).\nNo resbala, incluso con transpiración.\nSuperficie no porosa, de fácil limpieza y desinfección.\nResistente al ozono.",
+    Documentacion: [
+    { nombre: "No disponible"}
+    ],
+    categoria: "Protección respiratoria",
+    subcategoria: "Máscaras / Semimáscaras",  
+    marca: "SEGURIND",
+    destacado: false,
+    imagenes: [
+      "imagenes/Productos/respiratoria/segurind/semimascara1.png"
+    ]
+  },
+   {
+    id: "respiratoria-40",
+    nombre: "Semimáscara Bifiltro",
+    Descripcion: "La nueva Semi-Máscara Segurind Prenlyne está compuesta por un caucho termoplástico atoxico, libre de FTALATOS. Lo que permite un óptimo uso en las distintas circunstancias climáticas ya que el material a bajas o altas emperaturas conserva sus características sin permitir que el respirador se endurezca o se ablande. Posee una gran plasticidad y tersura superficial, ofrece uno de los más confortables adaptadores faciales disponibles actualmente, con excelente factor de calce y suave sellado. De gran Diseño adaptable al 95 % de nuestro tipo racial, permite calzar en un amplio rango de tamaños y configuraciones faciales. El adaptador facial no resbalará sobre el rostro del usuario, aún con profusa transpiración. Fácil higienización y desinfección, gracias a la superficie sin poros, y con buena resistencia al ozono.",
+    Especificaciones: "Fabricada en caucho termoplástico atóxico, libre de ftalatos.\nMaterial que mantiene sus propiedades en bajas y altas temperaturas.\nAlta plasticidad y superficie suave para mayor comodidad.\nExcelente ajuste facial y sellado seguro.\nDiseño ergonómico, adaptable a aproximadamente 95 % de los rostros.\nCompatible con amplio rango de tamaños y configuraciones faciales.\nNo resbala, incluso con transpiración intensa.\nSuperficie no porosa, que facilita la limpieza y desinfección.\nBuena resistencia al ozono.",
+    Documentacion: [
+    { nombre: "No disponible"}
+    ],
+    categoria: "Protección respiratoria",
+    subcategoria: "Máscaras / Semimáscaras",  
+    marca: "SEGURIND",
+    destacado: false,
+    imagenes: [
+      "imagenes/Productos/respiratoria/segurind/semimascara2.png"
+    ]
+  },
+  {
+    id: "respiratoria-41",
+    nombre: "Filtro 'A' para Vapores Orgánicos 100 cc.",
+    Descripcion: "Cartucho A - Vapores Orgánicos. Detectable por olfato y no inmediatamente peligrosos para la vida y la salud. (1.000 ppm).",
+    Especificaciones: "Alto: 3 Cm\nAncho: 8 Cm\nLargo: 8 Cm\nPeso: 50g\nMateriales: Carbón activado\nMateriales filtrados: Vapores Organicos",
+    Documentacion: [
+    { nombre: "No disponible"}
+    ],
+    categoria: "Protección respiratoria",
+    subcategoria: "Componentes p/ máscaras",  
+    marca: "SEGURIND",
+    destacado: false,
+    imagenes: [
+      "imagenes/Productos/respiratoria/segurind/filtroa.png"
+    ]
+  },
+  {
+    id: "respiratoria-42",
+    nombre: "Filtro 'AB' para Vapores Orgánicos/Gases Ácidos 100 cc.",
+    Descripcion: "Cartucho AB - Vapores Orgánicos/Gases Ácidos. Cloro 10 ppm / Cloruro de hidrógeno 50 ppm / V.O. 1.000 ppm.\nVapores Orgánicos y cloro, ácido clorhídrico, dióxido de azufre, ácido sulfhídrico (escape), ácido fluorhídrico y dióxido de cloro.",
+    Especificaciones: "Alto: 3 Cm\nAncho: 8 Cm\nLargo: 8 Cm\nPeso: 50g\nMateriales: Carbón activado\nMateriales filtrados: Vapores Organicos y Gases Ácidos",
+    Documentacion: [
+    { nombre: "No disponible"}
+    ],
+    categoria: "Protección respiratoria",
+    subcategoria: "Componentes p/ máscaras",  
+    marca: "SEGURIND",
+    destacado: false,
+    imagenes: [
+      "imagenes/Productos/respiratoria/segurind/filtroab.png"
+    ]
+  },
+  {
+    id: "respiratoria-43",
+    nombre: "Filtro 'C' para Amoníaco y Metilamina 100 cc.",
+    Descripcion: "Cartucho C - Amoníaco y Metilamina. Amoniaco 1250 ppm / metilamina 100 ppm.",
+    Especificaciones: "Alto: 3 Cm\nAncho: 8 Cm\nLargo: 8 Cm\nPeso: 50g\nMateriales: Carbón activado\nMateriales filtrados: Amoníaco",
+    Documentacion: [
+    { nombre: "No disponible"}
+    ],
+    categoria: "Protección respiratoria",
+    subcategoria: "Componentes p/ máscaras",  
+    marca: "SEGURIND",
+    destacado: false,
+    imagenes: [
+      "imagenes/Productos/respiratoria/segurind/filtroc.png"
+    ]
+  },
+  {
+    id: "respiratoria-44",
+    nombre: "Filtro 'G' para Pesticidas y Amoníaco 100 cc.",
+    Descripcion: "Cartucho G - Pesticidas y Amoníaco.",
+    Especificaciones: "Alto: 3 Cm\nAncho: 8 Cm\nLargo: 8 Cm\nPeso: 50g\nMateriales: Carbón activado\nMateriales filtrados: Pesticidas.",
+    Documentacion: [
+    { nombre: "No disponible"}
+    ],
+    categoria: "Protección respiratoria",
+    subcategoria: "Componentes p/ máscaras",  
+    marca: "SEGURIND",
+    destacado: false,
+    imagenes: [
+      "imagenes/Productos/respiratoria/segurind/filtrog.png"
+    ]
+  },
+  {
+    id: "respiratoria-45",
+    nombre: "Máscara SEIF Full Face Bifiltro R600",
+    Descripcion: "Nueva Máscara SEIF inyectada en caucho termo-plástico atoxico, libre de FTALATOS. Suave, flexible, hipo-alergénica (material certificado) y con alta resistencia a los químicos y a las altas temperaturas. Posee un visor acrílico resistente al impacto. ",
+    Especificaciones: "Máscara de rostro completo para protección integral de vías respiratorias y ojos.\nSistema de doble filtro para mayor filtración.\nVisor de policarbonato con alta resistencia al impacto.\nVálvula de exhalación que mejora la comodidad.\nAjuste ergonómico con correas ajustables para un sellado hermético.\nCompatibilidad con diferentes tipos de filtros según necesidad.",
+    Documentacion: [
+    { nombre: "No disponible"}
+    ],
+    categoria: "Protección respiratoria",
+    subcategoria: "Máscaras / Semimáscaras",  
+    marca: "SEGURIND",
+    destacado: false,
+    imagenes: [
+      "imagenes/Productos/respiratoria/segurind/mascara.png"
+    ]
+  },
   ]
