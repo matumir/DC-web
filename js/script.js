@@ -76,7 +76,8 @@ const categoriasHome = [
   { nombre: "Protección ocular", img: "imagenes/logos/ocular.png" },
   { nombre: "Protección respiratoria", img: "imagenes/logos/respiratoria.png" },
   { nombre: "Sujeción de cargas", img: "imagenes/logos/cargas.png" },
-  { nombre: "Insumos", img: "imagenes/logos/insumos.png" }
+  { nombre: "Insumos", img: "imagenes/logos/insumos.png" },
+  { nombre: "Discos de corte", img: "" }
 ];
 const marcas = [
   {nombre: 'OMBU', imagen: 'imagenes/marcas/ombu.png'},
@@ -99,6 +100,7 @@ const marcas = [
   {nombre: 'STEELPRO', imagen: 'imagenes/marcas/steelpro.png'},
   {nombre: 'FRAVIDA', imagen: 'imagenes/marcas/fravida.png'},
   {nombre: '3M', imagen: 'imagenes/marcas/3m.jpg'},
+  {nombre: 'DOBLE A', imagen: 'imagenes/marcas/doblea.png'},
   {nombre: 'BLACK PANTHER', imagen: 'imagenes/marcas/blackpanther.png'},
   {nombre: 'ELEGANTE', imagen: 'imagenes/marcas/elegante.png'},
   {nombre: 'MAKE', imagen: 'imagenes/marcas/make.png'},
