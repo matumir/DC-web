@@ -206,6 +206,7 @@
   align-items: center;
   gap: 12px;
   padding: 16px;
+  position: relative; /* CLAVE */
 }
 
 .buscador-header input {
@@ -213,10 +214,22 @@
   height: 44px;
   border-radius: 8px;
   border: none;
-  padding: 0 12px;
+  padding: 0 40px 0 12px; /* espacio para la lupa */
   font-size: 16px;
 }
-
+.icono-busqueda {
+  position: absolute;
+  right: 26px;
+  top: 50%;
+  transform: translateY(-50%);
+  color: #777;
+  font-size: 16px;
+  pointer-events: none;
+}
+.buscador-header input:focus {
+  outline: none;
+  box-shadow: 0 0 0 2px #12414a33;
+}
 #resultadosBuscadorMobile {
   padding: 0 16px;
   overflow-y: auto;

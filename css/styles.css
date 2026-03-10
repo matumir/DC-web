@@ -2373,3 +2373,24 @@ display: none;
   width: 100%;
 }
 
+.header-search {
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+.icono-busqueda {
+  position: absolute;
+  right: 12px;
+  color: #777;
+  font-size: 14px;
+  pointer-events: none;
+}
+
+.header-search input {
+  padding-right: 36px; /* espacio para la lupa */
+}
+.header-search input:focus + .icono-busqueda,
+.header-search:focus-within .icono-busqueda{
+  color:#000;
+}
