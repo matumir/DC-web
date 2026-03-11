@@ -77,7 +77,7 @@ const categoriasHome = [
   { nombre: "Protección respiratoria", img: "imagenes/logos/respiratoria.png" },
   { nombre: "Sujeción de cargas", img: "imagenes/logos/cargas.png" },
   { nombre: "Insumos", img: "imagenes/logos/insumos.png" },
-  { nombre: "Discos de corte", img: "" }
+  { nombre: "Discos de corte", img: "imagenes/logos/discos.png" }
 ];
 const marcas = [
   {nombre: 'OMBU', imagen: 'imagenes/marcas/ombu.png'},
