@@ -77,7 +77,8 @@ const categoriasHome = [
   { nombre: "Protección respiratoria", img: "imagenes/logos/respiratoria.png" },
   { nombre: "Sujeción de cargas", img: "imagenes/logos/cargas.png" },
   { nombre: "Insumos", img: "imagenes/logos/insumos.png" },
-  { nombre: "Discos de corte", img: "imagenes/logos/discos.png" }
+  { nombre: "Discos de corte", img: "imagenes/logos/discos.png" },
+  { nombre: "Señalización", img: "imagenes/logos/señalizacion.webp" }
 ];
 const marcas = [
   {nombre: 'OMBU', imagen: 'imagenes/marcas/ombu.png'},
@@ -393,7 +394,7 @@ if (inputBuscador && resultadosBuscador) {
       item.className = "buscador-item";
       item.dataset.id = p.id; // 🔑 CLAVE ABSOLUTA
       item.innerHTML = `
-      <img src="${imagenSrc}" alt="${p.nombre}">
+      <img src="${imagenSrc}" loading="lazy" alt="${p.nombre}">
       <div class="buscador-texto">
         ${resaltar(`${p.marca} | ${p.nombre}`, textoOriginal)}
       </div>
@@ -542,7 +543,7 @@ function renderProductos(lista) {
       catalogo.innerHTML += `
         <div class="card fade-page">
           <span class="badge">${p.categoria}</span>
-          <img src="${imagenSrc}" alt="${p.nombre}">
+          <img src="${imagenSrc}" loading="lazy" alt="${p.nombre}">
           <h4>${p.marca} | ${p.nombre}</h4>
           <button class="btn-ver" onclick="mostrarDetalle('${p.id}')">
             Ver en detalle
@@ -1054,7 +1055,7 @@ function prepararGaleria() {
 function abrirZoom() {
   const overlay = document.createElement("div");
   overlay.className = "zoom-overlay";
-  overlay.innerHTML = `<img src="${galeriaImagenes[imagenIndex].src}">`;
+  overlay.innerHTML = `<img src="${galeriaImagenes[imagenIndex].src}" loading="lazy">`;
   overlay.onclick = () => overlay.remove();
   document.body.appendChild(overlay);
 }
@@ -1259,7 +1260,9 @@ function obtenerColorCSS(nombre) {
     caqui: "#f2debc",
     "verde oliva": "#495745",
     "azul marino": "#061534",
-    claro: "#d4d4d49e"
+    claro: "#d4d4d49e",
+    "verde f": "#67ff20",
+    "naranja f": "#fd3102"
   };
 
   return mapa[nombre.toLowerCase()] || "#ccc";
@@ -1360,7 +1363,7 @@ function renderPreviewCarrito() {
 
     previewCarrito.innerHTML += `
       <div class="preview-item">
-        <img src="${imagenSrc}" alt="${p.nombre}">
+        <img src="${imagenSrc}" loading="lazy" alt="${p.nombre}">
         <div>
           <strong>${p.marca} | ${p.nombre}</strong>
           <div>
@@ -1435,7 +1438,7 @@ function renderCarritoCompleto() {
 
     listaCarritoDesktop.innerHTML += `
       <div class="card">
-        <img src="${imagenSrc}" alt="${p.nombre}">
+        <img src="${imagenSrc}" loading="lazy" alt="${p.nombre}">
         <h4>${p.marca} | ${p.nombre}</h4>
         <p>Cantidad: ${p.cantidad}</p>
         ${p.talle ? `<p>Talle: ${p.talle}</p>` : ""}
@@ -1498,7 +1501,7 @@ function renderRelacionados() {
     card.onclick = () => mostrarDetalle(p.id);
 
     card.innerHTML = `
-      <img src="${imagenSrc}" alt="${p.nombre}">
+      <img src="${imagenSrc}" loading="lazy" alt="${p.nombre}">
       <h4>${p.marca} | ${p.nombre}</h4>
       <button class="btn-ver fijo" onclick="mostrarDetalle('${p.id}')">
         Ver detalle
@@ -1651,7 +1654,7 @@ function renderDestacados() {
     track.innerHTML += `
       <div class="card">
         <span class="badge">${p.categoria}</span>
-        <img src="${imagen}" alt="${p.nombre}">
+        <img src="${imagen}" loading="lazy" alt="${p.nombre}">
         <h4>${p.marca} | ${p.nombre}</h4>
         <button class="btn-ver-des" onclick="mostrarDetalle('${p.id}')">
           Ver en detalle
@@ -1976,7 +1979,7 @@ function renderCarritoMobile() {
 
 lista.innerHTML += `
 <div class="carrito-item-mobile">
-<img src="${imagenSrc}">
+<img src="${imagenSrc} loading="lazy"">
 <div class="detalles">
 <strong>${p.marca} | ${p.nombre}</strong>
 <div>Cant: ${p.cantidad}
@@ -2140,7 +2143,7 @@ function renderMarcas() {
     div.className = "marca";
     div.dataset.marca = m.nombre;
 
-    div.innerHTML = `<img src="${m.imagen}" alt="${m.nombre}">`;
+    div.innerHTML = `<img src="${m.imagen}" loading="lazy" alt="${m.nombre}">`;
 
     track.appendChild(div);
   });

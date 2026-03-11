@@ -1326,7 +1326,7 @@ display: none !important;
   height: 100%;
 }
 .carrusel-track .card h4 {
- min-height: unset;
+  min-height: 48px;
   max-height: unset;
   overflow: visible;
   margin-bottom: 5px;
@@ -1334,6 +1334,7 @@ display: none !important;
   -webkit-line-clamp: 3;
   -webkit-box-orient: vertical;
   overflow: hidden;
+  justify-self: center;
 }
 @media (max-width: 900px) {
   .carrusel-track .card {

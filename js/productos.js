@@ -12,7 +12,8 @@ const productos = [
   ...cargas,
   ...insumos,
   ...respiratoria,
-  ...discos
+  ...discos,
+  ...señalizacion
 ];
 
 console.log("Productos unificados:", productos);
