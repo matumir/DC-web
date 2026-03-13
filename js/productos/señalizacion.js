@@ -8,7 +8,7 @@ const señalizacion = [
     { nombre: "No disponible"}
     ],
     categoria: "Señalización",
-    subcategoria: "Conos",  
+    subcategoria: "Conos / Postes",  
     marca: "",
     destacado: false,
     colores:[
@@ -24,7 +24,7 @@ const señalizacion = [
     { nombre: "No disponible"}
     ],
     categoria: "Señalización",
-    subcategoria: "Conos",  
+    subcategoria: "Conos / Postes",  
     marca: "",
     destacado: false,
     imagenes:["imagenes/Productos/señalizacion/semiflex50.webp"]
@@ -38,7 +38,7 @@ const señalizacion = [
     { nombre: "No disponible"}
     ],
     categoria: "Señalización",
-    subcategoria: "Conos",  
+    subcategoria: "Conos / Postes",  
     marca: "",
     destacado: false,
     imagenes:["imagenes/Productos/señalizacion/semiflex50.webp"]
@@ -52,7 +52,7 @@ const señalizacion = [
     { nombre: "No disponible"}
     ],
     categoria: "Señalización",
-    subcategoria: "Conos",  
+    subcategoria: "Conos / Postes",  
     marca: "",
     destacado: false,
     imagenes:["imagenes/Productos/señalizacion/cono15cm.png"]
@@ -66,7 +66,7 @@ const señalizacion = [
     { nombre: "No disponible"}
     ],
     categoria: "Señalización",
-    subcategoria: "Conos",  
+    subcategoria: "Conos / Postes",  
     marca: "",
     destacado: false,
     imagenes:["imagenes/Productos/señalizacion/cono29cm.png"]
@@ -80,7 +80,7 @@ const señalizacion = [
     { nombre: "No disponible"}
     ],
     categoria: "Señalización",
-    subcategoria: "Conos",  
+    subcategoria: "Conos / Postes",  
     marca: "",
     destacado: false,
     imagenes:["imagenes/Productos/señalizacion/cono50cm.png"]
@@ -272,7 +272,7 @@ const señalizacion = [
     { nombre: "No disponible"}
     ],
     categoria: "Señalización",
-    subcategoria: "Vehicular",  
+    subcategoria: "Demarcación",  
     marca: "3M",
     destacado: false,
     imagenes:[
@@ -288,7 +288,7 @@ const señalizacion = [
     { nombre: "No disponible"}
     ],
     categoria: "Señalización",
-    subcategoria: "Vehicular",  
+    subcategoria: "Demarcación",  
     marca: "3M",
     destacado: false,
     imagenes:[
@@ -304,7 +304,7 @@ const señalizacion = [
     { nombre: "No disponible"}
     ],
     categoria: "Señalización",
-    subcategoria: "Vehicular",  
+    subcategoria: "Demarcación",  
     marca: "3M",
     destacado: false,
     imagenes:[
@@ -368,7 +368,7 @@ const señalizacion = [
     { nombre: "No disponible"}
     ],
     categoria: "Señalización",
-    subcategoria: "Vehicular",  
+    subcategoria: "Balizas",  
     marca: "",
     destacado: false,
     imagenes:[
@@ -400,7 +400,7 @@ const señalizacion = [
     { nombre: "No disponible"}
     ],
     categoria: "Señalización",
-    subcategoria: "Demarcación",  
+    subcategoria: "Conos / Postes",  
     marca: "",
     destacado: false,
     imagenes:[
@@ -416,7 +416,7 @@ const señalizacion = [
     { nombre: "No disponible"}
     ],
     categoria: "Señalización",
-    subcategoria: "Demarcación",  
+    subcategoria: "Conos / Postes",  
     marca: "",
     destacado: false,
     imagenes:[
@@ -432,7 +432,7 @@ const señalizacion = [
     { nombre: "No disponible"}
     ],
     categoria: "Señalización",
-    subcategoria: "Demarcación",  
+    subcategoria: "Balizas",  
     marca: "",
     destacado: false,
     imagenes:[
@@ -448,7 +448,7 @@ const señalizacion = [
     { nombre: "No disponible"}
     ],
     categoria: "Señalización",
-    subcategoria: "Demarcación",  
+    subcategoria: "Balizas",  
     marca: "",
     destacado: false,
     imagenes:[
@@ -464,7 +464,7 @@ const señalizacion = [
     { nombre: "No disponible"}
     ],
     categoria: "Señalización",
-    subcategoria: "Demarcación",  
+    subcategoria: "Balizas",  
     marca: "",
     destacado: false,
     imagenes:[
@@ -480,7 +480,7 @@ const señalizacion = [
     { nombre: "No disponible"}
     ],
     categoria: "Señalización",
-    subcategoria: "Demarcación",  
+    subcategoria: "Balizas",  
     marca: "",
     destacado: false,
     colores: [

@@ -1594,7 +1594,7 @@ function renderCategoriasHome() {
     container.innerHTML += `
       <div class="categoria-card">
         <h3>${cat.nombre}</h3>
-        <img src="${cat.img}" alt="${cat.nombre}">
+        <img src="${cat.img}" loading="lazy" alt="${cat.nombre}">
         <button onclick="filtrarYMostrar('${cat.nombre}')">
           Ver productos
         </button>
