@@ -217,7 +217,7 @@ const señalizacion = [
   },
   {
     id: "señalizacion-15",
-    nombre: "Malla plástica de seguridad 1m x 45m (80g/m²)",
+    nombre: "Malla plástica de seguridad 1m x 45m (60g/m²)",
     Descripcion: "Malla de seguridad plástica NARANJA.",
     Especificaciones: "Material: plástico\nAlto: 1m\nLargo: 45m\nDensidad: 80g/m²",
     Documentacion: [
@@ -297,9 +297,9 @@ const señalizacion = [
   },
     {
     id: "señalizacion-20",
-    nombre: "Cinta reflectiva Blanca (45,7m x 75mm)",
+    nombre: "Cinta reflectiva Blanca (45,7m x 50mm)",
     Descripcion: "Banda perimetral altamente reflectante con adhesivo ultra resistente sensible a la presión para una fácil aplicación en camiones. remolques y vehículos grandes para mejorar la visibilidad y la distancia de detección.",
-    Especificaciones: "Largo: 45,7m\n Ancho: 75mm ",
+    Especificaciones: "Largo: 45,7m\n Ancho: 50mm ",
     Documentacion: [
     { nombre: "No disponible"}
     ],
@@ -389,6 +389,103 @@ const señalizacion = [
     destacado: false,
     imagenes:[
       "imagenes/Productos/señalizacion/kit.png","imagenes/Productos/insumos/botiquines/100.png","imagenes/Productos/señalizacion/balizas.png","imagenes/Productos/señalizacion/chalecopesadonaranja.png","imagenes/Productos/insumos/extintores/1kg1.png"
+    ]
+  },
+  {
+    id: "señalizacion-26",
+    nombre: "Poste p/ cadena reforzado amarillo/negro (90cm)",
+    Descripcion: "POSTE P/CADENA REFORZADO DE 90 CM AMARILLO/NEGRO, BASE OCTOGONAL RECARGABLE",
+    Especificaciones: "Alto: 90cm\n Base recargable.",
+    Documentacion: [
+    { nombre: "No disponible"}
+    ],
+    categoria: "Señalización",
+    subcategoria: "Demarcación",  
+    marca: "",
+    destacado: false,
+    imagenes:[
+      "imagenes/Productos/señalizacion/posteamarillo.png"
+    ]
+  },
+  {
+    id: "señalizacion-27",
+    nombre: "Poste p/ cadena reforzado rojo/blanco (90cm)",
+    Descripcion: "POSTE P/CADENA REFORZADO DE 90 CM ROJO/BLANCO, BASE OCTOGONAL RECARGABLE",
+    Especificaciones: "Alto: 90cm\n Base recargable.",
+    Documentacion: [
+    { nombre: "No disponible"}
+    ],
+    categoria: "Señalización",
+    subcategoria: "Demarcación",  
+    marca: "",
+    destacado: false,
+    imagenes:[
+      "imagenes/Productos/señalizacion/posterojo.png"
+    ]
+  },
+   {
+    id: "señalizacion-28",
+    nombre: "Baliza de luz bidireccional intermitente 6V",
+    Descripcion: "Baliza de luz intermitente en 2 direcciones.",
+    Especificaciones: "Encendido Solar. Para 1 Batería (Tipo 4R25)\nCon Abrasadera Metálica para Cono\nBATERÍA NO INCLUIDA",
+    Documentacion: [
+    { nombre: "No disponible"}
+    ],
+    categoria: "Señalización",
+    subcategoria: "Demarcación",  
+    marca: "",
+    destacado: false,
+    imagenes:[
+      "imagenes/Productos/señalizacion/baliza.png"
+    ]
+  },
+  {
+    id: "señalizacion-29",
+    nombre: "Bateria 6 Voltios 4R25 para balizas",
+    Descripcion: "Batería de 6 voltios compatible con balizas.",
+    Especificaciones: "Voltaje: 6V\nCompatible con balizas.",
+    Documentacion: [
+    { nombre: "No disponible"}
+    ],
+    categoria: "Señalización",
+    subcategoria: "Demarcación",  
+    marca: "",
+    destacado: false,
+    imagenes:[
+      "imagenes/Productos/señalizacion/bate6v.png"
+    ]
+  },
+  {
+    id: "señalizacion-30",
+    nombre: "Baliza de luz bidireccional intermitente c/ panel solar ",
+    Descripcion: "Baliza de luz intermitente en 2 direcciones con panel solar.",
+    Especificaciones: "Recargable: SI",
+    Documentacion: [
+    { nombre: "No disponible"}
+    ],
+    categoria: "Señalización",
+    subcategoria: "Demarcación",  
+    marca: "",
+    destacado: false,
+    imagenes:[
+      "imagenes/Productos/señalizacion/baliza2.png"
+    ]
+  },
+   {
+    id: "señalizacion-31",
+    nombre: "Baliza rotativa 12V con imán",
+    Descripcion: "BALIZA ROTATIVA DE 12v C/ENCHUFE P/ENCENDEDOR, C/IMAN AZUL",
+    Especificaciones: "Posee enchufe para encendedor\nPosee imán",
+    Documentacion: [
+    { nombre: "No disponible"}
+    ],
+    categoria: "Señalización",
+    subcategoria: "Demarcación",  
+    marca: "",
+    destacado: false,
+    colores: [
+      { nombre: "Azul", imagenes: ["imagenes/Productos/señalizacion/balizaazul.png"] },
+      { nombre: "Rojo", imagenes: ["imagenes/Productos/señalizacion/balizaroja.png"] }
     ]
   },
 ]
