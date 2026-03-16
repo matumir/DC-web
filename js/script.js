@@ -1539,7 +1539,7 @@ detalleImg.onclick = abrirZoom;
    WHATSAPP
 ===================== */
 function enviarWhatsapp() {
-  let msg = "*PEDIDO WEB*\nHola, quiero consultar por:\n";
+  let msg = "**PEDIDO WEB**\nHola, quiero consultar por:\n";
   carrito.forEach(p => {
     msg += `-${p.marca} | ${p.nombre} ${p.talle ? `(${p.talle})` : ""} ${p.color ? ` - ${p.color}` : ""} x ${p.cantidad}\n`;
   });
