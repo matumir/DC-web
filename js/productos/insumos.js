@@ -895,7 +895,7 @@ const insumos = [
     marca: "DOBLE A",
     destacado: false,
     imagenes: [
-      "imagenes/Productos/insumos/cintas/cintaenmasc.png"
+      "imagenes/Productos/insumos/cintas/cintaenmasc12.png"
     ]
   },
   {
@@ -911,7 +911,7 @@ const insumos = [
     marca: "DOBLE A",
     destacado: false,
     imagenes: [
-      "imagenes/Productos/insumos/cintas/cintaenmasc.png"
+      "imagenes/Productos/insumos/cintas/cintaenmasc15.png"
     ]
   },
   {
@@ -927,7 +927,7 @@ const insumos = [
     marca: "DOBLE A",
     destacado: false,
     imagenes: [
-      "imagenes/Productos/insumos/cintas/cintaenmasc.png"
+      "imagenes/Productos/insumos/cintas/cintaenmasc18.png"
     ]
   },
   {
@@ -943,27 +943,12 @@ const insumos = [
     marca: "DOBLE A",
     destacado: false,
     imagenes: [
-      "imagenes/Productos/insumos/cintas/cintaenmasc.png"
+      "imagenes/Productos/insumos/cintas/cintaenmasc24.png"
     ]
   },
+  
   {
     id: "insumos-59",
-    nombre: "Cinta de enmascarar (24mm x 50m)",
-    Descripcion: "Cinta para pintor, uso profesional. Excelente adhesión y conformado a superficies irregulares.\nApta cabinas c/horno. Resiste 90° C durante 1 hora.\nTest de transferencia de adhesivo: La cinta es aplicada de acuerdo con la norma PSTC-1 sobre un panel pintado el cual es puesto dentro de un horno durante una hora a 90 grados centígrados. Cuando el tiempo se cumple, la mitad del largo de la cinta de prueba se retira mientras está caliente. El resto se retira 24 hs después.\nNinguna mancha o resto de adhesivo debe quedar sobre la superficie.",
-    Especificaciones: "Código: C 988\nEspesor en micrones: 110\nResistencia tracción kg/cm: 2,6\nElongación %: 7\nAdhesión grs/cm: 370\nRespaldo: papel crepeado\nResistencia: 90º C/h",
-    Documentacion: [
-    { nombre: "Ficha técnica no disponible"}
-    ],
-    categoria: "Insumos",
-    subcategoria: "Cintas",  
-    marca: "DOBLE A",
-    destacado: false,
-    imagenes: [
-      "imagenes/Productos/insumos/cintas/cintaenmasc.png"
-    ]
-  },
-  {
-    id: "insumos-60",
     nombre: "Cinta de enmascarar (36mm x 50m)",
     Descripcion: "Cinta para pintor, uso profesional. Excelente adhesión y conformado a superficies irregulares.\nApta cabinas c/horno. Resiste 90° C durante 1 hora.\nTest de transferencia de adhesivo: La cinta es aplicada de acuerdo con la norma PSTC-1 sobre un panel pintado el cual es puesto dentro de un horno durante una hora a 90 grados centígrados. Cuando el tiempo se cumple, la mitad del largo de la cinta de prueba se retira mientras está caliente. El resto se retira 24 hs después.\nNinguna mancha o resto de adhesivo debe quedar sobre la superficie.",
     Especificaciones: "Código: C 988\nEspesor en micrones: 110\nResistencia tracción kg/cm: 2,6\nElongación %: 7\nAdhesión grs/cm: 370\nRespaldo: papel crepeado\nResistencia: 90º C/h",
@@ -975,11 +960,11 @@ const insumos = [
     marca: "DOBLE A",
     destacado: false,
     imagenes: [
-      "imagenes/Productos/insumos/cintas/cintaenmasc.png"
+      "imagenes/Productos/insumos/cintas/cintaenmasc36.png"
     ]
   },
   {
-    id: "insumos-61",
+    id: "insumos-610",
     nombre: "Cinta de enmascarar (48mm x 50m)",
     Descripcion: "Cinta para pintor, uso profesional. Excelente adhesión y conformado a superficies irregulares.\nApta cabinas c/horno. Resiste 90° C durante 1 hora.\nTest de transferencia de adhesivo: La cinta es aplicada de acuerdo con la norma PSTC-1 sobre un panel pintado el cual es puesto dentro de un horno durante una hora a 90 grados centígrados. Cuando el tiempo se cumple, la mitad del largo de la cinta de prueba se retira mientras está caliente. El resto se retira 24 hs después.\nNinguna mancha o resto de adhesivo debe quedar sobre la superficie.",
     Especificaciones: "Código: C 988\nEspesor en micrones: 110\nResistencia tracción kg/cm: 2,6\nElongación %: 7\nAdhesión grs/cm: 370\nRespaldo: papel crepeado\nResistencia: 90º C/h",
@@ -991,11 +976,11 @@ const insumos = [
     marca: "DOBLE A",
     destacado: false,
     imagenes: [
-      "imagenes/Productos/insumos/cintas/cintaenmasc.png"
+      "imagenes/Productos/insumos/cintas/cintaenmasc48.png"
     ]
   },
   {
-    id: "insumos-62",
+    id: "insumos-61",
     nombre: "Cinta de empaque (48mm x 90m)",
     Descripcion: "Cinta de polipropileno para sellar cajas de cartón y aplicaciones múltiples. Para utilizar en máquinas automáticas para cerrar cajas.",
     Especificaciones: "Código: C 292\nEspesor en micrones: 35\nResistencia tracción kg/cm: 3\nElongación %: 100\nAdhesión grs/cm: 280\nRespaldo: polipropileno\nDisponible: Marrón y transparente",
@@ -1012,7 +997,7 @@ const insumos = [
     ]
   },
   {
-    id: "insumos-63",
+    id: "insumos-62",
     nombre: "Cinta FRÁGIL",
     Descripcion: "Cinta de polipropileno de colores e impresas. Para imprimir marcas y leyendas en el cerrado de cajas, hasta cuatro colores.",
     Especificaciones: "Código: C 295/ C 296/ C 297\nEspesor en micrones: 40\nResistencia tracción kg/cm: 3,5\nElongación %: 140\nAdhesión grs/cm: 250\nRespaldo: polipropileno",
@@ -1028,7 +1013,7 @@ const insumos = [
     ]
   },
   {
-    id: "insumos-64",
+    id: "insumos-63",
     nombre: "Cinta multipropósito Duct Tape GRIS (48mm x 9m)",
     Descripcion: "Cinta de tela laminada con polietileno de gran poder adhesivo y fácil corte. Para reparaciones en la casa, camping, taller, automóvil, aviación, etc.",
     Especificaciones: "Espesor en micrones: 250\nResistencia tracción kg/cm: 5\nElongación %: 15\nAdhesión grs/cm: 500\nRespaldo: tela",
@@ -1044,7 +1029,7 @@ const insumos = [
     ]
   },
   {
-    id: "insumos-65",
+    id: "insumos-64",
     nombre: "Cinta aisladora profesional (18mm x 10m)",
     Descripcion: "La Cinta Aisladora Autoadhesiva Negra Doble A es la solución ideal para tus necesidades eléctricas y mecánicas. Fabricada en polipropileno, esta cinta destaca por su excelente elasticidad y resistencia, superando los estándares de calidad establecidos. Su diseño delgado permite una fácil aplicación, incluso a bajas temperaturas, garantizando un rendimiento óptimo en todo tipo de clima. Con una elongación superior al 180%, es perfecta para adaptarse a diversas superficies, como cables y otros elementos eléctricos. Además, soporta temperaturas de hasta 80 °C, asegurando una protección dieléctrica confiable. Su acabado brillante y su naturaleza no escribible la convierten en una opción estética y funcional para cualquier proyecto.",
     Especificaciones: "Espesor de 0.13 mm que garantiza una aplicación precisa y seguro en diversas tareas.\nSoporta temperaturas de hasta 80 °C para un rendimiento confiable en entornos exigentes.\nFabricada en papel, combina resistencia y flexibilidad para adaptarse a diferentes superficies.\nDiseño delgado que facilita la aplicación, incluso en condiciones de baja temperatura.",
@@ -1108,7 +1093,7 @@ const insumos = [
     ]
   },
   {
-    id: "insumos-67",
+    id: "insumos-68",
     nombre: "Cinta antideslizante Amarilla/Negra (1'' x 18m)",
     Descripcion: "La cinta antideslizante ofrece una protección ideal para evitar accidentes en suelos húmedos.\nPosee un adhesivo fuerte, duradero y es posible cortarla con un cuchillo afilado y colocarla en superficies como suelos de fábricas, áreas industriales, etc.",
     Especificaciones: "Ancho: 1'' (1 pulgada, equivale a 25,4 mm)\nLargo: 18 m",
@@ -1124,7 +1109,7 @@ const insumos = [
     ]
   },
   {
-    id: "insumos-68",
+    id: "insumos-69",
     nombre: "Cinta demarcatoria (50mm x 33m)",
     Descripcion: "Cintas vinílicas para ser aplicadas sobre pisos interiores de estacionamientos, plantas industriales o cualquier otro sitio donde se requiera la demarcación.",
     Especificaciones: "Ancho: 50mm\nLargo: 33 m",
@@ -1141,7 +1126,7 @@ const insumos = [
     ]
   },
   {
-    id: "insumos-69",
+    id: "insumos-70",
     nombre: "Cinta demarcatoria Amarilla/Negra (50mm x 33m)",
     Descripcion: "Cintas vinílicas para ser aplicadas sobre pisos interiores de estacionamientos, plantas industriales o cualquier otro sitio donde se requiera la demarcación.",
     Especificaciones: "Ancho: 50mm\nLargo: 33 m",
@@ -1157,7 +1142,7 @@ const insumos = [
     ]
   },
   {
-    id: "insumos-70",
+    id: "insumos-71",
     nombre: "Cinta demarcatoria Roja/Blanca (50mm x 33m)",
     Descripcion: "Cintas vinílicas para ser aplicadas sobre pisos interiores de estacionamientos, plantas industriales o cualquier otro sitio donde se requiera la demarcación.",
     Especificaciones: "Ancho: 50mm\nLargo: 33 m",
@@ -1173,7 +1158,7 @@ const insumos = [
     ]
   },
   {
-    id: "insumos-67",
+    id: "insumos-72",
     nombre: "Cinta antideslizante fotoluminiscente (1'' x 18m)",
     Descripcion: "La cinta antideslizante ofrece una protección ideal para evitar accidentes en suelos húmedos.\nPosee un adhesivo fuerte, duradero y es posible cortarla con un cuchillo afilado y colocarla en superficies como suelos de fábricas, áreas industriales, etc.",
     Especificaciones: "Ancho: 1'' (1 pulgada, equivale a 25,4 mm)\nLargo: 18 m\nFotoluminiscente",
