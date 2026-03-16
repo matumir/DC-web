@@ -1075,4 +1075,117 @@ const insumos = [
       "imagenes/Productos/insumos/cintas/aisladora20.png"
     ]
   },
+  {
+    id: "insumos-66",
+    nombre: "Cinta antideslizante NEGRA (1'' x 18m)",
+    Descripcion: "La cinta antideslizante negra ofrece una protección ideal para evitar accidentes en suelos húmedos.\nPosee un adhesivo fuerte, duradero y es posible cortarla con un cuchillo afilado y colocarla en superficies como suelos de fábricas, áreas industriales, etc.",
+    Especificaciones: "Ancho: 1'' (1 pulgada, equivale a 25,4 mm)\nLargo: 18 m",
+    Documentacion: [
+    { nombre: "Ficha técnica no disponible"}
+    ],
+    categoria: "Insumos",
+    subcategoria: "Cintas",  
+    marca: "",
+    destacado: false,
+    imagenes: [
+      "imagenes/Productos/insumos/cintas/antideslizante1.png"
+    ]
+  },
+  {
+    id: "insumos-67",
+    nombre: "Cinta antideslizante NEGRA (2'' x 18m)",
+    Descripcion: "La cinta antideslizante negra ofrece una protección ideal para evitar accidentes en suelos húmedos.\nPosee un adhesivo fuerte, duradero y es posible cortarla con un cuchillo afilado y colocarla en superficies como suelos de fábricas, áreas industriales, etc.",
+    Especificaciones: "Ancho: 2'' (2 pulgadas, equivale a 50,8 mm)\nLargo: 18 m",
+    Documentacion: [
+    { nombre: "Ficha técnica no disponible"}
+    ],
+    categoria: "Insumos",
+    subcategoria: "Cintas",  
+    marca: "",
+    destacado: false,
+    imagenes: [
+      "imagenes/Productos/insumos/cintas/antideslizante2.png"
+    ]
+  },
+  {
+    id: "insumos-67",
+    nombre: "Cinta antideslizante Amarilla/Negra (1'' x 18m)",
+    Descripcion: "La cinta antideslizante ofrece una protección ideal para evitar accidentes en suelos húmedos.\nPosee un adhesivo fuerte, duradero y es posible cortarla con un cuchillo afilado y colocarla en superficies como suelos de fábricas, áreas industriales, etc.",
+    Especificaciones: "Ancho: 1'' (1 pulgada, equivale a 25,4 mm)\nLargo: 18 m",
+    Documentacion: [
+    { nombre: "Ficha técnica no disponible"}
+    ],
+    categoria: "Insumos",
+    subcategoria: "Cintas",  
+    marca: "",
+    destacado: false,
+    imagenes: [
+      "imagenes/Productos/insumos/cintas/antideslizante3.png"
+    ]
+  },
+  {
+    id: "insumos-68",
+    nombre: "Cinta demarcatoria (50mm x 33m)",
+    Descripcion: "Cintas vinílicas para ser aplicadas sobre pisos interiores de estacionamientos, plantas industriales o cualquier otro sitio donde se requiera la demarcación.",
+    Especificaciones: "Ancho: 50mm\nLargo: 33 m",
+    Documentacion: [
+    { nombre: "Ficha técnica no disponible"}
+    ],
+    categoria: "Insumos",
+    subcategoria: "Cintas",  
+    marca: "",
+    destacado: false,
+     colores: [
+      {nombre: "Amarillo", imagenes: ["imagenes/Productos/insumos/cintas/demarcaamarilla.png"]},
+      {nombre: "Rojo", imagenes: ["imagenes/Productos/insumos/cintas/demarcaroja.png"]}
+    ]
+  },
+  {
+    id: "insumos-69",
+    nombre: "Cinta demarcatoria Amarilla/Negra (50mm x 33m)",
+    Descripcion: "Cintas vinílicas para ser aplicadas sobre pisos interiores de estacionamientos, plantas industriales o cualquier otro sitio donde se requiera la demarcación.",
+    Especificaciones: "Ancho: 50mm\nLargo: 33 m",
+    Documentacion: [
+    { nombre: "Ficha técnica no disponible"}
+    ],
+    categoria: "Insumos",
+    subcategoria: "Cintas",  
+    marca: "",
+    destacado: false,
+    imagenes: [
+      "imagenes/Productos/insumos/cintas/demarcanegama.png"
+    ]
+  },
+  {
+    id: "insumos-70",
+    nombre: "Cinta demarcatoria Roja/Blanca (50mm x 33m)",
+    Descripcion: "Cintas vinílicas para ser aplicadas sobre pisos interiores de estacionamientos, plantas industriales o cualquier otro sitio donde se requiera la demarcación.",
+    Especificaciones: "Ancho: 50mm\nLargo: 33 m",
+    Documentacion: [
+    { nombre: "Ficha técnica no disponible"}
+    ],
+    categoria: "Insumos",
+    subcategoria: "Cintas",  
+    marca: "",
+    destacado: false,
+    imagenes: [
+      "imagenes/Productos/insumos/cintas/demarcarojbla.png"
+    ]
+  },
+  {
+    id: "insumos-67",
+    nombre: "Cinta antideslizante fotoluminiscente (1'' x 18m)",
+    Descripcion: "La cinta antideslizante ofrece una protección ideal para evitar accidentes en suelos húmedos.\nPosee un adhesivo fuerte, duradero y es posible cortarla con un cuchillo afilado y colocarla en superficies como suelos de fábricas, áreas industriales, etc.",
+    Especificaciones: "Ancho: 1'' (1 pulgada, equivale a 25,4 mm)\nLargo: 18 m\nFotoluminiscente",
+    Documentacion: [
+    { nombre: "Ficha técnica no disponible"}
+    ],
+    categoria: "Insumos",
+    subcategoria: "Cintas",  
+    marca: "",
+    destacado: false,
+    imagenes: [
+      "imagenes/Productos/insumos/cintas/antideslizante4.png"
+    ]
+  },
 ]
