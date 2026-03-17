@@ -1,4 +1,3 @@
-console.log("productos.js cargado");
 
 const productos = [
   ...calzado,
@@ -13,7 +12,6 @@ const productos = [
   ...insumos,
   ...respiratoria,
   ...discos,
-  ...señalizacion
+  ...señalizacion,
+  ...carteles
 ];
-
-console.log("Productos unificados:", productos);

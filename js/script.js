@@ -78,7 +78,8 @@ const categoriasHome = [
   { nombre: "Sujeción de cargas", img: "imagenes/logos/cargas.png" },
   { nombre: "Insumos", img: "imagenes/logos/insumos.png" },
   { nombre: "Discos de corte", img: "imagenes/logos/discos.png" },
-  { nombre: "Señalización", img: "imagenes/logos/señalizacion.webp" }
+  { nombre: "Señalización", img: "imagenes/logos/señalizacion.webp" },
+  { nombre: "Cartelería", img: "imagenes/logos/carteleria2.webp" }
 ];
 const marcas = [
   {nombre: 'OMBU', imagen: 'imagenes/marcas/ombu.png'},
@@ -525,7 +526,9 @@ function volverAlCatalogo() {
   // 🔑 volver a aplicar filtros reales
   aplicarFiltros();
 }
-
+document.getElementById("btnVolverProductos").addEventListener("click", () => {
+  mostrarInicio(); // o lo que quieras que haga
+});
 
 function renderProductos(lista) {
   mostrarSkeleton();
@@ -1694,10 +1697,10 @@ const bannerIndicadores = document.getElementById("bannerIndicadores");
 const bannerImagenes = [
   "imagenes/Grafico/banner.png",
   "imagenes/Grafico/banner1.webp",
-  "imagenes/Grafico/banner2.webp",
   "imagenes/Grafico/banner3.webp",
   "imagenes/Grafico/banner4.png",
-  "imagenes/Grafico/banner5.jpg"
+  "imagenes/Grafico/banner5.jpg",
+  "imagenes/Grafico/banner6.webp"
 ];
 
 let bannerIndex = 0;

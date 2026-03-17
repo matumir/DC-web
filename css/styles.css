@@ -291,11 +291,12 @@ button {
 }
 .productos-header {
   display: flex;
-  justify-content: flex-end;
-  margin-bottom: 15px;
   font-size: 14px;
   color: #555;
   font-weight: 500;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 15px;
 }
 .subcategorias {
   display: flex;
