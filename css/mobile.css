@@ -879,4 +879,43 @@ transform: translateY(-10px);
   color: #333;
 }
 
+.modal-aviso {
+    align-items: flex-end; /* lo baja */
+  }
+
+  .modal-contenido {
+    width: 100%;
+    max-width: 100%;
+    border-radius: 18px 18px 0 0;
+    padding: 24px 18px 28px;
+
+    transform: translateY(100%);
+    opacity: 1;
+
+    transition: transform 0.4s cubic-bezier(.22,.9,.3,1);
+  }
+
+  .modal-aviso.activo .modal-contenido {
+    transform: translateY(0);
+  }
+
+  /* barra tipo "drag" arriba */
+  .modal-contenido::before {
+    content: "";
+    width: 40px;
+    height: 4px;
+    background: #ccc;
+    border-radius: 2px;
+    display: block;
+    margin: 0 auto 12px;
+  }
+  .modal-contenido {
+  touch-action: none;
+}
+.modal-contenido {
+  padding-bottom: 32px; /* más aire abajo */
+}
+.modal-contenido button {
+  width: 100%; /* botón full width tipo app */
+}
 }

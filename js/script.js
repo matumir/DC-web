@@ -2249,3 +2249,45 @@ function actualizarResumenCarrito() {
       ? "1 producto seleccionado"
       : `${totalProductos} productos seleccionados`;
 }
+
+let modal;
+let checkbox;
+
+window.addEventListener("load", () => {
+  modal = document.getElementById("modalAviso");
+  checkbox = document.getElementById("noMostrarAviso");
+
+  const guardado = localStorage.getItem("ocultarAviso");
+
+  if (guardado) {
+    const tiempoPasado = Date.now() - parseInt(guardado);
+
+    if (tiempoPasado < 7 * 24 * 60 * 60 * 1000) {
+      modal.style.display = "none";
+      return;
+    }
+  }
+
+  modal.style.display = "flex";
+  
+  setTimeout(() => {
+    modal.classList.add("activo");
+    if (navigator.vibrate) {
+    navigator.vibrate(30); // vibración corta y sutil
+    }
+  }, 50);
+});
+
+function cerrarModalAviso() {
+  if (!modal) return; // 👈 evita error
+
+  modal.classList.remove("activo");
+
+  setTimeout(() => {
+    modal.style.display = "none";
+  }, 300);
+
+  if (checkbox && checkbox.checked) {
+    localStorage.setItem("ocultarAviso", Date.now());
+  }
+}
