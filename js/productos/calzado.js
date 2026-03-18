@@ -133,7 +133,7 @@ const calzado = [
     subcategoria: "Zapatos",
     marca: "OMBU",
     destacado: false,
-    
+  
     talles: [38,39,40,41,42,43,44,45,46],
     colores: [
       { nombre: "Negro", imagenes: ["imagenes/Productos/calzado/ombu/prusiano.png","imagenes/Productos/calzado/ombu/prusiano2.png","imagenes/Productos/calzado/ombu/prusiano3.png"] }

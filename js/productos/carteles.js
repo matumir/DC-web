@@ -1,7 +1,7 @@
 const carteles = [
     {
     id: "carteleria-1",
-    nombre: "CARTEL obligación usar guantes de seguridad (400x450x8mm)",
+    nombre: "CARTEL obligación USAR GUANTES DE SEGURIDAD (400x450x8mm)",
     Descripcion: "Obligación 001 DE USAR GUANTES DE SEGURIDAD",
     Especificaciones: "Alto: 450mm\nAncho: 400mm\nEspesor: 8mm",
     Documentacion: [
@@ -17,7 +17,7 @@ const carteles = [
   },
    {
     id: "carteleria-2",
-    nombre: "CARTEL obligación usar protección respiratoria (400x450x8mm)",
+    nombre: "CARTEL obligación USAR PROTECCION RESPIRATORIA (400x450x8mm)",
     Descripcion: "Obligación 002 DE USAR PROTECCION RESPIRATORIA",
     Especificaciones: "Alto: 450mm\nAncho: 400mm\nEspesor: 8mm",
     Documentacion: [
@@ -33,7 +33,7 @@ const carteles = [
   },
   {
     id: "carteleria-3",
-    nombre: "CARTEL obligación usar calzado de seguridad (400x450x8mm)",
+    nombre: "CARTEL obligación USAR CALZADO DE SEGURIDAD (400x450x8mm)",
     Descripcion: "Obligación 003 DE USAR CALZADO DE SEGURIDAD",
     Especificaciones: "Alto: 450mm\nAncho: 400mm\nEspesor: 8mm",
     Documentacion: [
@@ -49,7 +49,7 @@ const carteles = [
   },
    {
     id: "carteleria-4",
-    nombre: "CARTEL obligación usar casco de seguridad (400x450x8mm)",
+    nombre: "CARTEL obligación USAR CASCO DE SEGURIDAD (400x450x8mm)",
     Descripcion: "Obligación 004 DE USAR CASCO DE SEGURIDAD",
     Especificaciones: "Alto: 450mm\nAncho: 400mm\nEspesor: 8mm",
     Documentacion: [
@@ -65,7 +65,7 @@ const carteles = [
   },
   {
     id: "carteleria-5",
-    nombre: "CARTEL obligación usar protectores auditivos (400x450x8mm)",
+    nombre: "CARTEL obligación USAR PROTECTORES AUDITIVOS (400x450x8mm)",
     Descripcion: "Obligación 005 DE USAR PROTECTORES AUDITIVOS",
     Especificaciones: "Alto: 450mm\nAncho: 400mm\nEspesor: 8mm",
     Documentacion: [
@@ -81,7 +81,7 @@ const carteles = [
   },
   {
     id: "carteleria-6",
-    nombre: "CARTEL obligación usar proteccion ocular (400x450x8mm)",
+    nombre: "CARTEL obligación USAR PROTECCION OCULAR (400x450x8mm)",
     Descripcion: "Obligación 006 DE USAR PROTECCION OCULAR",
     Especificaciones: "Alto: 450mm\nAncho: 400mm\nEspesor: 8mm",
     Documentacion: [
@@ -97,7 +97,7 @@ const carteles = [
   },
   {
     id: "carteleria-7",
-    nombre: "CARTEL obligación usar máscara facial (400x450x8mm)",
+    nombre: "CARTEL obligación USAR MÁSCARA FACIAL (400x450x8mm)",
     Descripcion: "Obligación 007 DE USAR MASCARA FACIAL",
     Especificaciones: "Alto: 450mm\nAncho: 400mm\nEspesor: 8mm",
     Documentacion: [
@@ -113,7 +113,7 @@ const carteles = [
   },
   {
     id: "carteleria-8",
-    nombre: "CARTEL obligación usar máscara facial (400x450x8mm)",
+    nombre: "CARTEL obligación USAR MASCARA FACIAL (400x450x8mm)",
     Descripcion: "Obligación 008 DE USAR MASCARA FACIAL",
     Especificaciones: "Alto: 450mm\nAncho: 400mm\nEspesor: 8mm",
     Documentacion: [
@@ -129,7 +129,7 @@ const carteles = [
   },
   {
     id: "carteleria-9",
-    nombre: "CARTEL obligación vehículo a paso de hombre (400x450x8mm)",
+    nombre: "CARTEL obligación VEHÍCULO A PASO DE HOMBRE (400x450x8mm)",
     Descripcion: "Obligación 009 VEHICULO A PASO DE HOMBRE",
     Especificaciones: "Alto: 450mm\nAncho: 400mm\nEspesor: 8mm",
     Documentacion: [
@@ -145,7 +145,7 @@ const carteles = [
   },
   {
     id: "carteleria-9",
-    nombre: "CARTEL obligación usar ropa de trabajo (400x450x8mm)",
+    nombre: "CARTEL obligación USAR ROPA DE TRABAJO (400x450x8mm)",
     Descripcion: "Obligación 010 DE USAR ROPA DE TRABAJO",
     Especificaciones: "Alto: 450mm\nAncho: 400mm\nEspesor: 8mm",
     Documentacion: [
@@ -161,7 +161,7 @@ const carteles = [
   },
   {
     id: "carteleria-11",
-    nombre: "CARTEL obligación usar protectores auditivos (400x450x8mm)",
+    nombre: "CARTEL obligación USAR PROTECTORES AUDITIVOS (400x450x8mm)",
     Descripcion: "Obligación 011 DE USAR PROTECTORES AUDITIVOS",
     Especificaciones: "Alto: 450mm\nAncho: 400mm\nEspesor: 8mm",
     Documentacion: [
@@ -177,7 +177,7 @@ const carteles = [
   },
   {
     id: "carteleria-12",
-    nombre: "CARTEL obligación usar cinturón de seguridad (400x450x8mm)",
+    nombre: "CARTEL obligación USAR CINTURÓN DE SEGURIDAD (400x450x8mm)",
     Descripcion: "Obligación 012 DE USAR CINTURON DE SEGURIDAD",
     Especificaciones: "Alto: 450mm\nAncho: 400mm\nEspesor: 8mm",
     Documentacion: [
@@ -193,7 +193,7 @@ const carteles = [
   },
   {
     id: "carteleria-13",
-    nombre: "CARTEL obligación usar barbijo (400x450x8mm)",
+    nombre: "CARTEL obligación USAR BARBIJO (400x450x8mm)",
     Descripcion: "Obligación 013 DE USAR BARBIJO",
     Especificaciones: "Alto: 450mm\nAncho: 400mm\nEspesor: 8mm",
     Documentacion: [
@@ -209,7 +209,7 @@ const carteles = [
   },
   {
     id: "carteleria-14",
-    nombre: "CARTEL obligación estacionamiento (400x450x8mm)",
+    nombre: "CARTEL obligación ESTACIONAMIENTO (400x450x8mm)",
     Descripcion: "Obligación 014 ESTACIONAMIENTO",
     Especificaciones: "Alto: 450mm\nAncho: 400mm\nEspesor: 8mm",
     Documentacion: [
@@ -225,7 +225,7 @@ const carteles = [
   },
   {
     id: "carteleria-15",
-    nombre: "CARTEL obligación usar cofia y barbijo (400x450x8mm)",
+    nombre: "CARTEL obligación USAR COFIA Y BARBIJO (400x450x8mm)",
     Descripcion: "Obligación 015 DE USAR COFIA Y BARBIJO",
     Especificaciones: "Alto: 450mm\nAncho: 400mm\nEspesor: 8mm",
     Documentacion: [
@@ -237,6 +237,374 @@ const carteles = [
     destacado: false,
     imagenes:[
       "imagenes/Productos/carteleria/obligacion/cofia.png"
+    ]
+  },
+  {
+    id: "carteleria-16",
+    nombre: "CARTEL obligación LAVARSE LAS MANOS (220x260x8mm)",
+    Descripcion: "Obligación 072 LAVARSE LAS MANOS",
+    Especificaciones: "Alto: 260mm\nAncho: 220mm\nEspesor: 8mm",
+    Documentacion: [
+    { nombre: "No disponible"}
+    ],
+    categoria: "Cartelería",
+    subcategoria: "Obligación",  
+    marca: "",
+    destacado: false,
+    imagenes:[
+      "imagenes/Productos/carteleria/obligacion/lavarse.png"
+    ]
+  },
+  {
+    id: "carteleria-17",
+    nombre: "CARTEL obligación APILE CORRECTAMENTE (190x270x8mm)",
+    Descripcion: "Obligación 178 APILE CORRECTAMENTE",
+    Especificaciones: "Alto: 270mm\nAncho: 190mm\nEspesor: 8mm",
+    Documentacion: [
+    { nombre: "No disponible"}
+    ],
+    categoria: "Cartelería",
+    subcategoria: "Obligación",  
+    marca: "",
+    destacado: false,
+    imagenes:[
+      "imagenes/Productos/carteleria/obligacion/apile.png"
+    ]
+  },
+  {
+    id: "carteleria-18",
+    nombre: "CARTEL información SILENCIO (450x200x8mm)",
+    Descripcion: "Información 207 SILENCIO",
+    Especificaciones: "Alto: 200mm\nAncho: 450mm\nEspesor: 8mm",
+    Documentacion: [
+    { nombre: "No disponible"}
+    ],
+    categoria: "Cartelería",
+    subcategoria: "Información",  
+    marca: "",
+    destacado: false,
+    imagenes:[
+      "imagenes/Productos/carteleria/informacion/silencio.png"
+    ]
+  },
+  {
+    id: "carteleria-19",
+    nombre: "CARTEL información COMEDOR (450x200x8mm)",
+    Descripcion: "Información 205 COMEDOR",
+    Especificaciones: "Alto: 200mm\nAncho: 450mm\nEspesor: 8mm",
+    Documentacion: [
+    { nombre: "No disponible"}
+    ],
+    categoria: "Cartelería",
+    subcategoria: "Información",  
+    marca: "",
+    destacado: false,
+    imagenes:[
+      "imagenes/Productos/carteleria/informacion/comedor.png"
+    ]
+  },
+  {
+    id: "carteleria-20",
+    nombre: "CARTEL información AREA RESTRINGIDA (460x270x8mm)",
+    Descripcion: "Información 200 AREA RESTRINGIDA",
+    Especificaciones: "Alto: 270mm\nAncho: 460mm\nEspesor: 8mm",
+    Documentacion: [
+    { nombre: "No disponible"}
+    ],
+    categoria: "Cartelería",
+    subcategoria: "Información",  
+    marca: "",
+    destacado: false,
+    imagenes:[
+      "imagenes/Productos/carteleria/informacion/arearestringida.png"
+    ]
+  },
+  {
+    id: "carteleria-21",
+    nombre: "CARTEL información RESERVADO PARA DISCAPACITADOS (300x300x8mm)",
+    Descripcion: "Información 074 RESERVADO PARA DISCAPACITADOS",
+    Especificaciones: "Alto: 300mm\nAncho: 300mm\nEspesor: 8mm",
+    Documentacion: [
+    { nombre: "No disponible"}
+    ],
+    categoria: "Cartelería",
+    subcategoria: "Información",  
+    marca: "",
+    destacado: false,
+    imagenes:[
+      "imagenes/Productos/carteleria/informacion/discapacitados.png"
+    ]
+  },
+  {
+    id: "carteleria-22",
+    nombre: "CARTEL información RIESGO ÁCIDO (220x260x8mm)",
+    Descripcion: "Información 107 RIESGO ÁCIDO",
+    Especificaciones: "Alto: 260mm\nAncho: 220mm\nEspesor: 8mm",
+    Documentacion: [
+    { nombre: "No disponible"}
+    ],
+    categoria: "Cartelería",
+    subcategoria: "Información",  
+    marca: "",
+    destacado: false,
+    imagenes:[
+      "imagenes/Productos/carteleria/informacion/riesgoacido.png"
+    ]
+  },
+  {
+    id: "carteleria-23",
+    nombre: "CARTEL información RIESGO CAUSTICO (220x260x8mm)",
+    Descripcion: "Información 108 RIESGO CAUSTICO",
+    Especificaciones: "Alto: 260mm\nAncho: 220mm\nEspesor: 8mm",
+    Documentacion: [
+    { nombre: "No disponible"}
+    ],
+    categoria: "Cartelería",
+    subcategoria: "Información",  
+    marca: "",
+    destacado: false,
+    imagenes:[
+      "imagenes/Productos/carteleria/informacion/riesgocaustico.png"
+    ]
+  },
+  {
+    id: "carteleria-24",
+    nombre: "CARTEL información MANTENGA ESTE LUGAR SIEMPRE LIBRE (220x260x8mm)",
+    Descripcion: "Información 118 MANTENGA ESTE LUGAR SIEMPRE LIBRE",
+    Especificaciones: "Alto: 260mm\nAncho: 220mm\nEspesor: 8mm",
+    Documentacion: [
+    { nombre: "No disponible"}
+    ],
+    categoria: "Cartelería",
+    subcategoria: "Información",  
+    marca: "",
+    destacado: false,
+    imagenes:[
+      "imagenes/Productos/carteleria/informacion/lugarlibre.png"
+    ]
+  },
+  {
+    id: "carteleria-25",
+    nombre: "CARTEL información ADMINISTRACION (410x140x8mm)",
+    Descripcion: "Información 078 ADMINISTRACION",
+    Especificaciones: "Alto: 140mm\nAncho: 410mm\nEspesor: 8mm",
+    Documentacion: [
+    { nombre: "No disponible"}
+    ],
+    categoria: "Cartelería",
+    subcategoria: "Información",  
+    marca: "",
+    destacado: false,
+    imagenes:[
+      "imagenes/Productos/carteleria/informacion/administracion.png"
+    ]
+  },
+  {
+    id: "carteleria-26",
+    nombre: "CARTEL información DEPÓSITO (410x140x8mm)",
+    Descripcion: "Información 078A DEPÓSITO",
+    Especificaciones: "Alto: 140mm\nAncho: 410mm\nEspesor: 8mm",
+    Documentacion: [
+    { nombre: "No disponible"}
+    ],
+    categoria: "Cartelería",
+    subcategoria: "Información",  
+    marca: "",
+    destacado: false,
+    imagenes:[
+      "imagenes/Productos/carteleria/informacion/deposito.png"
+    ]
+  },
+  {
+    id: "carteleria-27",
+    nombre: "CARTEL información EXPEDICION (410x140x8mm)",
+    Descripcion: "Información 078B EXPEDICION",
+    Especificaciones: "Alto: 140mm\nAncho: 410mm\nEspesor: 8mm",
+    Documentacion: [
+    { nombre: "No disponible"}
+    ],
+    categoria: "Cartelería",
+    subcategoria: "Información",  
+    marca: "",
+    destacado: false,
+    imagenes:[
+      "imagenes/Productos/carteleria/informacion/expedicion.png"
+    ]
+  },
+   {
+    id: "carteleria-28",
+    nombre: "CARTEL información LABORATORIO (410x140x8mm)",
+    Descripcion: "Información 079 LABORATORIO",
+    Especificaciones: "Alto: 140mm\nAncho: 410mm\nEspesor: 8mm",
+    Documentacion: [
+    { nombre: "No disponible"}
+    ],
+    categoria: "Cartelería",
+    subcategoria: "Información",  
+    marca: "",
+    destacado: false,
+    imagenes:[
+      "imagenes/Productos/carteleria/informacion/laboratorio.png"
+    ]
+  },
+  {
+    id: "carteleria-29",
+    nombre: "CARTEL información MANTENIMIENTO (410x140x8mm)",
+    Descripcion: "Información 079B MANTENIMIENTO",
+    Especificaciones: "Alto: 140mm\nAncho: 410mm\nEspesor: 8mm",
+    Documentacion: [
+    { nombre: "No disponible"}
+    ],
+    categoria: "Cartelería",
+    subcategoria: "Información",  
+    marca: "",
+    destacado: false,
+    imagenes:[
+      "imagenes/Productos/carteleria/informacion/mantenimiento.png"
+    ]
+  },
+  {
+    id: "carteleria-30",
+    nombre: "CARTEL información OFICINA (410x140x8mm)",
+    Descripcion: "Información 080 OFICINA",
+    Especificaciones: "Alto: 140mm\nAncho: 410mm\nEspesor: 8mm",
+    Documentacion: [
+    { nombre: "No disponible"}
+    ],
+    categoria: "Cartelería",
+    subcategoria: "Información",  
+    marca: "",
+    destacado: false,
+    imagenes:[
+      "imagenes/Productos/carteleria/informacion/oficina.png"
+    ]
+  },
+  {
+    id: "carteleria-31",
+    nombre: "CARTEL información OFICINA DE PERSONAL (410x140x8mm)",
+    Descripcion: "Información 080A OFICINA DE PERSONAL",
+    Especificaciones: "Alto: 140mm\nAncho: 410mm\nEspesor: 8mm",
+    Documentacion: [
+    { nombre: "No disponible"}
+    ],
+    categoria: "Cartelería",
+    subcategoria: "Información",  
+    marca: "",
+    destacado: false,
+    imagenes:[
+      "imagenes/Productos/carteleria/informacion/oficinadepersonal.png"
+    ]
+  },
+  {
+    id: "carteleria-32",
+    nombre: "CARTEL información OPERACIONES (410x140x8mm)",
+    Descripcion: "Información 081 OPERACIONES",
+    Especificaciones: "Alto: 140mm\nAncho: 410mm\nEspesor: 8mm",
+    Documentacion: [
+    { nombre: "No disponible"}
+    ],
+    categoria: "Cartelería",
+    subcategoria: "Información",  
+    marca: "",
+    destacado: false,
+    imagenes:[
+      "imagenes/Productos/carteleria/informacion/operaciones.png"
+    ]
+  },
+  {
+    id: "carteleria-33",
+    nombre: "CARTEL información PAÑOL (410x140x8mm)",
+    Descripcion: "Información 082 PAÑOL",
+    Especificaciones: "Alto: 140mm\nAncho: 410mm\nEspesor: 8mm",
+    Documentacion: [
+    { nombre: "No disponible"}
+    ],
+    categoria: "Cartelería",
+    subcategoria: "Información",  
+    marca: "",
+    destacado: false,
+    imagenes:[
+      "imagenes/Productos/carteleria/informacion/pañol.png"
+    ]
+  },
+  {
+    id: "carteleria-34",
+    nombre: "CARTEL información PORTERIA (410x140x8mm)",
+    Descripcion: "Información 082A PORTERIA",
+    Especificaciones: "Alto: 140mm\nAncho: 410mm\nEspesor: 8mm",
+    Documentacion: [
+    { nombre: "No disponible"}
+    ],
+    categoria: "Cartelería",
+    subcategoria: "Información",  
+    marca: "",
+    destacado: false,
+    imagenes:[
+      "imagenes/Productos/carteleria/informacion/porteria.png"
+    ]
+  },
+  {
+    id: "carteleria-34",
+    nombre: "CARTEL información PRODUCCION (410x140x8mm)",
+    Descripcion: "Información 082B PRODUCCION",
+    Especificaciones: "Alto: 140mm\nAncho: 410mm\nEspesor: 8mm",
+    Documentacion: [
+    { nombre: "No disponible"}
+    ],
+    categoria: "Cartelería",
+    subcategoria: "Información",  
+    marca: "",
+    destacado: false,
+    imagenes:[
+      "imagenes/Productos/carteleria/informacion/produccion.png"
+    ]
+  },
+  {
+    id: "carteleria-35",
+    nombre: "CARTEL información SEGURIDAD (410x140x8mm)",
+    Descripcion: "Información 083 SEGURIDAD",
+    Especificaciones: "Alto: 140mm\nAncho: 410mm\nEspesor: 8mm",
+    Documentacion: [
+    { nombre: "No disponible"}
+    ],
+    categoria: "Cartelería",
+    subcategoria: "Información",  
+    marca: "",
+    destacado: false,
+    imagenes:[
+      "imagenes/Productos/carteleria/informacion/seguridad.png"
+    ]
+  },
+  {
+    id: "carteleria-36",
+    nombre: "CARTEL información PERSONAL (410x140x8mm)",
+    Descripcion: "Información 083A PERSONAL",
+    Especificaciones: "Alto: 140mm\nAncho: 410mm\nEspesor: 8mm",
+    Documentacion: [
+    { nombre: "No disponible"}
+    ],
+    categoria: "Cartelería",
+    subcategoria: "Información",  
+    marca: "",
+    destacado: false,
+    imagenes:[
+      "imagenes/Productos/carteleria/informacion/personal.png"
+    ]
+  },
+  {
+    id: "carteleria-36",
+    nombre: "CARTEL información VESTUARIO (410x140x8mm)",
+    Descripcion: "Información 084 VESTUARIO",
+    Especificaciones: "Alto: 140mm\nAncho: 410mm\nEspesor: 8mm",
+    Documentacion: [
+    { nombre: "No disponible"}
+    ],
+    categoria: "Cartelería",
+    subcategoria: "Información",  
+    marca: "",
+    destacado: false,
+    imagenes:[
+      "imagenes/Productos/carteleria/informacion/vestuario.png"
     ]
   },
 ]
