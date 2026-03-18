@@ -607,4 +607,148 @@ const carteles = [
       "imagenes/Productos/carteleria/informacion/vestuario.png"
     ]
   },
+  {
+    id: "carteleria-37",
+    nombre: "CARTEL seguridad MANTENGA ESTE LUGAR SIEMPRE LIBRE (400x300x8mm)",
+    Descripcion: "Seguridad 0061 MANTENGA ESTE LUGAR SIEMPRE LIBRE",
+    Especificaciones: "Alto: 300mm\nAncho: 400mm\nEspesor: 8mm",
+    Documentacion: [
+    { nombre: "No disponible"}
+    ],
+    categoria: "Cartelería",
+    subcategoria: "Seguridad",  
+    marca: "",
+    destacado: false,
+    imagenes:[
+      "imagenes/Productos/carteleria/seguridad/lugarlibre.png"
+    ]
+  },
+  {
+    id: "carteleria-38",
+    nombre: "CARTEL seguridad NO ACCIONAR INTERRUPTOR (400x300x8mm)",
+    Descripcion: "Seguridad 0062 NO ACCIONAR INTERRUPTOR",
+    Especificaciones: "Alto: 300mm\nAncho: 400mm\nEspesor: 8mm",
+    Documentacion: [
+    { nombre: "No disponible"}
+    ],
+    categoria: "Cartelería",
+    subcategoria: "Seguridad",  
+    marca: "",
+    destacado: false,
+    imagenes:[
+      "imagenes/Productos/carteleria/seguridad/noaccionar.png"
+    ]
+  },
+  {
+    id: "carteleria-39",
+    nombre: "CARTEL seguridad SANIDAD ANTES DE EMPEZAR (400x450x8mm)",
+    Descripcion: "Seguridad 0062 SANIDAD ANTES DE EMPEZAR",
+    Especificaciones: "Alto: 450mm\nAncho: 400mm\nEspesor: 8mm",
+    Documentacion: [
+    { nombre: "No disponible"}
+    ],
+    categoria: "Cartelería",
+    subcategoria: "Seguridad",  
+    marca: "",
+    destacado: false,
+    imagenes:[
+      "imagenes/Productos/carteleria/seguridad/antesdeempezar.png"
+    ]
+  },
+  {
+    id: "carteleria-40",
+    nombre: "CARTEL seguridad UTILICE EQUIPO DE PROTECCION PERSONAL (400x300x8mm)",
+    Descripcion: "Seguridad 0044 UTILICE EQUIPO DE PROTECCION PERSONAL",
+    Especificaciones: "Alto: 300mm\nAncho: 400mm\nEspesor: 8mm",
+    Documentacion: [
+    { nombre: "No disponible"}
+    ],
+    categoria: "Cartelería",
+    subcategoria: "Seguridad",  
+    marca: "",
+    destacado: false,
+    imagenes:[
+      "imagenes/Productos/carteleria/seguridad/utiliceequipo.png"
+    ]
+  },
+  {
+    id: "carteleria-41",
+    nombre: "CARTEL seguridad PRESTE ATENCION A SU TRABAJO (400x300x8mm)",
+    Descripcion: "Seguridad 0068 PRESTE ATENCION A SU TRABAJO",
+    Especificaciones: "Alto: 300mm\nAncho: 400mm\nEspesor: 8mm",
+    Documentacion: [
+    { nombre: "No disponible"}
+    ],
+    categoria: "Cartelería",
+    subcategoria: "Seguridad",  
+    marca: "",
+    destacado: false,
+    imagenes:[
+      "imagenes/Productos/carteleria/seguridad/presteatencion.png"
+    ]
+  },
+  {
+    id: "carteleria-42",
+    nombre: "CARTEL seguridad LAS IMPROVISACIONES CAUSAN ACCIDENTES (400x300x8mm)",
+    Descripcion: "Seguridad 2315 LAS IMPROVISACIONES CAUSAN ACCIDENTES",
+    Especificaciones: "Alto: 300mm\nAncho: 400mm\nEspesor: 8mm",
+    Documentacion: [
+    { nombre: "No disponible"}
+    ],
+    categoria: "Cartelería",
+    subcategoria: "Seguridad",  
+    marca: "",
+    destacado: false,
+    imagenes:[
+      "imagenes/Productos/carteleria/seguridad/improvisaciones.png"
+    ]
+  },
+  {
+    id: "carteleria-43",
+    nombre: "CARTEL seguridad LAS MANOS NO TIENEN PRECIO PROTEJALAS (400x300x8mm)",
+    Descripcion: "Seguridad 2316 LAS MANOS NO TIENEN PRECIO PROTEJALAS",
+    Especificaciones: "Alto: 300mm\nAncho: 400mm\nEspesor: 8mm",
+    Documentacion: [
+    { nombre: "No disponible"}
+    ],
+    categoria: "Cartelería",
+    subcategoria: "Seguridad",  
+    marca: "",
+    destacado: false,
+    imagenes:[
+      "imagenes/Productos/carteleria/seguridad/lasmanos.png"
+    ]
+  },
+  {
+    id: "carteleria-44",
+    nombre: "CARTEL seguridad NO USE HERRAMIENTAS DEFECTUOSAS (400x300x8mm)",
+    Descripcion: "Seguridad 2317 NO USE HERRAMIENTAS DEFECTUOSAS",
+    Especificaciones: "Alto: 300mm\nAncho: 400mm\nEspesor: 8mm",
+    Documentacion: [
+    { nombre: "No disponible"}
+    ],
+    categoria: "Cartelería",
+    subcategoria: "Seguridad",  
+    marca: "",
+    destacado: false,
+    imagenes:[
+      "imagenes/Productos/carteleria/seguridad/nouseherramientas.png"
+    ]
+  },
+  {
+    id: "carteleria-45",
+    nombre: "CARTEL seguridad UN BUEN DIA ES UN DIA SIN ACCIDENTES (400x300x8mm)",
+    Descripcion: "Seguridad 2318 UN BUEN DIA ES UN DIA SIN ACCIDENTES",
+    Especificaciones: "Alto: 300mm\nAncho: 400mm\nEspesor: 8mm",
+    Documentacion: [
+    { nombre: "No disponible"}
+    ],
+    categoria: "Cartelería",
+    subcategoria: "Seguridad",  
+    marca: "",
+    destacado: false,
+    imagenes:[
+      "imagenes/Productos/carteleria/seguridad/unbuendia.png"
+    ]
+  },
 ]
