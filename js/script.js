@@ -1562,20 +1562,20 @@ function filtrarYMostrar(categoria) {
   marcaActual = "todas";
   paginaActual = 1;
 
-  // 2️⃣ Sincronizar selects de la sidebar
+  //  Sincronizar selects de la sidebar
   selectCategoria.value = categoria;
   selectSubcategoria.value = "todas";
   selectMarca.value = "todas";
 
-  // 3️⃣ Mostrar sección productos
+  //  Mostrar sección productos
   ocultarSecciones();
   productosSec.classList.remove("oculto");
 
-  // 4️⃣ Cargar filtros dependientes
+  //  Cargar filtros dependientes
   cargarMarcas();
   cargarSubcategorias();
 
-  // 5️⃣ Aplicar filtros (esto renderiza todo)
+  //  Aplicar filtros (esto renderiza todo)
   aplicarFiltros();
 }
 

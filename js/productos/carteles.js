@@ -751,4 +751,100 @@ const carteles = [
       "imagenes/Productos/carteleria/seguridad/unbuendia.png"
     ]
   },
+   {
+    id: "carteleria-46",
+    nombre: "CARTEL seguridad PIDA AYUDA PARA LEVANTAR CARGAS PESADAS (400x300x8mm)",
+    Descripcion: "Seguridad 2319 PIDA AYUDA PARA LEVANTAR CARGAS PESADAS",
+    Especificaciones: "Alto: 300mm\nAncho: 400mm\nEspesor: 8mm",
+    Documentacion: [
+    { nombre: "No disponible"}
+    ],
+    categoria: "Cartelería",
+    subcategoria: "Seguridad",  
+    marca: "",
+    destacado: false,
+    imagenes:[
+      "imagenes/Productos/carteleria/seguridad/pidaayuda.png"
+    ]
+  },
+  {
+    id: "carteleria-46",
+    nombre: "CARTEL seguridad CONSERVE LUGARES DE CIRCULACION SIN OBSTACULOS (400x300x8mm)",
+    Descripcion: "Seguridad 2320 CONSERVE LUGARES DE CIRCULACION SIN OBSTACULOS",
+    Especificaciones: "Alto: 300mm\nAncho: 400mm\nEspesor: 8mm",
+    Documentacion: [
+    { nombre: "No disponible"}
+    ],
+    categoria: "Cartelería",
+    subcategoria: "Seguridad",  
+    marca: "",
+    destacado: false,
+    imagenes:[
+      "imagenes/Productos/carteleria/seguridad/conservelugares.png"
+    ]
+  },
+  {
+    id: "carteleria-47",
+    nombre: "CARTEL seguridad SEA PRUDENTE EN EL USO DE LAS ESCALERAS (400x300x8mm)",
+    Descripcion: "Seguridad 2321 SEA PRUDENTE EN EL USO DE LAS ESCALERAS",
+    Especificaciones: "Alto: 300mm\nAncho: 400mm\nEspesor: 8mm",
+    Documentacion: [
+    { nombre: "No disponible"}
+    ],
+    categoria: "Cartelería",
+    subcategoria: "Seguridad",  
+    marca: "",
+    destacado: false,
+    imagenes:[
+      "imagenes/Productos/carteleria/seguridad/seaprudente.png"
+    ]
+  },
+  {
+    id: "carteleria-48",
+    nombre: "CARTEL seguridad USE EL EQUIPO ADECUADO PARA TRABAJAR EN ESTA AREA (400x300x8mm)",
+    Descripcion: "Seguridad 2322 USE EL EQUIPO ADECUADO PARA TRABAJAR EN ESTA AREA",
+    Especificaciones: "Alto: 300mm\nAncho: 400mm\nEspesor: 8mm",
+    Documentacion: [
+    { nombre: "No disponible"}
+    ],
+    categoria: "Cartelería",
+    subcategoria: "Seguridad",  
+    marca: "",
+    destacado: false,
+    imagenes:[
+      "imagenes/Productos/carteleria/seguridad/useequipo.png"
+    ]
+  },
+  {
+    id: "carteleria-49",
+    nombre: "CARTEL seguridad NO CONVERSE NI DISTRAIGA AL MAQUINISTA (400x300x8mm)",
+    Descripcion: "Seguridad 2323 NO CONVERSE NI DISTRAIGA AL MAQUINISTA",
+    Especificaciones: "Alto: 300mm\nAncho: 400mm\nEspesor: 8mm",
+    Documentacion: [
+    { nombre: "No disponible"}
+    ],
+    categoria: "Cartelería",
+    subcategoria: "Seguridad",  
+    marca: "",
+    destacado: false,
+    imagenes:[
+      "imagenes/Productos/carteleria/seguridad/noconverse.png"
+    ]
+  },
+  {
+    id: "carteleria-50",
+    nombre: "CARTEL evacuación SALIDA DE EMERGENCIA (400x300x8mm)",
+    Descripcion: "Evacuación 063 SALIDA DE EMERGENCIA",
+    Especificaciones: "Alto: 300mm\nAncho: 400mm\nEspesor: 8mm",
+    Documentacion: [
+    { nombre: "No disponible"}
+    ],
+    categoria: "Cartelería",
+    subcategoria: "Evacuación",  
+    marca: "",
+    destacado: false,
+    imagenes:[
+      "imagenes/Productos/carteleria/evacuacion/salidaemergencia.png"
+    ]
+  },
 ]
