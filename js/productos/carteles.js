@@ -620,7 +620,7 @@ const carteles = [
     marca: "",
     destacado: false,
     imagenes:[
-      "imagenes/Productos/carteleria//lugarlibre.png"
+      "imagenes/Productos/carteleria/seguridad/lugarlibre.png"
     ]
   },
   {
@@ -636,7 +636,7 @@ const carteles = [
     marca: "",
     destacado: false,
     imagenes:[
-      "imagenes/Productos/carteleria//noaccionar.png"
+      "imagenes/Productos/carteleria/seguridad/noaccionar.png"
     ]
   },
   {
@@ -652,7 +652,7 @@ const carteles = [
     marca: "",
     destacado: false,
     imagenes:[
-      "imagenes/Productos/carteleria//antesdeempezar.png"
+      "imagenes/Productos/carteleria/seguridad/antesdeempezar.png"
     ]
   },
   {
@@ -668,7 +668,7 @@ const carteles = [
     marca: "",
     destacado: false,
     imagenes:[
-      "imagenes/Productos/carteleria//utiliceequipo.png"
+      "imagenes/Productos/carteleria/seguridad/utiliceequipo.png"
     ]
   },
   {
@@ -684,7 +684,7 @@ const carteles = [
     marca: "",
     destacado: false,
     imagenes:[
-      "imagenes/Productos/carteleria//presteatencion.png"
+      "imagenes/Productos/carteleria/seguridad/presteatencion.png"
     ]
   },
   {
@@ -700,7 +700,7 @@ const carteles = [
     marca: "",
     destacado: false,
     imagenes:[
-      "imagenes/Productos/carteleria//improvisaciones.png"
+      "imagenes/Productos/carteleria/seguridad/improvisaciones.png"
     ]
   },
   {
@@ -716,7 +716,7 @@ const carteles = [
     marca: "",
     destacado: false,
     imagenes:[
-      "imagenes/Productos/carteleria//lasmanos.png"
+      "imagenes/Productos/carteleria/seguridad/lasmanos.png"
     ]
   },
   {
@@ -732,7 +732,7 @@ const carteles = [
     marca: "",
     destacado: false,
     imagenes:[
-      "imagenes/Productos/carteleria//nouseherramientas.png"
+      "imagenes/Productos/carteleria/seguridad/nouseherramientas.png"
     ]
   },
   {
@@ -748,7 +748,7 @@ const carteles = [
     marca: "",
     destacado: false,
     imagenes:[
-      "imagenes/Productos/carteleria//unbuendia.png"
+      "imagenes/Productos/carteleria/seguridad/unbuendia.png"
     ]
   },
    {
@@ -764,7 +764,7 @@ const carteles = [
     marca: "",
     destacado: false,
     imagenes:[
-      "imagenes/Productos/carteleria//pidaayuda.png"
+      "imagenes/Productos/carteleria/seguridad/pidaayuda.png"
     ]
   },
   {
@@ -780,7 +780,7 @@ const carteles = [
     marca: "",
     destacado: false,
     imagenes:[
-      "imagenes/Productos/carteleria//conservelugares.png"
+      "imagenes/Productos/carteleria/seguridad/conservelugares.png"
     ]
   },
   {
@@ -796,7 +796,7 @@ const carteles = [
     marca: "",
     destacado: false,
     imagenes:[
-      "imagenes/Productos/carteleria//seaprudente.png"
+      "imagenes/Productos/carteleria/seguridad/seaprudente.png"
     ]
   },
   {
@@ -812,7 +812,7 @@ const carteles = [
     marca: "",
     destacado: false,
     imagenes:[
-      "imagenes/Productos/carteleria//useequipo.png"
+      "imagenes/Productos/carteleria/seguridad/useequipo.png"
     ]
   },
   {
@@ -828,7 +828,7 @@ const carteles = [
     marca: "",
     destacado: false,
     imagenes:[
-      "imagenes/Productos/carteleria//noconverse.png"
+      "imagenes/Productos/carteleria/seguridad/noconverse.png"
     ]
   },
   {
