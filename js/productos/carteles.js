@@ -144,7 +144,7 @@ const carteles = [
     ]
   },
   {
-    id: "carteleria-9",
+    id: "carteleria-10",
     nombre: "CARTEL  USAR ROPA DE TRABAJO (400x450x8mm)",
     Descripcion: "Obligación 010 DE USAR ROPA DE TRABAJO",
     Especificaciones: "Alto: 450mm\nAncho: 400mm\nEspesor: 8mm",
@@ -544,7 +544,7 @@ const carteles = [
     ]
   },
   {
-    id: "carteleria-34",
+    id: "carteleria-35",
     nombre: "CARTEL  PRODUCCION (410x140x8mm)",
     Descripcion: "Información 082B PRODUCCION",
     Especificaciones: "Alto: 140mm\nAncho: 410mm\nEspesor: 8mm",
@@ -560,7 +560,7 @@ const carteles = [
     ]
   },
   {
-    id: "carteleria-35",
+    id: "carteleria-36",
     nombre: "CARTEL  SEGURIDAD (410x140x8mm)",
     Descripcion: "Información 083 SEGURIDAD",
     Especificaciones: "Alto: 140mm\nAncho: 410mm\nEspesor: 8mm",
@@ -576,7 +576,7 @@ const carteles = [
     ]
   },
   {
-    id: "carteleria-36",
+    id: "carteleria-37",
     nombre: "CARTEL  PERSONAL (410x140x8mm)",
     Descripcion: "Información 083A PERSONAL",
     Especificaciones: "Alto: 140mm\nAncho: 410mm\nEspesor: 8mm",
@@ -592,7 +592,7 @@ const carteles = [
     ]
   },
   {
-    id: "carteleria-36",
+    id: "carteleria-38",
     nombre: "CARTEL  VESTUARIO (410x140x8mm)",
     Descripcion: "Información 084 VESTUARIO",
     Especificaciones: "Alto: 140mm\nAncho: 410mm\nEspesor: 8mm",
@@ -608,7 +608,7 @@ const carteles = [
     ]
   },
   {
-    id: "carteleria-37",
+    id: "carteleria-39",
     nombre: "CARTEL  MANTENGA ESTE LUGAR SIEMPRE LIBRE (400x300x8mm)",
     Descripcion: "Seguridad 0061 MANTENGA ESTE LUGAR SIEMPRE LIBRE",
     Especificaciones: "Alto: 300mm\nAncho: 400mm\nEspesor: 8mm",
@@ -624,7 +624,7 @@ const carteles = [
     ]
   },
   {
-    id: "carteleria-38",
+    id: "carteleria-40",
     nombre: "CARTEL  NO ACCIONAR INTERRUPTOR (400x300x8mm)",
     Descripcion: "Seguridad 0062 NO ACCIONAR INTERRUPTOR",
     Especificaciones: "Alto: 300mm\nAncho: 400mm\nEspesor: 8mm",
@@ -640,7 +640,7 @@ const carteles = [
     ]
   },
   {
-    id: "carteleria-39",
+    id: "carteleria-41",
     nombre: "CARTEL  SANIDAD ANTES DE EMPEZAR (400x450x8mm)",
     Descripcion: "Seguridad 0062 SANIDAD ANTES DE EMPEZAR",
     Especificaciones: "Alto: 450mm\nAncho: 400mm\nEspesor: 8mm",
@@ -656,7 +656,7 @@ const carteles = [
     ]
   },
   {
-    id: "carteleria-40",
+    id: "carteleria-42",
     nombre: "CARTEL  UTILICE EQUIPO DE PROTECCION PERSONAL (400x300x8mm)",
     Descripcion: "Seguridad 0044 UTILICE EQUIPO DE PROTECCION PERSONAL",
     Especificaciones: "Alto: 300mm\nAncho: 400mm\nEspesor: 8mm",
@@ -672,7 +672,7 @@ const carteles = [
     ]
   },
   {
-    id: "carteleria-41",
+    id: "carteleria-43",
     nombre: "CARTEL  PRESTE ATENCION A SU TRABAJO (400x300x8mm)",
     Descripcion: "Seguridad 0068 PRESTE ATENCION A SU TRABAJO",
     Especificaciones: "Alto: 300mm\nAncho: 400mm\nEspesor: 8mm",
@@ -688,7 +688,7 @@ const carteles = [
     ]
   },
   {
-    id: "carteleria-42",
+    id: "carteleria-44",
     nombre: "CARTEL  LAS IMPROVISACIONES CAUSAN ACCIDENTES (400x300x8mm)",
     Descripcion: "Seguridad 2315 LAS IMPROVISACIONES CAUSAN ACCIDENTES",
     Especificaciones: "Alto: 300mm\nAncho: 400mm\nEspesor: 8mm",
@@ -704,7 +704,7 @@ const carteles = [
     ]
   },
   {
-    id: "carteleria-43",
+    id: "carteleria-45",
     nombre: "CARTEL  LAS MANOS NO TIENEN PRECIO PROTEJALAS (400x300x8mm)",
     Descripcion: "Seguridad 2316 LAS MANOS NO TIENEN PRECIO PROTEJALAS",
     Especificaciones: "Alto: 300mm\nAncho: 400mm\nEspesor: 8mm",
@@ -720,7 +720,7 @@ const carteles = [
     ]
   },
   {
-    id: "carteleria-44",
+    id: "carteleria-46",
     nombre: "CARTEL  NO USE HERRAMIENTAS DEFECTUOSAS (400x300x8mm)",
     Descripcion: "Seguridad 2317 NO USE HERRAMIENTAS DEFECTUOSAS",
     Especificaciones: "Alto: 300mm\nAncho: 400mm\nEspesor: 8mm",
@@ -736,7 +736,7 @@ const carteles = [
     ]
   },
   {
-    id: "carteleria-45",
+    id: "carteleria-47",
     nombre: "CARTEL  UN BUEN DIA ES UN DIA SIN ACCIDENTES (400x300x8mm)",
     Descripcion: "Seguridad 2318 UN BUEN DIA ES UN DIA SIN ACCIDENTES",
     Especificaciones: "Alto: 300mm\nAncho: 400mm\nEspesor: 8mm",
@@ -752,7 +752,7 @@ const carteles = [
     ]
   },
    {
-    id: "carteleria-46",
+    id: "carteleria-48",
     nombre: "CARTEL  PIDA AYUDA PARA LEVANTAR CARGAS PESADAS (400x300x8mm)",
     Descripcion: "Seguridad 2319 PIDA AYUDA PARA LEVANTAR CARGAS PESADAS",
     Especificaciones: "Alto: 300mm\nAncho: 400mm\nEspesor: 8mm",
@@ -768,7 +768,7 @@ const carteles = [
     ]
   },
   {
-    id: "carteleria-46",
+    id: "carteleria-49",
     nombre: "CARTEL  CONSERVE LUGARES DE CIRCULACION SIN OBSTACULOS (400x300x8mm)",
     Descripcion: "Seguridad 2320 CONSERVE LUGARES DE CIRCULACION SIN OBSTACULOS",
     Especificaciones: "Alto: 300mm\nAncho: 400mm\nEspesor: 8mm",
@@ -784,7 +784,7 @@ const carteles = [
     ]
   },
   {
-    id: "carteleria-47",
+    id: "carteleria-50",
     nombre: "CARTEL  SEA PRUDENTE EN EL USO DE LAS ESCALERAS (400x300x8mm)",
     Descripcion: "Seguridad 2321 SEA PRUDENTE EN EL USO DE LAS ESCALERAS",
     Especificaciones: "Alto: 300mm\nAncho: 400mm\nEspesor: 8mm",
@@ -800,7 +800,7 @@ const carteles = [
     ]
   },
   {
-    id: "carteleria-48",
+    id: "carteleria-51",
     nombre: "CARTEL  USE EL EQUIPO ADECUADO PARA TRABAJAR EN ESTA AREA (400x300x8mm)",
     Descripcion: "Seguridad 2322 USE EL EQUIPO ADECUADO PARA TRABAJAR EN ESTA AREA",
     Especificaciones: "Alto: 300mm\nAncho: 400mm\nEspesor: 8mm",
@@ -816,7 +816,7 @@ const carteles = [
     ]
   },
   {
-    id: "carteleria-49",
+    id: "carteleria-52",
     nombre: "CARTEL  NO CONVERSE NI DISTRAIGA AL MAQUINISTA (400x300x8mm)",
     Descripcion: "Seguridad 2323 NO CONVERSE NI DISTRAIGA AL MAQUINISTA",
     Especificaciones: "Alto: 300mm\nAncho: 400mm\nEspesor: 8mm",
@@ -832,7 +832,7 @@ const carteles = [
     ]
   },
   {
-    id: "carteleria-50",
+    id: "carteleria-53",
     nombre: "CARTEL SALIDA DE EMERGENCIA (400x300x8mm)",
     Descripcion: "Evacuación 063 SALIDA DE EMERGENCIA",
     Especificaciones: "Alto: 300mm\nAncho: 400mm\nEspesor: 8mm",
@@ -848,7 +848,7 @@ const carteles = [
     ]
   },
   {
-    id: "carteleria-51",
+    id: "carteleria-54",
     nombre: "CARTEL SALIDA (410x140x8mm)",
     Descripcion: "Evacuación 085 SALIDA",
     Especificaciones: "Alto: 140mm\nAncho: 410mm\nEspesor: 8mm",
@@ -864,7 +864,7 @@ const carteles = [
     ]
   },  
   {
-    id: "carteleria-52",
+    id: "carteleria-55",
     nombre: "CARTEL ENTRADA (410x140x8mm)",
     Descripcion: "Evacuación 086 ENTRADA",
     Especificaciones: "Alto: 140mm\nAncho: 410mm\nEspesor: 8mm",
@@ -880,7 +880,7 @@ const carteles = [
     ]
   },  
   {
-    id: "carteleria-53",
+    id: "carteleria-56",
     nombre: "CARTEL SALIDA DE EMERGENCIA (410x140x8mm)",
     Descripcion: "Evacuación 087 SALIDA DE EMERGENCIA",
     Especificaciones: "Alto: 140mm\nAncho: 410mm\nEspesor: 8mm",
@@ -896,7 +896,7 @@ const carteles = [
     ]
   }, 
   {
-    id: "carteleria-54",
+    id: "carteleria-57",
     nombre: "CARTEL ASCENSOR (410x140x8mm)",
     Descripcion: "Evacuación 088 ASCENSOR",
     Especificaciones: "Alto: 140mm\nAncho: 410mm\nEspesor: 8mm",
@@ -912,7 +912,7 @@ const carteles = [
     ]
   },  
   {
-    id: "carteleria-55",
+    id: "carteleria-58",
     nombre: "CARTEL ESCALERA (410x140x8mm)",
     Descripcion: "Evacuación 089 ESCALERA",
     Especificaciones: "Alto: 140mm\nAncho: 410mm\nEspesor: 8mm",
@@ -928,7 +928,7 @@ const carteles = [
     ]
   },  
   {
-    id: "carteleria-56",
+    id: "carteleria-59",
     nombre: "CARTEL EN CASO DE INCENDIO NO USE EL ASCENSOR USE LA ESCALERA (200x200x8mm)",
     Descripcion: "Evacuación 161 EN CASO DE INCENDIO NO USE EL ASCENSOR USE LA ESCALERA",
     Especificaciones: "Alto: 200mm\nAncho: 200mm\nEspesor: 8mm",
@@ -944,7 +944,7 @@ const carteles = [
     ]
   },  
   {
-    id: "carteleria-57",
+    id: "carteleria-60",
     nombre: "CARTEL LUZ DE EMERGENCIA (400x200x8mm)",
     Descripcion: "Evacuación 204 LUZ DE EMERGENCIA",
     Especificaciones: "Alto: 200mm\nAncho: 400mm\nEspesor: 8mm",
@@ -960,7 +960,7 @@ const carteles = [
     ]
   }, 
   {
-    id: "carteleria-58",
+    id: "carteleria-61",
     nombre: "CARTEL FLECHA DIAGONAL (400x300x8mm)",
     Descripcion: "Evacuación 250A FLECHA DIAGONAL",
     Especificaciones: "Alto: 300mm\nAncho: 400mm\nEspesor: 8mm",
@@ -976,7 +976,7 @@ const carteles = [
     ]
   }, 
    {
-    id: "carteleria-59",
+    id: "carteleria-62",
     nombre: "CARTEL FLECHA RECTA DERECHA (400x300x8mm)",
     Descripcion: "Evacuación 250B FLECHA RECTA DERECHA",
     Especificaciones: "Alto: 300mm\nAncho: 400mm\nEspesor: 8mm",
@@ -992,7 +992,7 @@ const carteles = [
     ]
   },     
   {
-    id: "carteleria-59",
+    id: "carteleria-63",
     nombre: "CARTEL FLECHA RECTA ARRIBA (300x400x8mm)",
     Descripcion: "Evacuación 250B FLECHA RECTA DERECHA",
     Especificaciones: "Alto: 400mm\nAncho: 300mm\nEspesor: 8mm",
@@ -1008,7 +1008,7 @@ const carteles = [
     ]
   }, 
   {
-    id: "carteleria-60",
+    id: "carteleria-64",
     nombre: "CARTEL FLECHA RECTA IZQUIERDA (400x300x8mm)",
     Descripcion: "Evacuación 250C FLECHA RECTA IZQUIERDA",
     Especificaciones: "Alto: 300mm\nAncho: 400mm\nEspesor: 8mm",
@@ -1024,7 +1024,7 @@ const carteles = [
     ]
   },    
   {
-    id: "carteleria-61",
+    id: "carteleria-65",
     nombre: "CARTEL FLECHA RECTA ABAJO (300x400x8mm)",
     Descripcion: "Evacuación 250E FLECHA RECTA ABAJO",
     Especificaciones: "Alto: 400mm\nAncho: 300mm\nEspesor: 8mm",
@@ -1039,4 +1039,548 @@ const carteles = [
       "imagenes/Productos/carteleria/evacuacion/flechaizquierda.png"
     ]
   },  
+  {
+    id: "carteleria-66",
+    nombre: "CARTEL INBLAMABLE (200x200x8mm)",
+    Descripcion: "Atención 0160 INBLAMABLE",
+    Especificaciones: "Alto: 200mm\nAncho: 200mm\nEspesor: 8mm",
+    Documentacion: [
+    { nombre: "No disponible"}
+    ],
+    categoria: "Cartelería",
+    subcategoria: "Atención",  
+    marca: "",
+    destacado: false,
+    imagenes:[
+      "imagenes/Productos/carteleria/atencion/inblamable.png"
+    ]
+  },  
+   {
+    id: "carteleria-67",
+    nombre: "AUTOADHESIVO PELIGRO RIESGO DE ELECTROCUCION(80x150mm)",
+    Descripcion: "Autoadhesivo 001 197 PELIGRO RIESGO DE ELECTROCUCION",
+    Especificaciones: "Alto: 150mm\nAncho: 80mm",
+    Documentacion: [
+    { nombre: "No disponible"}
+    ],
+    categoria: "Cartelería",
+    subcategoria: "Atención",  
+    marca: "",
+    destacado: false,
+    imagenes:[
+      "imagenes/Productos/carteleria/atencion/autoadriesgoelec.png"
+    ]
+  },  
+   {
+    id: "carteleria-68",
+    nombre: "CARTEL NO ACCIONAR EN REPARACION (250x150x8mm)",
+    Descripcion: "Atención 0125 NO ACCIONAR EN REPARACION",
+    Especificaciones: "Alto: 150mm\nAncho: 250mm\nEspesor: 8mm",
+    Documentacion: [
+    { nombre: "No disponible"}
+    ],
+    categoria: "Cartelería",
+    subcategoria: "Atención",  
+    marca: "",
+    destacado: false,
+    imagenes:[
+      "imagenes/Productos/carteleria/atencion/noaccionar.png"
+    ]
+  },
+  {
+    id: "carteleria-69",
+    nombre: "CARTEL ¡ATENCION! BAJA TEMPERATURA (200x300x8mm)",
+    Descripcion: "Atención 0131 ¡ATENCION! BAJA TEMPERATURA",
+    Especificaciones: "Alto: 300mm\nAncho: 200mm\nEspesor: 8mm",
+    Documentacion: [
+    { nombre: "No disponible"}
+    ],
+    categoria: "Cartelería",
+    subcategoria: "Atención",  
+    marca: "",
+    destacado: false,
+    imagenes:[
+      "imagenes/Productos/carteleria/atencion/bajatemp.png"
+    ]
+  },
+  {
+    id: "carteleria-70",
+    nombre: "CARTEL ATENCION (400x450x8mm)",
+    Descripcion: "Atención 0020 ATENCION",
+    Especificaciones: "Alto: 450mm\nAncho: 400mm\nEspesor: 8mm",
+    Documentacion: [
+    { nombre: "No disponible"}
+    ],
+    categoria: "Cartelería",
+    subcategoria: "Atención",  
+    marca: "",
+    destacado: false,
+    imagenes:[
+      "imagenes/Productos/carteleria/atencion/atencion.png"
+    ]
+  },
+  {
+    id: "carteleria-71",
+    nombre: "CARTEL CAMINE NO CORRA (300x300x8mm)",
+    Descripcion: "Atención 0077 CAMINE NO CORRA",
+    Especificaciones: "Alto: 300mm\nAncho: 300mm\nEspesor: 8mm",
+    Documentacion: [
+    { nombre: "No disponible"}
+    ],
+    categoria: "Cartelería",
+    subcategoria: "Atención",  
+    marca: "",
+    destacado: false,
+    imagenes:[
+      "imagenes/Productos/carteleria/atencion/caminenocorra.png"
+    ]
+  },
+  {
+    id: "carteleria-72",
+    nombre: "CARTEL PELIGRO OBRA EN CONSTRUCCION (400x450x8mm)",
+    Descripcion: "Atención 0048 PELIGRO OBRA EN CONSTRUCCION",
+    Especificaciones: "Alto: 450mm\nAncho: 400mm\nEspesor: 8mm",
+    Documentacion: [
+    { nombre: "No disponible"}
+    ],
+    categoria: "Cartelería",
+    subcategoria: "Atención",  
+    marca: "",
+    destacado: false,
+    imagenes:[
+      "imagenes/Productos/carteleria/atencion/obraenconstruc.png"
+    ]
+  },
+   {
+    id: "carteleria-73",
+    nombre: "CARTEL CARGAS SUSPENDIDAS (400x450x8mm)",
+    Descripcion: "Atención 0027 CARGAS SUSPENDIDAS",
+    Especificaciones: "Alto: 450mm\nAncho: 400mm\nEspesor: 8mm",
+    Documentacion: [
+    { nombre: "No disponible"}
+    ],
+    categoria: "Cartelería",
+    subcategoria: "Atención",  
+    marca: "",
+    destacado: false,
+    imagenes:[
+      "imagenes/Productos/carteleria/atencion/cargasuspen.png"
+    ]
+  },
+  {
+    id: "carteleria-74",
+    nombre: "CARTEL RIESGO CAUSTICO (400x450x8mm)",
+    Descripcion: "Atención 0025 RIESGO CAUSTICO",
+    Especificaciones: "Alto: 450mm\nAncho: 400mm\nEspesor: 8mm",
+    Documentacion: [
+    { nombre: "No disponible"}
+    ],
+    categoria: "Cartelería",
+    subcategoria: "Atención",  
+    marca: "",
+    destacado: false,
+    imagenes:[
+      "imagenes/Productos/carteleria/atencion/riesgocaustico.png"
+    ]
+  },
+  {
+    id: "carteleria-75",
+    nombre: "CARTEL RIESGO TOXICO (400x450x8mm)",
+    Descripcion: "Atención 0024 RIESGO TOXICO",
+    Especificaciones: "Alto: 450mm\nAncho: 400mm\nEspesor: 8mm",
+    Documentacion: [
+    { nombre: "No disponible"}
+    ],
+    categoria: "Cartelería",
+    subcategoria: "Atención",  
+    marca: "",
+    destacado: false,
+    imagenes:[
+      "imagenes/Productos/carteleria/atencion/riesgotoxico.png"
+    ]
+  },
+  {
+    id: "carteleria-76",
+    nombre: "CARTEL RIESGO DE EXPLOSION (400x450x8mm)",
+    Descripcion: "Atención 0023 RIESGO DE EXPLOSION",
+    Especificaciones: "Alto: 450mm\nAncho: 400mm\nEspesor: 8mm",
+    Documentacion: [
+    { nombre: "No disponible"}
+    ],
+    categoria: "Cartelería",
+    subcategoria: "Atención",  
+    marca: "",
+    destacado: false,
+    imagenes:[
+      "imagenes/Productos/carteleria/atencion/riesgoexplosion.png"
+    ]
+  },
+  {
+    id: "carteleria-77",
+    nombre: "CARTEL RIESGO DE INCENDIO (400x450x8mm)",
+    Descripcion: "Atención 0022 RIESGO DE INCENDIO",
+    Especificaciones: "Alto: 450mm\nAncho: 400mm\nEspesor: 8mm",
+    Documentacion: [
+    { nombre: "No disponible"}
+    ],
+    categoria: "Cartelería",
+    subcategoria: "Atención",  
+    marca: "",
+    destacado: false,
+    imagenes:[
+      "imagenes/Productos/carteleria/atencion/riesgoincendio.png"
+    ]
+  },
+  {
+    id: "carteleria-78",
+    nombre: "CARTEL RIESGO CHOQUE ELECTRICO (400x450x8mm)",
+    Descripcion: "Atención 0021 RIESGO CHOQUE ELECTRICO",
+    Especificaciones: "Alto: 450mm\nAncho: 400mm\nEspesor: 8mm",
+    Documentacion: [
+    { nombre: "No disponible"}
+    ],
+    categoria: "Cartelería",
+    subcategoria: "Atención",  
+    marca: "",
+    destacado: false,
+    imagenes:[
+      "imagenes/Productos/carteleria/atencion/riesgoelec.png"
+    ]
+  },
+  {
+    id: "carteleria-79",
+    nombre: "CARTEL SUSTANCIAS CORROSIVAS (400x450x8mm)",
+    Descripcion: "Atención 0308 SUSTANCIAS CORROSIVAS",
+    Especificaciones: "Alto: 450mm\nAncho: 400mm\nEspesor: 8mm",
+    Documentacion: [
+    { nombre: "No disponible"}
+    ],
+    categoria: "Cartelería",
+    subcategoria: "Atención",  
+    marca: "",
+    destacado: false,
+    imagenes:[
+      "imagenes/Productos/carteleria/atencion/sustanciascorrosivas.png"
+    ]
+  },
+  {
+    id: "carteleria-80",
+    nombre: "CARTEL SUBIR UN PESO CON LAS PIERNAS (400x450x8mm)",
+    Descripcion: "Atención 0307 SUBIR UN PESO CON LAS PIERNAS",
+    Especificaciones: "Alto: 450mm\nAncho: 400mm\nEspesor: 8mm",
+    Documentacion: [
+    { nombre: "No disponible"}
+    ],
+    categoria: "Cartelería",
+    subcategoria: "Atención",  
+    marca: "",
+    destacado: false,
+    imagenes:[
+      "imagenes/Productos/carteleria/atencion/subirpeso.png"
+    ]
+  },
+  {
+    id: "carteleria-81",
+    nombre: "CARTEL PROHIBIDO EL TRANSPORTE DE PERSONASS (400x450x8mm)",
+    Descripcion: "Atención 0306 PROHIBIDO EL TRANSPORTE DE PERSONAS",
+    Especificaciones: "Alto: 450mm\nAncho: 400mm\nEspesor: 8mm",
+    Documentacion: [
+    { nombre: "No disponible"}
+    ],
+    categoria: "Cartelería",
+    subcategoria: "Atención",  
+    marca: "",
+    destacado: false,
+    imagenes:[
+      "imagenes/Productos/carteleria/atencion/transportepersonas.png"
+    ]
+  },
+  {
+    id: "carteleria-82",
+    nombre: "CARTEL TRANSPORTELOS CON CAUTELA (400x450x8mm)",
+    Descripcion: "Atención 0305 TRANSPORTELOS CON CAUTELA",
+    Especificaciones: "Alto: 450mm\nAncho: 400mm\nEspesor: 8mm",
+    Documentacion: [
+    { nombre: "No disponible"}
+    ],
+    categoria: "Cartelería",
+    subcategoria: "Atención",  
+    marca: "",
+    destacado: false,
+    imagenes:[
+      "imagenes/Productos/carteleria/atencion/transporteconcautela.png"
+    ]
+  },
+  {
+    id: "carteleria-83",
+    nombre: "CARTEL MANTENGA LIMPIO ESTE SECTOR (400x300x8mm)",
+    Descripcion: "Atención 0352 MANTENGA LIMPIO ESTE SECTOR",
+    Especificaciones: "Alto: 300mm\nAncho: 400mm\nEspesor: 8mm",
+    Documentacion: [
+    { nombre: "No disponible"}
+    ],
+    categoria: "Cartelería",
+    subcategoria: "Atención",  
+    marca: "",
+    destacado: false,
+    imagenes:[
+      "imagenes/Productos/carteleria/atencion/mantengalimpio.png"
+    ]
+  },
+  {
+    id: "carteleria-84",
+    nombre: "CARTEL PROHIBIDO BEBER AGUA (200x270x8mm)",
+    Descripcion: "Prohibido 177 BEBER AGUA",
+    Especificaciones: "Alto: 270mm\nAncho: 200mm\nEspesor: 8mm",
+    Documentacion: [
+    { nombre: "No disponible"}
+    ],
+    categoria: "Cartelería",
+    subcategoria: "Prohibido",  
+    marca: "",
+    destacado: false,
+    imagenes:[
+      "imagenes/Productos/carteleria/prohibicion/beberagua.png"
+    ]
+  },
+  {
+    id: "carteleria-85",
+    nombre: "CARTEL PROHIBIDO EL PASO DE PEATONES (200x270x8mm)",
+    Descripcion: "Prohibido 176 EL PASO DE PEATONES",
+    Especificaciones: "Alto: 270mm\nAncho: 200mm\nEspesor: 8mm",
+    Documentacion: [
+    { nombre: "No disponible"}
+    ],
+    categoria: "Cartelería",
+    subcategoria: "Prohibido",  
+    marca: "",
+    destacado: false,
+    imagenes:[
+      "imagenes/Productos/carteleria/prohibicion/pasopeatones.png"
+    ]
+  },
+  {
+    id: "carteleria-86",
+    nombre: "CARTEL EN CASO DE INCENDIO NO USE EL ASCENSOR (200x270x8mm)",
+    Descripcion: "Prohibido 175 EN CASO DE INCENDIO NO USE EL ASCENSOR",
+    Especificaciones: "Alto: 270mm\nAncho: 200mm\nEspesor: 8mm",
+    Documentacion: [
+    { nombre: "No disponible"}
+    ],
+    categoria: "Cartelería",
+    subcategoria: "Prohibido",  
+    marca: "",
+    destacado: false,
+    imagenes:[
+      "imagenes/Productos/carteleria/prohibicion/nouseascensor.png"
+    ]
+  },
+  {
+    id: "carteleria-87",
+    nombre: "CARTEL NO ACEITAR O LIMPIAR MAQUINAS EN MOVIMIENTO (200x270x8mm)",
+    Descripcion: "Prohibido 174 NO ACEITAR O LIMPIAR MAQUINAS EN MOVIMIENTO",
+    Especificaciones: "Alto: 270mm\nAncho: 200mm\nEspesor: 8mm",
+    Documentacion: [
+    { nombre: "No disponible"}
+    ],
+    categoria: "Cartelería",
+    subcategoria: "Prohibido",  
+    marca: "",
+    destacado: false,
+    imagenes:[
+      "imagenes/Productos/carteleria/prohibicion/noaceitar.png"
+    ]
+  },
+  {
+    id: "carteleria-88",
+    nombre: "CARTEL NO APAGAR CON AGUA (200x270x8mm)",
+    Descripcion: "Prohibido Prohibido 173 NO APAGAR CON AGUA",
+    Especificaciones: "Alto: 270mm\nAncho: 200mm\nEspesor: 8mm",
+    Documentacion: [
+    { nombre: "No disponible"}
+    ],
+    categoria: "Cartelería",
+    subcategoria: "Prohibido",  
+    marca: "",
+    destacado: false,
+    imagenes:[
+      "imagenes/Productos/carteleria/prohibicion/noapagar.png"
+    ]
+  },
+  {
+    id: "carteleria-89",
+    nombre: "CARTEL NO UTILIZAR TELEFONOS CELULARES EN ESTE AREA (200x270x8mm)",
+    Descripcion: "Prohibido Prohibido 169 NO UTILIZAR TELEFONOS CELULARES EN ESTE AREA",
+    Especificaciones: "Alto: 270mm\nAncho: 200mm\nEspesor: 8mm",
+    Documentacion: [
+    { nombre: "No disponible"}
+    ],
+    categoria: "Cartelería",
+    subcategoria: "Prohibido",  
+    marca: "",
+    destacado: false,
+    imagenes:[
+      "imagenes/Productos/carteleria/prohibicion/noutilizarcelular.png"
+    ]
+  },
+    {
+    id: "carteleria-90",
+    nombre: "CARTEL PROHIBIDA LA ENTRADA A TODA PERSONA AJENA AL SECTOR (300x400x8mm)",
+    Descripcion: "Prohibido 058 LA ENTRADA A TODA PERSONA AJENA AL SECTOR",
+    Especificaciones: "Alto: 400mm\nAncho: 300mm\nEspesor: 8mm",
+    Documentacion: [
+    { nombre: "No disponible"}
+    ],
+    categoria: "Cartelería",
+    subcategoria: "Prohibido",  
+    marca: "",
+    destacado: false,
+    imagenes:[
+      "imagenes/Productos/carteleria/prohibicion/prohibidalaentrada.png"
+    ]
+  },
+  {
+    id: "carteleria-91",
+    nombre: "CARTEL PROHIBIDO SOLDAR EN ESTE SECTOR (300x400x8mm)",
+    Descripcion: "Prohibido 051 SOLDAR EN ESTE SECTOR",
+    Especificaciones: "Alto: 400mm\nAncho: 300mm\nEspesor: 8mm",
+    Documentacion: [
+    { nombre: "No disponible"}
+    ],
+    categoria: "Cartelería",
+    subcategoria: "Prohibido",  
+    marca: "",
+    destacado: false,
+    imagenes:[
+      "imagenes/Productos/carteleria/prohibicion/soldar.png"
+    ]
+  },
+  {
+    id: "carteleria-92",
+    nombre: "CARTEL PROHIBIDO EL TRANSITO DE PERSONAS AJENAS A LA OBRA (300x400x8mm)",
+    Descripcion: "Prohibido 049 EL TRANSITO DE PERSONAS AJENAS A LA OBRA",
+    Especificaciones: "Alto: 400mm\nAncho: 300mm\nEspesor: 8mm",
+    Documentacion: [
+    { nombre: "No disponible"}
+    ],
+    categoria: "Cartelería",
+    subcategoria: "Prohibido",  
+    marca: "",
+    destacado: false,
+    imagenes:[
+      "imagenes/Productos/carteleria/prohibicion/transito.png"
+    ]
+  },
+   {
+    id: "carteleria-93",
+    nombre: "CARTEL NO CONSUMIR BEBIDAS ALCOHOLICAS (300x400x8mm)",
+    Descripcion: "Prohibido 046 NO CONSUMIR BEBIDAS ALCOHOLICAS",
+    Especificaciones: "Alto: 400mm\nAncho: 300mm\nEspesor: 8mm",
+    Documentacion: [
+    { nombre: "No disponible"}
+    ],
+    categoria: "Cartelería",
+    subcategoria: "Prohibido",  
+    marca: "",
+    destacado: false,
+    imagenes:[
+      "imagenes/Productos/carteleria/prohibicion/noconsumir.png"
+    ]
+  },
+  {
+    id: "carteleria-94",
+    nombre: "CARTEL PROHIBIDO ESTACIONAR (300x400x8mm)",
+    Descripcion: "Prohibido 045 ESTACIONAR",
+    Especificaciones: "Alto: 400mm\nAncho: 300mm\nEspesor: 8mm",
+    Documentacion: [
+    { nombre: "No disponible"}
+    ],
+    categoria: "Cartelería",
+    subcategoria: "Prohibido",  
+    marca: "",
+    destacado: false,
+    imagenes:[
+      "imagenes/Productos/carteleria/prohibicion/estacionar.png"
+    ]
+  },
+  {
+    id: "carteleria-95",
+    nombre: "CARTEL PROHIBIDO HACER FUEGO Y FUMAR (300x400x8mm)",
+    Descripcion: "Prohibido 041 HACER FUEGO Y FUMAR",
+    Especificaciones: "Alto: 400mm\nAncho: 300mm\nEspesor: 8mm",
+    Documentacion: [
+    { nombre: "No disponible"}
+    ],
+    categoria: "Cartelería",
+    subcategoria: "Prohibido",  
+    marca: "",
+    destacado: false,
+    imagenes:[
+      "imagenes/Productos/carteleria/prohibicion/hacerfuego.png"
+    ]
+  },
+  {
+    id: "carteleria-96",
+    nombre: "CARTEL PROHIBIDO FUMAR (300x400x8mm)",
+    Descripcion: "Prohibido 040 FUMAR",
+    Especificaciones: "Alto: 400mm\nAncho: 300mm\nEspesor: 8mm",
+    Documentacion: [
+    { nombre: "No disponible"}
+    ],
+    categoria: "Cartelería",
+    subcategoria: "Prohibido",  
+    marca: "",
+    destacado: false,
+    imagenes:[
+      "imagenes/Productos/carteleria/prohibicion/fumar.png"
+    ]
+  },
+  {
+    id: "carteleria-97",
+    nombre: "CARTEL PROHIBIDO PASAR (300x400x8mm)",
+    Descripcion: "Prohibido 041 PASAR",
+    Especificaciones: "Alto: 400mm\nAncho: 300mm\nEspesor: 8mm",
+    Documentacion: [
+    { nombre: "No disponible"}
+    ],
+    categoria: "Cartelería",
+    subcategoria: "Prohibido",  
+    marca: "",
+    destacado: false,
+    imagenes:[
+      "imagenes/Productos/carteleria/prohibicion/pasar.png"
+    ]
+  },
+  {
+    id: "carteleria-98",
+    nombre: "CARTEL PROHIBIDO ARROJAR BASURA (400x300x8mm)",
+    Descripcion: "Prohibido 060 ARROJAR BASURA",
+    Especificaciones: "Alto: 300mm\nAncho: 400mm\nEspesor: 8mm",
+    Documentacion: [
+    { nombre: "No disponible"}
+    ],
+    categoria: "Cartelería",
+    subcategoria: "Prohibido",  
+    marca: "",
+    destacado: false,
+    imagenes:[
+      "imagenes/Productos/carteleria/prohibicion/arrojarbasura.png"
+    ]
+  },
+  {
+    id: "carteleria-99",
+    nombre: "CARTEL PROHIBIDO USAR HERRAMIENTAS EN MAL ESTADO (300x400x8mm)",
+    Descripcion: "Prohibido 055 USAR HERRAMIENTAS EN MAL ESTADO",
+    Especificaciones: "Alto: 400mm\nAncho: 300mm\nEspesor: 8mm",
+    Documentacion: [
+    { nombre: "No disponible"}
+    ],
+    categoria: "Cartelería",
+    subcategoria: "Prohibido",  
+    marca: "",
+    destacado: false,
+    imagenes:[
+      "imagenes/Productos/carteleria/prohibicion/herramientas.png"
+    ]
+  },
 ]
