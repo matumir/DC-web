@@ -1996,7 +1996,7 @@ const carteles = [
     marca: "",
     destacado: false,
     imagenes:[
-      "imagenes/Productos/carteleria/aviso/expresa.png"
+      "imagenes/Productos/carteleria/aviso/expresamente.png"
     ]
   },
    {
@@ -2140,7 +2140,199 @@ const carteles = [
     marca: "",
     destacado: false,
     imagenes:[
-      "imagenes/Productos/carteleria/aviso/laseguridadesserv.png"
+      "imagenes/Productos/carteleria/aviso/laseguridadeserv.png"
+    ]
+  },
+   {
+    id: "carteleria-135",
+    nombre: "CARTEL ALTO VOLTAJE (400x300x8mm)",
+    Descripcion: "Peligro 0071 ALTO VOLTAJE",
+    Especificaciones: "Alto: 300mm\nAncho: 400mm\nEspesor: 8mm",
+    Documentacion: [
+    { nombre: "No disponible"}
+    ],
+    categoria: "Cartelería",
+    subcategoria: "Peligro",  
+    marca: "",
+    destacado: false,
+    imagenes:[
+      "imagenes/Productos/carteleria/peligro/altovoltaje.png"
+    ]
+  },
+  {
+    id: "carteleria-136",
+    nombre: "CARTEL PELIGRO (220x260x8mm)",
+    Descripcion: "Peligro 0103 PELIGRO",
+    Especificaciones: "Alto: 300mm\nAncho: 400mm\nEspesor: 8mm",
+    Documentacion: [
+    { nombre: "No disponible"}
+    ],
+    categoria: "Cartelería",
+    subcategoria: "Peligro",  
+    marca: "",
+    destacado: false,
+    imagenes:[
+      "imagenes/Productos/carteleria/peligro/altovoltaje.png"
+    ]
+  },
+  {
+    id: "carteleria-137",
+    nombre: "CARTEL MATERIALES CORROSIVOS (400x300x8mm)",
+    Descripcion: "Peligro 1342 MATERIALES CORROSIVOS",
+    Especificaciones: "Alto: 300mm\nAncho: 400mm\nEspesor: 8mm",
+    Documentacion: [
+    { nombre: "No disponible"}
+    ],
+    categoria: "Cartelería",
+    subcategoria: "Peligro",  
+    marca: "",
+    destacado: false,
+    imagenes:[
+      "imagenes/Productos/carteleria/peligro/materiales.png"
+    ]
+  },
+  {
+    id: "carteleria-138",
+    nombre: "CARTEL LIQUIDOS INFLAMABLES (400x300x8mm)",
+    Descripcion: "Peligro 1343 LIQUIDOS INFLAMABLES",
+    Especificaciones: "Alto: 300mm\nAncho: 400mm\nEspesor: 8mm",
+    Documentacion: [
+    { nombre: "No disponible"}
+    ],
+    categoria: "Cartelería",
+    subcategoria: "Peligro",  
+    marca: "",
+    destacado: false,
+    imagenes:[
+      "imagenes/Productos/carteleria/peligro/liquidos.png"
+    ]
+  },
+  {
+    id: "carteleria-139",
+    nombre: "CARTEL MATERIAL RADIOACTIVO (400x300x8mm)",
+    Descripcion: "Peligro 1344 MATERIAL RADIOACTIVO",
+    Especificaciones: "Alto: 300mm\nAncho: 400mm\nEspesor: 8mm",
+    Documentacion: [
+    { nombre: "No disponible"}
+    ],
+    categoria: "Cartelería",
+    subcategoria: "Peligro",  
+    marca: "",
+    destacado: false,
+    imagenes:[
+      "imagenes/Productos/carteleria/peligro/material.png"
+    ]
+  },
+  {
+    id: "carteleria-140",
+    nombre: "CARTEL NO TOCAR LAS MAQUINAS (400x300x8mm)",
+    Descripcion: "Peligro 1345 NO TOCAR LAS MAQUINAS",
+    Especificaciones: "Alto: 300mm\nAncho: 400mm\nEspesor: 8mm",
+    Documentacion: [
+    { nombre: "No disponible"}
+    ],
+    categoria: "Cartelería",
+    subcategoria: "Peligro",  
+    marca: "",
+    destacado: false,
+    imagenes:[
+      "imagenes/Productos/carteleria/peligro/notocar.png"
+    ]
+  },
+  {
+    id: "carteleria-141",
+    nombre: "CARTEL SOLAMENTE PERSONAL AUTORIZADO (400x300x8mm)",
+    Descripcion: "Peligro 1346 SOLAMENTE PERSONAL AUTORIZADO",
+    Especificaciones: "Alto: 300mm\nAncho: 400mm\nEspesor: 8mm",
+    Documentacion: [
+    { nombre: "No disponible"}
+    ],
+    categoria: "Cartelería",
+    subcategoria: "Peligro",  
+    marca: "",
+    destacado: false,
+    imagenes:[
+      "imagenes/Productos/carteleria/peligro/solamente.png"
+    ]
+  },
+  {
+    id: "carteleria-142",
+    nombre: "CARTEL AREA EN CONSTRUCCION (400x300x8mm)",
+    Descripcion: "Peligro 1347 AREA EN CONSTRUCCION",
+    Especificaciones: "Alto: 300mm\nAncho: 400mm\nEspesor: 8mm",
+    Documentacion: [
+    { nombre: "No disponible"}
+    ],
+    categoria: "Cartelería",
+    subcategoria: "Peligro",  
+    marca: "",
+    destacado: false,
+    imagenes:[
+      "imagenes/Productos/carteleria/peligro/areaenconstruc.png"
+    ]
+  },
+  {
+    id: "carteleria-143",
+    nombre: "CARTEL AREA CONTAMINADA (400x300x8mm)",
+    Descripcion: "Peligro 1348 AREA CONTAMINADA",
+    Especificaciones: "Alto: 300mm\nAncho: 400mm\nEspesor: 8mm",
+    Documentacion: [
+    { nombre: "No disponible"}
+    ],
+    categoria: "Cartelería",
+    subcategoria: "Peligro",  
+    marca: "",
+    destacado: false,
+    imagenes:[
+      "imagenes/Productos/carteleria/peligro/areacontaminada.png"
+    ]
+  },
+   {
+    id: "carteleria-144",
+    nombre: "CARTEL NO TOCAR ESTA LLAVE (400x300x8mm)",
+    Descripcion: "Peligro 1349 NO TOCAR ESTA LLAVE",
+    Especificaciones: "Alto: 300mm\nAncho: 400mm\nEspesor: 8mm",
+    Documentacion: [
+    { nombre: "No disponible"}
+    ],
+    categoria: "Cartelería",
+    subcategoria: "Peligro",  
+    marca: "",
+    destacado: false,
+    imagenes:[
+      "imagenes/Productos/carteleria/peligro/notocarestallave.png"
+    ]
+  },
+  {
+    id: "carteleria-145",
+    nombre: "CARTEL NO ENTRAR (400x300x8mm)",
+    Descripcion: "Peligro 1350 NO ENTRAR",
+    Especificaciones: "Alto: 300mm\nAncho: 400mm\nEspesor: 8mm",
+    Documentacion: [
+    { nombre: "No disponible"}
+    ],
+    categoria: "Cartelería",
+    subcategoria: "Peligro",  
+    marca: "",
+    destacado: false,
+    imagenes:[
+      "imagenes/Productos/carteleria/peligro/noentrar.png"
+    ]
+  },
+   {
+    id: "carteleria-146",
+    nombre: "CARTEL GASES COMPRIMIDOS INFLAMABLES (400x300x8mm)",
+    Descripcion: "Peligro 1351 GASES COMPRIMIDOS INFLAMABLES ",
+    Especificaciones: "Alto: 300mm\nAncho: 400mm\nEspesor: 8mm",
+    Documentacion: [
+    { nombre: "No disponible"}
+    ],
+    categoria: "Cartelería",
+    subcategoria: "Peligro",  
+    marca: "",
+    destacado: false,
+    imagenes:[
+      "imagenes/Productos/carteleria/peligro/gasescomprimidos.png"
     ]
   },
 ]
