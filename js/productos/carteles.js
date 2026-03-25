@@ -1583,4 +1583,276 @@ const carteles = [
       "imagenes/Productos/carteleria/prohibicion/herramientas.png"
     ]
   },
+   {
+    id: "carteleria-100",
+    nombre: "CARTEL NO ACCIONAR ASCENSOR EN REPARACION (400x300x8mm)",
+    Descripcion: "Atención 4126 NO ACCIONAR ASCENSOR EN REPARACION",
+    Especificaciones: "Alto: 300mm\nAncho: 400mm\nEspesor: 8mm",
+    Documentacion: [
+    { nombre: "No disponible"}
+    ],
+    categoria: "Cartelería",
+    subcategoria: "Atención",  
+    marca: "",
+    destacado: false,
+    imagenes:[
+      "imagenes/Productos/carteleria/atencion/noaccionaras.png"
+    ]
+  },
+  {
+    id: "carteleria-101",
+    nombre: "CARTEL ACIDO SULFURICO (400x300x8mm)",
+    Descripcion: "Atención 4354 ACIDO SULFURICO",
+    Especificaciones: "Alto: 300mm\nAncho: 400mm\nEspesor: 8mm",
+    Documentacion: [
+    { nombre: "No disponible"}
+    ],
+    categoria: "Cartelería",
+    subcategoria: "Atención",  
+    marca: "",
+    destacado: false,
+    imagenes:[
+      "imagenes/Productos/carteleria/atencion/acidosulfurico.png"
+    ]
+  },
+  {
+    id: "carteleria-102",
+    nombre: "CARTEL POR RAZONES DE SEGURIDAD Y CALIDAD SE PROHIBE FUMAR EN ESTA AREA (400x300x8mm)",
+    Descripcion: "Atención 4355 POR RAZONES DE SEGURIDAD Y CALIDAD SE PROHIBE FUMAR EN ESTA AREA",
+    Especificaciones: "Alto: 300mm\nAncho: 400mm\nEspesor: 8mm",
+    Documentacion: [
+    { nombre: "No disponible"}
+    ],
+    categoria: "Cartelería",
+    subcategoria: "Atención",  
+    marca: "",
+    destacado: false,
+    imagenes:[
+      "imagenes/Productos/carteleria/atencion/porrazones.png"
+    ]
+  },
+  {
+    id: "carteleria-103",
+    nombre: "CARTEL PROHIBIDO FUMAR (400x300x8mm)",
+    Descripcion: "Atención 4356 PROHIBIDO FUMAR",
+    Especificaciones: "Alto: 300mm\nAncho: 400mm\nEspesor: 8mm",
+    Documentacion: [
+    { nombre: "No disponible"}
+    ],
+    categoria: "Cartelería",
+    subcategoria: "Atención",  
+    marca: "",
+    destacado: false,
+    imagenes:[
+      "imagenes/Productos/carteleria/atencion/prohibidofumar.png"
+    ]
+  },
+  {
+    id: "carteleria-104",
+    nombre: "CARTEL NO FUME (400x300x8mm)",
+    Descripcion: "Atención 4357 NO FUME",
+    Especificaciones: "Alto: 300mm\nAncho: 400mm\nEspesor: 8mm",
+    Documentacion: [
+    { nombre: "No disponible"}
+    ],
+    categoria: "Cartelería",
+    subcategoria: "Atención",  
+    marca: "",
+    destacado: false,
+    imagenes:[
+      "imagenes/Productos/carteleria/atencion/nofume.png"
+    ]
+  },
+  {
+    id: "carteleria-105",
+    nombre: "CARTEL NO ABRA ESTA VALVULA (400x300x8mm)",
+    Descripcion: "Atención 4358 NO ABRA ESTA VALVULA",
+    Especificaciones: "Alto: 300mm\nAncho: 400mm\nEspesor: 8mm",
+    Documentacion: [
+    { nombre: "No disponible"}
+    ],
+    categoria: "Cartelería",
+    subcategoria: "Atención",  
+    marca: "",
+    destacado: false,
+    imagenes:[
+      "imagenes/Productos/carteleria/atencion/noabra.png"
+    ]
+  },
+  {
+    id: "carteleria-106",
+    nombre: "CARTEL NO ENCIENDA ESTE MOTOR (400x300x8mm)",
+    Descripcion: "Atención 4359 NO ENCIENDA ESTE MOTOR",
+    Especificaciones: "Alto: 300mm\nAncho: 400mm\nEspesor: 8mm",
+    Documentacion: [
+    { nombre: "No disponible"}
+    ],
+    categoria: "Cartelería",
+    subcategoria: "Atención",  
+    marca: "",
+    destacado: false,
+    imagenes:[
+      "imagenes/Productos/carteleria/atencion/noencienda.png"
+    ]
+  },
+  {
+    id: "carteleria-107",
+    nombre: "CARTEL VENENO (400x300x8mm)",
+    Descripcion: "Atención 4360 VENENO",
+    Especificaciones: "Alto: 300mm\nAncho: 400mm\nEspesor: 8mm",
+    Documentacion: [
+    { nombre: "No disponible"}
+    ],
+    categoria: "Cartelería",
+    subcategoria: "Atención",  
+    marca: "",
+    destacado: false,
+    imagenes:[
+      "imagenes/Productos/carteleria/atencion/veneno.png"
+    ]
+  },
+  {
+    id: "carteleria-108",
+    nombre: "CARTEL NO CONECTAR, GENTE TRABAJANDO (400x300x8mm)",
+    Descripcion: "Atención 4361 NO CONECTAR, GENTE TRABAJANDO",
+    Especificaciones: "Alto: 300mm\nAncho: 400mm\nEspesor: 8mm",
+    Documentacion: [
+    { nombre: "No disponible"}
+    ],
+    categoria: "Cartelería",
+    subcategoria: "Atención",  
+    marca: "",
+    destacado: false,
+    imagenes:[
+      "imagenes/Productos/carteleria/atencion/noconectar.png"
+    ]
+  },
+  {
+    id: "carteleria-109",
+    nombre: "CARTEL COLOQUE LA PUESTA A TIERRA (400x300x8mm)",
+    Descripcion: "Atención 4362 COLOQUE LA PUESTA A TIERRA",
+    Especificaciones: "Alto: 300mm\nAncho: 400mm\nEspesor: 8mm",
+    Documentacion: [
+    { nombre: "No disponible"}
+    ],
+    categoria: "Cartelería",
+    subcategoria: "Atención",  
+    marca: "",
+    destacado: false,
+    imagenes:[
+      "imagenes/Productos/carteleria/atencion/altrabajar.png"
+    ]
+  },
+  {
+    id: "carteleria-110",
+    nombre: "CARTEL ZONA RESTRINGIDA NO PASE (400x300x8mm)",
+    Descripcion: "Atención 4363 ZONA RESTRINGIDA NO PASE",
+    Especificaciones: "Alto: 300mm\nAncho: 400mm\nEspesor: 8mm",
+    Documentacion: [
+    { nombre: "No disponible"}
+    ],
+    categoria: "Cartelería",
+    subcategoria: "Atención",  
+    marca: "",
+    destacado: false,
+    imagenes:[
+      "imagenes/Productos/carteleria/atencion/zonarestringida.png"
+    ]
+  },
+  {
+    id: "carteleria-111",
+    nombre: "CARTEL CORROSIVO (400x300x8mm)",
+    Descripcion: "Atención 4364 CORROSIVO",
+    Especificaciones: "Alto: 300mm\nAncho: 400mm\nEspesor: 8mm",
+    Documentacion: [
+    { nombre: "No disponible"}
+    ],
+    categoria: "Cartelería",
+    subcategoria: "Atención",  
+    marca: "",
+    destacado: false,
+    imagenes:[
+      "imagenes/Productos/carteleria/atencion/corrosivo.png"
+    ]
+  },
+  {
+    id: "carteleria-112",
+    nombre: "CARTEL NO LIMPIE, LUBRIQUE O REPARE MAQUINAS EN MOVIMIENTO (400x300x8mm)",
+    Descripcion: "Atención 4365 NO LIMPIE, LUBRIQUE O REPARE MAQUINAS EN MOVIMIENTO",
+    Especificaciones: "Alto: 300mm\nAncho: 400mm\nEspesor: 8mm",
+    Documentacion: [
+    { nombre: "No disponible"}
+    ],
+    categoria: "Cartelería",
+    subcategoria: "Atención",  
+    marca: "",
+    destacado: false,
+    imagenes:[
+      "imagenes/Productos/carteleria/atencion/nolimpie.png"
+    ]
+  },
+  {
+    id: "carteleria-113",
+    nombre: "CARTEL PROHIBIDO TRANSPORTAR PERSONAL (400x300x8mm)",
+    Descripcion: "Atención 4366 PROHIBIDO TRANSPORTAR PERSONAL",
+    Especificaciones: "Alto: 300mm\nAncho: 400mm\nEspesor: 8mm",
+    Documentacion: [
+    { nombre: "No disponible"}
+    ],
+    categoria: "Cartelería",
+    subcategoria: "Atención",  
+    marca: "",
+    destacado: false,
+    imagenes:[
+      "imagenes/Productos/carteleria/atencion/notransporte.png"
+    ]
+  },
+  {
+    id: "carteleria-114",
+    nombre: "CARTEL ENTRADA Y SALIDA DE VEHICULOS (390x270x8mm)",
+    Descripcion: "Atención 0340 ENTRADA Y SALIDA DE VEHICULOS",
+    Especificaciones: "Alto: 270mm\nAncho: 390mm\nEspesor: 8mm",
+    Documentacion: [
+    { nombre: "No disponible"}
+    ],
+    categoria: "Cartelería",
+    subcategoria: "Atención",  
+    marca: "",
+    destacado: false,
+    imagenes:[
+      "imagenes/Productos/carteleria/atencion/entradaysalida.png"
+    ]
+  },
+  {
+    id: "carteleria-115",
+    nombre: "CARTEL RIESGO CAIDA DE OBJETOS (200x300x8mm)",
+    Descripcion: "Atención 0312 RIESGO CAIDA DE OBJETOS",
+    Especificaciones: "Alto: 300mm\nAncho: 200mm\nEspesor: 8mm",
+    Documentacion: [
+    { nombre: "No disponible"}
+    ],
+    categoria: "Cartelería",
+    subcategoria: "Atención",  
+    marca: "",
+    destacado: false,
+    imagenes:[
+      "imagenes/Productos/carteleria/atencion/riesgocaida.png"
+    ]
+  },
+  {
+    id: "carteleria-116",
+    nombre: "CARTEL ¡ATENCION! MATERIAL COMBURENTE (200x300x8mm)",
+    Descripcion: "Atención 0313 ¡ATENCION! MATERIAL COMBURENTE",
+    Especificaciones: "Alto: 300mm\nAncho: 200mm\nEspesor: 8mm",
+    Documentacion: [
+    { nombre: "No disponible"}
+    ],
+    categoria: "Cartelería",
+    subcategoria: "Atención",  
+    marca: "",
+    destacado: false,
+    imagenes:[
+      "imagenes/Productos/carteleria/atencion/riesgocaida.png"
+    ]
+  },
 ]
