@@ -1855,4 +1855,292 @@ const carteles = [
       "imagenes/Productos/carteleria/atencion/riesgocaida.png"
     ]
   },
+  {
+    id: "carteleria-117",
+    nombre: "CARTEL ¡ATENCION! MATERIAL COMBURENTE (200x270x8mm)",
+    Descripcion: "Atención 0172 SUPERFICIE RESBALADIZA",
+    Especificaciones: "Alto: 270mm\nAncho: 200mm\nEspesor: 8mm",
+    Documentacion: [
+    { nombre: "No disponible"}
+    ],
+    categoria: "Cartelería",
+    subcategoria: "Atención",  
+    marca: "",
+    destacado: false,
+    imagenes:[
+      "imagenes/Productos/carteleria/atencion/supresbaladiza.png"
+    ]
+  },
+  {
+    id: "carteleria-118",
+    nombre: "CARTEL HOMBRES TRABAJANDO (200x270x8mm)",
+    Descripcion: "Atención 0171 HOMBRES TRABAJANDO",
+    Especificaciones: "Alto: 270mm\nAncho: 200mm\nEspesor: 8mm",
+    Documentacion: [
+    { nombre: "No disponible"}
+    ],
+    categoria: "Cartelería",
+    subcategoria: "Atención",  
+    marca: "",
+    destacado: false,
+    imagenes:[
+      "imagenes/Productos/carteleria/atencion/hombres.png"
+    ]
+  },
+  {
+    id: "carteleria-119",
+    nombre: "CARTEL LAVESE LAS MANOS ANTES DE REANUDAR SUS TAREASO (400x300x8mm)",
+    Descripcion: "Atención 3328 LAVESE LAS MANOS ANTES DE REANUDAR SUS TAREAS",
+    Especificaciones: "Alto: 300mm\nAncho: 400mm\nEspesor: 8mm",
+    Documentacion: [
+    { nombre: "No disponible"}
+    ],
+    categoria: "Cartelería",
+    subcategoria: "Aviso",  
+    marca: "",
+    destacado: false,
+    imagenes:[
+      "imagenes/Productos/carteleria/aviso/lavese.png"
+    ]
+  },
+  {
+    id: "carteleria-120",
+    nombre: "CARTEL HIGIENICESE, USTED TRABAJA CON PRODUCTOS ALIMENTICIOS (400x300x8mm)",
+    Descripcion: "Atención 3329 HIGIENICESE, USTED TRABAJA CON PRODUCTOS ALIMENTICIOS",
+    Especificaciones: "Alto: 300mm\nAncho: 400mm\nEspesor: 8mm",
+    Documentacion: [
+    { nombre: "No disponible"}
+    ],
+    categoria: "Cartelería",
+    subcategoria: "Aviso",  
+    marca: "",
+    destacado: false,
+    imagenes:[
+      "imagenes/Productos/carteleria/aviso/higienicese.png"
+    ]
+  },
+  {
+    id: "carteleria-121",
+    nombre: "CARTEL ES OBLIGATORIO LAVARSE LAS MANOS ANTES DE RETIRARSE DEL BAÑO (400x300x8mm)",
+    Descripcion: "Atención 3330 ES OBLIGATORIO LAVARSE LAS MANOS ANTES DE RETIRARSE DEL BAÑO",
+    Especificaciones: "Alto: 300mm\nAncho: 400mm\nEspesor: 8mm",
+    Documentacion: [
+    { nombre: "No disponible"}
+    ],
+    categoria: "Cartelería",
+    subcategoria: "Aviso",  
+    marca: "",
+    destacado: false,
+    imagenes:[
+      "imagenes/Productos/carteleria/aviso/esobligatorio.png"
+    ]
+  },
+   {
+    id: "carteleria-122",
+    nombre: "CARTEL PEATONES CIRCULEN POR SU SENDA (400x300x8mm)",
+    Descripcion: "Atención 3331 PEATONES CIRCULEN POR SU SENDA",
+    Especificaciones: "Alto: 300mm\nAncho: 400mm\nEspesor: 8mm",
+    Documentacion: [
+    { nombre: "No disponible"}
+    ],
+    categoria: "Cartelería",
+    subcategoria: "Aviso",  
+    marca: "",
+    destacado: false,
+    imagenes:[
+      "imagenes/Productos/carteleria/aviso/peatones.png"
+    ]
+  },
+  {
+    id: "carteleria-123",
+    nombre: "CARTEL ESTACIONAMIENTO RESERVADO (400x300x8mm)",
+    Descripcion: "Atención 3332 ESTACIONAMIENTO RESERVADO",
+    Especificaciones: "Alto: 300mm\nAncho: 400mm\nEspesor: 8mm",
+    Documentacion: [
+    { nombre: "No disponible"}
+    ],
+    categoria: "Cartelería",
+    subcategoria: "Aviso",  
+    marca: "",
+    destacado: false,
+    imagenes:[
+      "imagenes/Productos/carteleria/aviso/estacionamiento.png"
+    ]
+  },
+  {
+    id: "carteleria-124",
+    nombre: "CARTEL MANTENGA LAS HERRAMIENTAS EN SU LUGAR DESPUES DE USARLAS (400x300x8mm)",
+    Descripcion: "Atención 3333 MANTENGA LAS HERRAMIENTAS EN SU LUGAR DESPUES DE USARLAS",
+    Especificaciones: "Alto: 300mm\nAncho: 400mm\nEspesor: 8mm",
+    Documentacion: [
+    { nombre: "No disponible"}
+    ],
+    categoria: "Cartelería",
+    subcategoria: "Aviso",  
+    marca: "",
+    destacado: false,
+    imagenes:[
+      "imagenes/Productos/carteleria/aviso/mantenga.png"
+    ]
+  },
+    {
+    id: "carteleria-125",
+    nombre: "CARTEL ESTA EXPRESAMENTE PROHIBIDA LA ENTRADA Y SALIDA DE EXTRAÑOS EN ESTE LUGAR (400x300x8mm)",
+    Descripcion: "Atención 3334 ESTA EXPRESAMENTE PROHIBIDA LA ENTRADA Y SALIDA DE EXTRAÑOS EN ESTE LUGAR",
+    Especificaciones: "Alto: 300mm\nAncho: 400mm\nEspesor: 8mm",
+    Documentacion: [
+    { nombre: "No disponible"}
+    ],
+    categoria: "Cartelería",
+    subcategoria: "Aviso",  
+    marca: "",
+    destacado: false,
+    imagenes:[
+      "imagenes/Productos/carteleria/aviso/expresa.png"
+    ]
+  },
+   {
+    id: "carteleria-126",
+    nombre: "CARTEL NO OPERE ESTA MAQUINA SIN AUTORIZACION (400x300x8mm)",
+    Descripcion: "Atención 3335 NO OPERE ESTA MAQUINA SIN AUTORIZACION",
+    Especificaciones: "Alto: 300mm\nAncho: 400mm\nEspesor: 8mm",
+    Documentacion: [
+    { nombre: "No disponible"}
+    ],
+    categoria: "Cartelería",
+    subcategoria: "Aviso",  
+    marca: "",
+    destacado: false,
+    imagenes:[
+      "imagenes/Productos/carteleria/aviso/noopere.png"
+    ]
+  },
+  {
+    id: "carteleria-127",
+    nombre: "CARTEL PROHIBIDO RETIRAR PRODUCTOS DE LA PLANTA SIN LA DOCUMENTACION CORRESPONDIENTE (400x300x8mm)",
+    Descripcion: "Atención 3336 PROHIBIDO RETIRAR PRODUCTOS DE LA PLANTA SIN LA DOCUMENTACION CORRESPONDIENTE",
+    Especificaciones: "Alto: 300mm\nAncho: 400mm\nEspesor: 8mm",
+    Documentacion: [
+    { nombre: "No disponible"}
+    ],
+    categoria: "Cartelería",
+    subcategoria: "Aviso",  
+    marca: "",
+    destacado: false,
+    imagenes:[
+      "imagenes/Productos/carteleria/aviso/prohibidoretirar.png"
+    ]
+  },
+  {
+    id: "carteleria-128",
+    nombre: "CARTEL LIMITE CIRCULACION VEHICULOS PARTICULARES (400x300x8mm)",
+    Descripcion: "Atención 3337 LIMITE CIRCULACION VEHICULOS PARTICULARES",
+    Especificaciones: "Alto: 300mm\nAncho: 400mm\nEspesor: 8mm",
+    Documentacion: [
+    { nombre: "No disponible"}
+    ],
+    categoria: "Cartelería",
+    subcategoria: "Aviso",  
+    marca: "",
+    destacado: false,
+    imagenes:[
+      "imagenes/Productos/carteleria/aviso/limite.png"
+    ]
+  },
+  {
+    id: "carteleria-129",
+    nombre: "CARTEL PARA SER UTILIZADO SOLO POR PERSONAL AUTORIZADO (400x300x8mm)",
+    Descripcion: "Atención 3338 PARA SER UTILIZADO SOLO POR PERSONAL AUTORIZADO",
+    Especificaciones: "Alto: 300mm\nAncho: 400mm\nEspesor: 8mm",
+    Documentacion: [
+    { nombre: "No disponible"}
+    ],
+    categoria: "Cartelería",
+    subcategoria: "Aviso",  
+    marca: "",
+    destacado: false,
+    imagenes:[
+      "imagenes/Productos/carteleria/aviso/paraser.png"
+    ]
+  },
+  {
+    id: "carteleria-130",
+    nombre: "CARTEL FUERA DE SERVICIO (400x300x8mm)",
+    Descripcion: "Atención 3339 FUERA DE SERVICIO",
+    Especificaciones: "Alto: 300mm\nAncho: 400mm\nEspesor: 8mm",
+    Documentacion: [
+    { nombre: "No disponible"}
+    ],
+    categoria: "Cartelería",
+    subcategoria: "Aviso",  
+    marca: "",
+    destacado: false,
+    imagenes:[
+      "imagenes/Productos/carteleria/aviso/fueradeservicio.png"
+    ]
+  },
+  {
+    id: "carteleria-131",
+    nombre: "CARTEL LA SEGURIDAD DEPENDE DE USTED (400x300x8mm)",
+    Descripcion: "Atención 3340 LA SEGURIDAD DEPENDE DE USTED",
+    Especificaciones: "Alto: 300mm\nAncho: 400mm\nEspesor: 8mm",
+    Documentacion: [
+    { nombre: "No disponible"}
+    ],
+    categoria: "Cartelería",
+    subcategoria: "Aviso",  
+    marca: "",
+    destacado: false,
+    imagenes:[
+      "imagenes/Productos/carteleria/aviso/laseguridad.png"
+    ]
+  },
+  {
+    id: "carteleria-132",
+    nombre: "CARTEL LA SEGURIDAD ES PARTE DEL TRABAJO (400x300x8mm)",
+    Descripcion: "Atención 3341 LA SEGURIDAD ES PARTE DEL TRABAJO",
+    Especificaciones: "Alto: 300mm\nAncho: 400mm\nEspesor: 8mm",
+    Documentacion: [
+    { nombre: "No disponible"}
+    ],
+    categoria: "Cartelería",
+    subcategoria: "Aviso",  
+    marca: "",
+    destacado: false,
+    imagenes:[
+      "imagenes/Productos/carteleria/aviso/laseguridades.png"
+    ]
+  },
+  {
+    id: "carteleria-133",
+    nombre: "CARTEL LA SEGURIDAD ES RESPONSABILIDAD DE TODOS (400x300x8mm)",
+    Descripcion: "Atención 3342 LA SEGURIDAD ES RESPONSABILIDAD DE TODOS",
+    Especificaciones: "Alto: 300mm\nAncho: 400mm\nEspesor: 8mm",
+    Documentacion: [
+    { nombre: "No disponible"}
+    ],
+    categoria: "Cartelería",
+    subcategoria: "Aviso",  
+    marca: "",
+    destacado: false,
+    imagenes:[
+      "imagenes/Productos/carteleria/aviso/laseguridadesresp.png"
+    ]
+  },
+  {
+    id: "carteleria-134",
+    nombre: "CARTEL LA SEGURIDAD ES SERVICIO EN EQUIPO (400x300x8mm)",
+    Descripcion: "Atención 3343 LA SEGURIDAD ES SERVICIO EN EQUIPO",
+    Especificaciones: "Alto: 300mm\nAncho: 400mm\nEspesor: 8mm",
+    Documentacion: [
+    { nombre: "No disponible"}
+    ],
+    categoria: "Cartelería",
+    subcategoria: "Aviso",  
+    marca: "",
+    destacado: false,
+    imagenes:[
+      "imagenes/Productos/carteleria/aviso/laseguridadesserv.png"
+    ]
+  },
 ]
