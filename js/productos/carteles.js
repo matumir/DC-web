@@ -2335,4 +2335,84 @@ const carteles = [
       "imagenes/Productos/carteleria/peligro/gasescomprimidos.png"
     ]
   },
+  {
+    id: "carteleria-147",
+    nombre: "CARTEL MUY CALIENTE NO TOQUE (400x300x8mm)",
+    Descripcion: "Peligro 1352 MUY CALIENTE NO TOQUE",
+    Especificaciones: "Alto: 300mm\nAncho: 400mm\nEspesor: 8mm",
+    Documentacion: [
+    { nombre: "No disponible"}
+    ],
+    categoria: "Cartelería",
+    subcategoria: "Peligro",  
+    marca: "",
+    destacado: false,
+    imagenes:[
+      "imagenes/Productos/carteleria/peligro/muycaliente.png"
+    ]
+  },
+  {
+    id: "carteleria-148",
+    nombre: "CARTEL RESPETE LAS NORMAS DE SEGURIDAD (400x300x8mm)",
+    Descripcion: "Peligro 1353 RESPETE LAS NORMAS DE SEGURIDAD",
+    Especificaciones: "Alto: 300mm\nAncho: 400mm\nEspesor: 8mm",
+    Documentacion: [
+    { nombre: "No disponible"}
+    ],
+    categoria: "Cartelería",
+    subcategoria: "Peligro",  
+    marca: "",
+    destacado: false,
+    imagenes:[
+      "imagenes/Productos/carteleria/peligro/respete.png"
+    ]
+  },
+  {
+    id: "carteleria-149",
+    nombre: "CARTEL NO CONECTAR SIN PROTECCION ADECUADA (400x300x8mm)",
+    Descripcion: "Peligro 1354 NO CONECTAR SIN PROTECCION ADECUADA",
+    Especificaciones: "Alto: 300mm\nAncho: 400mm\nEspesor: 8mm",
+    Documentacion: [
+    { nombre: "No disponible"}
+    ],
+    categoria: "Cartelería",
+    subcategoria: "Peligro",  
+    marca: "",
+    destacado: false,
+    imagenes:[
+      "imagenes/Productos/carteleria/peligro/noconectar.png"
+    ]
+  },
+  {
+    id: "carteleria-150",
+    nombre: "CARTEL ALTA TENSION (400x300x8mm)",
+    Descripcion: "Peligro 1355 ALTA TENSION",
+    Especificaciones: "Alto: 300mm\nAncho: 400mm\nEspesor: 8mm",
+    Documentacion: [
+    { nombre: "No disponible"}
+    ],
+    categoria: "Cartelería",
+    subcategoria: "Peligro",  
+    marca: "",
+    destacado: false,
+    imagenes:[
+      "imagenes/Productos/carteleria/peligro/altaten.png"
+    ]
+  },
+  {
+    id: "carteleria-151",
+    nombre: "CARTEL CUIDADO CON EL PERRO (140x190x8mm)",
+    Descripcion: "Peligro 0258 CUIDADO CON EL PERRO",
+    Especificaciones: "Alto: 190mm\nAncho: 140mm\nEspesor: 8mm",
+    Documentacion: [
+    { nombre: "No disponible"}
+    ],
+    categoria: "Cartelería",
+    subcategoria: "Peligro",  
+    marca: "",
+    destacado: false,
+    imagenes:[
+      "imagenes/Productos/carteleria/peligro/cuidado.png"
+    ]
+  },
 ]
