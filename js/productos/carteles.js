@@ -2415,4 +2415,148 @@ const carteles = [
       "imagenes/Productos/carteleria/peligro/cuidado.png"
     ]
   },
+  {
+    id: "carteleria-152",
+    nombre: "CARTEL CARGA Y DESCARGA DE COMBUSTIBLE (400x300x8mm)",
+    Descripcion: "Peligro 1356 CARGA Y DESCARGA DE COMBUSTIBLE",
+    Especificaciones: "Alto: 300mm\nAncho: 400mm\nEspesor: 8mm",
+    Documentacion: [
+    { nombre: "No disponible"}
+    ],
+    categoria: "Cartelería",
+    subcategoria: "Peligro",  
+    marca: "",
+    destacado: false,
+    imagenes:[
+      "imagenes/Productos/carteleria/peligro/cargaydes.png"
+    ]
+  },
+  {
+    id: "carteleria-153",
+    nombre: "CHAPA BALIZA TIPO ABC LETRAS ROJAS (290x880x5mm)",
+    Descripcion: "Incendio 525 CHAPA BALIZA TIPO ABC LETRAS ROJAS",
+    Especificaciones: "Alto: 880mm\nAncho: 290mm\nEspesor: 5mm",
+    Documentacion: [
+    { nombre: "No disponible"}
+    ],
+    categoria: "Cartelería",
+    subcategoria: "Incendio",  
+    marca: "",
+    destacado: false,
+    imagenes:[
+      "imagenes/Productos/carteleria/incendio/chapa.png"
+    ]
+  },
+   {
+    id: "carteleria-154",
+    nombre: "CARTEL INCENDIO RAYAS CUADRADO (300x300x8mm)",
+    Descripcion: "Incendio 075 RAYAS CUADRADO",
+    Especificaciones: "Alto: 300mm\nAncho: 300mm\nEspesor: 8mm",
+    Documentacion: [
+    { nombre: "No disponible"}
+    ],
+    categoria: "Cartelería",
+    subcategoria: "Incendio",  
+    marca: "",
+    destacado: false,
+    imagenes:[
+      "imagenes/Productos/carteleria/incendio/rayacuadrado.png"
+    ]
+  },
+  {
+    id: "carteleria-155",
+    nombre: "CARTEL MATAFUEGO (230x270x8mm)",
+    Descripcion: "Incendio 104 MATAFUEGO",
+    Especificaciones: "Alto: 270mm\nAncho: 230mm\nEspesor: 8mm",
+    Documentacion: [
+    { nombre: "No disponible"}
+    ],
+    categoria: "Cartelería",
+    subcategoria: "Incendio",  
+    marca: "",
+    destacado: false,
+    imagenes:[
+      "imagenes/Productos/carteleria/incendio/matafuego.png"
+    ]
+  },
+  {
+    id: "carteleria-156",
+    nombre: "CARTEL ALARMA (230x270x8mm)",
+    Descripcion: "Incendio 106 ALARMA",
+    Especificaciones: "Alto: 270mm\nAncho: 230mm\nEspesor: 8mm",
+    Documentacion: [
+    { nombre: "No disponible"}
+    ],
+    categoria: "Cartelería",
+    subcategoria: "Incendio",  
+    marca: "",
+    destacado: false,
+    imagenes:[
+      "imagenes/Productos/carteleria/incendio/alarma.png"
+    ]
+  },
+  {
+    id: "carteleria-157",
+    nombre: "CARTEL MATAFUEGO INCENDIO (300x200x8mm)",
+    Descripcion: "Incendio 130 MATAFUEGO INCENDIO",
+    Especificaciones: "Alto: 200mm\nAncho: 300mm\nEspesor: 8mm",
+    Documentacion: [
+    { nombre: "No disponible"}
+    ],
+    categoria: "Cartelería",
+    subcategoria: "Incendio",  
+    marca: "",
+    destacado: false,
+    imagenes:[
+      "imagenes/Productos/carteleria/incendio/matafuegoinc.png"
+    ]
+  },
+  {
+    id: "carteleria-158",
+    nombre: "CARTEL RAYAS TRIANGULO (350x350x8mm)",
+    Descripcion: "Incendio 140 RAYAS TRIANGULO",
+    Especificaciones: "Alto: 350mm\nAncho: 350mm\nEspesor: 8mm",
+    Documentacion: [
+    { nombre: "No disponible"}
+    ],
+    categoria: "Cartelería",
+    subcategoria: "Incendio",  
+    marca: "",
+    destacado: false,
+    imagenes:[
+      "imagenes/Productos/carteleria/incendio/triangulo.png"
+    ]
+  },
+  {
+    id: "carteleria-159",
+    nombre: "CARTEL MATAFUEGOS (320x450x8mm)",
+    Descripcion: "Incendio 150 MATAFUEGOS",
+    Especificaciones: "Alto: 450mm\nAncho: 320mm\nEspesor: 8mm",
+    Documentacion: [
+    { nombre: "No disponible"}
+    ],
+    categoria: "Cartelería",
+    subcategoria: "Incendio",  
+    marca: "",
+    destacado: false,
+    imagenes:[
+      "imagenes/Productos/carteleria/incendio/triangulo.png"
+    ]
+  },
+  {
+    id: "carteleria-160",
+    nombre: "CARTEL NICHOS HIDRANTES (320x450x8mm)",
+    Descripcion: "Incendio 151 NICHOS HIDRANTES",
+    Especificaciones: "Alto: 450mm\nAncho: 320mm\nEspesor: 8mm",
+    Documentacion: [
+    { nombre: "No disponible"}
+    ],
+    categoria: "Cartelería",
+    subcategoria: "Incendio",  
+    marca: "",
+    destacado: false,
+    imagenes:[
+      "imagenes/Productos/carteleria/incendio/nichos.png"
+    ]
+  },
 ]
