@@ -11,7 +11,7 @@ const altura = [
     subcategoria: "Arneses / Kits",  
     marca: "DELTA PLUS",
     destacado: false,
-    talles: ["ÚNICO"],
+    
     imagenes: [
       "imagenes/Productos/altura/arneses/kit1.png"
     ]
@@ -28,7 +28,7 @@ const altura = [
     subcategoria: "Arneses / Kits",  
     marca: "DELTA PLUS",
     destacado: false,
-    talles: ["ÚNICO"],
+    
     imagenes: [
       "imagenes/Productos/altura/arneses/kit2.png"
     ]
@@ -45,7 +45,7 @@ const altura = [
     subcategoria: "Arneses / Kits",  
     marca: "DELTA PLUS",
     destacado: false,
-    talles: ["ÚNICO"],
+    
     imagenes: [
       "imagenes/Productos/altura/arneses/petrolero1.png","imagenes/Productos/altura/arneses/petrolero2.png","imagenes/Productos/altura/arneses/petrolero3.png"
     ]
@@ -62,7 +62,7 @@ const altura = [
     subcategoria: "Arneses / Kits",  
     marca: "DELTA PLUS",
     destacado: false,
-    talles: ["ÚNICO"],
+    
     imagenes: [
       "imagenes/Productos/altura/arneses/4puntos1.png","imagenes/Productos/altura/arneses/4puntos2.png","imagenes/Productos/altura/arneses/4puntos3.png"
     ]
@@ -79,7 +79,7 @@ const altura = [
     subcategoria: "Cinturones / Cabos",  
     marca: "DELTA PLUS",
     destacado: false,
-    talles: ["ÚNICO"],
+    
     imagenes: [
       "imagenes/Productos/altura/cinturones/linierocabo1.png","imagenes/Productos/altura/cinturones/linierocabo2.png","imagenes/Productos/altura/cinturones/linierocabo3.png"
     ]
@@ -96,7 +96,7 @@ const altura = [
     subcategoria: "Cinturones / Cabos",  
     marca: "DELTA PLUS",
     destacado: false,
-    talles: ["ÚNICO"],
+    
     imagenes: [
       "imagenes/Productos/altura/cinturones/liniero1.png","imagenes/Productos/altura/cinturones/liniero2.png","imagenes/Productos/altura/cinturones/liniero3.png"
     ]
@@ -113,7 +113,7 @@ const altura = [
     subcategoria: "Cinturones / Cabos",  
     marca: "DELTA PLUS",
     destacado: false,
-    talles: ["ÚNICO"],
+    
     imagenes: [
       "imagenes/Productos/altura/cinturones/cv21-1.png"
     ]
@@ -130,7 +130,7 @@ const altura = [
     subcategoria: "Cinturones / Cabos",  
     marca: "DELTA PLUS",
     destacado: false,
-    talles: ["ÚNICO"],
+    
     imagenes: [
       "imagenes/Productos/altura/cinturones/cv1020.png"
     ]
@@ -147,7 +147,7 @@ const altura = [
     subcategoria: "Cinturones / Cabos",  
     marca: "DELTA PLUS",
     destacado: false,
-    talles: ["ÚNICO"],
+    
     imagenes: [
       "imagenes/Productos/altura/cinturones/cv1020a.png"
     ]
@@ -164,7 +164,7 @@ const altura = [
     subcategoria: "Cinturones / Cabos",  
     marca: "DELTA PLUS",
     destacado: false,
-    talles: ["ÚNICO"],
+    
     imagenes: [
       "imagenes/Productos/altura/cinturones/cv21a.png"
     ]
@@ -181,7 +181,7 @@ const altura = [
     subcategoria: "Cinturones / Cabos",  
     marca: "DELTA PLUS",
     destacado: false,
-    talles: ["ÚNICO"],
+    
     imagenes: [
       "imagenes/Productos/altura/cinturones/cv1026ea1.png","imagenes/Productos/altura/cinturones/cv1026ea2.png"
     ]
@@ -198,7 +198,7 @@ const altura = [
     subcategoria: "Cinturones / Cabos",  
     marca: "DELTA PLUS",
     destacado: false,
-    talles: ["ÚNICO"],
+    
     imagenes: [
       "imagenes/Productos/altura/cinturones/cv1026ac.png"
     ]
