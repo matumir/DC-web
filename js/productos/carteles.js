@@ -1036,7 +1036,7 @@ const carteles = [
     marca: "",
     destacado: false,
     imagenes:[
-      "imagenes/Productos/carteleria/evacuacion/flechaizquierda.png"
+      "imagenes/Productos/carteleria/evacuacion/flechaabajo.png"
     ]
   },  
   {
