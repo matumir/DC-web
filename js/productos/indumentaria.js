@@ -602,7 +602,7 @@ const indumentaria = [
     nombre: "Protector lumbar",
     Descripcion: "MAXIMO ESFUERZO está diseñada bajo un concepto anatómico simétrico. Su función principal es la de apoyar a la zona lumbar central con ballenas que refuerzan la columna. Está provista con sus tiradores de soporte elástico.",
     Especificaciones: "Tiradores Elasticos regulables\nMalla elastizada reforzada\nBandas Lateralas y regulables\nGran Superficie de ajuste en el cuerpo principal\nVelcro de alta ressitencia\nBallenas en la parte posterior provista con cinta antideslizante para evitar su desplazamiento\n\nGUÍA DE TALLES:\nTALLE 1 (S): 85 \n95 CM\nTALLE 2 (M): 95 \n105 CM\nTALLE 3 (L): 105 \n115 CM\nTALLE 4 (XL): 115 \n125 CM\nTALLE 5 (XXL): 125 \n135 CM",
-Documentacion: [
+    Documentacion: [
     { nombre: "No disponible"}
     ],
     categoria: "Indumentaria",
@@ -611,7 +611,47 @@ Documentacion: [
     destacado: false,
     talles: ["S","M","L","XL","XXL"],
     imagenes: [
-      "imagenes/Productos/indumentaria/fajas/fajamax.png","imagenes/Productos/indumentaria/fajas/fajamax2.webp"
+      "imagenes/Productos/indumentaria/fajas/fajamax1.png","imagenes/Productos/indumentaria/fajas/fajamax2.webp"
+    ]
+  },
+  {
+    id: "indumentaria-34",
+    nombre: "Remera de algodón cuello redondo (con o sin bordado)",
+    Descripcion: "Remera de algodón con cuello redondo. Hechas a pedido, consultar por bordados.",
+    Especificaciones: "Material: Algodón\nCuello: Redondo\nBordado: Opcional",
+    Documentacion: [
+    { nombre: "No disponible"}
+    ],
+    categoria: "Indumentaria",
+    subcategoria: "Remeras",  
+    marca: "",
+    destacado: false,
+    talles: ["S","M","L","XL","XXL","XXXL"],
+    colores: [
+      { nombre: "GRIS", imagenes: ["imagenes/Productos/indumentaria/propio/remeragris.png"] },
+      { nombre: "AZUL", imagenes: ["imagenes/Productos/indumentaria/propio/remeraazul.png"] },
+      { nombre: "NEGRO", imagenes: ["imagenes/Productos/indumentaria/propio/remeranegro.png"] },
+      { nombre: "BLANCO", imagenes: ["imagenes/Productos/indumentaria/propio/remerablanco.png"] }
+    ]
+  },
+   {
+    id: "indumentaria-35",
+    nombre: "Buzo de algodón cuello redondo c/ friza (con o sin bordado)",
+    Descripcion: "Buzo de algodón con cuello redondo y friza. Hechos a pedido, consultar por bordados.",
+    Especificaciones: "Material: Algodón\nCuello: Redondo\nFriza: Si\nBordado: Opcional",
+    Documentacion: [
+    { nombre: "No disponible"}
+    ],
+    categoria: "Indumentaria",
+    subcategoria: "Abrigo",  
+    marca: "",
+    destacado: false,
+    talles: ["S","M","L","XL","XXL","XXXL"],
+    colores: [
+      { nombre: "GRIS", imagenes: ["imagenes/Productos/indumentaria/propio/buzogris.png"] },
+      { nombre: "AZUL", imagenes: ["imagenes/Productos/indumentaria/propio/buzoazul.png"] },
+      { nombre: "NEGRO", imagenes: ["imagenes/Productos/indumentaria/propio/buzonegro.png"] },
+      { nombre: "BLANCO", imagenes: ["imagenes/Productos/indumentaria/propio/buzoblanco.png"] }
     ]
   },
 ];
