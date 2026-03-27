@@ -2559,4 +2559,292 @@ const carteles = [
       "imagenes/Productos/carteleria/incendio/nichos.png"
     ]
   },
+   {
+    id: "carteleria-161",
+    nombre: "CARTEL CIRCULE CON PRECAUCION (400x450x8mm)",
+    Descripcion: "Seguridad 0054 CIRCULE CON PRECAUCION",
+    Especificaciones: "Alto: 450mm\nAncho: 400mm\nEspesor: 8mm",
+    Documentacion: [
+    { nombre: "No disponible"}
+    ],
+    categoria: "Cartelería",
+    subcategoria: "Seguridad",  
+    marca: "",
+    destacado: false,
+    imagenes:[
+      "imagenes/Productos/carteleria/seguridad/circule.png"
+    ]
+  },
+  {
+    id: "carteleria-162",
+    nombre: "CARTEL CONTROLAR ANTES DE SU USO (400x450x8mm)",
+    Descripcion: "Seguridad 0050 CONTROLAR ANTES DE SU USO",
+    Especificaciones: "Alto: 450mm\nAncho: 400mm\nEspesor: 8mm",
+    Documentacion: [
+    { nombre: "No disponible"}
+    ],
+    categoria: "Cartelería",
+    subcategoria: "Seguridad",  
+    marca: "",
+    destacado: false,
+    imagenes:[
+      "imagenes/Productos/carteleria/seguridad/controlar.png"
+    ]
+  },
+  {
+    id: "carteleria-163",
+    nombre: "CARTEL MANTENGA ORDEN Y LIMPIEZA (400x450x8mm)",
+    Descripcion: "Seguridad 0043 MANTENGA ORDEN Y LIMPIEZA",
+    Especificaciones: "Alto: 450mm\nAncho: 400mm\nEspesor: 8mm",
+    Documentacion: [
+    { nombre: "No disponible"}
+    ],
+    categoria: "Cartelería",
+    subcategoria: "Seguridad",  
+    marca: "",
+    destacado: false,
+    imagenes:[
+      "imagenes/Productos/carteleria/seguridad/mantenga.png"
+    ]
+  },
+  {
+    id: "carteleria-164",
+    nombre: "CARTEL AVISO CARGA MAX. KG (400x450x8mm)",
+    Descripcion: "Seguridad 0039 AVISO CARGA MAX. KG",
+    Especificaciones: "Alto: 450mm\nAncho: 400mm\nEspesor: 8mm",
+    Documentacion: [
+    { nombre: "No disponible"}
+    ],
+    categoria: "Cartelería",
+    subcategoria: "Seguridad",  
+    marca: "",
+    destacado: false,
+    imagenes:[
+      "imagenes/Productos/carteleria/seguridad/aviso.png"
+    ]
+  },
+  {
+    id: "carteleria-165",
+    nombre: "CARTEL UN LUGAR PARA CADA COSA Y CADA COSA EN SU LUGAR (400x450x8mm)",
+    Descripcion: "Seguridad 0035 UN LUGAR PARA CADA COSA Y CADA COSA EN SU LUGAR",
+    Especificaciones: "Alto: 450mm\nAncho: 400mm\nEspesor: 8mm",
+    Documentacion: [
+    { nombre: "No disponible"}
+    ],
+    categoria: "Cartelería",
+    subcategoria: "Seguridad",  
+    marca: "",
+    destacado: false,
+    imagenes:[
+      "imagenes/Productos/carteleria/seguridad/unlugar.png"
+    ]
+  },
+  {
+    id: "carteleria-166",
+    nombre: "CARTEL SR CLIENTE: POR FAVOR APAGAR EL MOTOR DE SU VEHICULO (270x230x8mm)",
+    Descripcion: "Seguridad 0940 SR CLIENTE: POR FAVOR APAGAR EL MOTOR DE SU VEHICULO",
+    Especificaciones: "Alto: 270mm\nAncho: 230mm\nEspesor: 8mm",
+    Documentacion: [
+    { nombre: "No disponible"}
+    ],
+    categoria: "Cartelería",
+    subcategoria: "Seguridad",  
+    marca: "",
+    destacado: false,
+    imagenes:[
+      "imagenes/Productos/carteleria/seguridad/srcliente.png"
+    ]
+  },
+    {
+    id: "carteleria-167",
+    nombre: "CARTEL HOMBRE (140x140mm)",
+    Descripcion: "Información 251H HOMBRE",
+    Especificaciones: "Alto: 140mm\nAncho: 140mm",
+    Documentacion: [
+    { nombre: "No disponible"}
+    ],
+    categoria: "Cartelería",
+    subcategoria: "Información",  
+    marca: "",
+    destacado: false,
+    imagenes:[
+      "imagenes/Productos/carteleria/informacion/hombre.png"
+    ]
+  },
+   {
+    id: "carteleria-168",
+    nombre: "CARTEL MUJER (140x140mm)",
+    Descripcion: "Información 251M MUJER",
+    Especificaciones: "Alto: 140mm\nAncho: 140mm",
+    Documentacion: [
+    { nombre: "No disponible"}
+    ],
+    categoria: "Cartelería",
+    subcategoria: "Información",  
+    marca: "",
+    destacado: false,
+    imagenes:[
+      "imagenes/Productos/carteleria/informacion/mujer.png"
+    ]
+  },
+  {
+    id: "carteleria-169",
+    nombre: "CARTEL BOTIQUIN (410x210x8mm)",
+    Descripcion: "Información 206 BOTIQUIN",
+    Especificaciones: "Alto: 210mm\nAncho: 410mm\nEspesor: 8mm",
+    Documentacion: [
+    { nombre: "No disponible"}
+    ],
+    categoria: "Cartelería",
+    subcategoria: "Información",  
+    marca: "",
+    destacado: false,
+    imagenes:[
+      "imagenes/Productos/carteleria/informacion/botiquin.png"
+    ]
+  },
+  {
+    id: "carteleria-170",
+    nombre: "CARTEL AGUA DESTILADA (400x300x8mm)",
+    Descripcion: "Información 073A AGUA DESTILADA",
+    Especificaciones: "Alto: 300mm\nAncho: 400mm\nEspesor: 8mm",
+    Documentacion: [
+    { nombre: "No disponible"}
+    ],
+    categoria: "Cartelería",
+    subcategoria: "Información",  
+    marca: "",
+    destacado: false,
+    imagenes:[
+      "imagenes/Productos/carteleria/informacion/aguadestilada.png"
+    ]
+  },
+  {
+    id: "carteleria-171",
+    nombre: "CARTEL SALA DE MAQUINAS (400x300x8mm)",
+    Descripcion: "Información 073 SALA DE MAQUINAS",
+    Especificaciones: "Alto: 300mm\nAncho: 400mm\nEspesor: 8mm",
+    Documentacion: [
+    { nombre: "No disponible"}
+    ],
+    categoria: "Cartelería",
+    subcategoria: "Información",  
+    marca: "",
+    destacado: false,
+    imagenes:[
+      "imagenes/Productos/carteleria/informacion/salademaquinas.png"
+    ]
+  },
+  {
+    id: "carteleria-172",
+    nombre: "CARTEL RESIDUOS (200x270x8mm)",
+    Descripcion: "Información 069 RESIDUOS",
+    Especificaciones: "Alto: 270mm\nAncho: 200mm\nEspesor: 8mm",
+    Documentacion: [
+    { nombre: "No disponible"}
+    ],
+    categoria: "Cartelería",
+    subcategoria: "Información",  
+    marca: "",
+    destacado: false,
+    imagenes:[
+      "imagenes/Productos/carteleria/informacion/residuos.png"
+    ]
+  },
+  {
+    id: "carteleria-173",
+    nombre: "CARTEL DUCHA DE EMERGENCIA (400x300x8mm)",
+    Descripcion: "Información 065 DUCHA DE EMERGENCIA",
+    Especificaciones: "Alto: 300mm\nAncho: 400mm\nEspesor: 8mm",
+    Documentacion: [
+    { nombre: "No disponible"}
+    ],
+    categoria: "Cartelería",
+    subcategoria: "Información",  
+    marca: "",
+    destacado: false,
+    imagenes:[
+      "imagenes/Productos/carteleria/informacion/duchaemer.png"
+    ]
+  },
+  {
+    id: "carteleria-174",
+    nombre: "CARTEL LAVAOJOS DE EMERGENCIA (400x300x8mm)",
+    Descripcion: "Información 064 LAVAOJOS DE EMERGENCIA",
+    Especificaciones: "Alto: 300mm\nAncho: 400mm\nEspesor: 8mm",
+    Documentacion: [
+    { nombre: "No disponible"}
+    ],
+    categoria: "Cartelería",
+    subcategoria: "Información",  
+    marca: "",
+    destacado: false,
+    imagenes:[
+      "imagenes/Productos/carteleria/informacion/lavaojos.png"
+    ]
+  },
+  {
+    id: "carteleria-175",
+    nombre: "CARTEL ZONA DE CARGA (400x450x8mm)",
+    Descripcion: "Información 057 ZONA DE CARGA",
+    Especificaciones: "Alto: 450mm\nAncho: 400mm\nEspesor: 8mm",
+    Documentacion: [
+    { nombre: "No disponible"}
+    ],
+    categoria: "Cartelería",
+    subcategoria: "Información",  
+    marca: "",
+    destacado: false,
+    imagenes:[
+      "imagenes/Productos/carteleria/informacion/zonacarga.png"
+    ]
+  },
+  {
+    id: "carteleria-176",
+    nombre: "CARTEL ZONA DE RUIDOS (400x450x8mm)",
+    Descripcion: "Información 036 ZONA DE RUIDOS",
+    Especificaciones: "Alto: 450mm\nAncho: 400mm\nEspesor: 8mm",
+    Documentacion: [
+    { nombre: "No disponible"}
+    ],
+    categoria: "Cartelería",
+    subcategoria: "Información",  
+    marca: "",
+    destacado: false,
+    imagenes:[
+      "imagenes/Productos/carteleria/informacion/zonaruidos.png"
+    ]
+  },
+  {
+    id: "carteleria-177",
+    nombre: "CARTEL DESVI0 (450x400x8mm)",
+    Descripcion: "Información 052 DESVIO",
+    Especificaciones: "Alto: 400mm\nAncho: 450mm\nEspesor: 8mm",
+    Documentacion: [
+    { nombre: "No disponible"}
+    ],
+    categoria: "Cartelería",
+    subcategoria: "Información",  
+    marca: "",
+    destacado: false,
+    imagenes:[
+        "imagenes/Productos/carteleria/informacion/desvio.png"
+    ]
+  },
+  {
+    id: "carteleria-178",
+    nombre: "CARTEL CALDERA (300x140x8mm)",
+    Descripcion: "Información 052 DESVIO",
+    Especificaciones: "Alto: 140mm\nAncho: 300mm\nEspesor: 8mm",
+    Documentacion: [
+    { nombre: "No disponible"}
+    ],
+    categoria: "Cartelería",
+    subcategoria: "Información",  
+    marca: "",
+    destacado: false,
+    imagenes:[
+        "imagenes/Productos/carteleria/informacion/caldera.png"
+    ]
+  },
 ]
