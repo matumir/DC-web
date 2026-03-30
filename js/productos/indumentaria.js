@@ -654,4 +654,43 @@ const indumentaria = [
       { nombre: "BLANCO", imagenes: ["imagenes/Productos/indumentaria/propio/buzoblanco.png"] }
     ]
   },
+  {
+    id: "indumentaria-36",
+    nombre: "Pantalón Cargo Elastizado",
+    Descripcion: "Pantalón Cargo Elastizado 9oz SNIPE El Pantalón Cargo Elastizado SNIPE ha sido diseñado para superar las demandas de cualquier jornada laboral, combinando resistencia, funcionalidad y confort en cada detalle. Fabricado en Gabardina 9oz Rígida de sarga pesada, este modelo contiene un 98% de algodón y 2% de elastano, brindando máxima comodidad sin comprometer la durabilidad. Características Principales\n Vida útil, soportando el uso diario en ambientes exigentes. \nCosturas reforzadas: Doble cadeneta y atraques en áreas de mayor tensión para una estructura robusta. \nAjuste relajado y corte recto: Permite libertad de movimiento, perfecto para trabajos activos. \nBolsillos amplios y seguros: Laterales y traseros con cierre de velcro, diseñados para guardar herramientas y objetos personales de manera práctica y segura. \nBragueta con cierre metálico: Aporta un toque de estilo funcional y duradero. \nSeguridad y practicidad para el trabajador, con bolsillos estratégicos y materiales de alta calidad. Apto para diversas actividades: Construcción, logística, mantenimiento y más.",
+    Especificaciones: "Gramaje de tela: 9 oz\nMaterial: Gabardina rígida de sarga pesada\nComposición: 98% algodón – 2% elastano",
+    Documentacion: [
+    { nombre: "Ficha técnica no disponible"}
+    ],
+    categoria: "Indumentaria",
+    subcategoria: "Pantalones",
+    marca: "OMBU",
+    destacado: true,
+    talles: [38,40,42,44,46,48,50,52,54,56,58],
+    colores: [
+      { nombre: "TOSTADO", imagenes: ["imagenes/Productos/indumentaria/pantalones/cargoelastbeigeombu.png"] },
+      { nombre: "NEGRO", imagenes: ["imagenes/Productos/indumentaria/pantalones/cargonegroelastombu.png"] },
+      { nombre: "GRIS TOPO", imagenes: ["imagenes/Productos/indumentaria/pantalones/cargogriselastombu.png","imagenes/Productos/indumentaria/pantalones/guiacargoelastizadoombu.png"] },
+    ]
+  },
+  {
+    id: "indumentaria-37",
+    nombre: "Pantalón Cargo c/ bolsillo porta celular",
+    Descripcion: "El pantalón cargo más funcional de la línea OMBU. Confeccionado en gabardina 8oz con tratamiento pre-encogido, combina resistencia industrial con un diseño pensado para el trabajador moderno que necesita tener su celular siempre a mano.Bolsillo porta celular dedicado: Acceso rápido y seguro a tu teléfono, oculto sobre bolsillo lateral derecho.\n6 bolsillos utilitarios: 2 delanteros superiores, 2 traseros plaqué con tapa y velcro, y 2 cargo laterales de grandes dimensiones con fuelle.\nGabardina 8oz pre-encogida: No pierde forma ni talle después del lavado.\nCierre a cremallera y botón: Bragueta resistente con ojal y botón.\nCintura con pasacinto: Compatible con cinturones de trabajo.\nLa mejor opción para quienes buscan ofrecer a sus empleados una prenda resistente y duradera que se ajusta a las necesidades de movimiento en el día a día.",
+    Especificaciones: "Tela: Gabardina 8oz\nTratamiento: Pre-encogido\nBolsillos: 6 utilitarios + porta celular oculto\nCierre: Cremallera + botón",
+    Documentacion: [
+    { nombre: "Ficha técnica no disponible"}
+    ],
+    categoria: "Indumentaria",
+    subcategoria: "Pantalones",
+    marca: "OMBU",
+    destacado: true,
+    talles: [38,40,42,44,46,48,50,52,54,56,58,60],
+    colores: [
+      { nombre: "BEIGE", imagenes: ["imagenes/Productos/indumentaria/pantalones/cargoombubeige.png"] },
+      { nombre: "NEGRO", imagenes: ["imagenes/Productos/indumentaria/pantalones/cargoombunegro.png"] },
+      { nombre: "VERDE OLIVA", imagenes: ["imagenes/Productos/indumentaria/pantalones/cargoombuverde.png"] },
+      { nombre: "GRIS TOPO", imagenes: ["imagenes/Productos/indumentaria/pantalones/cargoombugris.png","imagenes/Productos/indumentaria/pantalones/guiacargoombu.png"] },
+    ]
+  },
 ];

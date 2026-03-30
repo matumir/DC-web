@@ -1265,7 +1265,9 @@ function obtenerColorCSS(nombre) {
     "azul marino": "#061534",
     claro: "#d4d4d49e",
     "verde f": "#67ff20",
-    "naranja f": "#fd3102"
+    "naranja f": "#fd3102",
+    "gris topo": "#6e6e6eff",
+    tostado: "#d6c3a3"
   };
 
   return mapa[nombre.toLowerCase()] || "#ccc";
