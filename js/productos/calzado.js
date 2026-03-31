@@ -525,5 +525,22 @@ const calzado = [
       { nombre: "Gris", imagenes: ["imagenes/Productos/calzado/alibre/everestg.png","imagenes/Productos/calzado/alibre/everestg2.png"] },
       { nombre: "Beige", imagenes: ["imagenes/Productos/calzado/alibre/everestb.png","imagenes/Productos/calzado/alibre/everestb2.png"] }
     ]
-  }
+  },
+  {
+    id: "calzado-31",
+    nombre: "Bota Wader PVC hasta la cintura",
+    Descripcion: "Traje de pesca de pvc. Ideal para actividad en aguas de baja temperatura (-15ºC a 60ºC).",
+    Especificaciones: "Fabricado en PVC 55% + Nylon 45%\nTiradores y cinturón ajustables\nCon botas de PVC incluidas y selladas\nBolsillo interior\nPechera y entrepierna reforzada\nCosturas dobles",
+    Documentacion: [
+    { nombre: "Ficha técnica no disponible"}
+    ],
+    categoria: "Calzado",
+    subcategoria: "Botas",
+    marca: "",
+    destacado: false,
+    talles: [38,39,40,41,42,43,44,45,46],
+    imagenes: [
+      "imagenes/productos/calzado/narvic/botawader.png","imagenes/productos/calzado/narvic/botawader2.png"
+    ]
+  },
 ];
