@@ -536,7 +536,7 @@ const calzado = [
     ],
     categoria: "Calzado",
     subcategoria: "Botas",
-    marca: "",
+    marca: "WATERDOG",
     destacado: false,
     talles: [38,39,40,41,42,43,44,45,46],
     imagenes: [

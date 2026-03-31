@@ -97,6 +97,7 @@ const marcas = [
   {nombre: 'VICSA', imagen: 'imagenes/marcas/vicsa.jpg'},
   {nombre: 'GUPLASTEX', imagen: 'imagenes/marcas/guplastex.png'},
   {nombre: 'BELLAZZI', imagen: 'imagenes/marcas/bellazzi.png'},
+  {nombre: 'WATERDOG', imagen: 'imagenes/marcas/waterdog.png'},
   {nombre: 'GLOVEX', imagen: 'imagenes/marcas/glovex.png'},
   {nombre: 'DELTA PLUS', imagen: 'imagenes/marcas/deltaplus.svg'},
   {nombre: 'STEELPRO', imagen: 'imagenes/marcas/steelpro.png'},
