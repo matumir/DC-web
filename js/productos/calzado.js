@@ -540,7 +540,7 @@ const calzado = [
     destacado: false,
     talles: [38,39,40,41,42,43,44,45,46],
     imagenes: [
-      "imagenes/productos/calzado/narvic/botawader.png","imagenes/productos/calzado/narvic/botawader2.png"
+      "imagenes/Productos/calzado/narvic/botawader.png","imagenes/Productos/calzado/narvic/botawader2.png"
     ]
   },
 ];
