@@ -543,17 +543,18 @@ function renderProductos(lista) {
 
     lista.slice(ini, fin).forEach(p => {
       const imagenSrc = p.colores ? p.colores[0].imagenes[0] : p.imagenes[0];
-
+      const ribbonHTML = p.oferta ? `<div class="card-ribbon">Oferta</div>` : '';
       catalogo.innerHTML += `
-        <div class="card fade-page">
-          <span class="badge">${p.categoria}</span>
-          <img src="${imagenSrc}" loading="lazy" alt="${p.nombre}">
-          <h4>${p.marca} | ${p.nombre}</h4>
-          <button class="btn-ver" onclick="mostrarDetalle('${p.id}')">
-            Ver en detalle
-          </button>
-        </div>
-      `;
+  <div class="card fade-page" style="position:relative; overflow:hidden;">
+    ${ribbonHTML}
+    <span class="badge">${p.categoria}</span>
+    <img src="${imagenSrc}" loading="lazy" alt="${p.nombre}">
+    <h4>${p.marca} | ${p.nombre}</h4>
+    <button class="btn-ver" onclick="mostrarDetalle('${p.id}')">
+      Ver en detalle
+    </button>
+  </div>
+`;
     });
     if (lista.length != 0){
     actualizarContador(total, ini, fin);
@@ -938,6 +939,22 @@ function mostrarDetalle(id) {
   const imagenesActual = productoActual.colores ? productoActual.colores[0].imagenes : productoActual.imagenes;
 galeriaImagenes = [];
 
+// 🔴 BANDA DE OFERTA EN DETALLE
+const contenedorImg = detalleImg.parentElement;
+contenedorImg.style.position = "relative";
+contenedorImg.style.overflow = "hidden";
+
+// Eliminar banda anterior si existía
+const ribbonAnterior = contenedorImg.querySelector(".detalle-ribbon");
+if (ribbonAnterior) ribbonAnterior.remove();
+
+// Agregar nueva banda si el producto está en oferta
+if (productoActual.oferta) {
+  const ribbon = document.createElement("div");
+  ribbon.className = "detalle-ribbon";
+  ribbon.textContent = "Oferta";
+  contenedorImg.appendChild(ribbon);
+}
 if (productoActual.colores) {
   productoActual.colores.forEach((color, colorIndex) => {
     color.imagenes.forEach(img => {
@@ -1501,12 +1518,13 @@ function renderRelacionados() {
     const imagenSrc = p.colores
       ? p.colores[0].imagenes[0]
       : p.imagenes[0];
-
+    
     const card = document.createElement("div");
     card.className = "card";
     card.onclick = () => mostrarDetalle(p.id);
-
+    const ribbonHTML = p.oferta ? `<div class="card-ribbon">Oferta</div>` : '';
     card.innerHTML = `
+      ${ribbonHTML}
       <img src="${imagenSrc}" loading="lazy" alt="${p.nombre}">
       <h4>${p.marca} | ${p.nombre}</h4>
       <button class="btn-ver fijo" onclick="mostrarDetalle('${p.id}')">
@@ -1656,17 +1674,18 @@ function renderDestacados() {
     const imagen = p.colores
       ? p.colores[0].imagenes[0]
       : p.imagenes[0];
-
+    const ribbonHTML = p.oferta ? `<div class="card-ribbon">Oferta</div>` : '';
     track.innerHTML += `
-      <div class="card">
-        <span class="badge">${p.categoria}</span>
-        <img src="${imagen}" loading="lazy" alt="${p.nombre}">
-        <h4>${p.marca} | ${p.nombre}</h4>
-        <button class="btn-ver-des" onclick="mostrarDetalle('${p.id}')">
-          Ver en detalle
-        </button>
-      </div>
-    `;
+  <div class="card" style="position:relative; overflow:hidden;">
+    ${ribbonHTML}
+    <span class="badge">${p.categoria}</span>
+    <img src="${imagen}" loading="lazy" alt="${p.nombre}">
+    <h4>${p.marca} | ${p.nombre}</h4>
+    <button class="btn-ver-des" onclick="mostrarDetalle('${p.id}')">
+      Ver en detalle
+    </button>
+  </div>
+`;
   });
 }
 

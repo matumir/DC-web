@@ -2499,3 +2499,53 @@ display: none;
   accent-color: #12414a;
   cursor: pointer;
 }
+.card-ribbon {
+  position: absolute;
+  top: 18px;
+  left: -30px;
+  width: 120px;
+  background: #FFD700;
+  color: #fff;
+  font-size: 12px;
+  font-weight: 700;
+  text-align: center;
+  padding: 5px 0;
+  transform: rotate(-45deg);
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.25);
+  z-index: 2;
+}
+
+
+
+/* =====================
+   MINI-HEADER
+===================== */
+.mini-header {
+  background: #000;
+  color: #fff;
+  font-size: 13px;
+  font-weight: 600;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  overflow: hidden;
+  white-space: nowrap;
+  height: 25px;
+  display: flex;
+  align-items: center;
+}
+
+.mini-header-track {
+  display: inline-flex;
+  animation: scrollTexto 40s linear infinite;
+}
+
+.mini-header-track span {
+  padding-right: 10px; /* espacio entre repeticiones */
+}
+
+@keyframes scrollTexto {
+  0%   { transform: translateX(0); }
+  100% { transform: translateX(-50%); }
+}
