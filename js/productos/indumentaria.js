@@ -693,4 +693,22 @@ const indumentaria = [
       { nombre: "GRIS TOPO", imagenes: ["imagenes/Productos/indumentaria/pantalones/cargoombugris.png","imagenes/Productos/indumentaria/pantalones/guiacargoombu.png"] },
     ]
   },
+  {
+    id: "indumentaria-38",
+    nombre: "Chaleco Cire",
+    Descripcion: "Chaleco liviano y cómodo, ideal para acompañarte durante jornadas laborales en épocas de bajas temperaturas. Su diseño moderno y funcional brinda abrigo sin perder libertad de movimiento, convirtiéndolo en una excelente opción para uso diario en trabajo o actividades al aire libre.",
+    Especificaciones: "Confeccionado en tela de cire resistente y liviana\nMatelaseado tipo bastón de 5 cm con guata interior\nInterior forrado con tafeta color negro\nCierre frontal completo\nDos bolsillos laterales funcionales\nDiseño cómodo y práctico para el uso diario\nIdeal para temporada otoño/invierno\nIncluye mochila del mismo color para guardado y transporte\nDisponible en distintos colores y talles",
+    Documentacion: [
+    { nombre: "Ficha técnica no disponible"}
+    ],
+    categoria: "Indumentaria",
+    subcategoria: "Abrigo",  
+    marca: "PAMPERO",
+    destacado: false,
+    talles: ["S","M","L","XL","XXL","XXXL"],
+    colores: [
+      { nombre: "AZUL", imagenes: ["imagenes/Productos/indumentaria/abrigo/chalecocireazul.png"]},
+      { nombre: "NEGRO", imagenes: ["imagenes/Productos/indumentaria/abrigo/chalecocirenegro.png"] }
+    ]
+  },
 ];
