@@ -543,7 +543,7 @@ function renderProductos(lista) {
 
     lista.slice(ini, fin).forEach(p => {
       const imagenSrc = p.colores ? p.colores[0].imagenes[0] : p.imagenes[0];
-      const ribbonHTML = p.oferta ? `<div class="card-ribbon">Oferta</div>` : '';
+      const ribbonHTML = p.oferta ? `<div class="card-ribbon">NUEVO</div>` : '';
       catalogo.innerHTML += `
   <div class="card fade-page" style="position:relative; overflow:hidden;">
     ${ribbonHTML}
@@ -952,7 +952,7 @@ if (ribbonAnterior) ribbonAnterior.remove();
 if (productoActual.oferta) {
   const ribbon = document.createElement("div");
   ribbon.className = "detalle-ribbon";
-  ribbon.textContent = "Oferta";
+  ribbon.textContent = "NUEVO";
   contenedorImg.appendChild(ribbon);
 }
 if (productoActual.colores) {
@@ -1285,6 +1285,7 @@ function obtenerColorCSS(nombre) {
     "verde f": "#67ff20",
     "naranja f": "#fd3102",
     "gris topo": "#6e6e6eff",
+    "marron claro": "rgb(255, 218, 158)",
     tostado: "#d6c3a3"
   };
 
@@ -1522,7 +1523,7 @@ function renderRelacionados() {
     const card = document.createElement("div");
     card.className = "card";
     card.onclick = () => mostrarDetalle(p.id);
-    const ribbonHTML = p.oferta ? `<div class="card-ribbon">Oferta</div>` : '';
+    const ribbonHTML = p.oferta ? `<div class="card-ribbon">NUEVO</div>` : '';
     card.innerHTML = `
       ${ribbonHTML}
       <img src="${imagenSrc}" loading="lazy" alt="${p.nombre}">
@@ -1674,7 +1675,7 @@ function renderDestacados() {
     const imagen = p.colores
       ? p.colores[0].imagenes[0]
       : p.imagenes[0];
-    const ribbonHTML = p.oferta ? `<div class="card-ribbon">Oferta</div>` : '';
+    const ribbonHTML = p.oferta ? `<div class="card-ribbon">NUEVO</div>` : '';
     track.innerHTML += `
   <div class="card" style="position:relative; overflow:hidden;">
     ${ribbonHTML}

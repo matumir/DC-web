@@ -544,4 +544,23 @@ const calzado = [
       "imagenes/Productos/calzado/narvic/botawader.png","imagenes/Productos/calzado/narvic/botawader2.png"
     ]
   },
+  {
+    id: "calzado-32",
+    nombre: "Zapatilla Nature 221  ",
+    Descripcion: "Zapatilla urbana ultraliviana de seguridad. Cuero 100% natural, diseño y tecnología de vanguardia. Confort sin limites y máxima protección.",
+    Especificaciones: "Puntera: PLÁSTICA\nTIPO DE CUERO DE LA CAPELLADA: NOBUCK\nTIPO DE MATERIAL PLANTA EXTERIOR: PU-PU\nTIPO DE MATERIAL DEL FORRO DE CAPELLADA: TEXTIL TEJIDO SOFT REFORZADO\nTIPO DE MATERIAL DEL FORRO DE CAÑA: TEXTIL BASE ACOLCHADA LIVIANO\nTIPO DE MATERIAL DE LA PLANTILLA INTERIOR: TEXTIL DE STROBEL\nTIPO DE MATERIAL DE LA LENGÜETA: TEXTIL ACOLCHADO",
+    Documentacion: [
+    { nombre: "Ficha técnica", url: "fichas/calzado/geo/nature02.pdf" }
+    ],
+    categoria: "Calzado",
+    subcategoria: "Zapatillas",
+    marca: "GEO",
+    destacado: false,
+    oferta: true,
+    talles: [38,39,40,41,42,43,44,45,46],
+    colores: [
+      { nombre: "Marron", imagenes: ["imagenes/Productos/calzado/geo/nature02-1.jpg","imagenes/Productos/calzado/geo/nature-02-2.jpg"] },
+      { nombre: "Marron claro", imagenes: ["imagenes/Productos/calzado/geo/nature-03-1.jpg","imagenes/Productos/calzado/geo/nature-03-2.jpg","imagenes/Productos/calzado/geo/nature-03-suela.jpg"] }
+    ]
+  },
 ];
