@@ -1718,6 +1718,7 @@ const bannerTrack = document.getElementById("bannerTrack");
 const bannerIndicadores = document.getElementById("bannerIndicadores");
 
 const bannerImagenes = [
+  "imagenes/Grafico/ingreso.png",
   "imagenes/Grafico/banner.png",
   "imagenes/Grafico/banner1.webp",
   "imagenes/Grafico/banner3.webp",
