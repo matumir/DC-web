@@ -1,0 +1,16 @@
+export const categoriasHome = [
+  { nombre: "Calzado", img: "/imagenes/logos/logocalzado.webp" },
+  { nombre: "Guantes", img: "/imagenes/logos/logoguantes.webp" },
+  { nombre: "Indumentaria", img: "/imagenes/logos/camisin.webp" },
+  { nombre: "Protección en altura", img: "/imagenes/logos/altura.webp" },
+  { nombre: "Protección craneal", img: "/imagenes/logos/craneal.webp" },
+  { nombre: "Protección facial", img: "/imagenes/logos/facial.webp" },
+  { nombre: "Protección auditiva", img: "/imagenes/logos/auditiva.webp" },
+  { nombre: "Protección ocular", img: "/imagenes/logos/ocular.webp" },
+  { nombre: "Protección respiratoria", img: "/imagenes/logos/respiratoria.webp" },
+  { nombre: "Sujeción de cargas", img: "/imagenes/logos/cargas.webp" },
+  { nombre: "Insumos", img: "/imagenes/logos/insumos.webp" },
+  { nombre: "Discos de corte", img: "/imagenes/logos/discos.webp" },
+  { nombre: "Señalización", img: "/imagenes/logos/señalizacion.webp" },
+  { nombre: "Cartelería", img: "/imagenes/logos/carteleria2.webp" },
+];

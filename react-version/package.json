@@ -1,0 +1,29 @@
+{
+  "name": "react-version",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "prebuild": "node scripts/generate-sitemap.mjs",
+    "build": "vite build",
+    "lint": "oxlint",
+    "preview": "vite preview",
+    "sitemap": "node scripts/generate-sitemap.mjs",
+    "prerender": "node scripts/prerender.mjs"
+  },
+  "dependencies": {
+    "react": "^19.2.7",
+    "react-dom": "^19.2.7",
+    "react-router-dom": "^7.18.1"
+  },
+  "devDependencies": {
+    "@types/react": "^19.2.17",
+    "@types/react-dom": "^19.2.3",
+    "@vitejs/plugin-react": "^6.0.3",
+    "oxlint": "^1.71.0",
+    "playwright": "^1.61.1",
+    "sharp": "^0.35.3",
+    "vite": "^8.1.1"
+  }
+}

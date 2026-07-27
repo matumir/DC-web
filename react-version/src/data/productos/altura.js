@@ -1,0 +1,206 @@
+export const altura = [
+  {
+    id: "altura-1",
+    nombre: "Kit Arnés completo c/ cabo de amarre regulable 1M - 1,5M",
+    Descripcion: "Composición del soporte principal : Acero - poliéster | Punto de anclaje anticaídas : 1 - Dorsal | Puntos de anclaje de sujeción de trabajo : 2 - laterales | Bolsa de almacenamiento | Número de puntos de anclaje anticaídas : 1 | Elementos incluidos : Bolsa de almacenamiento",
+    Especificaciones: "Número de puntos de anclaje anticaídas : 1\nPunto de anclaje anticaídas : Dorsal\nTipo de punto de anclaje anticaída : Dorsal\nNúmero de puntos de anclaje de sujeción de trabajo : 2\nPuntos de anclaje de sujeción de trabajo : laterales\nLongitud máxima (m) : 1,5 m\nLongitud mínima (m) : 1 m",
+    Documentacion: [
+    { nombre: "Ficha técnica no disponible"}
+    ],
+    categoria: "Protección en altura",
+    subcategoria: "Arneses / Kits",  
+    marca: "DELTA PLUS",
+    destacado: false,
+    
+    imagenes: [
+      "/imagenes/Productos/altura/arneses/kit1.webp"
+    ]
+  },
+  {
+    id: "altura-2",
+    nombre: "Kit Arnés completo c/ cabo de amarre doble 1,5M mosquetón 55mm",
+    Descripcion: "Composición del soporte principal : Acero - poliéster | Punto de anclaje anticaídas : 1 - Dorsal | Puntos de anclaje de sujeción de trabajo : 2 - laterales | Bolsa de almacenamiento | Largo : 1,5 m | Número de puntos de anclaje anticaídas : 1 | Elementos incluidos : Bolsa de almacenamiento",
+    Especificaciones: "Número de puntos de anclaje anticaídas : 1\nPunto de anclaje anticaídas : Dorsal\nTipo de punto de anclaje anticaída : Dorsal\nNúmero de puntos de anclaje de sujeción de trabajo : 2\nuntos de anclaje de sujeción de trabajo : laterales",
+    Documentacion: [
+    { nombre: "Ficha técnica", url: "/fichas/altura/deltaplus/ficha kit 3.pdf"}
+    ],
+    categoria: "Protección en altura",
+    subcategoria: "Arneses / Kits",  
+    marca: "DELTA PLUS",
+    destacado: false,
+    
+    imagenes: [
+      "/imagenes/Productos/altura/arneses/kit2.webp"
+    ]
+  },
+  {
+    id: "altura-3",
+    nombre: "Arnés Anticaída Petrolero XL",
+    Descripcion: "Composición del soporte principal : Acero - poliéster | Hebilla automática | Punto de anclaje anticaídas : 2 - Dorsal - Esternal | Puntos de anclaje de sujeción de trabajo : 4 - Cinturón (delantero) - Cinturón (trasero) - laterales | Puntos de suspensión : Ventral | Número de puntos de anclaje anticaídas : 2",
+    Especificaciones: "Número de puntos de anclaje anticaídas : 2\nPunto de anclaje anticaídas : Dorsal - Esternal\nTipo de punto de anclaje anticaída : Dorsal + esternal A\nNúmero de puntos de anclaje de sujeción de trabajo : 4\nPuntos de anclaje de sujeción de trabajo : Cinturón (delantero) - Cinturón (trasero) - laterales\nPuntos de suspensión : Ventral",
+    Documentacion: [
+    { nombre: "Ficha técnica", url: "/fichas/altura/deltaplus/ficha petrolero.pdf"}
+    ],
+    categoria: "Protección en altura",
+    subcategoria: "Arneses / Kits",  
+    marca: "DELTA PLUS",
+    destacado: false,
+    
+    imagenes: [
+      "/imagenes/Productos/altura/arneses/petrolero1.webp","/imagenes/Productos/altura/arneses/petrolero2.webp","/imagenes/Productos/altura/arneses/petrolero3.webp"
+    ]
+  },
+  {
+    id: "altura-4",
+    nombre: "Arnés anticaída - Frontal 4 puntos",
+    Descripcion: "Composición del soporte principal : Acero - poliéster | Hebilla manual | Punto de anclaje anticaídas : 2 - Dorsal - Esternal | Puntos de anclaje de sujeción de trabajo : 2 - laterales | Número de puntos de anclaje anticaídas : 2",
+    Especificaciones: "Número de puntos de anclaje anticaídas : 2\nPunto de anclaje anticaídas : Dorsal - Esternal\nTipo de punto de anclaje anticaída : Dorsal + esternal A/2\nNúmero de puntos de anclaje de sujeción de trabajo : 2\nPuntos de anclaje de sujeción de trabajo : laterales",
+    Documentacion: [
+    { nombre: "Ficha técnica", url: "/fichas/altura/deltaplus/ficha petrolero.pdf"}
+    ],
+    categoria: "Protección en altura",
+    subcategoria: "Arneses / Kits",  
+    marca: "DELTA PLUS",
+    destacado: false,
+    
+    imagenes: [
+      "/imagenes/Productos/altura/arneses/4puntos1.webp","/imagenes/Productos/altura/arneses/4puntos2.webp","/imagenes/Productos/altura/arneses/4puntos3.webp"
+    ]
+  },
+  {
+    id: "altura-5",
+    nombre: "Cinturón liniero con cabo regulable 2M",
+    Descripcion: "Composición del soporte principal : Acero - poliéster | Hebilla manual | Puntos de anclaje de sujeción de trabajo : 2 - laterales",
+    Especificaciones: "Número de puntos de anclaje de sujeción de trabajo : 2\nPuntos de anclaje de sujeción de trabajo : laterales\nLongitud máxima (m) : 2 m\nLongitud mínima (m) : 1,2 m ",
+    Documentacion: [
+    { nombre: "Ficha técnica", url: "/fichas/altura/deltaplus/ficha liniero cabo.pdf"}
+    ],
+    categoria: "Protección en altura",
+    subcategoria: "Cinturones / Cabos",  
+    marca: "DELTA PLUS",
+    destacado: false,
+    
+    imagenes: [
+      "/imagenes/Productos/altura/cinturones/linierocabo1.webp","/imagenes/Productos/altura/cinturones/linierocabo2.webp","/imagenes/Productos/altura/cinturones/linierocabo3.webp"
+    ]
+  },
+  {
+    id: "altura-6",
+    nombre: "Cinturón liniero",
+    Descripcion: "Composición del soporte principal : Acero - poliéster | Hebilla manual | Puntos de anclaje de sujeción de trabajo : 2 - laterales",
+    Especificaciones: "Número de puntos de anclaje de sujeción de trabajo : 2\nPuntos de anclaje de sujeción de trabajo : laterales",
+    Documentacion: [
+    { nombre: "Ficha técnica", url: "/fichas/altura/deltaplus/ficha liniero.pdf"}
+    ],
+    categoria: "Protección en altura",
+    subcategoria: "Cinturones / Cabos",  
+    marca: "DELTA PLUS",
+    destacado: false,
+    
+    imagenes: [
+      "/imagenes/Productos/altura/cinturones/liniero1.webp","/imagenes/Productos/altura/cinturones/liniero2.webp","/imagenes/Productos/altura/cinturones/liniero3.webp"
+    ]
+  },
+  {
+    id: "altura-7",
+    nombre: "Cabo de vida de cinta CV21",
+    Descripcion: "Composición del soporte principal : Acero - poliéster | Tamaño mínimo del elemento de amarre : 1 m | Tamaño máximo del elemento de amarre : 1,5 m",
+    Especificaciones: "Tipo de equipamiento : Eslinga de cinta plana",
+    Documentacion: [
+    { nombre: "Ficha técnica", url: "/fichas/altura/deltaplus/ficha cv21.pdf"}
+    ],
+    categoria: "Protección en altura",
+    subcategoria: "Cinturones / Cabos",  
+    marca: "DELTA PLUS",
+    destacado: false,
+    
+    imagenes: [
+      "/imagenes/Productos/altura/cinturones/cv21-1.webp"
+    ]
+  },
+  {
+    id: "altura-8",
+    nombre: "Cabo de vida de cinta CV1020",
+    Descripcion: "Composición del soporte principal : Acero - poliéster | Hebilla manual - Acero | Tamaño mínimo del elemento de amarre : 1,2 m | Tamaño máximo del elemento de amarre : 2 m",
+    Especificaciones: "Tipo de equipamiento : Eslinga de cinta plana",
+    Documentacion: [
+    { nombre: "Ficha técnica", url: "/fichas/altura/deltaplus/ficha cv1020.pdf"}
+    ],
+    categoria: "Protección en altura",
+    subcategoria: "Cinturones / Cabos",  
+    marca: "DELTA PLUS",
+    destacado: false,
+    
+    imagenes: [
+      "/imagenes/Productos/altura/cinturones/cv1020.webp"
+    ]
+  },
+  {
+    id: "altura-9",
+    nombre: "Cabo de vida de cinta CV1020A",
+    Descripcion: "Composición del soporte principal : Acero - poliéster | Hebilla manual | Tamaño mínimo del elemento de amarre : 1,3 m | Tamaño máximo del elemento de amarre : 2 m | Compatibilidad : Compatible con todo tipo de arneses",
+    Especificaciones: "Tipo de equipamiento : Absorbedor de energía en cincha cabestro",
+    Documentacion: [
+    { nombre: "Ficha técnica", url: "/fichas/altura/deltaplus/ficha cv1020a.pdf"}
+    ],
+    categoria: "Protección en altura",
+    subcategoria: "Cinturones / Cabos",  
+    marca: "DELTA PLUS",
+    destacado: false,
+    
+    imagenes: [
+      "/imagenes/Productos/altura/cinturones/cv1020a.webp"
+    ]
+  },
+  {
+    id: "altura-10",
+    nombre: "Cabo de vida de cinta CV21A",
+    Descripcion: "Composición del soporte principal : Acero - poliéster | Tamaño máximo del elemento de amarre : 1,5 m | Compatibilidad : Compatible con todo tipo de arneses",
+    Especificaciones: "Tipo de equipamiento : Absorbedor de energía en cincha cabestro",
+    Documentacion: [
+    { nombre: "Ficha técnica", url: "/fichas/altura/deltaplus/ficha cv21a.pdf"}
+    ],
+    categoria: "Protección en altura",
+    subcategoria: "Cinturones / Cabos",  
+    marca: "DELTA PLUS",
+    destacado: false,
+    
+    imagenes: [
+      "/imagenes/Productos/altura/cinturones/cv21a.webp"
+    ]
+  },
+  {
+    id: "altura-11  ",
+    nombre: "Cabo de vida de cinta CV1026EA",
+    Descripcion: "Composición del soporte principal : Acero - poliéster | Largo : 1,5 m | Compatibilidad : Compatible con todo tipo de arneses",
+    Especificaciones: "Tipo de equipamiento : Cinta elástica, hebillas acanaladas",
+    Documentacion: [
+    { nombre: "Ficha técnica", url: "/fichas/altura/deltaplus/ficha cv1026ea.pdf"}
+    ],
+    categoria: "Protección en altura",
+    subcategoria: "Cinturones / Cabos",  
+    marca: "DELTA PLUS",
+    destacado: false,
+    
+    imagenes: [
+      "/imagenes/Productos/altura/cinturones/cv1026ea1.webp","/imagenes/Productos/altura/cinturones/cv1026ea2.webp"
+    ]
+  },
+  {
+    id: "altura-12  ",
+    nombre: "Cabo de vida de cinta CV1026AC",
+    Descripcion: "Composición del soporte principal : Acero - poliéster | Tamaño máximo del elemento de amarre : 1,5 m",
+    Especificaciones: "Longitud máxima (m) : 1,5 m",
+    Documentacion: [
+    { nombre: "Ficha técnica", url: "/fichas/altura/deltaplus/ficha cv1026ac.pdf"}
+    ],
+    categoria: "Protección en altura",
+    subcategoria: "Cinturones / Cabos",  
+    marca: "DELTA PLUS",
+    destacado: false,
+    
+    imagenes: [
+      "/imagenes/Productos/altura/cinturones/cv1026ac.webp"
+    ]
+  },
+];

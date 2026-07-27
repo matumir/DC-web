@@ -1,0 +1,45 @@
+# SPA fallback: cualquier ruta que no sea un archivo/carpeta real
+# se sirve con index.html para que React Router la resuelva en el navegador.
+<IfModule mod_rewrite.c>
+  RewriteEngine On
+  RewriteBase /
+  RewriteRule ^index\.html$ - [L]
+  RewriteCond %{REQUEST_FILENAME} !-f
+  RewriteCond %{REQUEST_FILENAME} !-d
+  RewriteRule . /index.html [L]
+</IfModule>
+
+# Compresión gzip para texto/JS/CSS/SVG/JSON/XML
+<IfModule mod_deflate.c>
+  AddOutputFilterByType DEFLATE text/html text/css text/javascript application/javascript
+  AddOutputFilterByType DEFLATE application/json application/xml text/xml image/svg+xml
+</IfModule>
+
+# Cache-Control:
+# - JS/CSS: Vite les agrega hash al nombre, son inmutables -> cache largo (1 año).
+# - Imágenes: nombres fijos (sin hash), pueden reemplazarse -> cache moderado (30 días).
+# - HTML/sitemap/robots: el contenido puede cambiar (productos, pre-render) -> sin cache, siempre revalidar.
+<IfModule mod_expires.c>
+  ExpiresActive On
+  ExpiresByType text/css "access plus 1 year"
+  ExpiresByType application/javascript "access plus 1 year"
+  ExpiresByType image/webp "access plus 1 month"
+  ExpiresByType image/png "access plus 1 month"
+  ExpiresByType image/jpeg "access plus 1 month"
+  ExpiresByType image/svg+xml "access plus 1 month"
+  ExpiresByType text/html "access plus 0 seconds"
+  ExpiresByType application/xml "access plus 0 seconds"
+  ExpiresByType text/plain "access plus 0 seconds"
+</IfModule>
+
+<IfModule mod_headers.c>
+  <FilesMatch "\.(js|css)$">
+    Header set Cache-Control "public, max-age=31536000, immutable"
+  </FilesMatch>
+  <FilesMatch "\.(webp|png|jpe?g|svg)$">
+    Header set Cache-Control "public, max-age=2592000"
+  </FilesMatch>
+  <FilesMatch "\.(html|xml|txt)$">
+    Header set Cache-Control "no-cache, must-revalidate"
+  </FilesMatch>
+</IfModule>
