@@ -695,6 +695,56 @@ export const guantes = [
     colores: [
       { nombre: "BLANCO", imagenes: ["/imagenes/Productos/guantes/tejidos/tejidonatural.webp"] }
     ]
+  },
+  {
+    id: "guantes-42",
+    nombre: "Guante Americano Descarne",
+    Descripcion: "Guante americano de Descarne",
+    Especificaciones: "Producto certificado: Norma IRAM 3607-3608.\nGuante construido con cuero descarne.\nPuño corto de lona.\nConfortable y resistente.\nPiezas unidas entre sí con costuras simples.",
+    Documentacion: [
+    { nombre: "Ficha técnica ", url: "/fichas/guantes/dps/americanodescarne.pdf"}
+    ],
+    categoria: "Guantes",
+    subcategoria: "Cuero",
+    marca: "DE PASCALE",
+    destacado: false,
+    talles: ["ÚNICO"],
+    colores: [
+      { nombre: "AMARILLO", imagenes: ["/imagenes/Productos/guantes/cuero/descarneamericano1.webp","/imagenes/Productos/guantes/cuero/descarneamericano2.webp" ] }
+    ]
+  },
+  {
+    id: "guantes-42",
+    nombre: "Guante Americano Descarne puño corto tejido",
+    Descripcion: "Guante americano de Descarne",
+    Especificaciones: "Producto certificado: Norma IRAM 3607-3608.\nGuante construido con cuero descarne.\nPuño corto de lona.\nConfortable y resistente.\nPiezas unidas entre sí con costuras simples.",
+    Documentacion: [
+    { nombre: "Ficha técnica ", url: "/fichas/guantes/dps/americanodescarne.pdf"}
+    ],
+    categoria: "Guantes",
+    subcategoria: "Cuero",
+    marca: "DE PASCALE",
+    destacado: false,
+    talles: ["ÚNICO"],
+    colores: [
+      { nombre: "AMARILLO", imagenes: ["/imagenes/Productos/guantes/cuero/descarneamericano1.webp","/imagenes/Productos/guantes/cuero/descarneamericano2.webp" ] }
+    ]
+  },
+  {
+    id: "guantes-43",
+    nombre: "Guante Americano Descarne puño corto de lona",
+    Descripcion: "Guante americano de Descarne con puño corto de lona",
+    Especificaciones: "Guante Americano descarne.\nConstruido con cuero americano descarne gris.\nPuño tejido.\nAlto nivel de resistencia al desgarre.\nRefuerzo simple.",
+    Documentacion: [
+    { nombre: "Ficha técnica ", url: "/fichas/guantes/dps/americanodescarnegris.pdf"}
+    ],
+    categoria: "Guantes",
+    subcategoria: "Cuero",
+    marca: "DE PASCALE",
+    destacado: false,
+    talles: ["ÚNICO"],
+    colores: [
+      { nombre: "GRIS", imagenes: ["/imagenes/Productos/guantes/cuero/descarneamericanogris.webp","/imagenes/Productos/guantes/cuero/descarneamericanogris2.webp","/imagenes/Productos/guantes/cuero/descarneamericanogris3.webp" ] }
+    ]
   }
-  
 ];

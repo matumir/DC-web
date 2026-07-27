@@ -711,4 +711,117 @@ export const indumentaria = [
       { nombre: "NEGRO", imagenes: ["/imagenes/Productos/indumentaria/abrigo/chalecocirenegro.webp"] }
     ]
   },
+   {
+    id: "indumentaria-39",
+    nombre: "Gorra Gabardina Modelo Sandwich",
+    Descripcion: "Gorra de gabardina 65 % poliester / 35 % algodon, 6 gajos con cierre velcro, casco y visera de color con vivo blanco.\nVariedad de colores.\nApto para bordado.",
+    Especificaciones: "Material: 65 % poliester / 35 % algodon\n6 gajos con cierre velcro",
+    Documentacion: [{ nombre: "No disponible" }],
+    categoria: "Indumentaria",
+    subcategoria: "Gorras",
+    marca: "",
+    destacado: false,
+    talles: ["ÚNICO"],
+    colores: [
+    {nombre: "NEGRO", imagenes: ["/imagenes/Productos/indumentaria/gorras/gorrasandnegra.webp"] },
+    {nombre: "AZUL MARINO",  imagenes: ["/imagenes/Productos/indumentaria/gorras/gorrasandazulmarino.webp"] },
+    {nombre: "AZUL FRANCIA",  imagenes: ["/imagenes/Productos/indumentaria/gorras/gorrasandazulfrancia.webp"] },
+    {nombre: "ROJO",  imagenes: ["/imagenes/Productos/indumentaria/gorras/gorrasandroja.webp"] }
+  ],
+},
+  {
+    id: "indumentaria-40",
+    nombre: "Gorra Gabardina Esmerilada",
+    Descripcion: "Gorra de gabardina esmerilada 100% algodón, de 6 gajos y con cierre con corredera metálica. Apto para bordado, ideal para uso laboral y promocional.",
+    Especificaciones: "Material: Gabardina esmerilada 100% algodón\nEstructura: 6 gajos\nCierre: Corredera metálica\nApto para bordado",
+    Documentacion: [
+    { nombre: "No disponible" }
+    ],
+    categoria: "Indumentaria",
+    subcategoria: "Gorras",
+    marca: "",
+    destacado: false,
+    talles: ["ÚNICO"],
+    colores: [
+      { nombre: "BEIGE", imagenes: ["/imagenes/Productos/indumentaria/gorras/gorrogabardinabeige.webp"] }
+    ]
+  },
+  {
+    id: "indumentaria-41",
+    nombre: "Gorra Vintage",
+    Descripcion: "Gorra vintage lisa y ajustable de 6 gajos, confeccionada en gabardina con lavado que le aporta un aspecto clásico y ligeramente desgastado. Cierre regulable en el dorso. Ideal para uso promocional, merchandising, comercios e instituciones. Apta para bordado.",
+    Especificaciones: "Estructura: 6 gajos\nEstilo: Vintage / prelavado\nCierre: Regulable\nApta para bordado",
+    Documentacion: [{ nombre: "No disponible" }],
+    categoria: "Indumentaria",
+    subcategoria: "Gorras",
+    marca: "",
+    destacado: false,
+    talles: ["ÚNICO"],
+    colores: [
+      { nombre: "GRIS", imagenes: ["/imagenes/Productos/indumentaria/gorras/gorravintagegris.webp"] },
+      { nombre: "NEGRO", imagenes: ["/imagenes/Productos/indumentaria/gorras/gorravintagenegro.webp"] }
+    ]
+  },
+  {
+    id: "indumentaria-42",
+    nombre: "Gorra Gabardina Algodón Premium",
+    Descripcion: "Gorra de gabardina de algodón premium, regulable, de estructura clásica y excelente terminación. Versátil y cómoda para uso diario, laboral o promocional. Apta para bordado.",
+    Especificaciones: "Material: Gabardina de algodón premium\nCierre: Regulable\nApta para bordado",
+    Documentacion: [{ nombre: "No disponible" }],
+    categoria: "Indumentaria",
+    subcategoria: "Gorras",
+    marca: "",
+    destacado: false,
+    talles: ["ÚNICO"],
+    colores: [
+      { nombre: "GRIS", imagenes: ["/imagenes/Productos/indumentaria/gorras/gorragabardinapremiumgris.webp"] }
+    ]
+  },
+  {
+    id: "indumentaria-43",
+    nombre: "Gorra Trucker Frente Blanco",
+    Descripcion: "Gorra modelo trucker con frente blanco espumado y dorso de malla (mesh) de color. 5 gajos con cierre de cremallera. Gran variedad de colores y stock permanente. Apto para sublimado y bordado.",
+    Especificaciones: "Modelo: Trucker\nFrente: Blanco espumado\nDorso: Malla (mesh) de color\nEstructura: 5 gajos\nCierre: Cremallera\nApto para sublimado / bordado",
+    Documentacion: [{ nombre: "No disponible" }],
+    categoria: "Indumentaria",
+    subcategoria: "Gorras",
+    marca: "",
+    destacado: false,
+    talles: ["ÚNICO"],
+    colores: [
+      { nombre: "BORDÓ", imagenes: ["/imagenes/Productos/indumentaria/gorras/gorratruckerfrenteblancobordo.webp"] },
+      { nombre: "AZUL MARINO", imagenes: ["/imagenes/Productos/indumentaria/gorras/gorratruckerfrenteblancoazulmarino.webp"] },
+      { nombre: "NEGRO", imagenes: ["/imagenes/Productos/indumentaria/gorras/gorratruckerfrenteblanconegro.webp"] },
+    ]
+  },
+  {
+    id: "indumentaria-44",
+    nombre: "Gorra Trucker Gabardina",
+    Descripcion: "Gorra trucker de gabardina para adulto, con frente de gabardina y dorso de malla (mesh). Moderna, cómoda y de gran presencia. Ideal para promociones, uniformes y merchandising. Apta para bordado.",
+    Especificaciones: "Modelo: Trucker\nFrente: Gabardina\nDorso: Malla (mesh)\nCierre: Regulable\nApta para bordado",
+    Documentacion: [{ nombre: "No disponible" }],
+    categoria: "Indumentaria",
+    subcategoria: "Gorras",
+    marca: "",
+    destacado: false,
+    talles: ["ÚNICO"],
+    colores: [
+      { nombre: "AZUL MARINO", imagenes: ["/imagenes/Productos/indumentaria/gorras/gorratruckergabardinaazulmarino.webp"] }
+    ]
+  },
+  {
+    id: "indumentaria-45",
+    nombre: "Gorra Gabardina Prelavada",
+    Descripcion: "Gorra con visera confeccionado en gabardina prelavada, con combinación de tres colores entre frente, visera y dorso. Corredera metálica en el dorso para ajuste. Apto para bordado.",
+    Especificaciones: "Material: Gabardina prelavada\nDiseño: Triple color (frente, visera y dorso)\nCierre: Corredera metálica en el dorso\nApta para bordado",
+    Documentacion: [{ nombre: "No disponible" }],
+    categoria: "Indumentaria",
+    subcategoria: "Gorras",
+    marca: "",
+    destacado: false,
+    talles: ["ÚNICO"],
+    colores: [
+      { nombre: "BEIGE", imagenes: ["/imagenes/Productos/indumentaria/gorras/gorragabardinaprelavadabeige.webp"] }
+    ]
+  },
 ];
