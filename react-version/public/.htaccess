@@ -1,8 +1,14 @@
-# SPA fallback: cualquier ruta que no sea un archivo/carpeta real
-# se sirve con index.html para que React Router la resuelva en el navegador.
 <IfModule mod_rewrite.c>
   RewriteEngine On
   RewriteBase /
+
+  # Canonicalización de dominio: redirige no-www -> www con 301 (permanente).
+  # Consolida las señales de SEO bajo una sola URL: https://www.distribuidoracastelli.com
+  RewriteCond %{HTTP_HOST} ^distribuidoracastelli\.com$ [NC]
+  RewriteRule ^(.*)$ https://www.distribuidoracastelli.com/$1 [R=301,L]
+
+  # SPA fallback: cualquier ruta que no sea un archivo/carpeta real
+  # se sirve con index.html para que React Router la resuelva en el navegador.
   RewriteRule ^index\.html$ - [L]
   RewriteCond %{REQUEST_FILENAME} !-f
   RewriteCond %{REQUEST_FILENAME} !-d
