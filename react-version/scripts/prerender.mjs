@@ -105,7 +105,13 @@ async function main() {
         } catch {
           console.warn(`  ⚠ ${ruta}: no se detectó contenido renderizado a tiempo, se guarda igual`);
         }
-        const html = await page.content();
+        let html = await page.content();
+
+        // React Router / Vite inyectan <link rel="modulepreload" href="http://localhost:4321/assets/...">
+        // con la URL ABSOLUTA del server de prerender. Si quedan en el HTML, el navegador del
+        // visitante intenta buscar esos assets en localhost -> dispara el permiso de "acceso a la
+        // red local" de Chrome. Los convertimos a rutas relativas para que apunten al sitio real.
+        html = html.split(BASE_URL).join("");
 
         const destino = ruta === "/" ? distDir : join(distDir, ruta);
         mkdirSync(destino, { recursive: true });
