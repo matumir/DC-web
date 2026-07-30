@@ -978,6 +978,29 @@ transform: translateY(-10px);
   left: 16px;
 }
 
+/* Texto institucional (Home): menos padding y tipografía más chica en mobile */
+.texto-institucional {
+  margin: 24px 0 40px;
+  padding: 0 16px;
+}
+
+.texto-institucional-contenido {
+  padding: 24px 20px;
+}
+
+.texto-institucional h2 {
+  font-size: 22px;
+}
+
+.texto-institucional h3 {
+  font-size: 18px;
+  margin: 22px 0 10px;
+}
+
+.texto-institucional p {
+  font-size: 15px;
+}
+
 /* Teaser Empresas (Home): apilado en mobile */
 .empresas-teaser {
   flex-direction: column;

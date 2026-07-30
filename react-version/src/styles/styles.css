@@ -2297,6 +2297,56 @@ display: none;
   border-color: #4abcb1;
 }
 
+/* =====================
+   TEXTO INSTITUCIONAL (HOME)
+===================== */
+.texto-institucional {
+  max-width: 1400px;
+  margin: 40px auto 60px;
+  padding: 0 30px;
+}
+
+.texto-institucional-contenido {
+  background: #fff;
+  border-radius: 12px;
+  padding: 40px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.06);
+}
+
+.texto-institucional h2 {
+  font-size: 28px;
+  color: #12414a;
+  margin-bottom: 18px;
+}
+
+.texto-institucional h3 {
+  font-size: 20px;
+  color: #12414a;
+  margin: 28px 0 12px;
+}
+
+.texto-institucional p {
+  font-size: 15.5px;
+  line-height: 1.7;
+  color: #444;
+  margin-bottom: 14px;
+  max-width: 900px;
+}
+
+.texto-institucional strong {
+  color: #12414a;
+}
+
+.texto-institucional a {
+  color: #12414a;
+  font-weight: 600;
+  text-decoration: underline;
+}
+
+.texto-institucional a:hover {
+  color: #4abcb1;
+}
+
 /* CONTENEDOR CARRUSEL */
 .marcas-carrusel {
   position: relative;

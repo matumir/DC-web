@@ -112,7 +112,7 @@ export const señalizacion = [
     ],
     categoria: "Señalización",
     subcategoria: "Indumentaria",  
-    marca: "MAXIMO ESFUERZO",
+    marca: "MÁXIMO ESFUERZO",
     destacado: false,
     colores:[
         {nombre: "Naranja f", imagenes: ["/imagenes/Productos/señalizacion/bandonaranja.webp"]},

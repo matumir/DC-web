@@ -27,7 +27,7 @@ export const marcas = [
   { nombre: "PRACTY BOTIQUIN", imagen: "/imagenes/marcas/practybotiquin.webp" },
   { nombre: "YUKON", imagen: "/imagenes/marcas/yukon.webp" },
   { nombre: "STRONG SAFETY", imagen: "/imagenes/marcas/strongsafety.webp" },
-  { nombre: "MAXIMO ESFUERZO", imagen: "/imagenes/marcas/maximoesfuerzo.webp" },
+  { nombre: "MÁXIMO ESFUERZO", imagen: "/imagenes/marcas/maximoesfuerzo.webp" },
   { nombre: "SEGURIND", imagen: "/imagenes/marcas/segurind.webp" },
   { nombre: "LA MEJOR", imagen: "/imagenes/marcas/lamejor.webp" },
 ];

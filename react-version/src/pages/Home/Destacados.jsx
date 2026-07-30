@@ -55,7 +55,11 @@ export default function Destacados() {
                 <h4>
                   {p.marca} | {p.nombre}
                 </h4>
-                <Link className="btn-ver-des" to={productoUrl(p)}>
+                <Link
+                  className="btn-ver-des"
+                  to={productoUrl(p)}
+                  aria-label={`Ver en detalle ${p.marca ? `${p.marca} ` : ""}${p.nombre}`}
+                >
                   Ver en detalle
                 </Link>
               </div>

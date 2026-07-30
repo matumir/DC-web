@@ -44,7 +44,12 @@ export default function CategoriasHome() {
               <div className="categoria-card" key={cat.nombre}>
                 <h3>{cat.nombre}</h3>
                 <img src={cat.img} loading="lazy" decoding="async" alt={cat.nombre} />
-                <Link to={`/productos/filtrar/${slugify(cat.nombre)}/todas/todas`}>Ver productos</Link>
+                <Link
+                  to={`/productos/filtrar/${slugify(cat.nombre)}/todas/todas`}
+                  aria-label={`Ver productos de ${cat.nombre}`}
+                >
+                  Ver productos
+                </Link>
               </div>
             ))}
           </div>

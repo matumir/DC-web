@@ -81,7 +81,11 @@ export default function TarjetaProducto({ producto }) {
       <h4>
         {producto.marca} | {producto.nombre}
       </h4>
-      <Link className="btn-ver" to={productoUrl(producto)}>
+      <Link
+        className="btn-ver"
+        to={productoUrl(producto)}
+        aria-label={`Ver en detalle ${producto.marca ? `${producto.marca} ` : ""}${producto.nombre}`}
+      >
         Ver en detalle
       </Link>
     </div>

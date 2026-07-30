@@ -62,6 +62,7 @@ export default function Relacionados({ producto }) {
                   className="btn-ver fijo"
                   to={productoUrl(p)}
                   onClick={(e) => e.stopPropagation()}
+                  aria-label={`Ver detalle ${p.marca ? `${p.marca} ` : ""}${p.nombre}`}
                 >
                   Ver detalle
                 </Link>

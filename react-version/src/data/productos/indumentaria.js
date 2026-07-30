@@ -600,14 +600,14 @@ export const indumentaria = [
   {
     id: "indumentaria-33",
     nombre: "Protector lumbar",
-    Descripcion: "MAXIMO ESFUERZO está diseñada bajo un concepto anatómico simétrico. Su función principal es la de apoyar a la zona lumbar central con ballenas que refuerzan la columna. Está provista con sus tiradores de soporte elástico.",
+    Descripcion: "MÁXIMO ESFUERZO está diseñada bajo un concepto anatómico simétrico. Su función principal es la de apoyar a la zona lumbar central con ballenas que refuerzan la columna. Está provista con sus tiradores de soporte elástico.",
     Especificaciones: "Tiradores Elasticos regulables\nMalla elastizada reforzada\nBandas Lateralas y regulables\nGran Superficie de ajuste en el cuerpo principal\nVelcro de alta ressitencia\nBallenas en la parte posterior provista con cinta antideslizante para evitar su desplazamiento\n\nGUÍA DE TALLES:\nTALLE 1 (S): 85 \n95 CM\nTALLE 2 (M): 95 \n105 CM\nTALLE 3 (L): 105 \n115 CM\nTALLE 4 (XL): 115 \n125 CM\nTALLE 5 (XXL): 125 \n135 CM",
     Documentacion: [
     { nombre: "No disponible"}
     ],
     categoria: "Indumentaria",
     subcategoria: "Fajas Protectoras Lumbares",  
-    marca: "MAXIMO ESFUERZO",
+    marca: "MÁXIMO ESFUERZO",
     destacado: false,
     talles: ["S","M","L","XL","XXL"],
     imagenes: [
