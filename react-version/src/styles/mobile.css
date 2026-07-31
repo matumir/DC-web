@@ -978,27 +978,81 @@ transform: translateY(-10px);
   left: 16px;
 }
 
-/* Texto institucional (Home): menos padding y tipografía más chica en mobile */
-.texto-institucional {
-  margin: 24px 0 40px;
+/* Institucional (Home): una sola columna en mobile */
+.home-institucional {
+  padding: 36px 16px;
+  margin-top: 24px;
+}
+
+.home-institucional-inner {
+  grid-template-columns: 1fr;
+  gap: 24px;
+}
+
+.home-institucional-imagen img {
+  height: 220px;
+}
+
+.home-institucional-texto h2 {
+  font-size: 24px;
+}
+
+/* Líneas de productos: apiladas, imagen arriba y texto abajo en todas las filas */
+.lineas-productos {
+  margin: 36px auto;
   padding: 0 16px;
 }
 
-.texto-institucional-contenido {
-  padding: 24px 20px;
+.lineas-header h2 {
+  font-size: 24px;
 }
 
-.texto-institucional h2 {
+.linea-fila,
+.linea-fila.invertida {
+  grid-template-columns: 1fr;
+  margin-bottom: 20px;
+}
+
+/* En mobile la imagen siempre va primero, sin alternar */
+.linea-fila .linea-imagen {
+  order: 1;
+}
+
+.linea-fila .linea-texto,
+.linea-fila.invertida .linea-texto {
+  order: 2;
+  padding: 26px 20px;
+}
+
+.linea-imagen img {
+  min-height: 240px;
+  height: 240px;
+}
+
+.linea-texto h3 {
+  font-size: 20px;
+}
+
+.linea-btn {
+  width: 100%;
+  text-align: center;
+  align-self: stretch;
+}
+
+/* CTA final: apilado */
+.cta-final {
+  grid-template-columns: 1fr;
+  gap: 36px;
+  margin-bottom: 45px;
+  padding: 0 16px;
+}
+
+.cta-final-col h2 {
   font-size: 22px;
 }
 
-.texto-institucional h3 {
-  font-size: 18px;
-  margin: 22px 0 10px;
-}
-
-.texto-institucional p {
-  font-size: 15px;
+.cta-final-col .btn-principal {
+  width: 100%;
 }
 
 /* Teaser Empresas (Home): apilado en mobile */

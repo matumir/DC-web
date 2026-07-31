@@ -2298,53 +2298,198 @@ display: none;
 }
 
 /* =====================
-   TEXTO INSTITUCIONAL (HOME)
+   INSTITUCIONAL (HOME)
 ===================== */
-.texto-institucional {
-  max-width: 1400px;
-  margin: 40px auto 60px;
+.home-institucional {
+  background: #f0f3f5;
+  padding: 60px 30px;
+  margin-top: 40px;
+}
+
+.home-institucional-inner {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 50px;
+  align-items: center;
+}
+
+.home-institucional-imagen img {
+  width: 100%;
+  height: 320px;
+  object-fit: cover;
+  border-radius: 10px;
+  display: block;
+}
+
+.home-institucional-texto h2 {
+  font-size: 30px;
+  color: #12414a;
+  margin-bottom: 16px;
+  line-height: 1.25;
+}
+
+.home-institucional-texto p {
+  font-size: 15.5px;
+  line-height: 1.7;
+  color: #555;
+  margin-bottom: 14px;
+}
+
+.link-subrayado {
+  display: inline-block;
+  margin-top: 8px;
+  color: #12414a;
+  font-weight: 700;
+  text-decoration: none;
+  border-bottom: 2px solid #4abcb1;
+  padding-bottom: 4px;
+  transition: color 0.2s ease, border-color 0.2s ease;
+}
+
+.link-subrayado:hover {
+  color: #4abcb1;
+}
+
+/* =====================
+   LÍNEAS DE PRODUCTOS (HOME)
+===================== */
+.lineas-productos {
+  max-width: 1200px;
+  margin: 60px auto;
   padding: 0 30px;
 }
 
-.texto-institucional-contenido {
-  background: #fff;
+.lineas-header {
+  border-bottom: 2px solid #e0e5e8;
+  margin-bottom: 28px;
+}
+
+.lineas-header h2 {
+  font-size: 30px;
+  color: #12414a;
+  display: inline-block;
+  padding-bottom: 12px;
+  margin-bottom: -2px;
+  border-bottom: 3px solid #12414a;
+}
+
+.linea-fila {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: stretch;
+  margin-bottom: 28px;
   border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.06);
+}
+
+.linea-fila:last-child {
+  margin-bottom: 0;
+}
+
+/* Filas pares: la imagen va a la izquierda y el texto a la derecha */
+.linea-fila.invertida .linea-texto {
+  order: 2;
+}
+
+.linea-texto {
+  background: #eef2f5;
   padding: 40px;
-  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.06);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
-.texto-institucional h2 {
-  font-size: 28px;
-  color: #12414a;
-  margin-bottom: 18px;
-}
-
-.texto-institucional h3 {
-  font-size: 20px;
-  color: #12414a;
-  margin: 28px 0 12px;
-}
-
-.texto-institucional p {
-  font-size: 15.5px;
-  line-height: 1.7;
-  color: #444;
+.linea-icono {
+  width: 56px;
+  height: 56px;
+  object-fit: contain;
   margin-bottom: 14px;
-  max-width: 900px;
 }
 
-.texto-institucional strong {
+.linea-texto h3 {
+  font-size: 22px;
   color: #12414a;
+  margin-bottom: 12px;
 }
 
-.texto-institucional a {
+.linea-texto p {
+  font-size: 15px;
+  line-height: 1.65;
+  color: #555;
+  margin-bottom: 16px;
+}
+
+.linea-categorias {
+  list-style: none;
+  margin-bottom: 22px;
+}
+
+.linea-categorias li {
+  margin-bottom: 6px;
+}
+
+.linea-categorias a {
   color: #12414a;
+  font-size: 15px;
   font-weight: 600;
+  text-decoration: none;
+  transition: color 0.2s ease;
+}
+
+.linea-categorias a:hover {
+  color: #4abcb1;
   text-decoration: underline;
 }
 
-.texto-institucional a:hover {
-  color: #4abcb1;
+.linea-btn {
+  width: auto;
+  align-self: flex-start;
+  margin-top: 0;
+  padding: 12px 26px;
+  text-decoration: none;
+  font-weight: 700;
+  transition: background 0.2s ease;
+}
+
+.linea-btn:hover {
+  background: #4abcb1;
+}
+
+.linea-imagen img {
+  width: 100%;
+  height: 100%;
+  min-height: 380px;
+  object-fit: cover;
+  display: block;
+}
+
+/* =====================
+   CTA FINAL (HOME)
+===================== */
+.cta-final {
+  max-width: 1200px;
+  margin: 0 auto 70px;
+  padding: 0 30px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 50px;
+  text-align: center;
+}
+
+.cta-final-col h2 {
+  font-size: 26px;
+  color: #12414a;
+  margin-bottom: 12px;
+}
+
+.cta-final-col p {
+  font-size: 15.5px;
+  line-height: 1.6;
+  color: #555;
+  margin-bottom: 24px;
 }
 
 /* CONTENEDOR CARRUSEL */

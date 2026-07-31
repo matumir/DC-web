@@ -3,7 +3,9 @@ import CategoriasHome from "./CategoriasHome";
 import Destacados from "./Destacados";
 import EmpresasTeaser from "./EmpresasTeaser";
 import MarcasCarrusel from "./MarcasCarrusel";
-import TextoInstitucional from "./TextoInstitucional";
+import SobreNosotrosHome from "./SobreNosotrosHome";
+import LineasProductos from "./LineasProductos";
+import CtaFinalHome from "./CtaFinalHome";
 import { useDocumentMeta } from "../../hooks/useDocumentMeta";
 import { useStructuredData } from "../../hooks/useStructuredData";
 import { SITE_URL } from "../../data/siteUrl";
@@ -53,7 +55,9 @@ export default function Home() {
       <Destacados />
       <EmpresasTeaser />
       <MarcasCarrusel />
-      <TextoInstitucional />
+      <SobreNosotrosHome />
+      <LineasProductos />
+      <CtaFinalHome />
     </>
   );
 }
