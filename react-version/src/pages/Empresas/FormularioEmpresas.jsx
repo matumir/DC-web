@@ -43,12 +43,13 @@ export default function FormularioEmpresas() {
     e.preventDefault();
     if (!validar()) return;
 
-    const msg = `**MENSAJE DE EMPRESA**
-Empresa: ${valores.empresa}
-Localidad: ${valores.localidad}, ${valores.provincia}
-Remitente: ${valores.remitente}
-Motivo del mensaje: ${valores.motivo}
-Mensaje: ${valores.mensaje}`;
+    // WhatsApp marca negrita con un solo asterisco a cada lado (*texto*).
+    const msg = `*MENSAJE DE EMPRESA*
+*Empresa:* ${valores.empresa}
+*Localidad:* ${valores.localidad}, ${valores.provincia}
+*Remitente:* ${valores.remitente}
+*Motivo del mensaje:* ${valores.motivo}
+*Mensaje:* ${valores.mensaje}`;
 
     window.open(`https://wa.me/${WHATSAPP_NUMBER}?text=${encodeURIComponent(msg)}`);
     setEnviado(true);
