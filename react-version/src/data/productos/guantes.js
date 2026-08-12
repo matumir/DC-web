@@ -714,7 +714,7 @@ export const guantes = [
     ]
   },
   {
-    id: "guantes-42",
+    id: "guantes-46",
     nombre: "Guante Americano Descarne puño corto tejido",
     Descripcion: "Guante americano de Descarne",
     Especificaciones: "Producto certificado: Norma IRAM 3607-3608.\nGuante construido con cuero descarne.\nPuño corto de lona.\nConfortable y resistente.\nPiezas unidas entre sí con costuras simples.",

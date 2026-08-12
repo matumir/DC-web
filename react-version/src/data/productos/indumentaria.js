@@ -512,7 +512,7 @@ export const indumentaria = [
     ]
   },
   {
-    id: "indumentaria-28",
+    id: "indumentaria-46",
     nombre: "Traje de Lluvia",
     Descripcion: "El Traje de Lluvia en PVC 32 micrones está diseñado para brindar protección total frente a la lluvia y la humedad en entornos laborales exigentes. Confeccionado en material impermeable de alta resistencia, ofrece una barrera eficaz contra el agua sin comprometer funcionalidad.\nLa chaqueta incorpora capucha desmontable, sistema de ventilación con red, cierre frontal y puños elásticos, permitiendo mayor confort y adaptación según las condiciones climáticas. El jardinero cuenta con broches en la bragueta y botamangas, además de refuerzo en la entrepierna, asegurando durabilidad en zonas de mayor movimiento.",
     Especificaciones: "PVC 32 Micrones de Alta Impermeabilidad: Material resistente que brinda protección total frente a lluvia y humedad constante.\nProtección Integral: Conjunto compuesto por chaqueta y jardinero para cobertura completa del cuerpo.\nChaqueta con Capucha Desmontable: Permite adaptarse a distintas condiciones climáticas y necesidades de uso.\nSistema de Ventilación con Red: Favorece la circulación de aire interior, reduciendo la condensación y mejorando el confort.\nCierre Frontal Seguro: Facilita la colocación y asegura protección frente al ingreso de agua.\nPuños Elásticos: Mejor ajuste en muñecas para evitar filtraciones.\nJardinero con Broches en Bragueta y Botamangas: Ajuste práctico y mayor protección en zonas expuestas.\nRefuerzo en Entrepierna: Mayor resistencia en área de alta exigencia y movimiento constante.",

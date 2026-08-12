@@ -275,7 +275,7 @@ export const insumos = [
     ]
   },
   {
-    id: "insumos-17",
+    id: "insumos-611",
     nombre: "Aromatizador de ambientes - Jazmín Sunset",
     Descripcion: "Es la opción perfecta para mantener tu hogar siempre fresco y agradable. Se adapta fácilmente a cualquier difusor automático estándar.\nTransforma cada espacio en un ambiente puro y confortable. Su formato práctico asegura un uso prolongado y constante, manteniendo la frescura sin esfuerzo.",
     Especificaciones: "Volumen de la unidad: 270 mL.\nPeso de la unidad: 185 g.\nUnidades por pack: 1.\nCompatible con difusor automáticos estándar\nFragancia fresca y duradera para todos los ambientes",
@@ -659,7 +659,7 @@ export const insumos = [
     ]
   },
   {
-    id: "insumos-41",
+    id: "insumos-612",
     nombre: "Botiquín de madera laqueada N° 6",
     Descripcion: "Botiquines de Madera / Madera tradicional\nMadera natural laqueada.\nMedidas: 185 x 138 x 105 mm\nCantidad de productos: 24",
     Especificaciones: "Contenido:\n7 Sobres de Gasa Estéril Hidrófila de 10 x 10 cm.\n1 sobre de algodón Hidrófilo x 70grs.\n2 sobres de alcohol. Uso externo.\n1 sobre de bicarbonato de Sodio x 25grs.\n1 Apósito quirúrgico estéril\n1 venda tipo Cambric orillada x 5cm. x 3 metros.\n1 x 10 apósito protector adhesivo.\n1 tubo de látex para ligaduras.\n1 fco. agua oxigenada 10 vol. x 100cc. Uso externo.\n1 fco. sol. antiséptica Timerosal x 60 cc. Uso externo.\n1 tela Adhesiva N°5 12.5 mm x 4 mts.\n1 pinza saca astillas.\n1 tijera de metal plegable.\n1 copita lava ojos plásticos.\n1 jabón antiséptico x 100 gramos.\n1 par de Guantes Descartables.\n1 guía de primeros auxilios.",

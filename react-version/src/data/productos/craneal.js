@@ -1,6 +1,6 @@
 export const craneal = [
     {
-    id: "craneal-1  ",
+    id: "craneal-1",
     nombre: "Casco de seguridad Milenium Class",
     Descripcion: "Casco de seguridad Milenium Class diseñado para proteger la cabeza del impacto de objetos que caen libremente",
     Especificaciones: "Diseño modular que permite el montaje de productos de protección facial, auditiva, ocular y soldadura.\nFabricado en polietileno, se distingue por su moderno diseño y excelente terminación.\nHebilla trasera para anclaje de mentonera de 3 puntos.\nVersiones: Sin ventilación.\nVisera estilo Jockey de 3,5 cm que permite optima visibilidad y excelente seguridad.\nProtección dieléctrica limitada hasta 20.000 Volts (ante contacto accidental con conductores de alta tensión)",

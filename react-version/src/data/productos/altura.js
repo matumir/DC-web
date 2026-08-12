@@ -170,7 +170,7 @@ export const altura = [
     ]
   },
   {
-    id: "altura-11  ",
+    id: "altura-11",
     nombre: "Cabo de vida de cinta CV1026EA",
     Descripcion: "Composición del soporte principal : Acero - poliéster | Largo : 1,5 m | Compatibilidad : Compatible con todo tipo de arneses",
     Especificaciones: "Tipo de equipamiento : Cinta elástica, hebillas acanaladas",
@@ -187,7 +187,7 @@ export const altura = [
     ]
   },
   {
-    id: "altura-12  ",
+    id: "altura-12",
     nombre: "Cabo de vida de cinta CV1026AC",
     Descripcion: "Composición del soporte principal : Acero - poliéster | Tamaño máximo del elemento de amarre : 1,5 m",
     Especificaciones: "Longitud máxima (m) : 1,5 m",

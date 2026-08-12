@@ -618,7 +618,7 @@ export const respiratoria = [
     ]
   },
   {
-    id: "respiratoria-37",
+    id: "respiratoria-54",
     nombre: "Kit 'Fumigador' (Comfos II + Filtro GV + Antiparra + Retenedor + Prefiltro)",
     Descripcion: "Kit Fumigador – Protección para trabajos con agroquímicos\nEl Kit Fumigador reúne los elementos esenciales de protección personal para trabajar con agroquímicos.\nIncluye: \nSemimáscara COMFOS II \n2 Filtros para gases ácidos y vapores orgánicos\n2 Prefiltros partículas N95 \n2 Retenedores para prefiltros redondos\nAntiparra 1702.",
     Especificaciones: "Ver detalle en productos individuales.",
