@@ -746,5 +746,39 @@ export const guantes = [
     colores: [
       { nombre: "GRIS", imagenes: ["/imagenes/Productos/guantes/cuero/descarneamericanogris.webp","/imagenes/Productos/guantes/cuero/descarneamericanogris2.webp","/imagenes/Productos/guantes/cuero/descarneamericanogris3.webp" ] }
     ]
+  },
+   {
+    id: "guantes-44",
+    nombre: "Guante jersey galga 7 moteado 1100XN",
+    Descripcion: "Guante tejido en una pieza, sin costuras que pueden irritar la piel. Garantiza la ventilación de las manos, evitando el calor y transpiración en las mismas. La versión “1100XN” de la línea MOTEADOS, presenta una estructura más duradera debido a la presencia del ALGODÓN combinado con el POLIÉSTER. Convirtiéndolo en un guante más robusto para actividades pesadas. Las motas de PVC – NIT GAMISOL sobre una de sus caras permiten que este guante ofrezca un agarre firme sin limitar los movimientos, con una estructura más gruesa apropiada para trabajos exigentes. Es una buena alternativa a los guantes de algodón de la línea JERSEY, gracias a la protección y el agarre logrados por su recubrimiento. La versión “1100XN” ó INDUSTRIAL, es ideal para tareas profesionales o con cierto grada de exigencia en la resistencia.",
+    Especificaciones: "Galga: 7\nTejido: Jersey\nComposición del tejido: Algodón, Poliéster\nComposición del recubrimiento: Moteado de PVC-NIT GAMISOL\nPuño: Elastizado",
+    Documentacion: [
+    { nombre: "Ficha técnica", url: "/fichas/guantes/gamisol/1100xn.pdf"}
+    ],
+    categoria: "Guantes",
+    subcategoria: "Tejidos",
+    marca: "GAMISOL",
+    destacado: false,
+    talles: ["ÚNICO"],
+    colores: [
+      { nombre: "GRIS", imagenes: ["/imagenes/Productos/guantes/tejidos/1100XN-FRENTE.webp","/imagenes/Productos/guantes/tejidos/1100XN-DORSO.webp" ] }
+    ]
+  },
+  {
+    id: "guantes-45",
+    nombre: "Guante jersey galga 7 moteado 1100FER",
+    Descripcion: "Guante tejido en una pieza, sin costuras que pueden irritar la piel. Garantiza la ventilación de las manos, evitando el calor y transpiración en las mismas. La versión “1100FER” de la línea MOTEADOS, presenta una estructura más duradera debido a la presencia exclusiva del ALGODÓN. Las motas de PVC – NIT GAMISOL en azul sobre una de sus caras permiten que este guante ofrezca un agarre firme sin limitar los movimientos, con una estructura más gruesa apropiada para trabajos exigentes. También como distintivo de un guante 100% ALGODÓN, es el elevado índice de evaporación de la transpiración como así también su confort. Es una buena alternativa a los guantes de algodón de la línea JERSEY, gracias a la protección y el agarre logrados por su recubrimiento. La versión “1100 FER” o guante FERRETRO de la línea MOTEADOS, es el punto justo entre calidad y precio. Ideal para tareas de arreglos, hobbistas o uso común en el hogar.",
+    Especificaciones: "Galga: 7\nTejido: Jersey\nComposición del tejido: Algodón\nComposición del recubrimiento: Moteado de PVC-NIT GAMISOL\nPuño: Elastizado",
+    Documentacion: [
+    { nombre: "Ficha técnica", url: "/fichas/guantes/gamisol/1100fer.pdf"}
+    ],
+    categoria: "Guantes",
+    subcategoria: "Tejidos",
+    marca: "GAMISOL",
+    destacado: false,
+    talles: ["ÚNICO"],
+    colores: [
+      { nombre: "GRIS", imagenes: ["/imagenes/Productos/guantes/tejidos/1100fer.webp","/imagenes/Productos/guantes/tejidos/1100fer-lat.webp","/imagenes/Productos/guantes/tejidos/1100fer-dorso.webp" ] }
+    ]
   }
 ];
