@@ -5,7 +5,7 @@ export const discos = [
     Descripcion: "La respuesta de DOBLE A para el corte y desbaste de aceros, fundición, aleaciones, entre otros. El corte justo. Precisión que garantiza un uso confortable y una terminación excelente, eliminando los retrabajos. Rapidez debido al alto poder de corte y baja temperatura de trabajo, elimina deformaciones y necesidades de ajuste. Economía por su costo inicial contenido y grandes prestaciones para una mejor productividad.",
     Especificaciones: "Código: DC T41 / DCCD T42 / DD T27 MASTER\nMallas: 2 en discos de corte y 3 en discos de desbaste\nAplicación: Aceros en general de baja y media aleación, piezas de acero inoxidable y de fundición\nFormatos disponibles: Discos\nPrecisión\nUso confortable\nExcelente Terminación\nCortes rápidos\nAlto poder de corte\nBaja temperatura de trabajo\nExcelente relación costo / beneficio",
     Documentacion: [
-    { nombre: "No disponible"}
+    { nombre: "Ficha técnica no disponible"}
     ],
     categoria: "Discos de corte",
     subcategoria: "Corte recto",  
@@ -21,7 +21,7 @@ export const discos = [
     Descripcion: "La respuesta de DOBLE A para el corte y desbaste de aceros, fundición, aleaciones, entre otros. El corte justo. Precisión que garantiza un uso confortable y una terminación excelente, eliminando los retrabajos. Rapidez debido al alto poder de corte y baja temperatura de trabajo, elimina deformaciones y necesidades de ajuste. Economía por su costo inicial contenido y grandes prestaciones para una mejor productividad.",
     Especificaciones: "Código: DC T41 / DCCD T42 / DD T27 MASTER\nMallas: 2 en discos de corte y 3 en discos de desbaste\nAplicación: Aceros en general de baja y media aleación, piezas de acero inoxidable y de fundición\nFormatos disponibles: Discos\nPrecisión\nUso confortable\nExcelente Terminación\nCortes rápidos\nAlto poder de corte\nBaja temperatura de trabajo\nExcelente relación costo / beneficio",
     Documentacion: [
-    { nombre: "No disponible"}
+    { nombre: "Ficha técnica no disponible"}
     ],
     categoria: "Discos de corte",
     subcategoria: "Corte recto",  
@@ -37,7 +37,7 @@ export const discos = [
     Descripcion: "La respuesta de DOBLE A para el corte y desbaste de aceros, fundición, aleaciones, entre otros. El corte justo. Precisión que garantiza un uso confortable y una terminación excelente, eliminando los retrabajos. Rapidez debido al alto poder de corte y baja temperatura de trabajo, elimina deformaciones y necesidades de ajuste. Economía por su costo inicial contenido y grandes prestaciones para una mejor productividad.",
     Especificaciones: "Código: DC T41 / DCCD T42 / DD T27 MASTER\nMallas: 2 en discos de corte y 3 en discos de desbaste\nAplicación: Aceros en general de baja y media aleación, piezas de acero inoxidable y de fundición\nFormatos disponibles: Discos\nPrecisión\nUso confortable\nExcelente Terminación\nCortes rápidos\nAlto poder de corte\nBaja temperatura de trabajo\nExcelente relación costo / beneficio",
     Documentacion: [
-    { nombre: "No disponible"}
+    { nombre: "Ficha técnica no disponible"}
     ],
     categoria: "Discos de corte",
     subcategoria: "Corte recto",  
@@ -53,7 +53,7 @@ export const discos = [
     Descripcion: "La respuesta de DOBLE A para el corte y desbaste de aceros, fundición, aleaciones, entre otros. El corte justo. Precisión que garantiza un uso confortable y una terminación excelente, eliminando los retrabajos. Rapidez debido al alto poder de corte y baja temperatura de trabajo, elimina deformaciones y necesidades de ajuste. Economía por su costo inicial contenido y grandes prestaciones para una mejor productividad.",
     Especificaciones: "Código: DC T41 / DCCD T42 / DD T27 MASTER\nMallas: 2 en discos de corte y 3 en discos de desbaste\nAplicación: Aceros en general de baja y media aleación, piezas de acero inoxidable y de fundición\nFormatos disponibles: Discos\nPrecisión\nUso confortable\nExcelente Terminación\nCortes rápidos\nAlto poder de corte\nBaja temperatura de trabajo\nExcelente relación costo / beneficio",
     Documentacion: [
-    { nombre: "No disponible"}
+    { nombre: "Ficha técnica no disponible"}
     ],
     categoria: "Discos de corte",
     subcategoria: "Corte centro deprimido",  
@@ -69,7 +69,7 @@ export const discos = [
     Descripcion: "La respuesta de DOBLE A para el corte y desbaste de aceros, fundición, aleaciones, entre otros. El corte justo. Precisión que garantiza un uso confortable y una terminación excelente, eliminando los retrabajos. Rapidez debido al alto poder de corte y baja temperatura de trabajo, elimina deformaciones y necesidades de ajuste. Economía por su costo inicial contenido y grandes prestaciones para una mejor productividad.",
     Especificaciones: "Código: DC T41 / DCCD T42 / DD T27 MASTER\nMallas: 2 en discos de corte y 3 en discos de desbaste\nAplicación: Aceros en general de baja y media aleación, piezas de acero inoxidable y de fundición\nFormatos disponibles: Discos\nPrecisión\nUso confortable\nExcelente Terminación\nCortes rápidos\nAlto poder de corte\nBaja temperatura de trabajo\nExcelente relación costo / beneficio",
     Documentacion: [
-    { nombre: "No disponible"}
+    { nombre: "Ficha técnica no disponible"}
     ],
     categoria: "Discos de corte",
     subcategoria: "Corte centro deprimido",  
@@ -85,7 +85,7 @@ export const discos = [
     Descripcion: "La respuesta de DOBLE A para el corte y desbaste de aceros, fundición, aleaciones, entre otros. El corte justo. Precisión que garantiza un uso confortable y una terminación excelente, eliminando los retrabajos. Rapidez debido al alto poder de corte y baja temperatura de trabajo, elimina deformaciones y necesidades de ajuste. Economía por su costo inicial contenido y grandes prestaciones para una mejor productividad.",
     Especificaciones: "Código: DC T41 / DCCD T42 / DD T27 MASTER\nMallas: 2 en discos de corte y 3 en discos de desbaste\nAplicación: Aceros en general de baja y media aleación, piezas de acero inoxidable y de fundición\nFormatos disponibles: Discos\nPrecisión\nUso confortable\nExcelente Terminación\nCortes rápidos\nAlto poder de corte\nBaja temperatura de trabajo\nExcelente relación costo / beneficio",
     Documentacion: [
-    { nombre: "No disponible"}
+    { nombre: "Ficha técnica no disponible"}
     ],
     categoria: "Discos de corte",
     subcategoria: "Corte centro deprimido",  
@@ -101,7 +101,7 @@ export const discos = [
     Descripcion: "La respuesta de DOBLE A para el corte y desbaste de aceros, fundición, aleaciones, entre otros. El corte justo. Precisión que garantiza un uso confortable y una terminación excelente, eliminando los retrabajos. Rapidez debido al alto poder de corte y baja temperatura de trabajo, elimina deformaciones y necesidades de ajuste. Economía por su costo inicial contenido y grandes prestaciones para una mejor productividad.",
     Especificaciones: "Código: DC T41 / DCCD T42 / DD T27 MASTER\nMallas: 2 en discos de corte y 3 en discos de desbaste\nAplicación: Aceros en general de baja y media aleación, piezas de acero inoxidable y de fundición\nFormatos disponibles: Discos\nPrecisión\nUso confortable\nExcelente Terminación\nCortes rápidos\nAlto poder de corte\nBaja temperatura de trabajo\nExcelente relación costo / beneficio",
     Documentacion: [
-    { nombre: "No disponible"}
+    { nombre: "Ficha técnica no disponible"}
     ],
     categoria: "Discos de corte",
     subcategoria: "Desbaste",  
@@ -117,7 +117,7 @@ export const discos = [
     Descripcion: "La respuesta de DOBLE A para el corte y desbaste de aceros, fundición, aleaciones, entre otros. El corte justo. Precisión que garantiza un uso confortable y una terminación excelente, eliminando los retrabajos. Rapidez debido al alto poder de corte y baja temperatura de trabajo, elimina deformaciones y necesidades de ajuste. Economía por su costo inicial contenido y grandes prestaciones para una mejor productividad.",
     Especificaciones: "Código: DC T41 / DCCD T42 / DD T27 MASTER\nMallas: 2 en discos de corte y 3 en discos de desbaste\nAplicación: Aceros en general de baja y media aleación, piezas de acero inoxidable y de fundición\nFormatos disponibles: Discos\nPrecisión\nUso confortable\nExcelente Terminación\nCortes rápidos\nAlto poder de corte\nBaja temperatura de trabajo\nExcelente relación costo / beneficio",
     Documentacion: [
-    { nombre: "No disponible"}
+    { nombre: "Ficha técnica no disponible"}
     ],
     categoria: "Discos de corte",
     subcategoria: "Desbaste",  
@@ -133,7 +133,7 @@ export const discos = [
     Descripcion: "La respuesta de DOBLE A para el corte y desbaste de aceros, fundición, aleaciones, entre otros. El corte justo. Precisión que garantiza un uso confortable y una terminación excelente, eliminando los retrabajos. Rapidez debido al alto poder de corte y baja temperatura de trabajo, elimina deformaciones y necesidades de ajuste. Economía por su costo inicial contenido y grandes prestaciones para una mejor productividad.",
     Especificaciones: "Código: DC T41 / DCCD T42 / DD T27 MASTER\nMallas: 2 en discos de corte y 3 en discos de desbaste\nAplicación: Aceros en general de baja y media aleación, piezas de acero inoxidable y de fundición\nFormatos disponibles: Discos\nPrecisión\nUso confortable\nExcelente Terminación\nCortes rápidos\nAlto poder de corte\nBaja temperatura de trabajo\nExcelente relación costo / beneficio",
     Documentacion: [
-    { nombre: "No disponible"}
+    { nombre: "Ficha técnica no disponible"}
     ],
     categoria: "Discos de corte",
     subcategoria: "Desbaste",  
@@ -149,7 +149,7 @@ export const discos = [
     Descripcion: "La respuesta de DOBLE A para el corte y desbaste de aceros, fundición, aleaciones, entre otros. El corte justo. Precisión que garantiza un uso confortable y una terminación excelente, eliminando los retrabajos. Rapidez debido al alto poder de corte y baja temperatura de trabajo, elimina deformaciones y necesidades de ajuste. Economía por su costo inicial contenido y grandes prestaciones para una mejor productividad.",
     Especificaciones: "Código: DC T41 / DCCD T42 / DD T27 MASTER\nMallas: 2 en discos de corte y 3 en discos de desbaste\nAplicación: Aceros en general de baja y media aleación, piezas de acero inoxidable y de fundición\nFormatos disponibles: Discos\nPrecisión\nUso confortable\nExcelente Terminación\nCortes rápidos\nAlto poder de corte\nBaja temperatura de trabajo\nExcelente relación costo / beneficio",
     Documentacion: [
-    { nombre: "No disponible"}
+    { nombre: "Ficha técnica no disponible"}
     ],
     categoria: "Discos de corte",
     subcategoria: "Corte recto",  
@@ -165,7 +165,7 @@ export const discos = [
     Descripcion: "La respuesta de DOBLE A para el corte y desbaste de aceros, fundición, aleaciones, entre otros. El corte justo. Precisión que garantiza un uso confortable y una terminación excelente, eliminando los retrabajos. Rapidez debido al alto poder de corte y baja temperatura de trabajo, elimina deformaciones y necesidades de ajuste. Economía por su costo inicial contenido y grandes prestaciones para una mejor productividad.",
     Especificaciones: "Código: DC T41 / DCCD T42 / DD T27 MASTER\nMallas: 2 en discos de corte y 3 en discos de desbaste\nAplicación: Aceros en general de baja y media aleación, piezas de acero inoxidable y de fundición\nFormatos disponibles: Discos\nPrecisión\nUso confortable\nExcelente Terminación\nCortes rápidos\nAlto poder de corte\nBaja temperatura de trabajo\nExcelente relación costo / beneficio",
     Documentacion: [
-    { nombre: "No disponible"}
+    { nombre: "Ficha técnica no disponible"}
     ],
     categoria: "Discos de corte",
     subcategoria: "Corte recto",  
@@ -181,7 +181,7 @@ export const discos = [
     Descripcion: "Los DISCOS DE CORTE ULTRA son discos de alto rendimiento. Ideales donde se requiera la más alta performance. Se destacan en labores de exigencia superior brindando un fácil control de corte, capaces de trabajar de forma continua sin presentar sobrecalentamiento y baja generación de calor, cortes extremadamente rápidos, suaves y sin quemado de la pieza. Ideales para aceros aleados.",
     Especificaciones: "Código: DC T41 / DCCD T42 / DD T27 ULTRA\nMallas: 2 en discos de corte y 3 en discos de desbaste\nAplicación: Aceros en general de baja y media aleación, piezas de acero inoxidable y de fundición\nFormatos disponibles: Discos\nPrecisión\nUso confortable\nExcelente Terminación\nCortes rápidos\nAlto poder de corte\nBaja temperatura de trabajo\nExcelente relación costo / beneficio",
     Documentacion: [
-    { nombre: "No disponible"}
+    { nombre: "Ficha técnica no disponible"}
     ],
     categoria: "Discos de corte",
     subcategoria: "Corte recto",  
@@ -197,7 +197,7 @@ export const discos = [
     Descripcion: "Especialmente indicado para el amolado, terminación y limpieza de superficies, cantos y bordes de acero, cordones de soldadura, fundiciones en general, materiales no ferrosos (cobre, latón, bronce, aluminio, titanio, plástico, madera) y para la eliminación de óxido, barniz y pintura en todo tipo de superficies. El óxido de zirconio tiene mayor dureza que el óxido de aluminio.\nLa naturaleza de su construcción -convexo- permite un mejor acceso a las superficies a lijar. Nuevas capas abrasivas aparecen a medida que se consumen las anteriores. Producen gran remoción de material. Son resistentes y de bajo peso. La disposición de las hojas facilita la ventilación y suaviza la aplicación.",
     Especificaciones: "Código: Flap Zir\nSoporte: Fibra de vidrio\nTipo soporte: Convexo ángulo 9°\nGrano abrasivo: Óxido de Zirconio\nAplicación: Aceros, soldaduras, fundiciones en general, materiales no ferrosos, eliminación de óxido, barniz y pintura de superficies en general\nFormatos disponibles: Discos",
     Documentacion: [
-    { nombre: "No disponible"}
+    { nombre: "Ficha técnica no disponible"}
     ],
     categoria: "Discos de corte",
     subcategoria: "Flap",  
@@ -213,7 +213,7 @@ export const discos = [
     Descripcion: "Especialmente indicado para el amolado, terminación y limpieza de superficies, cantos y bordes de acero, cordones de soldadura, fundiciones en general, materiales no ferrosos (cobre, latón, bronce, aluminio, titanio, plástico, madera) y para la eliminación de óxido, barniz y pintura en todo tipo de superficies. El óxido de zirconio tiene mayor dureza que el óxido de aluminio.\nLa naturaleza de su construcción -convexo- permite un mejor acceso a las superficies a lijar. Nuevas capas abrasivas aparecen a medida que se consumen las anteriores. Producen gran remoción de material. Son resistentes y de bajo peso. La disposición de las hojas facilita la ventilación y suaviza la aplicación.",
     Especificaciones: "Código: Flap Zir\nSoporte: Fibra de vidrio\nTipo soporte: Convexo ángulo 9°\nGrano abrasivo: Óxido de Zirconio\nAplicación: Aceros, soldaduras, fundiciones en general, materiales no ferrosos, eliminación de óxido, barniz y pintura de superficies en general\nFormatos disponibles: Discos",
     Documentacion: [
-    { nombre: "No disponible"}
+    { nombre: "Ficha técnica no disponible"}
     ],
     categoria: "Discos de corte",
     subcategoria: "Flap",  
@@ -229,7 +229,7 @@ export const discos = [
     Descripcion: "Especialmente indicado para el amolado, terminación y limpieza de superficies, cantos y bordes de acero, cordones de soldadura, fundiciones en general, materiales no ferrosos (cobre, latón, bronce, aluminio, titanio, plástico, madera) y para la eliminación de óxido, barniz y pintura en todo tipo de superficies. El óxido de zirconio tiene mayor dureza que el óxido de aluminio.\nLa naturaleza de su construcción -convexo- permite un mejor acceso a las superficies a lijar. Nuevas capas abrasivas aparecen a medida que se consumen las anteriores. Producen gran remoción de material. Son resistentes y de bajo peso. La disposición de las hojas facilita la ventilación y suaviza la aplicación.",
     Especificaciones: "Código: Flap Zir\nSoporte: Fibra de vidrio\nTipo soporte: Convexo ángulo 9°\nGrano abrasivo: Óxido de Zirconio\nAplicación: Aceros, soldaduras, fundiciones en general, materiales no ferrosos, eliminación de óxido, barniz y pintura de superficies en general\nFormatos disponibles: Discos",
     Documentacion: [
-    { nombre: "No disponible"}
+    { nombre: "Ficha técnica no disponible"}
     ],
     categoria: "Discos de corte",
     subcategoria: "Flap",  
@@ -245,7 +245,7 @@ export const discos = [
     Descripcion: "Especialmente indicado para el amolado, terminación y limpieza de superficies, cantos y bordes de acero, cordones de soldadura, fundiciones en general, materiales no ferrosos (cobre, latón, bronce, aluminio, titanio, plástico, madera) y para la eliminación de óxido, barniz y pintura en todo tipo de superficies. El óxido de zirconio tiene mayor dureza que el óxido de aluminio.\nLa naturaleza de su construcción -convexo- permite un mejor acceso a las superficies a lijar. Nuevas capas abrasivas aparecen a medida que se consumen las anteriores. Producen gran remoción de material. Son resistentes y de bajo peso. La disposición de las hojas facilita la ventilación y suaviza la aplicación.",
     Especificaciones: "Código: Flap Zir\nSoporte: Fibra de vidrio\nTipo soporte: Convexo ángulo 9°\nGrano abrasivo: Óxido de Zirconio\nAplicación: Aceros, soldaduras, fundiciones en general, materiales no ferrosos, eliminación de óxido, barniz y pintura de superficies en general\nFormatos disponibles: Discos",
     Documentacion: [
-    { nombre: "No disponible"}
+    { nombre: "Ficha técnica no disponible"}
     ],
     categoria: "Discos de corte",
     subcategoria: "Flap",  
@@ -261,7 +261,7 @@ export const discos = [
     Descripcion: "Especialmente indicado para el amolado, terminación y limpieza de superficies, cantos y bordes de acero, cordones de soldadura, fundiciones en general, materiales no ferrosos (cobre, latón, bronce, aluminio, titanio, plástico, madera) y para la eliminación de óxido, barniz y pintura en todo tipo de superficies. El óxido de zirconio tiene mayor dureza que el óxido de aluminio.\nLa naturaleza de su construcción -convexo- permite un mejor acceso a las superficies a lijar. Nuevas capas abrasivas aparecen a medida que se consumen las anteriores. Producen gran remoción de material. Son resistentes y de bajo peso. La disposición de las hojas facilita la ventilación y suaviza la aplicación.",
     Especificaciones: "Código: Flap Zir\nSoporte: Fibra de vidrio\nTipo soporte: Convexo ángulo 9°\nGrano abrasivo: Óxido de Zirconio\nAplicación: Aceros, soldaduras, fundiciones en general, materiales no ferrosos, eliminación de óxido, barniz y pintura de superficies en general\nFormatos disponibles: Discos",
     Documentacion: [
-    { nombre: "No disponible"}
+    { nombre: "Ficha técnica no disponible"}
     ],
     categoria: "Discos de corte",
     subcategoria: "Flap",  
@@ -277,7 +277,7 @@ export const discos = [
     Descripcion: "Especialmente indicado para el amolado, terminación y limpieza de superficies, cantos y bordes de acero, cordones de soldadura, fundiciones en general, materiales no ferrosos (cobre, latón, bronce, aluminio, titanio, plástico, madera) y para la eliminación de óxido, barniz y pintura en todo tipo de superficies. El óxido de zirconio tiene mayor dureza que el óxido de aluminio.\nLa naturaleza de su construcción -convexo- permite un mejor acceso a las superficies a lijar. Nuevas capas abrasivas aparecen a medida que se consumen las anteriores. Producen gran remoción de material. Son resistentes y de bajo peso. La disposición de las hojas facilita la ventilación y suaviza la aplicación.",
     Especificaciones: "Código: Flap Zir\nSoporte: Fibra de vidrio\nTipo soporte: Convexo ángulo 9°\nGrano abrasivo: Óxido de Zirconio\nAplicación: Aceros, soldaduras, fundiciones en general, materiales no ferrosos, eliminación de óxido, barniz y pintura de superficies en general\nFormatos disponibles: Discos",
     Documentacion: [
-    { nombre: "No disponible"}
+    { nombre: "Ficha técnica no disponible"}
     ],
     categoria: "Discos de corte",
     subcategoria: "Flap",  
@@ -293,7 +293,7 @@ export const discos = [
     Descripcion: "Especialmente indicado para el amolado, terminación y limpieza de superficies, cantos y bordes de acero, cordones de soldadura, fundiciones en general, materiales no ferrosos (cobre, latón, bronce, aluminio, titanio, plástico, madera) y para la eliminación de óxido, barniz y pintura en todo tipo de superficies. El óxido de zirconio tiene mayor dureza que el óxido de aluminio.\nLa naturaleza de su construcción -convexo- permite un mejor acceso a las superficies a lijar. Nuevas capas abrasivas aparecen a medida que se consumen las anteriores. Producen gran remoción de material. Son resistentes y de bajo peso. La disposición de las hojas facilita la ventilación y suaviza la aplicación.",
     Especificaciones: "Código: Flap Zir\nSoporte: Fibra de vidrio\nTipo soporte: Convexo ángulo 9°\nGrano abrasivo: Óxido de Zirconio\nAplicación: Aceros, soldaduras, fundiciones en general, materiales no ferrosos, eliminación de óxido, barniz y pintura de superficies en general\nFormatos disponibles: Discos",
     Documentacion: [
-    { nombre: "No disponible"}
+    { nombre: "Ficha técnica no disponible"}
     ],
     categoria: "Discos de corte",
     subcategoria: "Flap",  

@@ -5,7 +5,7 @@ export const carteles = [
     Descripcion: "Obligación 001 DE USAR GUANTES DE SEGURIDAD",
     Especificaciones: "Alto: 450mm\nAncho: 400mm\nEspesor: 8mm",
     Documentacion: [
-    { nombre: "No disponible"}
+    { nombre: "Ficha técnica no disponible"}
     ],
     categoria: "Cartelería",
     subcategoria: "Obligación",  
@@ -21,7 +21,7 @@ export const carteles = [
     Descripcion: "Obligación 002 DE USAR PROTECCION RESPIRATORIA",
     Especificaciones: "Alto: 450mm\nAncho: 400mm\nEspesor: 8mm",
     Documentacion: [
-    { nombre: "No disponible"}
+    { nombre: "Ficha técnica no disponible"}
     ],
     categoria: "Cartelería",
     subcategoria: "Obligación",  
@@ -37,7 +37,7 @@ export const carteles = [
     Descripcion: "Obligación 003 DE USAR CALZADO DE SEGURIDAD",
     Especificaciones: "Alto: 450mm\nAncho: 400mm\nEspesor: 8mm",
     Documentacion: [
-    { nombre: "No disponible"}
+    { nombre: "Ficha técnica no disponible"}
     ],
     categoria: "Cartelería",
     subcategoria: "Obligación",  
@@ -53,7 +53,7 @@ export const carteles = [
     Descripcion: "Obligación 004 DE USAR CASCO DE SEGURIDAD",
     Especificaciones: "Alto: 450mm\nAncho: 400mm\nEspesor: 8mm",
     Documentacion: [
-    { nombre: "No disponible"}
+    { nombre: "Ficha técnica no disponible"}
     ],
     categoria: "Cartelería",
     subcategoria: "Obligación",  
@@ -69,7 +69,7 @@ export const carteles = [
     Descripcion: "Obligación 005 DE USAR PROTECTORES AUDITIVOS",
     Especificaciones: "Alto: 450mm\nAncho: 400mm\nEspesor: 8mm",
     Documentacion: [
-    { nombre: "No disponible"}
+    { nombre: "Ficha técnica no disponible"}
     ],
     categoria: "Cartelería",
     subcategoria: "Obligación",  
@@ -85,7 +85,7 @@ export const carteles = [
     Descripcion: "Obligación 006 DE USAR PROTECCION OCULAR",
     Especificaciones: "Alto: 450mm\nAncho: 400mm\nEspesor: 8mm",
     Documentacion: [
-    { nombre: "No disponible"}
+    { nombre: "Ficha técnica no disponible"}
     ],
     categoria: "Cartelería",
     subcategoria: "Obligación",  
@@ -101,7 +101,7 @@ export const carteles = [
     Descripcion: "Obligación 007 DE USAR MASCARA FACIAL",
     Especificaciones: "Alto: 450mm\nAncho: 400mm\nEspesor: 8mm",
     Documentacion: [
-    { nombre: "No disponible"}
+    { nombre: "Ficha técnica no disponible"}
     ],
     categoria: "Cartelería",
     subcategoria: "Obligación",  
@@ -117,7 +117,7 @@ export const carteles = [
     Descripcion: "Obligación 008 DE USAR MASCARA FACIAL",
     Especificaciones: "Alto: 450mm\nAncho: 400mm\nEspesor: 8mm",
     Documentacion: [
-    { nombre: "No disponible"}
+    { nombre: "Ficha técnica no disponible"}
     ],
     categoria: "Cartelería",
     subcategoria: "Obligación",  
@@ -133,7 +133,7 @@ export const carteles = [
     Descripcion: "Obligación 009 VEHICULO A PASO DE HOMBRE",
     Especificaciones: "Alto: 450mm\nAncho: 400mm\nEspesor: 8mm",
     Documentacion: [
-    { nombre: "No disponible"}
+    { nombre: "Ficha técnica no disponible"}
     ],
     categoria: "Cartelería",
     subcategoria: "Obligación",  
@@ -149,7 +149,7 @@ export const carteles = [
     Descripcion: "Obligación 010 DE USAR ROPA DE TRABAJO",
     Especificaciones: "Alto: 450mm\nAncho: 400mm\nEspesor: 8mm",
     Documentacion: [
-    { nombre: "No disponible"}
+    { nombre: "Ficha técnica no disponible"}
     ],
     categoria: "Cartelería",
     subcategoria: "Obligación",  
@@ -165,7 +165,7 @@ export const carteles = [
     Descripcion: "Obligación 011 DE USAR PROTECTORES AUDITIVOS",
     Especificaciones: "Alto: 450mm\nAncho: 400mm\nEspesor: 8mm",
     Documentacion: [
-    { nombre: "No disponible"}
+    { nombre: "Ficha técnica no disponible"}
     ],
     categoria: "Cartelería",
     subcategoria: "Obligación",  
@@ -181,7 +181,7 @@ export const carteles = [
     Descripcion: "Obligación 012 DE USAR CINTURON DE SEGURIDAD",
     Especificaciones: "Alto: 450mm\nAncho: 400mm\nEspesor: 8mm",
     Documentacion: [
-    { nombre: "No disponible"}
+    { nombre: "Ficha técnica no disponible"}
     ],
     categoria: "Cartelería",
     subcategoria: "Obligación",  
@@ -197,7 +197,7 @@ export const carteles = [
     Descripcion: "Obligación 013 DE USAR BARBIJO",
     Especificaciones: "Alto: 450mm\nAncho: 400mm\nEspesor: 8mm",
     Documentacion: [
-    { nombre: "No disponible"}
+    { nombre: "Ficha técnica no disponible"}
     ],
     categoria: "Cartelería",
     subcategoria: "Obligación",  
@@ -213,7 +213,7 @@ export const carteles = [
     Descripcion: "Obligación 014 ESTACIONAMIENTO",
     Especificaciones: "Alto: 450mm\nAncho: 400mm\nEspesor: 8mm",
     Documentacion: [
-    { nombre: "No disponible"}
+    { nombre: "Ficha técnica no disponible"}
     ],
     categoria: "Cartelería",
     subcategoria: "Obligación",  
@@ -229,7 +229,7 @@ export const carteles = [
     Descripcion: "Obligación 015 DE USAR COFIA Y BARBIJO",
     Especificaciones: "Alto: 450mm\nAncho: 400mm\nEspesor: 8mm",
     Documentacion: [
-    { nombre: "No disponible"}
+    { nombre: "Ficha técnica no disponible"}
     ],
     categoria: "Cartelería",
     subcategoria: "Obligación",  
@@ -245,7 +245,7 @@ export const carteles = [
     Descripcion: "Obligación 072 LAVARSE LAS MANOS",
     Especificaciones: "Alto: 260mm\nAncho: 220mm\nEspesor: 8mm",
     Documentacion: [
-    { nombre: "No disponible"}
+    { nombre: "Ficha técnica no disponible"}
     ],
     categoria: "Cartelería",
     subcategoria: "Obligación",  
@@ -261,7 +261,7 @@ export const carteles = [
     Descripcion: "Obligación 178 APILE CORRECTAMENTE",
     Especificaciones: "Alto: 270mm\nAncho: 190mm\nEspesor: 8mm",
     Documentacion: [
-    { nombre: "No disponible"}
+    { nombre: "Ficha técnica no disponible"}
     ],
     categoria: "Cartelería",
     subcategoria: "Obligación",  
@@ -277,7 +277,7 @@ export const carteles = [
     Descripcion: "Información 207 SILENCIO",
     Especificaciones: "Alto: 200mm\nAncho: 450mm\nEspesor: 8mm",
     Documentacion: [
-    { nombre: "No disponible"}
+    { nombre: "Ficha técnica no disponible"}
     ],
     categoria: "Cartelería",
     subcategoria: "Información",  
@@ -293,7 +293,7 @@ export const carteles = [
     Descripcion: "Información 205 COMEDOR",
     Especificaciones: "Alto: 200mm\nAncho: 450mm\nEspesor: 8mm",
     Documentacion: [
-    { nombre: "No disponible"}
+    { nombre: "Ficha técnica no disponible"}
     ],
     categoria: "Cartelería",
     subcategoria: "Información",  
@@ -309,7 +309,7 @@ export const carteles = [
     Descripcion: "Información 200 AREA RESTRINGIDA",
     Especificaciones: "Alto: 270mm\nAncho: 460mm\nEspesor: 8mm",
     Documentacion: [
-    { nombre: "No disponible"}
+    { nombre: "Ficha técnica no disponible"}
     ],
     categoria: "Cartelería",
     subcategoria: "Información",  
@@ -325,7 +325,7 @@ export const carteles = [
     Descripcion: "Información 074 RESERVADO PARA DISCAPACITADOS",
     Especificaciones: "Alto: 300mm\nAncho: 300mm\nEspesor: 8mm",
     Documentacion: [
-    { nombre: "No disponible"}
+    { nombre: "Ficha técnica no disponible"}
     ],
     categoria: "Cartelería",
     subcategoria: "Información",  
@@ -341,7 +341,7 @@ export const carteles = [
     Descripcion: "Información 107 RIESGO ÁCIDO",
     Especificaciones: "Alto: 260mm\nAncho: 220mm\nEspesor: 8mm",
     Documentacion: [
-    { nombre: "No disponible"}
+    { nombre: "Ficha técnica no disponible"}
     ],
     categoria: "Cartelería",
     subcategoria: "Información",  
@@ -357,7 +357,7 @@ export const carteles = [
     Descripcion: "Información 108 RIESGO CAUSTICO",
     Especificaciones: "Alto: 260mm\nAncho: 220mm\nEspesor: 8mm",
     Documentacion: [
-    { nombre: "No disponible"}
+    { nombre: "Ficha técnica no disponible"}
     ],
     categoria: "Cartelería",
     subcategoria: "Información",  
@@ -373,7 +373,7 @@ export const carteles = [
     Descripcion: "Información 118 MANTENGA ESTE LUGAR SIEMPRE LIBRE",
     Especificaciones: "Alto: 260mm\nAncho: 220mm\nEspesor: 8mm",
     Documentacion: [
-    { nombre: "No disponible"}
+    { nombre: "Ficha técnica no disponible"}
     ],
     categoria: "Cartelería",
     subcategoria: "Información",  
@@ -389,7 +389,7 @@ export const carteles = [
     Descripcion: "Información 078 ADMINISTRACION",
     Especificaciones: "Alto: 140mm\nAncho: 410mm\nEspesor: 8mm",
     Documentacion: [
-    { nombre: "No disponible"}
+    { nombre: "Ficha técnica no disponible"}
     ],
     categoria: "Cartelería",
     subcategoria: "Información",  
@@ -405,7 +405,7 @@ export const carteles = [
     Descripcion: "Información 078A DEPÓSITO",
     Especificaciones: "Alto: 140mm\nAncho: 410mm\nEspesor: 8mm",
     Documentacion: [
-    { nombre: "No disponible"}
+    { nombre: "Ficha técnica no disponible"}
     ],
     categoria: "Cartelería",
     subcategoria: "Información",  
@@ -421,7 +421,7 @@ export const carteles = [
     Descripcion: "Información 078B EXPEDICION",
     Especificaciones: "Alto: 140mm\nAncho: 410mm\nEspesor: 8mm",
     Documentacion: [
-    { nombre: "No disponible"}
+    { nombre: "Ficha técnica no disponible"}
     ],
     categoria: "Cartelería",
     subcategoria: "Información",  
@@ -437,7 +437,7 @@ export const carteles = [
     Descripcion: "Información 079 LABORATORIO",
     Especificaciones: "Alto: 140mm\nAncho: 410mm\nEspesor: 8mm",
     Documentacion: [
-    { nombre: "No disponible"}
+    { nombre: "Ficha técnica no disponible"}
     ],
     categoria: "Cartelería",
     subcategoria: "Información",  
@@ -453,7 +453,7 @@ export const carteles = [
     Descripcion: "Información 079B MANTENIMIENTO",
     Especificaciones: "Alto: 140mm\nAncho: 410mm\nEspesor: 8mm",
     Documentacion: [
-    { nombre: "No disponible"}
+    { nombre: "Ficha técnica no disponible"}
     ],
     categoria: "Cartelería",
     subcategoria: "Información",  
@@ -469,7 +469,7 @@ export const carteles = [
     Descripcion: "Información 080 OFICINA",
     Especificaciones: "Alto: 140mm\nAncho: 410mm\nEspesor: 8mm",
     Documentacion: [
-    { nombre: "No disponible"}
+    { nombre: "Ficha técnica no disponible"}
     ],
     categoria: "Cartelería",
     subcategoria: "Información",  
@@ -485,7 +485,7 @@ export const carteles = [
     Descripcion: "Información 080A OFICINA DE PERSONAL",
     Especificaciones: "Alto: 140mm\nAncho: 410mm\nEspesor: 8mm",
     Documentacion: [
-    { nombre: "No disponible"}
+    { nombre: "Ficha técnica no disponible"}
     ],
     categoria: "Cartelería",
     subcategoria: "Información",  
@@ -501,7 +501,7 @@ export const carteles = [
     Descripcion: "Información 081 OPERACIONES",
     Especificaciones: "Alto: 140mm\nAncho: 410mm\nEspesor: 8mm",
     Documentacion: [
-    { nombre: "No disponible"}
+    { nombre: "Ficha técnica no disponible"}
     ],
     categoria: "Cartelería",
     subcategoria: "Información",  
@@ -517,7 +517,7 @@ export const carteles = [
     Descripcion: "Información 082 PAÑOL",
     Especificaciones: "Alto: 140mm\nAncho: 410mm\nEspesor: 8mm",
     Documentacion: [
-    { nombre: "No disponible"}
+    { nombre: "Ficha técnica no disponible"}
     ],
     categoria: "Cartelería",
     subcategoria: "Información",  
@@ -533,7 +533,7 @@ export const carteles = [
     Descripcion: "Información 082A PORTERIA",
     Especificaciones: "Alto: 140mm\nAncho: 410mm\nEspesor: 8mm",
     Documentacion: [
-    { nombre: "No disponible"}
+    { nombre: "Ficha técnica no disponible"}
     ],
     categoria: "Cartelería",
     subcategoria: "Información",  
@@ -549,7 +549,7 @@ export const carteles = [
     Descripcion: "Información 082B PRODUCCION",
     Especificaciones: "Alto: 140mm\nAncho: 410mm\nEspesor: 8mm",
     Documentacion: [
-    { nombre: "No disponible"}
+    { nombre: "Ficha técnica no disponible"}
     ],
     categoria: "Cartelería",
     subcategoria: "Información",  
@@ -565,7 +565,7 @@ export const carteles = [
     Descripcion: "Información 083 SEGURIDAD",
     Especificaciones: "Alto: 140mm\nAncho: 410mm\nEspesor: 8mm",
     Documentacion: [
-    { nombre: "No disponible"}
+    { nombre: "Ficha técnica no disponible"}
     ],
     categoria: "Cartelería",
     subcategoria: "Información",  
@@ -581,7 +581,7 @@ export const carteles = [
     Descripcion: "Información 083A PERSONAL",
     Especificaciones: "Alto: 140mm\nAncho: 410mm\nEspesor: 8mm",
     Documentacion: [
-    { nombre: "No disponible"}
+    { nombre: "Ficha técnica no disponible"}
     ],
     categoria: "Cartelería",
     subcategoria: "Información",  
@@ -597,7 +597,7 @@ export const carteles = [
     Descripcion: "Información 084 VESTUARIO",
     Especificaciones: "Alto: 140mm\nAncho: 410mm\nEspesor: 8mm",
     Documentacion: [
-    { nombre: "No disponible"}
+    { nombre: "Ficha técnica no disponible"}
     ],
     categoria: "Cartelería",
     subcategoria: "Información",  
@@ -613,7 +613,7 @@ export const carteles = [
     Descripcion: "Seguridad 0061 MANTENGA ESTE LUGAR SIEMPRE LIBRE",
     Especificaciones: "Alto: 300mm\nAncho: 400mm\nEspesor: 8mm",
     Documentacion: [
-    { nombre: "No disponible"}
+    { nombre: "Ficha técnica no disponible"}
     ],
     categoria: "Cartelería",
     subcategoria: "Seguridad",  
@@ -629,7 +629,7 @@ export const carteles = [
     Descripcion: "Seguridad 0062 NO ACCIONAR INTERRUPTOR",
     Especificaciones: "Alto: 300mm\nAncho: 400mm\nEspesor: 8mm",
     Documentacion: [
-    { nombre: "No disponible"}
+    { nombre: "Ficha técnica no disponible"}
     ],
     categoria: "Cartelería",
     subcategoria: "Seguridad",  
@@ -645,7 +645,7 @@ export const carteles = [
     Descripcion: "Seguridad 0062 SANIDAD ANTES DE EMPEZAR",
     Especificaciones: "Alto: 450mm\nAncho: 400mm\nEspesor: 8mm",
     Documentacion: [
-    { nombre: "No disponible"}
+    { nombre: "Ficha técnica no disponible"}
     ],
     categoria: "Cartelería",
     subcategoria: "Seguridad",  
@@ -661,7 +661,7 @@ export const carteles = [
     Descripcion: "Seguridad 0044 UTILICE EQUIPO DE PROTECCION PERSONAL",
     Especificaciones: "Alto: 300mm\nAncho: 400mm\nEspesor: 8mm",
     Documentacion: [
-    { nombre: "No disponible"}
+    { nombre: "Ficha técnica no disponible"}
     ],
     categoria: "Cartelería",
     subcategoria: "Seguridad",  
@@ -677,7 +677,7 @@ export const carteles = [
     Descripcion: "Seguridad 0068 PRESTE ATENCION A SU TRABAJO",
     Especificaciones: "Alto: 300mm\nAncho: 400mm\nEspesor: 8mm",
     Documentacion: [
-    { nombre: "No disponible"}
+    { nombre: "Ficha técnica no disponible"}
     ],
     categoria: "Cartelería",
     subcategoria: "Seguridad",  
@@ -693,7 +693,7 @@ export const carteles = [
     Descripcion: "Seguridad 2315 LAS IMPROVISACIONES CAUSAN ACCIDENTES",
     Especificaciones: "Alto: 300mm\nAncho: 400mm\nEspesor: 8mm",
     Documentacion: [
-    { nombre: "No disponible"}
+    { nombre: "Ficha técnica no disponible"}
     ],
     categoria: "Cartelería",
     subcategoria: "Seguridad",  
@@ -709,7 +709,7 @@ export const carteles = [
     Descripcion: "Seguridad 2316 LAS MANOS NO TIENEN PRECIO PROTEJALAS",
     Especificaciones: "Alto: 300mm\nAncho: 400mm\nEspesor: 8mm",
     Documentacion: [
-    { nombre: "No disponible"}
+    { nombre: "Ficha técnica no disponible"}
     ],
     categoria: "Cartelería",
     subcategoria: "Seguridad",  
@@ -725,7 +725,7 @@ export const carteles = [
     Descripcion: "Seguridad 2317 NO USE HERRAMIENTAS DEFECTUOSAS",
     Especificaciones: "Alto: 300mm\nAncho: 400mm\nEspesor: 8mm",
     Documentacion: [
-    { nombre: "No disponible"}
+    { nombre: "Ficha técnica no disponible"}
     ],
     categoria: "Cartelería",
     subcategoria: "Seguridad",  
@@ -741,7 +741,7 @@ export const carteles = [
     Descripcion: "Seguridad 2318 UN BUEN DIA ES UN DIA SIN ACCIDENTES",
     Especificaciones: "Alto: 300mm\nAncho: 400mm\nEspesor: 8mm",
     Documentacion: [
-    { nombre: "No disponible"}
+    { nombre: "Ficha técnica no disponible"}
     ],
     categoria: "Cartelería",
     subcategoria: "Seguridad",  
@@ -757,7 +757,7 @@ export const carteles = [
     Descripcion: "Seguridad 2319 PIDA AYUDA PARA LEVANTAR CARGAS PESADAS",
     Especificaciones: "Alto: 300mm\nAncho: 400mm\nEspesor: 8mm",
     Documentacion: [
-    { nombre: "No disponible"}
+    { nombre: "Ficha técnica no disponible"}
     ],
     categoria: "Cartelería",
     subcategoria: "Seguridad",  
@@ -773,7 +773,7 @@ export const carteles = [
     Descripcion: "Seguridad 2320 CONSERVE LUGARES DE CIRCULACION SIN OBSTACULOS",
     Especificaciones: "Alto: 300mm\nAncho: 400mm\nEspesor: 8mm",
     Documentacion: [
-    { nombre: "No disponible"}
+    { nombre: "Ficha técnica no disponible"}
     ],
     categoria: "Cartelería",
     subcategoria: "Seguridad",  
@@ -789,7 +789,7 @@ export const carteles = [
     Descripcion: "Seguridad 2321 SEA PRUDENTE EN EL USO DE LAS ESCALERAS",
     Especificaciones: "Alto: 300mm\nAncho: 400mm\nEspesor: 8mm",
     Documentacion: [
-    { nombre: "No disponible"}
+    { nombre: "Ficha técnica no disponible"}
     ],
     categoria: "Cartelería",
     subcategoria: "Seguridad",  
@@ -805,7 +805,7 @@ export const carteles = [
     Descripcion: "Seguridad 2322 USE EL EQUIPO ADECUADO PARA TRABAJAR EN ESTA AREA",
     Especificaciones: "Alto: 300mm\nAncho: 400mm\nEspesor: 8mm",
     Documentacion: [
-    { nombre: "No disponible"}
+    { nombre: "Ficha técnica no disponible"}
     ],
     categoria: "Cartelería",
     subcategoria: "Seguridad",  
@@ -821,7 +821,7 @@ export const carteles = [
     Descripcion: "Seguridad 2323 NO CONVERSE NI DISTRAIGA AL MAQUINISTA",
     Especificaciones: "Alto: 300mm\nAncho: 400mm\nEspesor: 8mm",
     Documentacion: [
-    { nombre: "No disponible"}
+    { nombre: "Ficha técnica no disponible"}
     ],
     categoria: "Cartelería",
     subcategoria: "Seguridad",  
@@ -837,7 +837,7 @@ export const carteles = [
     Descripcion: "Evacuación 063 SALIDA DE EMERGENCIA",
     Especificaciones: "Alto: 300mm\nAncho: 400mm\nEspesor: 8mm",
     Documentacion: [
-    { nombre: "No disponible"}
+    { nombre: "Ficha técnica no disponible"}
     ],
     categoria: "Cartelería",
     subcategoria: "Evacuación",  
@@ -853,7 +853,7 @@ export const carteles = [
     Descripcion: "Evacuación 085 SALIDA",
     Especificaciones: "Alto: 140mm\nAncho: 410mm\nEspesor: 8mm",
     Documentacion: [
-    { nombre: "No disponible"}
+    { nombre: "Ficha técnica no disponible"}
     ],
     categoria: "Cartelería",
     subcategoria: "Evacuación",  
@@ -869,7 +869,7 @@ export const carteles = [
     Descripcion: "Evacuación 086 ENTRADA",
     Especificaciones: "Alto: 140mm\nAncho: 410mm\nEspesor: 8mm",
     Documentacion: [
-    { nombre: "No disponible"}
+    { nombre: "Ficha técnica no disponible"}
     ],
     categoria: "Cartelería",
     subcategoria: "Evacuación",  
@@ -885,7 +885,7 @@ export const carteles = [
     Descripcion: "Evacuación 087 SALIDA DE EMERGENCIA",
     Especificaciones: "Alto: 140mm\nAncho: 410mm\nEspesor: 8mm",
     Documentacion: [
-    { nombre: "No disponible"}
+    { nombre: "Ficha técnica no disponible"}
     ],
     categoria: "Cartelería",
     subcategoria: "Evacuación",  
@@ -901,7 +901,7 @@ export const carteles = [
     Descripcion: "Evacuación 088 ASCENSOR",
     Especificaciones: "Alto: 140mm\nAncho: 410mm\nEspesor: 8mm",
     Documentacion: [
-    { nombre: "No disponible"}
+    { nombre: "Ficha técnica no disponible"}
     ],
     categoria: "Cartelería",
     subcategoria: "Evacuación",  
@@ -917,7 +917,7 @@ export const carteles = [
     Descripcion: "Evacuación 089 ESCALERA",
     Especificaciones: "Alto: 140mm\nAncho: 410mm\nEspesor: 8mm",
     Documentacion: [
-    { nombre: "No disponible"}
+    { nombre: "Ficha técnica no disponible"}
     ],
     categoria: "Cartelería",
     subcategoria: "Evacuación",  
@@ -933,7 +933,7 @@ export const carteles = [
     Descripcion: "Evacuación 161 EN CASO DE INCENDIO NO USE EL ASCENSOR USE LA ESCALERA",
     Especificaciones: "Alto: 200mm\nAncho: 200mm\nEspesor: 8mm",
     Documentacion: [
-    { nombre: "No disponible"}
+    { nombre: "Ficha técnica no disponible"}
     ],
     categoria: "Cartelería",
     subcategoria: "Evacuación",  
@@ -949,7 +949,7 @@ export const carteles = [
     Descripcion: "Evacuación 204 LUZ DE EMERGENCIA",
     Especificaciones: "Alto: 200mm\nAncho: 400mm\nEspesor: 8mm",
     Documentacion: [
-    { nombre: "No disponible"}
+    { nombre: "Ficha técnica no disponible"}
     ],
     categoria: "Cartelería",
     subcategoria: "Evacuación",  
@@ -965,7 +965,7 @@ export const carteles = [
     Descripcion: "Evacuación 250A FLECHA DIAGONAL",
     Especificaciones: "Alto: 300mm\nAncho: 400mm\nEspesor: 8mm",
     Documentacion: [
-    { nombre: "No disponible"}
+    { nombre: "Ficha técnica no disponible"}
     ],
     categoria: "Cartelería",
     subcategoria: "Evacuación",  
@@ -981,7 +981,7 @@ export const carteles = [
     Descripcion: "Evacuación 250B FLECHA RECTA DERECHA",
     Especificaciones: "Alto: 300mm\nAncho: 400mm\nEspesor: 8mm",
     Documentacion: [
-    { nombre: "No disponible"}
+    { nombre: "Ficha técnica no disponible"}
     ],
     categoria: "Cartelería",
     subcategoria: "Evacuación",  
@@ -997,7 +997,7 @@ export const carteles = [
     Descripcion: "Evacuación 250B FLECHA RECTA DERECHA",
     Especificaciones: "Alto: 400mm\nAncho: 300mm\nEspesor: 8mm",
     Documentacion: [
-    { nombre: "No disponible"}
+    { nombre: "Ficha técnica no disponible"}
     ],
     categoria: "Cartelería",
     subcategoria: "Evacuación",  
@@ -1013,7 +1013,7 @@ export const carteles = [
     Descripcion: "Evacuación 250C FLECHA RECTA IZQUIERDA",
     Especificaciones: "Alto: 300mm\nAncho: 400mm\nEspesor: 8mm",
     Documentacion: [
-    { nombre: "No disponible"}
+    { nombre: "Ficha técnica no disponible"}
     ],
     categoria: "Cartelería",
     subcategoria: "Evacuación",  
@@ -1029,7 +1029,7 @@ export const carteles = [
     Descripcion: "Evacuación 250E FLECHA RECTA ABAJO",
     Especificaciones: "Alto: 400mm\nAncho: 300mm\nEspesor: 8mm",
     Documentacion: [
-    { nombre: "No disponible"}
+    { nombre: "Ficha técnica no disponible"}
     ],
     categoria: "Cartelería",
     subcategoria: "Evacuación",  
@@ -1045,7 +1045,7 @@ export const carteles = [
     Descripcion: "Atención 0160 INBLAMABLE",
     Especificaciones: "Alto: 200mm\nAncho: 200mm\nEspesor: 8mm",
     Documentacion: [
-    { nombre: "No disponible"}
+    { nombre: "Ficha técnica no disponible"}
     ],
     categoria: "Cartelería",
     subcategoria: "Atención",  
@@ -1061,7 +1061,7 @@ export const carteles = [
     Descripcion: "Autoadhesivo 001 197 PELIGRO RIESGO DE ELECTROCUCION",
     Especificaciones: "Alto: 150mm\nAncho: 80mm",
     Documentacion: [
-    { nombre: "No disponible"}
+    { nombre: "Ficha técnica no disponible"}
     ],
     categoria: "Cartelería",
     subcategoria: "Atención",  
@@ -1077,7 +1077,7 @@ export const carteles = [
     Descripcion: "Atención 0125 NO ACCIONAR EN REPARACION",
     Especificaciones: "Alto: 150mm\nAncho: 250mm\nEspesor: 8mm",
     Documentacion: [
-    { nombre: "No disponible"}
+    { nombre: "Ficha técnica no disponible"}
     ],
     categoria: "Cartelería",
     subcategoria: "Atención",  
@@ -1093,7 +1093,7 @@ export const carteles = [
     Descripcion: "Atención 0131 ¡ATENCION! BAJA TEMPERATURA",
     Especificaciones: "Alto: 300mm\nAncho: 200mm\nEspesor: 8mm",
     Documentacion: [
-    { nombre: "No disponible"}
+    { nombre: "Ficha técnica no disponible"}
     ],
     categoria: "Cartelería",
     subcategoria: "Atención",  
@@ -1109,7 +1109,7 @@ export const carteles = [
     Descripcion: "Atención 0020 ATENCION",
     Especificaciones: "Alto: 450mm\nAncho: 400mm\nEspesor: 8mm",
     Documentacion: [
-    { nombre: "No disponible"}
+    { nombre: "Ficha técnica no disponible"}
     ],
     categoria: "Cartelería",
     subcategoria: "Atención",  
@@ -1125,7 +1125,7 @@ export const carteles = [
     Descripcion: "Atención 0077 CAMINE NO CORRA",
     Especificaciones: "Alto: 300mm\nAncho: 300mm\nEspesor: 8mm",
     Documentacion: [
-    { nombre: "No disponible"}
+    { nombre: "Ficha técnica no disponible"}
     ],
     categoria: "Cartelería",
     subcategoria: "Atención",  
@@ -1141,7 +1141,7 @@ export const carteles = [
     Descripcion: "Atención 0048 PELIGRO OBRA EN CONSTRUCCION",
     Especificaciones: "Alto: 450mm\nAncho: 400mm\nEspesor: 8mm",
     Documentacion: [
-    { nombre: "No disponible"}
+    { nombre: "Ficha técnica no disponible"}
     ],
     categoria: "Cartelería",
     subcategoria: "Atención",  
@@ -1157,7 +1157,7 @@ export const carteles = [
     Descripcion: "Atención 0027 CARGAS SUSPENDIDAS",
     Especificaciones: "Alto: 450mm\nAncho: 400mm\nEspesor: 8mm",
     Documentacion: [
-    { nombre: "No disponible"}
+    { nombre: "Ficha técnica no disponible"}
     ],
     categoria: "Cartelería",
     subcategoria: "Atención",  
@@ -1173,7 +1173,7 @@ export const carteles = [
     Descripcion: "Atención 0025 RIESGO CAUSTICO",
     Especificaciones: "Alto: 450mm\nAncho: 400mm\nEspesor: 8mm",
     Documentacion: [
-    { nombre: "No disponible"}
+    { nombre: "Ficha técnica no disponible"}
     ],
     categoria: "Cartelería",
     subcategoria: "Atención",  
@@ -1189,7 +1189,7 @@ export const carteles = [
     Descripcion: "Atención 0024 RIESGO TOXICO",
     Especificaciones: "Alto: 450mm\nAncho: 400mm\nEspesor: 8mm",
     Documentacion: [
-    { nombre: "No disponible"}
+    { nombre: "Ficha técnica no disponible"}
     ],
     categoria: "Cartelería",
     subcategoria: "Atención",  
@@ -1205,7 +1205,7 @@ export const carteles = [
     Descripcion: "Atención 0023 RIESGO DE EXPLOSION",
     Especificaciones: "Alto: 450mm\nAncho: 400mm\nEspesor: 8mm",
     Documentacion: [
-    { nombre: "No disponible"}
+    { nombre: "Ficha técnica no disponible"}
     ],
     categoria: "Cartelería",
     subcategoria: "Atención",  
@@ -1221,7 +1221,7 @@ export const carteles = [
     Descripcion: "Atención 0022 RIESGO DE INCENDIO",
     Especificaciones: "Alto: 450mm\nAncho: 400mm\nEspesor: 8mm",
     Documentacion: [
-    { nombre: "No disponible"}
+    { nombre: "Ficha técnica no disponible"}
     ],
     categoria: "Cartelería",
     subcategoria: "Atención",  
@@ -1237,7 +1237,7 @@ export const carteles = [
     Descripcion: "Atención 0021 RIESGO CHOQUE ELECTRICO",
     Especificaciones: "Alto: 450mm\nAncho: 400mm\nEspesor: 8mm",
     Documentacion: [
-    { nombre: "No disponible"}
+    { nombre: "Ficha técnica no disponible"}
     ],
     categoria: "Cartelería",
     subcategoria: "Atención",  
@@ -1253,7 +1253,7 @@ export const carteles = [
     Descripcion: "Atención 0308 SUSTANCIAS CORROSIVAS",
     Especificaciones: "Alto: 450mm\nAncho: 400mm\nEspesor: 8mm",
     Documentacion: [
-    { nombre: "No disponible"}
+    { nombre: "Ficha técnica no disponible"}
     ],
     categoria: "Cartelería",
     subcategoria: "Atención",  
@@ -1269,7 +1269,7 @@ export const carteles = [
     Descripcion: "Atención 0307 SUBIR UN PESO CON LAS PIERNAS",
     Especificaciones: "Alto: 450mm\nAncho: 400mm\nEspesor: 8mm",
     Documentacion: [
-    { nombre: "No disponible"}
+    { nombre: "Ficha técnica no disponible"}
     ],
     categoria: "Cartelería",
     subcategoria: "Atención",  
@@ -1285,7 +1285,7 @@ export const carteles = [
     Descripcion: "Atención 0306 PROHIBIDO EL TRANSPORTE DE PERSONAS",
     Especificaciones: "Alto: 450mm\nAncho: 400mm\nEspesor: 8mm",
     Documentacion: [
-    { nombre: "No disponible"}
+    { nombre: "Ficha técnica no disponible"}
     ],
     categoria: "Cartelería",
     subcategoria: "Atención",  
@@ -1301,7 +1301,7 @@ export const carteles = [
     Descripcion: "Atención 0305 TRANSPORTELOS CON CAUTELA",
     Especificaciones: "Alto: 450mm\nAncho: 400mm\nEspesor: 8mm",
     Documentacion: [
-    { nombre: "No disponible"}
+    { nombre: "Ficha técnica no disponible"}
     ],
     categoria: "Cartelería",
     subcategoria: "Atención",  
@@ -1317,7 +1317,7 @@ export const carteles = [
     Descripcion: "Atención 0352 MANTENGA LIMPIO ESTE SECTOR",
     Especificaciones: "Alto: 300mm\nAncho: 400mm\nEspesor: 8mm",
     Documentacion: [
-    { nombre: "No disponible"}
+    { nombre: "Ficha técnica no disponible"}
     ],
     categoria: "Cartelería",
     subcategoria: "Atención",  
@@ -1333,7 +1333,7 @@ export const carteles = [
     Descripcion: "Prohibido 177 BEBER AGUA",
     Especificaciones: "Alto: 270mm\nAncho: 200mm\nEspesor: 8mm",
     Documentacion: [
-    { nombre: "No disponible"}
+    { nombre: "Ficha técnica no disponible"}
     ],
     categoria: "Cartelería",
     subcategoria: "Prohibido",  
@@ -1349,7 +1349,7 @@ export const carteles = [
     Descripcion: "Prohibido 176 EL PASO DE PEATONES",
     Especificaciones: "Alto: 270mm\nAncho: 200mm\nEspesor: 8mm",
     Documentacion: [
-    { nombre: "No disponible"}
+    { nombre: "Ficha técnica no disponible"}
     ],
     categoria: "Cartelería",
     subcategoria: "Prohibido",  
@@ -1365,7 +1365,7 @@ export const carteles = [
     Descripcion: "Prohibido 175 EN CASO DE INCENDIO NO USE EL ASCENSOR",
     Especificaciones: "Alto: 270mm\nAncho: 200mm\nEspesor: 8mm",
     Documentacion: [
-    { nombre: "No disponible"}
+    { nombre: "Ficha técnica no disponible"}
     ],
     categoria: "Cartelería",
     subcategoria: "Prohibido",  
@@ -1381,7 +1381,7 @@ export const carteles = [
     Descripcion: "Prohibido 174 NO ACEITAR O LIMPIAR MAQUINAS EN MOVIMIENTO",
     Especificaciones: "Alto: 270mm\nAncho: 200mm\nEspesor: 8mm",
     Documentacion: [
-    { nombre: "No disponible"}
+    { nombre: "Ficha técnica no disponible"}
     ],
     categoria: "Cartelería",
     subcategoria: "Prohibido",  
@@ -1397,7 +1397,7 @@ export const carteles = [
     Descripcion: "Prohibido Prohibido 173 NO APAGAR CON AGUA",
     Especificaciones: "Alto: 270mm\nAncho: 200mm\nEspesor: 8mm",
     Documentacion: [
-    { nombre: "No disponible"}
+    { nombre: "Ficha técnica no disponible"}
     ],
     categoria: "Cartelería",
     subcategoria: "Prohibido",  
@@ -1413,7 +1413,7 @@ export const carteles = [
     Descripcion: "Prohibido Prohibido 169 NO UTILIZAR TELEFONOS CELULARES EN ESTE AREA",
     Especificaciones: "Alto: 270mm\nAncho: 200mm\nEspesor: 8mm",
     Documentacion: [
-    { nombre: "No disponible"}
+    { nombre: "Ficha técnica no disponible"}
     ],
     categoria: "Cartelería",
     subcategoria: "Prohibido",  
@@ -1429,7 +1429,7 @@ export const carteles = [
     Descripcion: "Prohibido 058 LA ENTRADA A TODA PERSONA AJENA AL SECTOR",
     Especificaciones: "Alto: 400mm\nAncho: 300mm\nEspesor: 8mm",
     Documentacion: [
-    { nombre: "No disponible"}
+    { nombre: "Ficha técnica no disponible"}
     ],
     categoria: "Cartelería",
     subcategoria: "Prohibido",  
@@ -1445,7 +1445,7 @@ export const carteles = [
     Descripcion: "Prohibido 051 SOLDAR EN ESTE SECTOR",
     Especificaciones: "Alto: 400mm\nAncho: 300mm\nEspesor: 8mm",
     Documentacion: [
-    { nombre: "No disponible"}
+    { nombre: "Ficha técnica no disponible"}
     ],
     categoria: "Cartelería",
     subcategoria: "Prohibido",  
@@ -1461,7 +1461,7 @@ export const carteles = [
     Descripcion: "Prohibido 049 EL TRANSITO DE PERSONAS AJENAS A LA OBRA",
     Especificaciones: "Alto: 400mm\nAncho: 300mm\nEspesor: 8mm",
     Documentacion: [
-    { nombre: "No disponible"}
+    { nombre: "Ficha técnica no disponible"}
     ],
     categoria: "Cartelería",
     subcategoria: "Prohibido",  
@@ -1477,7 +1477,7 @@ export const carteles = [
     Descripcion: "Prohibido 046 NO CONSUMIR BEBIDAS ALCOHOLICAS",
     Especificaciones: "Alto: 400mm\nAncho: 300mm\nEspesor: 8mm",
     Documentacion: [
-    { nombre: "No disponible"}
+    { nombre: "Ficha técnica no disponible"}
     ],
     categoria: "Cartelería",
     subcategoria: "Prohibido",  
@@ -1493,7 +1493,7 @@ export const carteles = [
     Descripcion: "Prohibido 045 ESTACIONAR",
     Especificaciones: "Alto: 400mm\nAncho: 300mm\nEspesor: 8mm",
     Documentacion: [
-    { nombre: "No disponible"}
+    { nombre: "Ficha técnica no disponible"}
     ],
     categoria: "Cartelería",
     subcategoria: "Prohibido",  
@@ -1509,7 +1509,7 @@ export const carteles = [
     Descripcion: "Prohibido 041 HACER FUEGO Y FUMAR",
     Especificaciones: "Alto: 400mm\nAncho: 300mm\nEspesor: 8mm",
     Documentacion: [
-    { nombre: "No disponible"}
+    { nombre: "Ficha técnica no disponible"}
     ],
     categoria: "Cartelería",
     subcategoria: "Prohibido",  
@@ -1525,7 +1525,7 @@ export const carteles = [
     Descripcion: "Prohibido 040 FUMAR",
     Especificaciones: "Alto: 400mm\nAncho: 300mm\nEspesor: 8mm",
     Documentacion: [
-    { nombre: "No disponible"}
+    { nombre: "Ficha técnica no disponible"}
     ],
     categoria: "Cartelería",
     subcategoria: "Prohibido",  
@@ -1541,7 +1541,7 @@ export const carteles = [
     Descripcion: "Prohibido 041 PASAR",
     Especificaciones: "Alto: 400mm\nAncho: 300mm\nEspesor: 8mm",
     Documentacion: [
-    { nombre: "No disponible"}
+    { nombre: "Ficha técnica no disponible"}
     ],
     categoria: "Cartelería",
     subcategoria: "Prohibido",  
@@ -1557,7 +1557,7 @@ export const carteles = [
     Descripcion: "Prohibido 060 ARROJAR BASURA",
     Especificaciones: "Alto: 300mm\nAncho: 400mm\nEspesor: 8mm",
     Documentacion: [
-    { nombre: "No disponible"}
+    { nombre: "Ficha técnica no disponible"}
     ],
     categoria: "Cartelería",
     subcategoria: "Prohibido",  
@@ -1573,7 +1573,7 @@ export const carteles = [
     Descripcion: "Prohibido 055 USAR HERRAMIENTAS EN MAL ESTADO",
     Especificaciones: "Alto: 400mm\nAncho: 300mm\nEspesor: 8mm",
     Documentacion: [
-    { nombre: "No disponible"}
+    { nombre: "Ficha técnica no disponible"}
     ],
     categoria: "Cartelería",
     subcategoria: "Prohibido",  
@@ -1589,7 +1589,7 @@ export const carteles = [
     Descripcion: "Atención 4126 NO ACCIONAR ASCENSOR EN REPARACION",
     Especificaciones: "Alto: 300mm\nAncho: 400mm\nEspesor: 8mm",
     Documentacion: [
-    { nombre: "No disponible"}
+    { nombre: "Ficha técnica no disponible"}
     ],
     categoria: "Cartelería",
     subcategoria: "Atención",  
@@ -1605,7 +1605,7 @@ export const carteles = [
     Descripcion: "Atención 4354 ACIDO SULFURICO",
     Especificaciones: "Alto: 300mm\nAncho: 400mm\nEspesor: 8mm",
     Documentacion: [
-    { nombre: "No disponible"}
+    { nombre: "Ficha técnica no disponible"}
     ],
     categoria: "Cartelería",
     subcategoria: "Atención",  
@@ -1621,7 +1621,7 @@ export const carteles = [
     Descripcion: "Atención 4355 POR RAZONES DE SEGURIDAD Y CALIDAD SE PROHIBE FUMAR EN ESTA AREA",
     Especificaciones: "Alto: 300mm\nAncho: 400mm\nEspesor: 8mm",
     Documentacion: [
-    { nombre: "No disponible"}
+    { nombre: "Ficha técnica no disponible"}
     ],
     categoria: "Cartelería",
     subcategoria: "Atención",  
@@ -1637,7 +1637,7 @@ export const carteles = [
     Descripcion: "Atención 4356 PROHIBIDO FUMAR",
     Especificaciones: "Alto: 300mm\nAncho: 400mm\nEspesor: 8mm",
     Documentacion: [
-    { nombre: "No disponible"}
+    { nombre: "Ficha técnica no disponible"}
     ],
     categoria: "Cartelería",
     subcategoria: "Atención",  
@@ -1653,7 +1653,7 @@ export const carteles = [
     Descripcion: "Atención 4357 NO FUME",
     Especificaciones: "Alto: 300mm\nAncho: 400mm\nEspesor: 8mm",
     Documentacion: [
-    { nombre: "No disponible"}
+    { nombre: "Ficha técnica no disponible"}
     ],
     categoria: "Cartelería",
     subcategoria: "Atención",  
@@ -1669,7 +1669,7 @@ export const carteles = [
     Descripcion: "Atención 4358 NO ABRA ESTA VALVULA",
     Especificaciones: "Alto: 300mm\nAncho: 400mm\nEspesor: 8mm",
     Documentacion: [
-    { nombre: "No disponible"}
+    { nombre: "Ficha técnica no disponible"}
     ],
     categoria: "Cartelería",
     subcategoria: "Atención",  
@@ -1685,7 +1685,7 @@ export const carteles = [
     Descripcion: "Atención 4359 NO ENCIENDA ESTE MOTOR",
     Especificaciones: "Alto: 300mm\nAncho: 400mm\nEspesor: 8mm",
     Documentacion: [
-    { nombre: "No disponible"}
+    { nombre: "Ficha técnica no disponible"}
     ],
     categoria: "Cartelería",
     subcategoria: "Atención",  
@@ -1701,7 +1701,7 @@ export const carteles = [
     Descripcion: "Atención 4360 VENENO",
     Especificaciones: "Alto: 300mm\nAncho: 400mm\nEspesor: 8mm",
     Documentacion: [
-    { nombre: "No disponible"}
+    { nombre: "Ficha técnica no disponible"}
     ],
     categoria: "Cartelería",
     subcategoria: "Atención",  
@@ -1717,7 +1717,7 @@ export const carteles = [
     Descripcion: "Atención 4361 NO CONECTAR, GENTE TRABAJANDO",
     Especificaciones: "Alto: 300mm\nAncho: 400mm\nEspesor: 8mm",
     Documentacion: [
-    { nombre: "No disponible"}
+    { nombre: "Ficha técnica no disponible"}
     ],
     categoria: "Cartelería",
     subcategoria: "Atención",  
@@ -1733,7 +1733,7 @@ export const carteles = [
     Descripcion: "Atención 4362 COLOQUE LA PUESTA A TIERRA",
     Especificaciones: "Alto: 300mm\nAncho: 400mm\nEspesor: 8mm",
     Documentacion: [
-    { nombre: "No disponible"}
+    { nombre: "Ficha técnica no disponible"}
     ],
     categoria: "Cartelería",
     subcategoria: "Atención",  
@@ -1749,7 +1749,7 @@ export const carteles = [
     Descripcion: "Atención 4363 ZONA RESTRINGIDA NO PASE",
     Especificaciones: "Alto: 300mm\nAncho: 400mm\nEspesor: 8mm",
     Documentacion: [
-    { nombre: "No disponible"}
+    { nombre: "Ficha técnica no disponible"}
     ],
     categoria: "Cartelería",
     subcategoria: "Atención",  
@@ -1765,7 +1765,7 @@ export const carteles = [
     Descripcion: "Atención 4364 CORROSIVO",
     Especificaciones: "Alto: 300mm\nAncho: 400mm\nEspesor: 8mm",
     Documentacion: [
-    { nombre: "No disponible"}
+    { nombre: "Ficha técnica no disponible"}
     ],
     categoria: "Cartelería",
     subcategoria: "Atención",  
@@ -1781,7 +1781,7 @@ export const carteles = [
     Descripcion: "Atención 4365 NO LIMPIE, LUBRIQUE O REPARE MAQUINAS EN MOVIMIENTO",
     Especificaciones: "Alto: 300mm\nAncho: 400mm\nEspesor: 8mm",
     Documentacion: [
-    { nombre: "No disponible"}
+    { nombre: "Ficha técnica no disponible"}
     ],
     categoria: "Cartelería",
     subcategoria: "Atención",  
@@ -1797,7 +1797,7 @@ export const carteles = [
     Descripcion: "Atención 4366 PROHIBIDO TRANSPORTAR PERSONAL",
     Especificaciones: "Alto: 300mm\nAncho: 400mm\nEspesor: 8mm",
     Documentacion: [
-    { nombre: "No disponible"}
+    { nombre: "Ficha técnica no disponible"}
     ],
     categoria: "Cartelería",
     subcategoria: "Atención",  
@@ -1813,7 +1813,7 @@ export const carteles = [
     Descripcion: "Atención 0340 ENTRADA Y SALIDA DE VEHICULOS",
     Especificaciones: "Alto: 270mm\nAncho: 390mm\nEspesor: 8mm",
     Documentacion: [
-    { nombre: "No disponible"}
+    { nombre: "Ficha técnica no disponible"}
     ],
     categoria: "Cartelería",
     subcategoria: "Atención",  
@@ -1829,7 +1829,7 @@ export const carteles = [
     Descripcion: "Atención 0312 RIESGO CAIDA DE OBJETOS",
     Especificaciones: "Alto: 300mm\nAncho: 200mm\nEspesor: 8mm",
     Documentacion: [
-    { nombre: "No disponible"}
+    { nombre: "Ficha técnica no disponible"}
     ],
     categoria: "Cartelería",
     subcategoria: "Atención",  
@@ -1845,7 +1845,7 @@ export const carteles = [
     Descripcion: "Atención 0313 ¡ATENCION! MATERIAL COMBURENTE",
     Especificaciones: "Alto: 300mm\nAncho: 200mm\nEspesor: 8mm",
     Documentacion: [
-    { nombre: "No disponible"}
+    { nombre: "Ficha técnica no disponible"}
     ],
     categoria: "Cartelería",
     subcategoria: "Atención",  
@@ -1861,7 +1861,7 @@ export const carteles = [
     Descripcion: "Atención 0172 SUPERFICIE RESBALADIZA",
     Especificaciones: "Alto: 270mm\nAncho: 200mm\nEspesor: 8mm",
     Documentacion: [
-    { nombre: "No disponible"}
+    { nombre: "Ficha técnica no disponible"}
     ],
     categoria: "Cartelería",
     subcategoria: "Atención",  
@@ -1877,7 +1877,7 @@ export const carteles = [
     Descripcion: "Atención 0171 HOMBRES TRABAJANDO",
     Especificaciones: "Alto: 270mm\nAncho: 200mm\nEspesor: 8mm",
     Documentacion: [
-    { nombre: "No disponible"}
+    { nombre: "Ficha técnica no disponible"}
     ],
     categoria: "Cartelería",
     subcategoria: "Atención",  
@@ -1893,7 +1893,7 @@ export const carteles = [
     Descripcion: "Atención 3328 LAVESE LAS MANOS ANTES DE REANUDAR SUS TAREAS",
     Especificaciones: "Alto: 300mm\nAncho: 400mm\nEspesor: 8mm",
     Documentacion: [
-    { nombre: "No disponible"}
+    { nombre: "Ficha técnica no disponible"}
     ],
     categoria: "Cartelería",
     subcategoria: "Aviso",  
@@ -1909,7 +1909,7 @@ export const carteles = [
     Descripcion: "Atención 3329 HIGIENICESE, USTED TRABAJA CON PRODUCTOS ALIMENTICIOS",
     Especificaciones: "Alto: 300mm\nAncho: 400mm\nEspesor: 8mm",
     Documentacion: [
-    { nombre: "No disponible"}
+    { nombre: "Ficha técnica no disponible"}
     ],
     categoria: "Cartelería",
     subcategoria: "Aviso",  
@@ -1925,7 +1925,7 @@ export const carteles = [
     Descripcion: "Atención 3330 ES OBLIGATORIO LAVARSE LAS MANOS ANTES DE RETIRARSE DEL BAÑO",
     Especificaciones: "Alto: 300mm\nAncho: 400mm\nEspesor: 8mm",
     Documentacion: [
-    { nombre: "No disponible"}
+    { nombre: "Ficha técnica no disponible"}
     ],
     categoria: "Cartelería",
     subcategoria: "Aviso",  
@@ -1941,7 +1941,7 @@ export const carteles = [
     Descripcion: "Atención 3331 PEATONES CIRCULEN POR SU SENDA",
     Especificaciones: "Alto: 300mm\nAncho: 400mm\nEspesor: 8mm",
     Documentacion: [
-    { nombre: "No disponible"}
+    { nombre: "Ficha técnica no disponible"}
     ],
     categoria: "Cartelería",
     subcategoria: "Aviso",  
@@ -1957,7 +1957,7 @@ export const carteles = [
     Descripcion: "Atención 3332 ESTACIONAMIENTO RESERVADO",
     Especificaciones: "Alto: 300mm\nAncho: 400mm\nEspesor: 8mm",
     Documentacion: [
-    { nombre: "No disponible"}
+    { nombre: "Ficha técnica no disponible"}
     ],
     categoria: "Cartelería",
     subcategoria: "Aviso",  
@@ -1973,7 +1973,7 @@ export const carteles = [
     Descripcion: "Atención 3333 MANTENGA LAS HERRAMIENTAS EN SU LUGAR DESPUES DE USARLAS",
     Especificaciones: "Alto: 300mm\nAncho: 400mm\nEspesor: 8mm",
     Documentacion: [
-    { nombre: "No disponible"}
+    { nombre: "Ficha técnica no disponible"}
     ],
     categoria: "Cartelería",
     subcategoria: "Aviso",  
@@ -1989,7 +1989,7 @@ export const carteles = [
     Descripcion: "Atención 3334 ESTA EXPRESAMENTE PROHIBIDA LA ENTRADA Y SALIDA DE EXTRAÑOS EN ESTE LUGAR",
     Especificaciones: "Alto: 300mm\nAncho: 400mm\nEspesor: 8mm",
     Documentacion: [
-    { nombre: "No disponible"}
+    { nombre: "Ficha técnica no disponible"}
     ],
     categoria: "Cartelería",
     subcategoria: "Aviso",  
@@ -2005,7 +2005,7 @@ export const carteles = [
     Descripcion: "Atención 3335 NO OPERE ESTA MAQUINA SIN AUTORIZACION",
     Especificaciones: "Alto: 300mm\nAncho: 400mm\nEspesor: 8mm",
     Documentacion: [
-    { nombre: "No disponible"}
+    { nombre: "Ficha técnica no disponible"}
     ],
     categoria: "Cartelería",
     subcategoria: "Aviso",  
@@ -2021,7 +2021,7 @@ export const carteles = [
     Descripcion: "Atención 3336 PROHIBIDO RETIRAR PRODUCTOS DE LA PLANTA SIN LA DOCUMENTACION CORRESPONDIENTE",
     Especificaciones: "Alto: 300mm\nAncho: 400mm\nEspesor: 8mm",
     Documentacion: [
-    { nombre: "No disponible"}
+    { nombre: "Ficha técnica no disponible"}
     ],
     categoria: "Cartelería",
     subcategoria: "Aviso",  
@@ -2037,7 +2037,7 @@ export const carteles = [
     Descripcion: "Atención 3337 LIMITE CIRCULACION VEHICULOS PARTICULARES",
     Especificaciones: "Alto: 300mm\nAncho: 400mm\nEspesor: 8mm",
     Documentacion: [
-    { nombre: "No disponible"}
+    { nombre: "Ficha técnica no disponible"}
     ],
     categoria: "Cartelería",
     subcategoria: "Aviso",  
@@ -2053,7 +2053,7 @@ export const carteles = [
     Descripcion: "Atención 3338 PARA SER UTILIZADO SOLO POR PERSONAL AUTORIZADO",
     Especificaciones: "Alto: 300mm\nAncho: 400mm\nEspesor: 8mm",
     Documentacion: [
-    { nombre: "No disponible"}
+    { nombre: "Ficha técnica no disponible"}
     ],
     categoria: "Cartelería",
     subcategoria: "Aviso",  
@@ -2069,7 +2069,7 @@ export const carteles = [
     Descripcion: "Atención 3339 FUERA DE SERVICIO",
     Especificaciones: "Alto: 300mm\nAncho: 400mm\nEspesor: 8mm",
     Documentacion: [
-    { nombre: "No disponible"}
+    { nombre: "Ficha técnica no disponible"}
     ],
     categoria: "Cartelería",
     subcategoria: "Aviso",  
@@ -2085,7 +2085,7 @@ export const carteles = [
     Descripcion: "Atención 3340 LA SEGURIDAD DEPENDE DE USTED",
     Especificaciones: "Alto: 300mm\nAncho: 400mm\nEspesor: 8mm",
     Documentacion: [
-    { nombre: "No disponible"}
+    { nombre: "Ficha técnica no disponible"}
     ],
     categoria: "Cartelería",
     subcategoria: "Aviso",  
@@ -2101,7 +2101,7 @@ export const carteles = [
     Descripcion: "Atención 3341 LA SEGURIDAD ES PARTE DEL TRABAJO",
     Especificaciones: "Alto: 300mm\nAncho: 400mm\nEspesor: 8mm",
     Documentacion: [
-    { nombre: "No disponible"}
+    { nombre: "Ficha técnica no disponible"}
     ],
     categoria: "Cartelería",
     subcategoria: "Aviso",  
@@ -2117,7 +2117,7 @@ export const carteles = [
     Descripcion: "Atención 3342 LA SEGURIDAD ES RESPONSABILIDAD DE TODOS",
     Especificaciones: "Alto: 300mm\nAncho: 400mm\nEspesor: 8mm",
     Documentacion: [
-    { nombre: "No disponible"}
+    { nombre: "Ficha técnica no disponible"}
     ],
     categoria: "Cartelería",
     subcategoria: "Aviso",  
@@ -2133,7 +2133,7 @@ export const carteles = [
     Descripcion: "Atención 3343 LA SEGURIDAD ES SERVICIO EN EQUIPO",
     Especificaciones: "Alto: 300mm\nAncho: 400mm\nEspesor: 8mm",
     Documentacion: [
-    { nombre: "No disponible"}
+    { nombre: "Ficha técnica no disponible"}
     ],
     categoria: "Cartelería",
     subcategoria: "Aviso",  
@@ -2149,7 +2149,7 @@ export const carteles = [
     Descripcion: "Peligro 0071 ALTO VOLTAJE",
     Especificaciones: "Alto: 300mm\nAncho: 400mm\nEspesor: 8mm",
     Documentacion: [
-    { nombre: "No disponible"}
+    { nombre: "Ficha técnica no disponible"}
     ],
     categoria: "Cartelería",
     subcategoria: "Peligro",  
@@ -2165,7 +2165,7 @@ export const carteles = [
     Descripcion: "Peligro 0103 PELIGRO",
     Especificaciones: "Alto: 300mm\nAncho: 400mm\nEspesor: 8mm",
     Documentacion: [
-    { nombre: "No disponible"}
+    { nombre: "Ficha técnica no disponible"}
     ],
     categoria: "Cartelería",
     subcategoria: "Peligro",  
@@ -2181,7 +2181,7 @@ export const carteles = [
     Descripcion: "Peligro 1342 MATERIALES CORROSIVOS",
     Especificaciones: "Alto: 300mm\nAncho: 400mm\nEspesor: 8mm",
     Documentacion: [
-    { nombre: "No disponible"}
+    { nombre: "Ficha técnica no disponible"}
     ],
     categoria: "Cartelería",
     subcategoria: "Peligro",  
@@ -2197,7 +2197,7 @@ export const carteles = [
     Descripcion: "Peligro 1343 LIQUIDOS INFLAMABLES",
     Especificaciones: "Alto: 300mm\nAncho: 400mm\nEspesor: 8mm",
     Documentacion: [
-    { nombre: "No disponible"}
+    { nombre: "Ficha técnica no disponible"}
     ],
     categoria: "Cartelería",
     subcategoria: "Peligro",  
@@ -2213,7 +2213,7 @@ export const carteles = [
     Descripcion: "Peligro 1344 MATERIAL RADIOACTIVO",
     Especificaciones: "Alto: 300mm\nAncho: 400mm\nEspesor: 8mm",
     Documentacion: [
-    { nombre: "No disponible"}
+    { nombre: "Ficha técnica no disponible"}
     ],
     categoria: "Cartelería",
     subcategoria: "Peligro",  
@@ -2229,7 +2229,7 @@ export const carteles = [
     Descripcion: "Peligro 1345 NO TOCAR LAS MAQUINAS",
     Especificaciones: "Alto: 300mm\nAncho: 400mm\nEspesor: 8mm",
     Documentacion: [
-    { nombre: "No disponible"}
+    { nombre: "Ficha técnica no disponible"}
     ],
     categoria: "Cartelería",
     subcategoria: "Peligro",  
@@ -2245,7 +2245,7 @@ export const carteles = [
     Descripcion: "Peligro 1346 SOLAMENTE PERSONAL AUTORIZADO",
     Especificaciones: "Alto: 300mm\nAncho: 400mm\nEspesor: 8mm",
     Documentacion: [
-    { nombre: "No disponible"}
+    { nombre: "Ficha técnica no disponible"}
     ],
     categoria: "Cartelería",
     subcategoria: "Peligro",  
@@ -2261,7 +2261,7 @@ export const carteles = [
     Descripcion: "Peligro 1347 AREA EN CONSTRUCCION",
     Especificaciones: "Alto: 300mm\nAncho: 400mm\nEspesor: 8mm",
     Documentacion: [
-    { nombre: "No disponible"}
+    { nombre: "Ficha técnica no disponible"}
     ],
     categoria: "Cartelería",
     subcategoria: "Peligro",  
@@ -2277,7 +2277,7 @@ export const carteles = [
     Descripcion: "Peligro 1348 AREA CONTAMINADA",
     Especificaciones: "Alto: 300mm\nAncho: 400mm\nEspesor: 8mm",
     Documentacion: [
-    { nombre: "No disponible"}
+    { nombre: "Ficha técnica no disponible"}
     ],
     categoria: "Cartelería",
     subcategoria: "Peligro",  
@@ -2293,7 +2293,7 @@ export const carteles = [
     Descripcion: "Peligro 1349 NO TOCAR ESTA LLAVE",
     Especificaciones: "Alto: 300mm\nAncho: 400mm\nEspesor: 8mm",
     Documentacion: [
-    { nombre: "No disponible"}
+    { nombre: "Ficha técnica no disponible"}
     ],
     categoria: "Cartelería",
     subcategoria: "Peligro",  
@@ -2309,7 +2309,7 @@ export const carteles = [
     Descripcion: "Peligro 1350 NO ENTRAR",
     Especificaciones: "Alto: 300mm\nAncho: 400mm\nEspesor: 8mm",
     Documentacion: [
-    { nombre: "No disponible"}
+    { nombre: "Ficha técnica no disponible"}
     ],
     categoria: "Cartelería",
     subcategoria: "Peligro",  
@@ -2325,7 +2325,7 @@ export const carteles = [
     Descripcion: "Peligro 1351 GASES COMPRIMIDOS INFLAMABLES ",
     Especificaciones: "Alto: 300mm\nAncho: 400mm\nEspesor: 8mm",
     Documentacion: [
-    { nombre: "No disponible"}
+    { nombre: "Ficha técnica no disponible"}
     ],
     categoria: "Cartelería",
     subcategoria: "Peligro",  
@@ -2341,7 +2341,7 @@ export const carteles = [
     Descripcion: "Peligro 1352 MUY CALIENTE NO TOQUE",
     Especificaciones: "Alto: 300mm\nAncho: 400mm\nEspesor: 8mm",
     Documentacion: [
-    { nombre: "No disponible"}
+    { nombre: "Ficha técnica no disponible"}
     ],
     categoria: "Cartelería",
     subcategoria: "Peligro",  
@@ -2357,7 +2357,7 @@ export const carteles = [
     Descripcion: "Peligro 1353 RESPETE LAS NORMAS DE SEGURIDAD",
     Especificaciones: "Alto: 300mm\nAncho: 400mm\nEspesor: 8mm",
     Documentacion: [
-    { nombre: "No disponible"}
+    { nombre: "Ficha técnica no disponible"}
     ],
     categoria: "Cartelería",
     subcategoria: "Peligro",  
@@ -2373,7 +2373,7 @@ export const carteles = [
     Descripcion: "Peligro 1354 NO CONECTAR SIN PROTECCION ADECUADA",
     Especificaciones: "Alto: 300mm\nAncho: 400mm\nEspesor: 8mm",
     Documentacion: [
-    { nombre: "No disponible"}
+    { nombre: "Ficha técnica no disponible"}
     ],
     categoria: "Cartelería",
     subcategoria: "Peligro",  
@@ -2389,7 +2389,7 @@ export const carteles = [
     Descripcion: "Peligro 1355 ALTA TENSION",
     Especificaciones: "Alto: 300mm\nAncho: 400mm\nEspesor: 8mm",
     Documentacion: [
-    { nombre: "No disponible"}
+    { nombre: "Ficha técnica no disponible"}
     ],
     categoria: "Cartelería",
     subcategoria: "Peligro",  
@@ -2405,7 +2405,7 @@ export const carteles = [
     Descripcion: "Peligro 0258 CUIDADO CON EL PERRO",
     Especificaciones: "Alto: 190mm\nAncho: 140mm\nEspesor: 8mm",
     Documentacion: [
-    { nombre: "No disponible"}
+    { nombre: "Ficha técnica no disponible"}
     ],
     categoria: "Cartelería",
     subcategoria: "Peligro",  
@@ -2421,7 +2421,7 @@ export const carteles = [
     Descripcion: "Peligro 1356 CARGA Y DESCARGA DE COMBUSTIBLE",
     Especificaciones: "Alto: 300mm\nAncho: 400mm\nEspesor: 8mm",
     Documentacion: [
-    { nombre: "No disponible"}
+    { nombre: "Ficha técnica no disponible"}
     ],
     categoria: "Cartelería",
     subcategoria: "Peligro",  
@@ -2437,7 +2437,7 @@ export const carteles = [
     Descripcion: "Incendio 525 CHAPA BALIZA TIPO ABC LETRAS ROJAS",
     Especificaciones: "Alto: 880mm\nAncho: 290mm\nEspesor: 5mm",
     Documentacion: [
-    { nombre: "No disponible"}
+    { nombre: "Ficha técnica no disponible"}
     ],
     categoria: "Cartelería",
     subcategoria: "Incendio",  
@@ -2453,7 +2453,7 @@ export const carteles = [
     Descripcion: "Incendio 075 RAYAS CUADRADO",
     Especificaciones: "Alto: 300mm\nAncho: 300mm\nEspesor: 8mm",
     Documentacion: [
-    { nombre: "No disponible"}
+    { nombre: "Ficha técnica no disponible"}
     ],
     categoria: "Cartelería",
     subcategoria: "Incendio",  
@@ -2469,7 +2469,7 @@ export const carteles = [
     Descripcion: "Incendio 104 MATAFUEGO",
     Especificaciones: "Alto: 270mm\nAncho: 230mm\nEspesor: 8mm",
     Documentacion: [
-    { nombre: "No disponible"}
+    { nombre: "Ficha técnica no disponible"}
     ],
     categoria: "Cartelería",
     subcategoria: "Incendio",  
@@ -2485,7 +2485,7 @@ export const carteles = [
     Descripcion: "Incendio 106 ALARMA",
     Especificaciones: "Alto: 270mm\nAncho: 230mm\nEspesor: 8mm",
     Documentacion: [
-    { nombre: "No disponible"}
+    { nombre: "Ficha técnica no disponible"}
     ],
     categoria: "Cartelería",
     subcategoria: "Incendio",  
@@ -2501,7 +2501,7 @@ export const carteles = [
     Descripcion: "Incendio 130 MATAFUEGO INCENDIO",
     Especificaciones: "Alto: 200mm\nAncho: 300mm\nEspesor: 8mm",
     Documentacion: [
-    { nombre: "No disponible"}
+    { nombre: "Ficha técnica no disponible"}
     ],
     categoria: "Cartelería",
     subcategoria: "Incendio",  
@@ -2517,7 +2517,7 @@ export const carteles = [
     Descripcion: "Incendio 140 RAYAS TRIANGULO",
     Especificaciones: "Alto: 350mm\nAncho: 350mm\nEspesor: 8mm",
     Documentacion: [
-    { nombre: "No disponible"}
+    { nombre: "Ficha técnica no disponible"}
     ],
     categoria: "Cartelería",
     subcategoria: "Incendio",  
@@ -2533,7 +2533,7 @@ export const carteles = [
     Descripcion: "Incendio 150 MATAFUEGOS",
     Especificaciones: "Alto: 450mm\nAncho: 320mm\nEspesor: 8mm",
     Documentacion: [
-    { nombre: "No disponible"}
+    { nombre: "Ficha técnica no disponible"}
     ],
     categoria: "Cartelería",
     subcategoria: "Incendio",  
@@ -2549,7 +2549,7 @@ export const carteles = [
     Descripcion: "Incendio 151 NICHOS HIDRANTES",
     Especificaciones: "Alto: 450mm\nAncho: 320mm\nEspesor: 8mm",
     Documentacion: [
-    { nombre: "No disponible"}
+    { nombre: "Ficha técnica no disponible"}
     ],
     categoria: "Cartelería",
     subcategoria: "Incendio",  
@@ -2565,7 +2565,7 @@ export const carteles = [
     Descripcion: "Seguridad 0054 CIRCULE CON PRECAUCION",
     Especificaciones: "Alto: 450mm\nAncho: 400mm\nEspesor: 8mm",
     Documentacion: [
-    { nombre: "No disponible"}
+    { nombre: "Ficha técnica no disponible"}
     ],
     categoria: "Cartelería",
     subcategoria: "Seguridad",  
@@ -2581,14 +2581,14 @@ export const carteles = [
     Descripcion: "Seguridad 0050 CONTROLAR ANTES DE SU USO",
     Especificaciones: "Alto: 450mm\nAncho: 400mm\nEspesor: 8mm",
     Documentacion: [
-    { nombre: "No disponible"}
+    { nombre: "Ficha técnica no disponible"}
     ],
     categoria: "Cartelería",
     subcategoria: "Seguridad",  
     marca: "",
     destacado: false,
     imagenes:[
-      "/imagenes/Productos/carteleria/seguridad/controlar.webp"
+      "/imagenes/Productos/carteleria/seguridad/controle.webp"
     ]
   },
   {
@@ -2597,7 +2597,7 @@ export const carteles = [
     Descripcion: "Seguridad 0043 MANTENGA ORDEN Y LIMPIEZA",
     Especificaciones: "Alto: 450mm\nAncho: 400mm\nEspesor: 8mm",
     Documentacion: [
-    { nombre: "No disponible"}
+    { nombre: "Ficha técnica no disponible"}
     ],
     categoria: "Cartelería",
     subcategoria: "Seguridad",  
@@ -2613,7 +2613,7 @@ export const carteles = [
     Descripcion: "Seguridad 0039 AVISO CARGA MAX. KG",
     Especificaciones: "Alto: 450mm\nAncho: 400mm\nEspesor: 8mm",
     Documentacion: [
-    { nombre: "No disponible"}
+    { nombre: "Ficha técnica no disponible"}
     ],
     categoria: "Cartelería",
     subcategoria: "Seguridad",  
@@ -2629,7 +2629,7 @@ export const carteles = [
     Descripcion: "Seguridad 0035 UN LUGAR PARA CADA COSA Y CADA COSA EN SU LUGAR",
     Especificaciones: "Alto: 450mm\nAncho: 400mm\nEspesor: 8mm",
     Documentacion: [
-    { nombre: "No disponible"}
+    { nombre: "Ficha técnica no disponible"}
     ],
     categoria: "Cartelería",
     subcategoria: "Seguridad",  
@@ -2645,7 +2645,7 @@ export const carteles = [
     Descripcion: "Seguridad 0940 SR CLIENTE: POR FAVOR APAGAR EL MOTOR DE SU VEHICULO",
     Especificaciones: "Alto: 270mm\nAncho: 230mm\nEspesor: 8mm",
     Documentacion: [
-    { nombre: "No disponible"}
+    { nombre: "Ficha técnica no disponible"}
     ],
     categoria: "Cartelería",
     subcategoria: "Seguridad",  
@@ -2661,7 +2661,7 @@ export const carteles = [
     Descripcion: "Información 251H HOMBRE",
     Especificaciones: "Alto: 140mm\nAncho: 140mm",
     Documentacion: [
-    { nombre: "No disponible"}
+    { nombre: "Ficha técnica no disponible"}
     ],
     categoria: "Cartelería",
     subcategoria: "Información",  
@@ -2677,7 +2677,7 @@ export const carteles = [
     Descripcion: "Información 251M MUJER",
     Especificaciones: "Alto: 140mm\nAncho: 140mm",
     Documentacion: [
-    { nombre: "No disponible"}
+    { nombre: "Ficha técnica no disponible"}
     ],
     categoria: "Cartelería",
     subcategoria: "Información",  
@@ -2693,7 +2693,7 @@ export const carteles = [
     Descripcion: "Información 206 BOTIQUIN",
     Especificaciones: "Alto: 210mm\nAncho: 410mm\nEspesor: 8mm",
     Documentacion: [
-    { nombre: "No disponible"}
+    { nombre: "Ficha técnica no disponible"}
     ],
     categoria: "Cartelería",
     subcategoria: "Información",  
@@ -2709,7 +2709,7 @@ export const carteles = [
     Descripcion: "Información 073A AGUA DESTILADA",
     Especificaciones: "Alto: 300mm\nAncho: 400mm\nEspesor: 8mm",
     Documentacion: [
-    { nombre: "No disponible"}
+    { nombre: "Ficha técnica no disponible"}
     ],
     categoria: "Cartelería",
     subcategoria: "Información",  
@@ -2725,7 +2725,7 @@ export const carteles = [
     Descripcion: "Información 073 SALA DE MAQUINAS",
     Especificaciones: "Alto: 300mm\nAncho: 400mm\nEspesor: 8mm",
     Documentacion: [
-    { nombre: "No disponible"}
+    { nombre: "Ficha técnica no disponible"}
     ],
     categoria: "Cartelería",
     subcategoria: "Información",  
@@ -2741,7 +2741,7 @@ export const carteles = [
     Descripcion: "Información 069 RESIDUOS",
     Especificaciones: "Alto: 270mm\nAncho: 200mm\nEspesor: 8mm",
     Documentacion: [
-    { nombre: "No disponible"}
+    { nombre: "Ficha técnica no disponible"}
     ],
     categoria: "Cartelería",
     subcategoria: "Información",  
@@ -2757,7 +2757,7 @@ export const carteles = [
     Descripcion: "Información 065 DUCHA DE EMERGENCIA",
     Especificaciones: "Alto: 300mm\nAncho: 400mm\nEspesor: 8mm",
     Documentacion: [
-    { nombre: "No disponible"}
+    { nombre: "Ficha técnica no disponible"}
     ],
     categoria: "Cartelería",
     subcategoria: "Información",  
@@ -2773,7 +2773,7 @@ export const carteles = [
     Descripcion: "Información 064 LAVAOJOS DE EMERGENCIA",
     Especificaciones: "Alto: 300mm\nAncho: 400mm\nEspesor: 8mm",
     Documentacion: [
-    { nombre: "No disponible"}
+    { nombre: "Ficha técnica no disponible"}
     ],
     categoria: "Cartelería",
     subcategoria: "Información",  
@@ -2789,7 +2789,7 @@ export const carteles = [
     Descripcion: "Información 057 ZONA DE CARGA",
     Especificaciones: "Alto: 450mm\nAncho: 400mm\nEspesor: 8mm",
     Documentacion: [
-    { nombre: "No disponible"}
+    { nombre: "Ficha técnica no disponible"}
     ],
     categoria: "Cartelería",
     subcategoria: "Información",  
@@ -2805,7 +2805,7 @@ export const carteles = [
     Descripcion: "Información 036 ZONA DE RUIDOS",
     Especificaciones: "Alto: 450mm\nAncho: 400mm\nEspesor: 8mm",
     Documentacion: [
-    { nombre: "No disponible"}
+    { nombre: "Ficha técnica no disponible"}
     ],
     categoria: "Cartelería",
     subcategoria: "Información",  
@@ -2821,7 +2821,7 @@ export const carteles = [
     Descripcion: "Información 052 DESVIO",
     Especificaciones: "Alto: 400mm\nAncho: 450mm\nEspesor: 8mm",
     Documentacion: [
-    { nombre: "No disponible"}
+    { nombre: "Ficha técnica no disponible"}
     ],
     categoria: "Cartelería",
     subcategoria: "Información",  
@@ -2837,7 +2837,7 @@ export const carteles = [
     Descripcion: "Información 052 DESVIO",
     Especificaciones: "Alto: 140mm\nAncho: 300mm\nEspesor: 8mm",
     Documentacion: [
-    { nombre: "No disponible"}
+    { nombre: "Ficha técnica no disponible"}
     ],
     categoria: "Cartelería",
     subcategoria: "Información",  

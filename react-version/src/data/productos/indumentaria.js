@@ -569,7 +569,7 @@ export const indumentaria = [
     Descripcion: "La Faja de protección lumbar  es la única confeccionada con elastano reforzado, su malla elastizada y sus bandas laterales regulables permiten una excelente movilidad para el trabajo.Posee gran superficie de ajuste y ballenas (entre 4 y 6 según talle), con cinta antideslizante ubicadas en la parte interna trasera.",
     Especificaciones: "S entre 80 y 90 cm de cintura (SE TOMA A LA ALTURA DEL CINTURÓN)\nM entre 90 y 100 cm.\nL entre 100 y 110 cm.\nXL entre 110 y 120 cm.\nXXL entre 120 y 130 cm.",
     Documentacion: [
-    { nombre: "No disponible"}
+    { nombre: "Ficha técnica no disponible"}
     ],
     categoria: "Indumentaria",
     subcategoria: "Fajas Protectoras Lumbares",  
@@ -586,7 +586,7 @@ export const indumentaria = [
     Descripcion: "La Faja de Protección Lumbar OMBU combina funcionalidad superior y diseño ergonómico para ofrecer una solución integral en el soporte lumbar para ambientes laborales. Diseñada con elastano reforzado y una estructura de malla elastizada, esta faja se caracteriza por su capacidad de ajuste personalizado y su diseño que no compromete la movilidad del usuario.",
     Especificaciones: "Material: Elastano reforzado para durabilidad y flexibilidad.\nEstructura: Malla elastizada que permite la transpirabilidad y las ballenas con cinta antideslizante aseguran una colocación óptima.\nAjuste: Bandas laterales regulables y tiradores elásticos que se adaptan a diferentes tallas, desde S hasta XXL.\nSoporte: Ballenas posteriores con cinta antideslizante para un soporte firme y estable en la zona lumbar.\nCierre: Velcro de alta resistencia para un cierre seguro y duradero.\nConfección: Diseño pensado para proporcionar una amplia superficie de ajuste, adaptándose perfectamente al cuerpo del trabajador.\n\nGUÍA DE TALLES:\nS entre 80 y 90 cm de cintura (SE TOMA A LA ALTURA DEL CINTURÓN)\nM entre 90 y 100 cm.\nL entre 100 y 110 cm.\nXL entre 110 y 120 cm.\nXXL entre 120 y 130 cm.",
     Documentacion: [
-    { nombre: "No disponible"}
+    { nombre: "Ficha técnica no disponible"}
     ],
     categoria: "Indumentaria",
     subcategoria: "Fajas Protectoras Lumbares",  
@@ -603,7 +603,7 @@ export const indumentaria = [
     Descripcion: "MÁXIMO ESFUERZO está diseñada bajo un concepto anatómico simétrico. Su función principal es la de apoyar a la zona lumbar central con ballenas que refuerzan la columna. Está provista con sus tiradores de soporte elástico.",
     Especificaciones: "Tiradores Elasticos regulables\nMalla elastizada reforzada\nBandas Lateralas y regulables\nGran Superficie de ajuste en el cuerpo principal\nVelcro de alta ressitencia\nBallenas en la parte posterior provista con cinta antideslizante para evitar su desplazamiento\n\nGUÍA DE TALLES:\nTALLE 1 (S): 85 \n95 CM\nTALLE 2 (M): 95 \n105 CM\nTALLE 3 (L): 105 \n115 CM\nTALLE 4 (XL): 115 \n125 CM\nTALLE 5 (XXL): 125 \n135 CM",
     Documentacion: [
-    { nombre: "No disponible"}
+    { nombre: "Ficha técnica no disponible"}
     ],
     categoria: "Indumentaria",
     subcategoria: "Fajas Protectoras Lumbares",  
@@ -620,7 +620,7 @@ export const indumentaria = [
     Descripcion: "Remera de algodón con cuello redondo. Hechas a pedido, consultar por bordados.",
     Especificaciones: "Material: Algodón\nCuello: Redondo\nBordado: Opcional",
     Documentacion: [
-    { nombre: "No disponible"}
+    { nombre: "Ficha técnica no disponible"}
     ],
     categoria: "Indumentaria",
     subcategoria: "Remeras",  
@@ -640,7 +640,7 @@ export const indumentaria = [
     Descripcion: "Buzo de algodón con cuello redondo y friza. Hechos a pedido, consultar por bordados.",
     Especificaciones: "Material: Algodón\nCuello: Redondo\nFriza: Si\nBordado: Opcional",
     Documentacion: [
-    { nombre: "No disponible"}
+    { nombre: "Ficha técnica no disponible"}
     ],
     categoria: "Indumentaria",
     subcategoria: "Abrigo",  
@@ -716,7 +716,7 @@ export const indumentaria = [
     nombre: "Gorra Gabardina Modelo Sandwich",
     Descripcion: "Gorra de gabardina 65 % poliester / 35 % algodon, 6 gajos con cierre velcro, casco y visera de color con vivo blanco.\nVariedad de colores.\nApto para bordado.",
     Especificaciones: "Material: 65 % poliester / 35 % algodon\n6 gajos con cierre velcro",
-    Documentacion: [{ nombre: "No disponible" }],
+    Documentacion: [{ nombre: "Ficha técnica no disponible" }],
     categoria: "Indumentaria",
     subcategoria: "Gorras",
     marca: "",
@@ -735,7 +735,7 @@ export const indumentaria = [
     Descripcion: "Gorra de gabardina esmerilada 100% algodón, de 6 gajos y con cierre con corredera metálica. Apto para bordado, ideal para uso laboral y promocional.",
     Especificaciones: "Material: Gabardina esmerilada 100% algodón\nEstructura: 6 gajos\nCierre: Corredera metálica\nApto para bordado",
     Documentacion: [
-    { nombre: "No disponible" }
+    { nombre: "Ficha técnica no disponible" }
     ],
     categoria: "Indumentaria",
     subcategoria: "Gorras",
@@ -751,7 +751,7 @@ export const indumentaria = [
     nombre: "Gorra Vintage",
     Descripcion: "Gorra vintage lisa y ajustable de 6 gajos, confeccionada en gabardina con lavado que le aporta un aspecto clásico y ligeramente desgastado. Cierre regulable en el dorso. Ideal para uso promocional, merchandising, comercios e instituciones. Apta para bordado.",
     Especificaciones: "Estructura: 6 gajos\nEstilo: Vintage / prelavado\nCierre: Regulable\nApta para bordado",
-    Documentacion: [{ nombre: "No disponible" }],
+    Documentacion: [{ nombre: "Ficha técnica no disponible" }],
     categoria: "Indumentaria",
     subcategoria: "Gorras",
     marca: "",
@@ -767,7 +767,7 @@ export const indumentaria = [
     nombre: "Gorra Gabardina Algodón Premium",
     Descripcion: "Gorra de gabardina de algodón premium, regulable, de estructura clásica y excelente terminación. Versátil y cómoda para uso diario, laboral o promocional. Apta para bordado.",
     Especificaciones: "Material: Gabardina de algodón premium\nCierre: Regulable\nApta para bordado",
-    Documentacion: [{ nombre: "No disponible" }],
+    Documentacion: [{ nombre: "Ficha técnica no disponible" }],
     categoria: "Indumentaria",
     subcategoria: "Gorras",
     marca: "",
@@ -782,7 +782,7 @@ export const indumentaria = [
     nombre: "Gorra Trucker Frente Blanco",
     Descripcion: "Gorra modelo trucker con frente blanco espumado y dorso de malla (mesh) de color. 5 gajos con cierre de cremallera. Gran variedad de colores y stock permanente. Apto para sublimado y bordado.",
     Especificaciones: "Modelo: Trucker\nFrente: Blanco espumado\nDorso: Malla (mesh) de color\nEstructura: 5 gajos\nCierre: Cremallera\nApto para sublimado / bordado",
-    Documentacion: [{ nombre: "No disponible" }],
+    Documentacion: [{ nombre: "Ficha técnica no disponible" }],
     categoria: "Indumentaria",
     subcategoria: "Gorras",
     marca: "",
@@ -799,7 +799,7 @@ export const indumentaria = [
     nombre: "Gorra Trucker Gabardina",
     Descripcion: "Gorra trucker de gabardina para adulto, con frente de gabardina y dorso de malla (mesh). Moderna, cómoda y de gran presencia. Ideal para promociones, uniformes y merchandising. Apta para bordado.",
     Especificaciones: "Modelo: Trucker\nFrente: Gabardina\nDorso: Malla (mesh)\nCierre: Regulable\nApta para bordado",
-    Documentacion: [{ nombre: "No disponible" }],
+    Documentacion: [{ nombre: "Ficha técnica no disponible" }],
     categoria: "Indumentaria",
     subcategoria: "Gorras",
     marca: "",
@@ -814,7 +814,7 @@ export const indumentaria = [
     nombre: "Gorra Gabardina Prelavada",
     Descripcion: "Gorra con visera confeccionado en gabardina prelavada, con combinación de tres colores entre frente, visera y dorso. Corredera metálica en el dorso para ajuste. Apto para bordado.",
     Especificaciones: "Material: Gabardina prelavada\nDiseño: Triple color (frente, visera y dorso)\nCierre: Corredera metálica en el dorso\nApta para bordado",
-    Documentacion: [{ nombre: "No disponible" }],
+    Documentacion: [{ nombre: "Ficha técnica no disponible" }],
     categoria: "Indumentaria",
     subcategoria: "Gorras",
     marca: "",
@@ -822,6 +822,66 @@ export const indumentaria = [
     talles: ["ÚNICO"],
     colores: [
       { nombre: "BEIGE", imagenes: ["/imagenes/Productos/indumentaria/gorras/gorragabardinaprelavadabeige.webp"] }
+    ]
+  },
+  {
+    id: "indumentaria-47",
+    nombre: "Cofia descartable (x100 unidades)",
+    Descripcion: "La Cofia Descartable es un accesorio de protección personal ideal para entornos donde se requiere mantener altos niveles de higiene y seguridad, como en hospitales, clínicas, laboratorios, industrias alimentarias, o incluso en salones de belleza. Estas cofias desechables están diseñadas para cubrir y proteger el cabello, evitando que caigan cabellos en el área de trabajo y reduciendo el riesgo de contaminación cruzada.",
+    Especificaciones: "Desechable y práctica: Cada cofia está lista para usar y se puede desechar después de su uso, lo que asegura una higiene constante y elimina la necesidad de lavado o mantenimiento.\nAlta calidad: Fabricada con materiales no tejidos de alta calidad que ofrecen una barrera efectiva contra la exposición a polvo, suciedad y otras partículas.\nAjuste cómodo: La cofia cuenta con un elástico suave que se adapta cómodamente a diferentes tamaños de cabeza, asegurando un ajuste seguro sin causar incomodidad.\nVersatilidad de uso: Ideal para profesionales de la salud, trabajadores en entornos de alimentos, personal de limpieza o en actividades que requieran mantener el cabello cubierto de forma higiénica y segura.\nPaquete económico: Presentada en un paquete de 100 unidades, lo que la convierte en una opción práctica y económica para su uso en gran volumen.\nHigiénica y segura: Garantiza una cobertura completa del cabello, reduciendo riesgos de contaminación y protegiendo tanto al usuario como a su entorno.",
+    Documentacion: [{ nombre: "Ficha técnica no disponible" }],
+    categoria: "Indumentaria",
+    subcategoria: "Equipamiento",
+    marca: "",
+    destacado: false,
+    talles: ["ÚNICO"],
+    imagenes: [
+      "/imagenes/Productos/indumentaria/equipamiento/cofia1.webp","/imagenes/Productos/indumentaria/equipamiento/cofia2.webp"
+    ]
+  },
+  {
+    id: "indumentaria-48",
+    nombre: "Cubrebarba descartable (x50 unidades)",
+    Descripcion: "El Cubre barba descartable es un producto de uso común en diversas industrias y entornos, diseñados para proporcionar una solución higiénica y práctica en situaciones donde se requiere cubrir la barba y mantener un alto nivel de limpieza. Son esenciales en entornos como la industria alimentaria, la atención médica y la manufactura, donde se exige el cumplimiento de estrictas normas de higiene y seguridad.",
+    Especificaciones: "Desechable y práctica: Cada cubrebarba está listo para usar y se puede desechar después de su uso, lo que asegura una higiene constante y elimina la necesidad de lavado o mantenimiento.\nAlta calidad: Fabricado con materiales no tejidos de alta calidad que ofrecen una barrera efectiva contra la exposición a polvo, suciedad y otras partículas.\nAjuste cómodo: El cubrebarba cuenta con un elástico suave que se adapta cómodamente a diferentes tamaños de cabeza, asegurando un ajuste seguro sin causar incomodidad.\nVersatilidad de uso: Ideal para profesionales de la salud, trabajadores en entornos de alimentos, personal de limpieza o en actividades que requieran mantener el cabello cubierto de forma higiénica y segura.\nPaquete económico: Presentado en un paquete de 50 unidades, lo que lo convierte en una opción práctica y económica para su uso en gran volumen.\nHigiénica y segura: Garantiza una cobertura completa del cabello, reduciendo riesgos de contaminación y protegiendo tanto al usuario como a su entorno.",
+    Documentacion: [{ nombre: "Ficha técnica no disponible" }],
+    categoria: "Indumentaria",
+    subcategoria: "Equipamiento",
+    marca: "",
+    destacado: false,
+    talles: ["ÚNICO"],
+    imagenes: [
+      "/imagenes/Productos/indumentaria/equipamiento/cubrebarba1.webp","/imagenes/Productos/indumentaria/equipamiento/cubrebarba2.webp"
+    ]
+  },
+  {
+    id: "indumentaria-49",
+    nombre: "Camisolin Descartable con Puño (x10 unidades)",
+    Descripcion: "Material: SMS\nGramos: 30\nDetalles: Con puño de algodon\nUnidad de Venta: x1 unidad\nPresentación: x10 unidades",
+    Especificaciones: "Desechable y práctica: Cada cubrebarba está listo para usar y se puede desechar después de su uso, lo que asegura una higiene constante y elimina la necesidad de lavado o mantenimiento.\nAlta calidad: Fabricado con materiales no tejidos de alta calidad que ofrecen una barrera efectiva contra la exposición a polvo, suciedad y otras partículas.\nAjuste cómodo: El cubrebarba cuenta con un elástico suave que se adapta cómodamente a diferentes tamaños de cabeza, asegurando un ajuste seguro sin causar incomodidad.\nVersatilidad de uso: Ideal para profesionales de la salud, trabajadores en entornos de alimentos, personal de limpieza o en actividades que requieran mantener el cabello cubierto de forma higiénica y segura.\nPaquete económico: Presentado en un paquete de 50 unidades, lo que lo convierte en una opción práctica y económica para su uso en gran volumen.\nHigiénica y segura: Garantiza una cobertura completa del cabello, reduciendo riesgos de contaminación y protegiendo tanto al usuario como a su entorno.",
+    Documentacion: [{ nombre: "Ficha técnica no disponible" }],
+    categoria: "Indumentaria",
+    subcategoria: "Equipamiento",
+    marca: "",
+    destacado: false,
+    talles: ["ÚNICO"],
+    imagenes: [
+      "/imagenes/Productos/indumentaria/equipamiento/camisolin1.webp"
+    ]
+  },
+  {
+    id: "indumentaria-50",
+    nombre: "Cubre Calzado Descartable (x25 pares)",
+    Descripcion: "El cubre zapato descartable es un insumo médico de protección diseñado con ajuste elástico, fabricado en material no tejido hemorrepelente de 30 g/m², ideal para mantener estrictos niveles de higiene en áreas limpias y quirúrgicas",
+    Especificaciones: "Material: Tela no tejida (propileno/polipropileno) con propiedades hemorrepelentes e hidrófugas para bloquear el paso de líquidos y fluidos.\nAjuste: Borde con elástico incorporado que se adapta de manera firme a distintos tipos y números de calzado (talle universal/único).\nUso: Descartable",
+    Documentacion: [{ nombre: "Ficha técnica no disponible" }],
+    categoria: "Indumentaria",
+    subcategoria: "Equipamiento",
+    marca: "",
+    destacado: false,
+    talles: ["ÚNICO"],
+    imagenes: [
+      "/imagenes/Productos/indumentaria/equipamiento/cubrezapato1.webp"
     ]
   },
 ];

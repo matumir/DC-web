@@ -151,7 +151,7 @@ export const respiratoria = [
     Descripcion: "La Cubierta de Careta de 3M™ 6885, está diseñada para ofrecer un recubrimiento protector reemplazable para el lente de careta en el Respirador con Careta de Cara Completa de 3M™ de serie 6000.\nUsar en las Máscaras Completas 3M™ Serie 6000 para ayudar a proteger los lentes.",
     Especificaciones: "Protege la pantalla para máscara completa 3M™ Serie 6000\nSe pega directamente sobre el visor y se puede desprender fácilmente\nProtección frente a contaminantes y arañazos",
     Documentacion: [
-    { nombre: "No disponible"}
+    { nombre: "Ficha técnica no disponible"}
     ],
     categoria: "Protección respiratoria",
     subcategoria: "Componentes p/ máscaras",  
@@ -167,7 +167,7 @@ export const respiratoria = [
     Descripcion: "Utilice como pieza de repuesto para Para Respiradores de Pieza facial Completa Serie 6700, 6800, 6900.\nPieza de repuesto de ensamble de copa nasal estándar para el uso con 3M™Respiradores Pieza Facial Completa Serie 6700, 6800, 6900 y FX- FF-401, 402 y 403.",
     Especificaciones: "El ensamble 6894 de 3M incluye válvulas de inhalación y es un repuesto diseñado para utilizarse con los Respiradores 6700, 6800 y 6900 de 3M\nMantiene los patrones originales de rendimiento de la pieza facial\nPuede resultar en ahorro de costos en el sistema respiratorio",
     Documentacion: [
-    { nombre: "No disponible"}
+    { nombre: "Ficha técnica no disponible"}
     ],
     categoria: "Protección respiratoria",
     subcategoria: "Componentes p/ máscaras",  
@@ -183,7 +183,7 @@ export const respiratoria = [
     Descripcion: "Este arnés para la cabeza se utiliza como pieza de repuesto para los respiradores de cara completa de 3M™ 6700, 6800, 6900.\nIncluye 4 hebillas.",
     Especificaciones: "Aprobación NIOSH\nPieza de recambio\n5 piezas por cartón\nPara respiradores reutilizables 3M\nParte reemplazable puede aliviar potencialmente costos en equipos de respiración",
     Documentacion: [
-    { nombre: "No disponible"}
+    { nombre: "Ficha técnica no disponible"}
     ],
     categoria: "Protección respiratoria",
     subcategoria: "Componentes p/ máscaras",  
@@ -199,7 +199,7 @@ export const respiratoria = [
     Descripcion: "Utilice como pieza de repuesto para Respiradores de Pieza facial Completa Serie 6000.\nPieza de repuesto para usar con los respiradores reutilizables de máscara completa (se venden por separado)",
     Especificaciones: "El visor para Serie 6000 de cara completa 6898 de 3M es un repuesto diseñado para usarse con los Respiradores de cara completa de la Serie 6000\nLente de policarbonato que ofrece un amplio campo visual\nPuede prolongar la vida útil de los equipos de protección respiratoria",
     Documentacion: [
-    { nombre: "No disponible"}
+    { nombre: "Ficha técnica no disponible"}
     ],
     categoria: "Protección respiratoria",
     subcategoria: "Componentes p/ máscaras",  
@@ -215,7 +215,7 @@ export const respiratoria = [
     Descripcion: "Los respiradores reutilizables 3M™ están diseñados para reutilizarse repetidamente y disponemos de una gama de repuestos para mantenerlos en buen estado de funcionamiento. Hay conjuntos de arnés de cabeza de repuesto disponibles para los respiradores reutilizables 3M™. La instalación puede ser realizada por un usuario capacitado o un centro de servicio técnico en caso de pérdida o daño del arnés original.\nHay conjuntos de arnés de cabeza de repuesto disponibles para los respiradores reutilizables 3M. La instalación puede ser realizada por un usuario capacitado o un centro de servicio técnico en caso de pérdida o daño del arnés original.",
     Especificaciones: "Conjuntos de arnés de cabeza de repuesto\nRepuesto para respiradores reutilizables 3M\nLos puede instalar un usuario capacitado o un centro de servicio\nPara respiradores reutilizables 3M\nParte reemplazable puede aliviar potencialmente costos en equipos de respiración",
     Documentacion: [
-    { nombre: "No disponible"}
+    { nombre: "Ficha técnica no disponible"}
     ],
     categoria: "Protección respiratoria",
     subcategoria: "Componentes p/ máscaras",  
@@ -231,7 +231,7 @@ export const respiratoria = [
     Descripcion: "Se utiliza para sujetar los pre filtros de partículas 5N11 y 5P71 de 3M™ en la parte superior de los respiradores de la serie 6000 de 3M™, los cartuchos de la serie 6000 de 3M™ y el adaptador de filtro 603 de 3M™.\nEl Retenedor de Filtro 501 de 3M™, Componente del Sistema de Protección Respiratoria sostiene los Filtros de Partículas 5N11 y 5P71 de 3M™ en su lugar sobre los Respiradores Serie 6000 de 3M™, los Cartuchos Serie 6000 de 3M™ y el Adaptador de Filtro 603 de 3M™ (todos los respiradores, filtros, cartuchos y adaptadores se venden por separado).",
     Especificaciones: "Componente aprobado del sistema 3M\nDiseñado para contener el filtro de partículas 5N11 y 5P71de 3M (se vende por separado)\nEl componente funciona con el respirador 3M serie 6000, los cartuchos 3M serie 6000 y el adaptador de filtro 3M™ 603\nColor: blanco translúcido\nMide 4” de alto x 8.5” de largo x 4.5” de ancho\nConsulte las Instrucciones para el usuario del filtro/cartucho para obtener más información",
     Documentacion: [
-    { nombre: "No disponible"}
+    { nombre: "Ficha técnica no disponible"}
     ],
     categoria: "Protección respiratoria",
     subcategoria: "Componentes p/ máscaras",  
@@ -400,7 +400,7 @@ export const respiratoria = [
     Descripcion: "Mascara facial contra polvos no tóxicos de partículas finas con retención superior al 80% de partículas de 2 micrones, formada por 2 capas, con banda e inserto metálico para ajuste nasal.\nBarbijo confeccionado con tela (no tejida) con alta capacidad de filtrado y retención de partículas. Doble tela, doble banda de sujeción e inserto metálico ubicado entre las 2 capas proporcionando mas seguridad y confort al uso.",
     Especificaciones: "Máscara facial para protección contra polvos no tóxicos y partículas finas\nCapacidad de filtrado superior al 80% de partículas de 2 micrones\nConfeccionada con tela no tejida de alta capacidad de filtración\nDoble capa de material filtrante para mayor protección\nInserto metálico nasal que permite un mejor ajuste al rostro\nDoble banda elástica de sujeción para mayor estabilidad y confort\nDiseño liviano y cómodo para uso prolongado\nIdeal para tareas con presencia de polvo y partículas en suspensión",
     Documentacion: [
-    { nombre: "No disponible"}
+    { nombre: "Ficha técnica no disponible"}
     ],
     categoria: "Protección respiratoria",
     subcategoria: "Respiradores / Cubrebocas",  
@@ -416,7 +416,7 @@ export const respiratoria = [
     Descripcion: "Máscara facial contra polvos no toxicos inertes y/o molestos mayores a 5 micrones, con una banda elastica e inserto métalico para ajuste nasal.",
     Especificaciones: "Máscara facial para protección contra polvos no tóxicos.\nCapacidad de filtrado hasta 5 micrones\nCuenta con banda elástica\nDoble capa de material filtrante para mayor protección\nInserto metálico nasal que permite un mejor ajuste al rostro\nDoble banda elástica de sujeción para mayor estabilidad y confort\nDiseño liviano y cómodo para uso prolongado.",
     Documentacion: [
-    { nombre: "No disponible"}
+    { nombre: "Ficha técnica no disponible"}
     ],
     categoria: "Protección respiratoria",
     subcategoria: "Respiradores / Cubrebocas",  
@@ -436,7 +436,7 @@ export const respiratoria = [
     Descripcion: "Máscara facial contra polvos no toxicos inertes y/o molestos mayores a 5 micrones, con una banda elastica e inserto métalico para ajuste nasal.",
     Especificaciones: "Máscara facial para protección contra polvos no tóxicos.\nCapacidad de filtrado hasta 5 micrones\nCuenta con banda elástica\nDoble capa de material filtrante para mayor protección\nInserto metálico nasal que permite un mejor ajuste al rostro\nDoble banda elástica de sujeción para mayor estabilidad y confort\nDiseño liviano y cómodo para uso prolongado.",
     Documentacion: [
-    { nombre: "No disponible"}
+    { nombre: "Ficha técnica no disponible"}
     ],
     categoria: "Protección respiratoria",
     subcategoria: "Respiradores / Cubrebocas",  
@@ -495,7 +495,7 @@ export const respiratoria = [
     Descripcion: "La Semimáscara COMFOS 1 está diseñada para brindar protección respiratoria con un alto nivel de confort durante jornadas de uso prolongadas. Su cuerpo de material termoplástico ofrece un sello hermético y adaptable al rostro, permitiendo un uso continuo con mínima incomodidad.\nCuenta con un arnés de sujeción de 4 puntos con doble banda elástica, que asegura un ajuste firme y estable. El sistema de regulación es desmontable y recambiable mediante hebillas de colocación simple, facilitando la limpieza y el mantenimiento del equipo.\nIncorpora dos válvulas de exhalación y una válvula de inhalación, que permiten el acople de filtros compatibles para una protección eficiente frente a partículas y contaminantes presentes en el ambiente de trabajo. Su diseño combina seguridad, practicidad y comodidad, siendo ideal para entornos donde se requiere protección respiratoria confiable.",
     Especificaciones: "Su adecuado sello permite un uso continuo con mínima incomodidad y su sistema de sujeción facilita un perfecto ajuste.\nCuerpo termoplástico de gran hermeticidad y confort.\nrnés de sujeción de 4 puntos, posee doble banda elástica con sistema de regulación desmontable y recambiable, mediante hebilla de colocación simple y rápida para su mejor higienización.\nCon dos válvulas exhaladoras y una válvula inhaladoras que permite el acople de un filtro.",
     Documentacion: [
-    { nombre: "No disponible"}
+    { nombre: "Ficha técnica no disponible"}
     ],
     categoria: "Protección respiratoria",
     subcategoria: "Máscaras / Semimáscaras",  
@@ -543,7 +543,7 @@ export const respiratoria = [
     Descripcion: "Protección respiratoria especializada para ambientes con alta concentración de contaminantes químico\nEste filtro químico ha sido diseñado para brindar una defensa eficaz frente a gases ácidos y vapores orgánicos, combinando materiales de alta calidad y un diseño funcional para un rendimiento confiable.",
     Especificaciones: "Cápsula plástica resistente, que contiene carbón activado de alta pureza, el cual actúa como agente filtrante específico para retener gases y vapores peligrosos.\nIdentificación visual mediante etiqueta amarilla, que facilita su correcta selección y uso.\nCompatibilidad exclusiva con semimáscaras FRAVIDA modelos Comfos I y Comfos II.\nDiseñado para uso dual, reteniendo simultáneamente gases ácidos y vapores orgánicos.",
     Documentacion: [
-    { nombre: "No disponible"}
+    { nombre: "Ficha técnica no disponible"}
     ],
     categoria: "Protección respiratoria",
     subcategoria: "Componentes p/ máscaras",  
@@ -591,7 +591,7 @@ export const respiratoria = [
     Descripcion: "Protección efectiva frente a polvos, neblinas y contaminantes sólidos no tóxicos.\nEste filtro mecánico está diseñado para ofrecer una barrera confiable contra partículas sólidas y acuosas, con una eficiencia del 95 % para partículas de hasta 0.3 micrones, brindando seguridad respiratoria en entornos industriales exigentes.",
     Especificaciones: "Tela de microfibras de alta densidad, diseñada para una excelente capacidad de filtrado.\nFormato a rosca, sin cápsula, de fácil instalación y uso.\nAlta compatibilidad con equipos de protección respiratoria con conexión directa.\nExcelente respirabilidad con bajo nivel de resistencia al flujo de aire.",
     Documentacion: [
-    { nombre: "No disponible"}
+    { nombre: "Ficha técnica no disponible"}
     ],
     categoria: "Protección respiratoria",
     subcategoria: "Componentes p/ máscaras",  
@@ -607,7 +607,7 @@ export const respiratoria = [
     Descripcion: "Kit Pintor – Protección para trabajos de pintura\nEl Kit Pintor reúne los elementos esenciales de protección personal para trabajar con pinturas, solventes y partículas en suspensión de forma más segura.\nIncluye: \nSemimáscara COMFOS II \n2 Filtros para vapores orgánicos \n2 Prefiltros partículas N95 \n2 Retenedores para prefiltros redondos\nAntiparra 1702.",
     Especificaciones: "Ver detalle en productos individuales.",
     Documentacion: [
-    { nombre: "No disponible"}
+    { nombre: "Ficha técnica no disponible"}
     ],
     categoria: "Protección respiratoria",
     subcategoria: "Kits",  
@@ -623,7 +623,7 @@ export const respiratoria = [
     Descripcion: "Kit Fumigador – Protección para trabajos con agroquímicos\nEl Kit Fumigador reúne los elementos esenciales de protección personal para trabajar con agroquímicos.\nIncluye: \nSemimáscara COMFOS II \n2 Filtros para gases ácidos y vapores orgánicos\n2 Prefiltros partículas N95 \n2 Retenedores para prefiltros redondos\nAntiparra 1702.",
     Especificaciones: "Ver detalle en productos individuales.",
     Documentacion: [
-    { nombre: "No disponible"}
+    { nombre: "Ficha técnica no disponible"}
     ],
     categoria: "Protección respiratoria",
     subcategoria: "Kits",  
@@ -658,7 +658,7 @@ export const respiratoria = [
     Descripcion: "La Semi-Máscara Segurind monofiltro está compuesta por un caucho termoplástico atoxico, libre de FTALATOS. Lo que permite un óptimo uso en las distintas circunstancias climáticas ya que el material a bajas o altas temperaturas conserva sus características sin permitir que el respirador se endurezca o se ablande. Posee una gran plasticidad y tersura superficial, ofrece uno de los más confortables adaptadores faciales disponibles actualmente, con excelente factor de calce y suave sellado. De gran Diseño adaptable al 95 por ciento de nuestro tipo racial, permite calzar en un amplio rango de tamaños y configuraciones faciales. El adaptador facial no resbalará sobre el rostro del usuario, aún con profusa transpiración. Fácil higienización y desinfección, gracias a la superficie sin poros, y con buena resistencia al ozono.",
     Especificaciones: "Fabricada en caucho termoplástico atóxico, libre de ftalatos.\nSistema monofiltro para protección respiratoria.\nMantiene sus propiedades en bajas y altas temperaturas, sin endurecerse ni deformarse.\nMaterial con alta plasticidad y superficie suave, que brinda gran confort al usuario.\nExcelente ajuste y sellado facial.\nDiseño ergonómico adaptable a la mayoría de los rostros (aprox. 95%).\nNo resbala, incluso con transpiración.\nSuperficie no porosa, de fácil limpieza y desinfección.\nResistente al ozono.",
     Documentacion: [
-    { nombre: "No disponible"}
+    { nombre: "Ficha técnica no disponible"}
     ],
     categoria: "Protección respiratoria",
     subcategoria: "Máscaras / Semimáscaras",  
@@ -674,7 +674,7 @@ export const respiratoria = [
     Descripcion: "La nueva Semi-Máscara Segurind Prenlyne está compuesta por un caucho termoplástico atoxico, libre de FTALATOS. Lo que permite un óptimo uso en las distintas circunstancias climáticas ya que el material a bajas o altas emperaturas conserva sus características sin permitir que el respirador se endurezca o se ablande. Posee una gran plasticidad y tersura superficial, ofrece uno de los más confortables adaptadores faciales disponibles actualmente, con excelente factor de calce y suave sellado. De gran Diseño adaptable al 95 % de nuestro tipo racial, permite calzar en un amplio rango de tamaños y configuraciones faciales. El adaptador facial no resbalará sobre el rostro del usuario, aún con profusa transpiración. Fácil higienización y desinfección, gracias a la superficie sin poros, y con buena resistencia al ozono.",
     Especificaciones: "Fabricada en caucho termoplástico atóxico, libre de ftalatos.\nMaterial que mantiene sus propiedades en bajas y altas temperaturas.\nAlta plasticidad y superficie suave para mayor comodidad.\nExcelente ajuste facial y sellado seguro.\nDiseño ergonómico, adaptable a aproximadamente 95 % de los rostros.\nCompatible con amplio rango de tamaños y configuraciones faciales.\nNo resbala, incluso con transpiración intensa.\nSuperficie no porosa, que facilita la limpieza y desinfección.\nBuena resistencia al ozono.",
     Documentacion: [
-    { nombre: "No disponible"}
+    { nombre: "Ficha técnica no disponible"}
     ],
     categoria: "Protección respiratoria",
     subcategoria: "Máscaras / Semimáscaras",  
@@ -690,7 +690,7 @@ export const respiratoria = [
     Descripcion: "Cartucho A - Vapores Orgánicos. Detectable por olfato y no inmediatamente peligrosos para la vida y la salud. (1.000 ppm).",
     Especificaciones: "Alto: 3 Cm\nAncho: 8 Cm\nLargo: 8 Cm\nPeso: 50g\nMateriales: Carbón activado\nMateriales filtrados: Vapores Organicos",
     Documentacion: [
-    { nombre: "No disponible"}
+    { nombre: "Ficha técnica no disponible"}
     ],
     categoria: "Protección respiratoria",
     subcategoria: "Componentes p/ máscaras",  
@@ -706,7 +706,7 @@ export const respiratoria = [
     Descripcion: "Cartucho AB - Vapores Orgánicos/Gases Ácidos. Cloro 10 ppm / Cloruro de hidrógeno 50 ppm / V.O. 1.000 ppm.\nVapores Orgánicos y cloro, ácido clorhídrico, dióxido de azufre, ácido sulfhídrico (escape), ácido fluorhídrico y dióxido de cloro.",
     Especificaciones: "Alto: 3 Cm\nAncho: 8 Cm\nLargo: 8 Cm\nPeso: 50g\nMateriales: Carbón activado\nMateriales filtrados: Vapores Organicos y Gases Ácidos",
     Documentacion: [
-    { nombre: "No disponible"}
+    { nombre: "Ficha técnica no disponible"}
     ],
     categoria: "Protección respiratoria",
     subcategoria: "Componentes p/ máscaras",  
@@ -722,7 +722,7 @@ export const respiratoria = [
     Descripcion: "Cartucho C - Amoníaco y Metilamina. Amoniaco 1250 ppm / metilamina 100 ppm.",
     Especificaciones: "Alto: 3 Cm\nAncho: 8 Cm\nLargo: 8 Cm\nPeso: 50g\nMateriales: Carbón activado\nMateriales filtrados: Amoníaco",
     Documentacion: [
-    { nombre: "No disponible"}
+    { nombre: "Ficha técnica no disponible"}
     ],
     categoria: "Protección respiratoria",
     subcategoria: "Componentes p/ máscaras",  
@@ -738,7 +738,7 @@ export const respiratoria = [
     Descripcion: "Cartucho G - Pesticidas y Amoníaco.",
     Especificaciones: "Alto: 3 Cm\nAncho: 8 Cm\nLargo: 8 Cm\nPeso: 50g\nMateriales: Carbón activado\nMateriales filtrados: Pesticidas.",
     Documentacion: [
-    { nombre: "No disponible"}
+    { nombre: "Ficha técnica no disponible"}
     ],
     categoria: "Protección respiratoria",
     subcategoria: "Componentes p/ máscaras",  
@@ -754,7 +754,7 @@ export const respiratoria = [
     Descripcion: "Nueva Máscara SEIF inyectada en caucho termo-plástico atoxico, libre de FTALATOS. Suave, flexible, hipo-alergénica (material certificado) y con alta resistencia a los químicos y a las altas temperaturas. Posee un visor acrílico resistente al impacto. ",
     Especificaciones: "Máscara de rostro completo para protección integral de vías respiratorias y ojos.\nSistema de doble filtro para mayor filtración.\nVisor de policarbonato con alta resistencia al impacto.\nVálvula de exhalación que mejora la comodidad.\nAjuste ergonómico con correas ajustables para un sellado hermético.\nCompatibilidad con diferentes tipos de filtros según necesidad.",
     Documentacion: [
-    { nombre: "No disponible"}
+    { nombre: "Ficha técnica no disponible"}
     ],
     categoria: "Protección respiratoria",
     subcategoria: "Máscaras / Semimáscaras",  
@@ -887,7 +887,7 @@ export const respiratoria = [
     Descripcion: "Arnés de repuesto para máscara cara completa 9955",
     Especificaciones: "",
     Documentacion: [
-    { nombre: "No disponible"}
+    { nombre: "Ficha técnica no disponible"}
     ],
     categoria: "Protección respiratoria",
     subcategoria: "Componentes p/ máscaras",  
