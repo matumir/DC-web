@@ -884,4 +884,43 @@ export const indumentaria = [
       "/imagenes/Productos/indumentaria/equipamiento/cubrezapato1.webp"
     ]
   },
+   {
+    id: "indumentaria-51",
+    nombre: "Chomba de piqué",
+    Descripcion: "Chombas de piqué, consultar por bordados.",
+    Especificaciones: "Material: Piqué\nBordado: Opcional",
+    Documentacion: [
+    { nombre: "Ficha técnica no disponible"}
+    ],
+    categoria: "Indumentaria",
+    subcategoria: "Chombas",  
+    marca: "",
+    destacado: false,
+    talles: ["S","M","L","XL","XXL","XXXL"],
+    colores: [
+      { nombre: "GRIS", imagenes: ["/imagenes/Productos/indumentaria/propio/chombapiquegris.webp"] },
+      { nombre: "AZUL FRANCIA", imagenes: ["/imagenes/Productos/indumentaria/propio/chombapiqueazulfrancia.webp"] },
+      { nombre: "AZUL MARINO", imagenes: ["/imagenes/Productos/indumentaria/propio/chombapiqueazulmarino.webp"] },
+      { nombre: "NEGRO", imagenes: ["/imagenes/Productos/indumentaria/propio/chombapiquenegro.webp"] },
+      { nombre: "BLANCO", imagenes: ["/imagenes/Productos/indumentaria/propio/chombapiqueblanco.webp"] },
+    ]
+  },
+  {
+    id: "indumentaria-52",
+    nombre: "Chomba de algodón",
+    Descripcion: "Chombas de algodón, consultar por bordados.",
+    Especificaciones: "Material: Algodón\nBordado: Opcional",
+    Documentacion: [
+    { nombre: "Ficha técnica no disponible"}
+    ],
+    categoria: "Indumentaria",
+    subcategoria: "Chombas",  
+    marca: "",
+    destacado: false,
+    talles: ["S","M","L","XL","XXL","XXXL"],
+    colores: [
+      { nombre: "GRIS", imagenes: ["/imagenes/Productos/indumentaria/propio/chombaalgodongris.webp"] },
+      { nombre: "AZUL MARINO", imagenes: ["/imagenes/Productos/indumentaria/propio/chombaalgodonazulmarino.webp"] }
+    ]
+  },
 ];
