@@ -48,6 +48,25 @@ export default function Footer() {
               <IconEnvelope /> castellidistribuidorasf@gmail.com
             </li>
           </ul>
+
+          {/* Data Fiscal de AFIP. El sitio va por HTTPS, asi que la imagen se
+              pide por https:// (el snippet que da AFIP usa http:// y el
+              navegador lo bloquearia por contenido mixto). */}
+          <a
+            className="footer-afip"
+            href="https://qr.afip.gob.ar/?qr=LlgQP9o0el4c1uHRABhVXA,,"
+            target="_F960AFIPInfo"
+            rel="noopener noreferrer"
+          >
+            <img
+              src="https://www.afip.gob.ar/images/f960/DATAWEB.jpg"
+              alt="Data Fiscal - AFIP"
+              width="239"
+              height="327"
+              loading="lazy"
+              decoding="async"
+            />
+          </a>
         </div>
 
         <div className="footer-col">

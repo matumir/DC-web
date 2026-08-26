@@ -3184,3 +3184,17 @@ display: none;
   0%   { transform: translateX(0); }
   100% { transform: translateX(-50%); }
 }
+/* =====================
+   DATA FISCAL (AFIP)
+===================== */
+.footer-afip {
+  display: inline-block;
+  margin-top: 16px;
+}
+
+.footer-afip img {
+  display: block;
+  width: 70px;
+  height: auto;
+  border: 0;
+}
