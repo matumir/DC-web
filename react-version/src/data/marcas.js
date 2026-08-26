@@ -31,5 +31,5 @@ export const marcas = [
   { nombre: "SEGURIND", imagen: "/imagenes/marcas/segurind.webp" },
   { nombre: "LA MEJOR", imagen: "/imagenes/marcas/lamejor.webp" },
   { nombre: "VGS", imagen: "/imagenes/marcas/vgs.webp" },
-  { nombre: "GAMISOL", imagen: "/imagenes/marcas/gamisol.svg" },
+  { nombre: "GAMISOL", imagen: "/imagenes/marcas/gamisol.webp" },
 ];
