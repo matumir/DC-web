@@ -894,7 +894,7 @@ export const indumentaria = [
     ],
     categoria: "Indumentaria",
     subcategoria: "Chombas",  
-    marca: "",
+    marca: "VGS",
     destacado: false,
     talles: ["S","M","L","XL","XXL","XXXL"],
     colores: [
@@ -915,7 +915,7 @@ export const indumentaria = [
     ],
     categoria: "Indumentaria",
     subcategoria: "Chombas",  
-    marca: "",
+    marca: "VGS",
     destacado: false,
     talles: ["S","M","L","XL","XXL","XXXL"],
     colores: [

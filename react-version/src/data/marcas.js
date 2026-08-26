@@ -30,5 +30,6 @@ export const marcas = [
   { nombre: "MÁXIMO ESFUERZO", imagen: "/imagenes/marcas/maximoesfuerzo.webp" },
   { nombre: "SEGURIND", imagen: "/imagenes/marcas/segurind.webp" },
   { nombre: "LA MEJOR", imagen: "/imagenes/marcas/lamejor.webp" },
+  { nombre: "VGS", imagen: "/imagenes/marcas/vgs.webp" },
   { nombre: "GAMISOL", imagen: "/imagenes/marcas/gamisol.svg" },
 ];
