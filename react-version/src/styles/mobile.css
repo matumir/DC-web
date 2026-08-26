@@ -1071,4 +1071,35 @@ transform: translateY(-10px);
 .empresas-teaser .btn-principal {
   width: 100%;
 }
+
+/* =====================
+   DATA FISCAL (AFIP)
+===================== */
+/* En mobile el badge va a la derecha del bloque de Menu: la columna pasa a
+   grid de dos columnas y el badge ocupa las dos filas (titulo + lista). */
+.footer-col-menu {
+  display: grid;
+  grid-template-columns: 1fr auto;
+  grid-template-areas:
+    "titulo badge"
+    "lista  badge";
+  align-items: start;
+  column-gap: 24px;
+  width: 100%;
+}
+
+.footer-col-menu h4 {
+  grid-area: titulo;
+}
+
+.footer-col-menu ul {
+  grid-area: lista;
+}
+
+.footer-col-menu .footer-afip {
+  grid-area: badge;
+  margin-top: 0;
+  align-self: center;
+  justify-self: end;
+}
 }

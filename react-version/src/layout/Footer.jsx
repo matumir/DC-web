@@ -11,7 +11,7 @@ export default function Footer() {
   return (
     <footer className="footer">
       <div className="footer-container">
-        <div className="footer-col">
+        <div className="footer-col footer-col-menu">
           <h4>Menú</h4>
           <ul>
             <li>
@@ -28,24 +28,6 @@ export default function Footer() {
             </li>
             <li>
               <Link to="/carrito">Carrito</Link>
-            </li>
-          </ul>
-        </div>
-
-        <div className="footer-col">
-          <h4>Contacto</h4>
-          <ul className="footer-contacto">
-            <li>
-              <IconLocationDot /> Castelli 2948, San Francisco
-            </li>
-            <li>
-              <IconWhatsapp /> +54 9 3564 598969
-            </li>
-            <li>
-              <IconPhone /> +54 9 3564 435909 (Tel.)
-            </li>
-            <li>
-              <IconEnvelope /> castellidistribuidorasf@gmail.com
             </li>
           </ul>
 
@@ -67,6 +49,24 @@ export default function Footer() {
               decoding="async"
             />
           </a>
+        </div>
+
+        <div className="footer-col">
+          <h4>Contacto</h4>
+          <ul className="footer-contacto">
+            <li>
+              <IconLocationDot /> Castelli 2948, San Francisco
+            </li>
+            <li>
+              <IconWhatsapp /> +54 9 3564 598969
+            </li>
+            <li>
+              <IconPhone /> +54 9 3564 435909 (Tel.)
+            </li>
+            <li>
+              <IconEnvelope /> castellidistribuidorasf@gmail.com
+            </li>
+          </ul>
         </div>
 
         <div className="footer-col">

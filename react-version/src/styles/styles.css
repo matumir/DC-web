@@ -1787,6 +1787,9 @@ display: none !important;
    MAPA FOOTER
 ===================== */
 .footer-mapa iframe {
+  /* Block, no inline: un iframe inline deja unos px de hueco bajo la linea
+     base y el mapa no cerraria a la misma altura que el Data Fiscal. */
+  display: block;
   width: 400px;
   height: 300px;
   border: none;
@@ -3187,8 +3190,22 @@ display: none;
 /* =====================
    DATA FISCAL (AFIP)
 ===================== */
+/* La columna de Menu se vuelve flex para poder empujar el badge al pie.
+   Como las celdas del grid se estiran a la altura de la fila (la marca el
+   mapa, que es lo mas alto), el borde inferior del badge queda alineado
+   con el del mapa sin necesidad de medidas fijas. */
+.footer-col-menu {
+  display: flex;
+  flex-direction: column;
+}
+
+.footer-col-menu .footer-afip {
+  margin-top: auto;
+}
+
 .footer-afip {
   display: inline-block;
+  align-self: flex-start;
   margin-top: 16px;
 }
 
