@@ -8,6 +8,7 @@ import SearchOverlayMobile from "./SearchOverlayMobile";
 import CartMobileDrawer from "./CartMobileDrawer";
 import Footer from "./Footer";
 import Notificacion from "./Notificacion";
+import AvisoNovedades from "./AvisoNovedades";
 import WhatsAppFlotante from "./WhatsAppFlotante";
 import ScrollToTopButton from "./ScrollToTopButton";
 
@@ -29,6 +30,7 @@ export default function Layout() {
       <CartMobileDrawer />
       <Footer />
       <Notificacion />
+      <AvisoNovedades />
       <WhatsAppFlotante />
       <ScrollToTopButton />
     </>

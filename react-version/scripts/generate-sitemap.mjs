@@ -25,6 +25,8 @@ const rutasEstaticas = [
   { loc: "/productos", prioridad: "0.9" },
   { loc: "/nosotros", prioridad: "0.5" },
   { loc: "/empresas", prioridad: "0.6" },
+  { loc: "/politica-de-privacidad", prioridad: "0.2" },
+  { loc: "/terminos-y-condiciones", prioridad: "0.2" },
 ];
 
 const rutasCategorias = categoriasHome.map((c) => ({
@@ -55,8 +57,12 @@ ${todasLasRutas
 
 writeFileSync(resolve(publicDir, "sitemap.xml"), xml, "utf8");
 
+// /panel y /favoritos son personales: no tienen nada que indexar y solo
+// gastarian presupuesto de rastreo.
 const robots = `User-agent: *
 Allow: /
+Disallow: /panel
+Disallow: /favoritos
 
 Sitemap: ${SITE_URL}/sitemap.xml
 `;

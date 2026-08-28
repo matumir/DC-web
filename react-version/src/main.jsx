@@ -4,6 +4,8 @@ import { BrowserRouter } from "react-router-dom";
 import "./index.css";
 import "./styles/styles.css";
 import "./styles/mobile.css";
+import { AuthProvider } from "./context/AuthContext";
+import { FavoritosProvider } from "./context/FavoritosContext";
 import { CartProvider } from "./context/CartContext";
 import { SearchProvider } from "./context/SearchContext";
 import App from "./App.jsx";
@@ -11,11 +13,15 @@ import App from "./App.jsx";
 createRoot(document.getElementById("root")).render(
   <StrictMode>
     <BrowserRouter>
-      <CartProvider>
-        <SearchProvider>
-          <App />
-        </SearchProvider>
-      </CartProvider>
+      <AuthProvider>
+        <FavoritosProvider>
+          <CartProvider>
+            <SearchProvider>
+              <App />
+            </SearchProvider>
+          </CartProvider>
+        </FavoritosProvider>
+      </AuthProvider>
     </BrowserRouter>
   </StrictMode>
 );

@@ -36,6 +36,8 @@ const rutas = [
   "/productos",
   "/nosotros",
   "/empresas",
+  "/politica-de-privacidad",
+  "/terminos-y-condiciones",
   ...categoriasHome.map((c) => `/productos/filtrar/${slugify(c.nombre)}/todas/todas`),
   ...productos.map((p) => productoUrl(p)),
 ];

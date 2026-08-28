@@ -2,6 +2,7 @@ import { useState } from "react";
 import { IconWhatsapp } from "../../components/icons/Icon";
 import { provinciasArgentina } from "../../data/provincias";
 import { WHATSAPP_NUMBER } from "../../data/contacto";
+import { registrarConsulta } from "../../lib/consultas";
 
 const MOTIVOS = [
   "Cotización de productos",
@@ -50,6 +51,12 @@ export default function FormularioEmpresas() {
 *Remitente:* ${valores.remitente}
 *Motivo del mensaje:* ${valores.motivo}
 *Mensaje:* ${valores.mensaje}`;
+
+    // Registro para analitica: solo provincia y motivo, sin nombre, empresa ni
+    // el texto del mensaje. Alcanza para contar consultas y no convierte la
+    // tabla en una base de datos personales. Si falla, no pasa nada: la
+    // consulta igual se manda por WhatsApp, que es lo que importa.
+    registrarConsulta({ tipo: "empresa", provincia: valores.provincia, motivo: valores.motivo });
 
     window.open(`https://wa.me/${WHATSAPP_NUMBER}?text=${encodeURIComponent(msg)}`);
     setEnviado(true);

@@ -1,12 +1,14 @@
 import { useEffect, useRef, useState } from "react";
 import { Link } from "react-router-dom";
-import { IconCartPlus } from "../../components/icons/Icon";
+import { IconCartPlus, IconHeart, IconHeartSolid } from "../../components/icons/Icon";
 import { useCart } from "../../context/CartContext";
+import { useFavoritos } from "../../context/FavoritosContext";
 import { obtenerColorCSS } from "../Detalle/detalleUtils";
 import { productoUrl } from "../../utils/productoUrl";
 
 export default function TarjetaProducto({ producto }) {
   const { agregarAlCarrito } = useCart();
+  const { esFavorito, alternar } = useFavoritos();
   const [colorIndex, setColorIndex] = useState(0);
   const [imgIndex, setImgIndex] = useState(0);
   const intervalRef = useRef(null);
@@ -45,6 +47,20 @@ export default function TarjetaProducto({ producto }) {
     >
       {producto.oferta && <div className="card-ribbon">NUEVO</div>}
       <span className="badge">{producto.categoria}</span>
+
+      <button
+        className={`btn-favorito${esFavorito(producto.id) ? " activo" : ""}`}
+        title={esFavorito(producto.id) ? "Quitar de favoritos" : "Agregar a favoritos"}
+        aria-label={esFavorito(producto.id) ? "Quitar de favoritos" : "Agregar a favoritos"}
+        aria-pressed={esFavorito(producto.id)}
+        onClick={(e) => {
+          e.stopPropagation();
+          alternar(producto.id);
+        }}
+      >
+        {esFavorito(producto.id) ? <IconHeartSolid /> : <IconHeart />}
+      </button>
+
       {sinVariantes && (
         <button
           className="btn-quick-add"

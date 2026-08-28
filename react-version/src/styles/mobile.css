@@ -67,7 +67,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    pointer-events: none;
+    /* Sin pointer-events:none: ahora el logo es un enlace al inicio. */
   }
 
   .logo-mobile img {
@@ -1101,5 +1101,96 @@ transform: translateY(-10px);
   margin-top: 0;
   align-self: center;
   justify-self: end;
+}
+
+/* =====================
+   SESION EN EL MENU MOBILE
+===================== */
+/* margin-top auto lo empuja al pie del cajon, separado de la navegacion. */
+.menu-sesion {
+  margin-top: auto;
+  padding-top: 18px;
+  border-top: 1px solid rgba(255, 255, 255, 0.18);
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.menu-sesion-datos {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  color: #fff;
+  min-width: 0;
+}
+
+.menu-sesion-datos img,
+.menu-sesion-avatar {
+  width: 38px;
+  height: 38px;
+  border-radius: 50%;
+  object-fit: cover;
+  flex: 0 0 auto;
+}
+
+.menu-sesion-avatar {
+  padding: 8px;
+  background: rgba(255, 255, 255, 0.18);
+  box-sizing: border-box;
+  color: #fff;
+}
+
+.menu-sesion-datos div {
+  display: flex;
+  flex-direction: column;
+  min-width: 0;
+}
+
+.menu-sesion-datos strong {
+  font-size: 14px;
+}
+
+.menu-sesion-datos span {
+  font-size: 12px;
+  color: rgba(255, 255, 255, 0.7);
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.menu-sesion-boton {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 9px;
+  width: 100%;
+  padding: 11px 14px;
+  border: 1px solid rgba(255, 255, 255, 0.35);
+  border-radius: 10px;
+  background: transparent;
+  color: #fff;
+  font-size: 14px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.menu-sesion-entrar svg {
+  background: #fff;
+  border-radius: 50%;
+  padding: 2px;
+  box-sizing: content-box;
+  font-size: 16px;
+}
+
+.menu-sesion-error {
+  margin: 0;
+  font-size: 12px;
+  color: #ffb4a8;
+  word-break: break-word;
+}
+
+.menu-link-admin {
+  color: #4abcb1;
+  font-weight: 700;
 }
 }

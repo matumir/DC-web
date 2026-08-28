@@ -984,6 +984,31 @@ button {
   color: #fff;
   padding: 15px 20px;
   border-radius: 8px;
+
+  /* Estado oculto por defecto. Se usa visibility ademas de opacity porque
+     saca el cartel del arbol de accesibilidad y de los clicks; transiciona de
+     forma discreta, asi que el fundido de salida igual se ve completo.
+     No se puede animar display:none, que es como estaba antes. */
+  opacity: 0;
+  visibility: hidden;
+  transform: translateY(16px) scale(0.96);
+  pointer-events: none;
+  transition:
+    opacity 0.25s ease,
+    transform 0.3s cubic-bezier(0.2, 0.9, 0.3, 1),
+    visibility 0.3s;
+}
+
+.notificacion.visible {
+  opacity: 1;
+  visibility: visible;
+  transform: translateY(0) scale(1);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .notificacion {
+    transition-duration: 0.01ms;
+  }
 }
 
 /* =====================
@@ -1089,8 +1114,10 @@ button {
 ===================== */
 .header {
   display: grid;
-  grid-template-columns: auto 1fr auto;
+  /* logo | centro | usuario | carrito */
+  grid-template-columns: auto 1fr auto auto;
   align-items: center;
+  gap: 18px;
   padding: 10px 20px;
 }
 
@@ -3214,4 +3241,846 @@ display: none;
   width: 70px;
   height: auto;
   border: 0;
+}
+
+/* =====================
+   MENU DE USUARIO
+===================== */
+.user-menu {
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+/* Reserva el ancho mientras se resuelve la sesion, para que no salte el header. */
+.user-menu-cargando {
+  width: 120px;
+  height: 38px;
+}
+
+.btn-login {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 8px 14px;
+  border: 1px solid rgba(255, 255, 255, 0.35);
+  border-radius: 999px;
+  background: transparent;
+  color: #fff;
+  font-size: 14px;
+  font-weight: 600;
+  cursor: pointer;
+  white-space: nowrap;
+  transition: background 0.2s ease, border-color 0.2s ease;
+}
+
+.btn-login:hover {
+  background: rgba(255, 255, 255, 0.12);
+  border-color: rgba(255, 255, 255, 0.6);
+}
+
+.btn-login svg {
+  font-size: 16px;
+  /* El logo de Google necesita fondo claro para leerse bien. */
+  background: #fff;
+  border-radius: 50%;
+  padding: 2px;
+  box-sizing: content-box;
+}
+
+.user-boton {
+  display: flex;
+  align-items: center;
+  gap: 9px;
+  padding: 5px 12px 5px 5px;
+  border: 1px solid rgba(255, 255, 255, 0.28);
+  border-radius: 999px;
+  background: transparent;
+  color: #fff;
+  cursor: pointer;
+  transition: background 0.2s ease;
+}
+
+.user-boton:hover {
+  background: rgba(255, 255, 255, 0.12);
+}
+
+.user-boton img,
+.user-avatar-fallback {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  object-fit: cover;
+  flex: 0 0 auto;
+}
+
+.user-avatar-fallback {
+  padding: 6px;
+  background: rgba(255, 255, 255, 0.18);
+  box-sizing: border-box;
+}
+
+.user-nombre {
+  font-size: 14px;
+  font-weight: 600;
+  max-width: 130px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.user-desplegable {
+  position: absolute;
+  top: calc(100% + 10px);
+  right: 0;
+  min-width: 230px;
+  background: #fff;
+  color: #12414a;
+  border-radius: 12px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.22);
+  overflow: hidden;
+  z-index: 60;
+}
+
+.user-datos {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  padding: 14px 16px;
+  border-bottom: 1px solid #e6eaea;
+}
+
+.user-datos strong {
+  font-size: 14px;
+}
+
+.user-datos span {
+  font-size: 12px;
+  color: #5c7175;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.user-salir {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  width: 100%;
+  padding: 13px 16px;
+  border: 0;
+  background: transparent;
+  color: #12414a;
+  font-size: 14px;
+  text-align: left;
+  cursor: pointer;
+  transition: background 0.15s ease;
+}
+
+.user-salir:hover {
+  background: #f2f6f6;
+}
+
+.login-error {
+  position: absolute;
+  top: calc(100% + 10px);
+  right: 0;
+  width: 300px;
+  padding: 14px 16px;
+  background: #fff;
+  color: #12414a;
+  border-left: 4px solid #c0392b;
+  border-radius: 10px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.22);
+  z-index: 60;
+  text-align: left;
+}
+
+.login-error p {
+  margin: 0 0 4px;
+  font-weight: 700;
+  font-size: 14px;
+}
+
+.login-error span {
+  display: block;
+  font-size: 12px;
+  color: #5c7175;
+  word-break: break-word;
+}
+
+.login-error button {
+  margin-top: 10px;
+  padding: 6px 12px;
+  border: 0;
+  border-radius: 6px;
+  background: #12414a;
+  color: #fff;
+  font-size: 12px;
+  cursor: pointer;
+}
+
+/* =====================
+   FAVORITOS
+===================== */
+/* Arriba a la izquierda: la derecha ya la usa .btn-quick-add en 400 tarjetas. */
+.btn-favorito {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  z-index: 3;
+  width: 34px;
+  height: 34px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 0;
+  border-radius: 50%;
+  background: rgba(255, 255, 255, 0.92);
+  color: #7d8b8d;
+  font-size: 16px;
+  cursor: pointer;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.15);
+  transition: color 0.2s ease, transform 0.15s ease, background 0.2s ease;
+}
+
+.btn-favorito:hover {
+  color: #e0245e;
+  transform: scale(1.12);
+}
+
+.btn-favorito.activo {
+  color: #e0245e;
+}
+
+/* El unico producto con cinta "NUEVO" la tiene justo ahi: bajamos el corazon. */
+.card-ribbon ~ .btn-favorito {
+  top: 52px;
+}
+
+/* ---- Pagina de favoritos ---- */
+.favoritos-vacio {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 14px;
+  padding: 70px 24px;
+  text-align: center;
+  color: #4c6165;
+}
+
+.favoritos-vacio svg {
+  font-size: 46px;
+  color: #c4d0d2;
+}
+
+.favoritos-vacio h2 {
+  margin: 0;
+  color: #12414a;
+}
+
+.favoritos-vacio p {
+  margin: 0;
+  max-width: 460px;
+  line-height: 1.6;
+}
+
+.favoritos-encabezado {
+  padding: 30px 24px 0;
+}
+
+.favoritos-encabezado h1 {
+  margin: 0 0 6px;
+  color: #12414a;
+  font-size: 26px;
+}
+
+.favoritos-encabezado p {
+  margin: 0;
+  color: #5c7175;
+  font-size: 14px;
+}
+
+.favoritos-aviso {
+  display: inline-block;
+  margin-top: 12px;
+  padding: 10px 14px;
+  border-radius: 10px;
+  background: #eef6f5;
+  color: #12414a;
+  font-size: 13px;
+}
+
+.user-item {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 13px 16px;
+  color: #12414a;
+  font-size: 14px;
+  text-decoration: none;
+  border-bottom: 1px solid #e6eaea;
+  transition: background 0.15s ease;
+}
+
+.user-item:hover {
+  background: #f2f6f6;
+}
+
+.user-item-contador {
+  margin-left: auto;
+  min-width: 22px;
+  padding: 1px 7px;
+  border-radius: 999px;
+  background: #4abcb1;
+  color: #fff;
+  font-size: 12px;
+  font-weight: 700;
+  text-align: center;
+}
+
+/* =====================
+   NOVEDADES POR MAIL
+===================== */
+.user-novedades {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 13px 16px;
+  border-bottom: 1px solid #e6eaea;
+  font-size: 13px;
+  color: #12414a;
+  cursor: pointer;
+}
+
+.user-novedades input {
+  width: 16px;
+  height: 16px;
+  accent-color: #4abcb1;
+  cursor: pointer;
+  flex: 0 0 auto;
+}
+
+/* Modal de consentimiento: aparece al iniciar sesion hasta que se acepta. */
+.modal-novedades-fondo {
+  position: fixed;
+  inset: 0;
+  z-index: 9999999;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  background: rgba(6, 26, 30, 0.55);
+  backdrop-filter: blur(2px);
+  animation: modal-novedades-fondo-entrada 0.2s ease;
+}
+
+.modal-novedades {
+  width: 100%;
+  max-width: 430px;
+  padding: 28px 26px 22px;
+  background: #fff;
+  border-radius: 16px;
+  box-shadow: 0 20px 60px rgba(0, 0, 0, 0.3);
+  text-align: center;
+  animation: modal-novedades-entrada 0.28s ease;
+}
+
+@keyframes modal-novedades-fondo-entrada {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+@keyframes modal-novedades-entrada {
+  from { opacity: 0; transform: translateY(18px) scale(0.97); }
+  to { opacity: 1; transform: translateY(0) scale(1); }
+}
+
+.modal-novedades-icono {
+  width: 54px;
+  height: 54px;
+  margin: 0 auto 14px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  background: #eef6f5;
+  color: #12414a;
+  font-size: 22px;
+}
+
+.modal-novedades h3 {
+  margin: 0 0 6px;
+  font-size: 19px;
+  color: #12414a;
+}
+
+.modal-novedades p {
+  margin: 0 0 18px;
+  font-size: 14px;
+  line-height: 1.55;
+  color: #5c7175;
+}
+
+.modal-novedades-check {
+  display: flex;
+  align-items: flex-start;
+  gap: 10px;
+  padding: 13px 14px;
+  border: 1px solid #dbe4e5;
+  border-radius: 10px;
+  font-size: 13.5px;
+  line-height: 1.45;
+  color: #12414a;
+  text-align: left;
+  cursor: pointer;
+  transition: border-color 0.2s ease, background 0.2s ease;
+}
+
+.modal-novedades-check:hover {
+  border-color: #4abcb1;
+  background: #f7fbfb;
+}
+
+.modal-novedades-check input {
+  width: 18px;
+  height: 18px;
+  margin-top: 1px;
+  accent-color: #4abcb1;
+  cursor: pointer;
+  flex: 0 0 auto;
+}
+
+.modal-novedades-error {
+  margin: 12px 0 0;
+  padding: 9px 12px;
+  border-radius: 8px;
+  background: #fdecea;
+  color: #a03024;
+  font-size: 12.5px;
+  text-align: left;
+}
+
+.modal-novedades-acciones {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  margin: 18px 0 12px;
+}
+
+.modal-novedades-acciones .btn-principal {
+  width: 100%;
+  padding: 11px 22px;
+  font-size: 14px;
+}
+
+.modal-novedades-omitir {
+  border: 0;
+  background: transparent;
+  color: #7d8b8d;
+  font-size: 13px;
+  cursor: pointer;
+  padding: 6px;
+}
+
+.modal-novedades-omitir:hover {
+  color: #12414a;
+  text-decoration: underline;
+}
+
+.modal-novedades small {
+  display: block;
+  font-size: 11.5px;
+  color: #8397a0;
+}
+
+/* =====================
+   NOTIFICACION DE FAVORITOS
+===================== */
+/* Comparte la base de .notificacion; solo cambia el color y el apilado. */
+.notificacion-favorito {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  /* Rosa del corazon, no el verde del header/footer: ata el cartel al icono
+     que el usuario acaba de tocar y no se confunde con el fondo del sitio.
+     Contraste con texto blanco: 4.9:1, pasa AA. */
+  background: #d81b60;
+  z-index: 9999997;
+}
+
+.notificacion-favorito.notificacion-error {
+  background: #c0392b;
+}
+
+/* Si la del carrito ya esta en pantalla, esta sube para no superponerse. */
+.notificacion-favorito.apilada {
+  bottom: 90px;
+}
+
+/* =====================
+   PAGINAS LEGALES
+===================== */
+.legal {
+  padding: 30px 24px 60px;
+}
+
+.legal-contenido {
+  max-width: 820px;
+  margin: 0 auto;
+  color: #33474b;
+  line-height: 1.7;
+}
+
+.legal-contenido h1 {
+  margin: 10px 0 4px;
+  color: #12414a;
+  font-size: 28px;
+}
+
+.legal-fecha {
+  margin: 0 0 26px;
+  color: #7d8b8d;
+  font-size: 13px;
+}
+
+.legal-contenido h2 {
+  margin: 32px 0 10px;
+  color: #12414a;
+  font-size: 18px;
+  /* Ancla visual para escanear el documento sin leerlo entero. */
+  padding-left: 12px;
+  border-left: 3px solid #4abcb1;
+}
+
+.legal-contenido p {
+  margin: 0 0 14px;
+}
+
+.legal-contenido ul {
+  margin: 0 0 16px;
+  padding-left: 22px;
+}
+
+.legal-contenido li {
+  margin-bottom: 9px;
+}
+
+.legal-contenido a {
+  color: #12414a;
+  font-weight: 600;
+  text-decoration: underline;
+}
+
+.legal-contenido a:hover {
+  color: #4abcb1;
+}
+
+.legal-nota {
+  padding: 14px 16px;
+  border-radius: 10px;
+  background: #eef6f5;
+  font-size: 14px;
+}
+
+.legal-relacionado {
+  margin-top: 34px;
+  padding-top: 18px;
+  border-top: 1px solid #dbe4e5;
+  font-size: 14px;
+}
+
+/* El segundo check del modal es opcional: se distingue del obligatorio. */
+.modal-novedades-opcional {
+  margin-top: 10px;
+  border-style: dashed;
+}
+
+.modal-novedades-opcional em {
+  color: #7d8b8d;
+  font-style: normal;
+}
+
+.modal-novedades-check a {
+  color: #12414a;
+  font-weight: 600;
+  text-decoration: underline;
+}
+
+.modal-novedades .btn-principal:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+/* =====================
+   PANEL DE METRICAS
+===================== */
+.panel {
+  padding: 30px 24px 70px;
+  min-height: 55vh;
+}
+
+.panel-contenido {
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+.panel-encabezado h1 {
+  margin: 0 0 4px;
+  color: #12414a;
+  font-size: 28px;
+}
+
+.panel-encabezado p {
+  margin: 0 0 28px;
+  color: #7d8b8d;
+  font-size: 14px;
+}
+
+.panel-aviso {
+  max-width: 480px;
+  margin: 60px auto;
+  padding: 34px 28px;
+  background: #fff;
+  border-radius: 14px;
+  box-shadow: 0 8px 26px rgba(0, 0, 0, 0.09);
+  text-align: center;
+  color: #5c7175;
+}
+
+.panel-aviso h1 {
+  margin: 0 0 10px;
+  color: #12414a;
+  font-size: 24px;
+}
+
+.panel-aviso small {
+  display: block;
+  margin: 10px 0 18px;
+  font-size: 12px;
+  color: #a4b2b4;
+  word-break: break-word;
+}
+
+.panel-aviso .btn-principal {
+  display: inline-block;
+  margin-top: 16px;
+}
+
+/* ---- Tarjetas ---- */
+.panel-tarjetas {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  gap: 14px;
+  margin-bottom: 30px;
+}
+
+.panel-tarjeta {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  padding: 18px 20px;
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0 3px 12px rgba(0, 0, 0, 0.07);
+}
+
+.panel-tarjeta-titulo {
+  font-size: 12.5px;
+  color: #7d8b8d;
+  text-transform: uppercase;
+  letter-spacing: 0.4px;
+}
+
+.panel-tarjeta-valor {
+  font-size: 30px;
+  line-height: 1.1;
+  color: #12414a;
+}
+
+.panel-tarjeta-detalle {
+  font-size: 12px;
+  color: #4abcb1;
+  font-weight: 600;
+}
+
+/* ---- Bloques ---- */
+.panel-bloque {
+  padding: 22px 24px;
+  margin-bottom: 20px;
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0 3px 12px rgba(0, 0, 0, 0.07);
+}
+
+.panel-bloque h2 {
+  margin: 0 0 20px;
+  color: #12414a;
+  font-size: 16px;
+}
+
+.panel-grilla {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  gap: 20px;
+}
+
+.panel-grilla .panel-bloque {
+  margin-bottom: 0;
+}
+
+.panel-vacio {
+  margin: 0;
+  padding: 26px 0;
+  color: #a4b2b4;
+  font-size: 14px;
+  text-align: center;
+}
+
+/* ---- Barras por mes ---- */
+.panel-barras {
+  display: flex;
+  align-items: flex-end;
+  gap: 10px;
+  height: 200px;
+  overflow-x: auto;
+  padding-bottom: 4px;
+}
+
+.panel-barra {
+  flex: 1 1 0;
+  min-width: 42px;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 6px;
+}
+
+.panel-barra-valor {
+  font-size: 12px;
+  font-weight: 700;
+  color: #12414a;
+}
+
+.panel-barra-relleno {
+  width: 100%;
+  border-radius: 6px 6px 0 0;
+  transition: opacity 0.2s ease;
+}
+
+.panel-barra:hover .panel-barra-relleno {
+  opacity: 0.8;
+}
+
+.panel-barra-mes {
+  font-size: 11px;
+  color: #7d8b8d;
+  white-space: nowrap;
+}
+
+/* ---- Ranking ---- */
+.panel-ranking {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.panel-ranking li {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 9px 0;
+  border-bottom: 1px solid #f0f4f4;
+}
+
+.panel-ranking li:last-child {
+  border-bottom: 0;
+}
+
+.panel-ranking-pos {
+  flex: 0 0 auto;
+  width: 22px;
+  font-size: 12px;
+  font-weight: 700;
+  color: #a4b2b4;
+  text-align: right;
+}
+
+.panel-ranking-cuerpo {
+  flex: 1;
+  min-width: 0;
+}
+
+.panel-ranking-nombre {
+  display: block;
+  font-size: 13px;
+  color: #33474b;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.panel-ranking-riel {
+  height: 6px;
+  margin-top: 5px;
+  border-radius: 3px;
+  background: #eef2f2;
+  overflow: hidden;
+}
+
+.panel-ranking-relleno {
+  height: 100%;
+  border-radius: 3px;
+  background: #4abcb1;
+}
+
+.panel-ranking-valor {
+  flex: 0 0 auto;
+  min-width: 32px;
+  font-size: 13px;
+  font-weight: 700;
+  color: #12414a;
+  text-align: right;
+}
+
+/* Acceso al panel: se distingue del resto del menu porque es interno. */
+.user-item-admin {
+  background: #f4f9f9;
+  color: #12414a;
+  font-weight: 600;
+}
+
+.user-item-admin:hover {
+  background: #e7f1f1;
+}
+
+/* =====================
+   LOGO Y CONTACTO CLICKEABLES
+===================== */
+.logo {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  transition: opacity 0.2s ease;
+}
+
+.logo:hover {
+  opacity: 0.85;
+}
+
+/* El <a> toma el layout que antes tenia el <li>, para que el icono y el
+   texto sigan alineados igual que la direccion, que no es un enlace. */
+.footer-contacto-link {
+  display: flex;
+  align-items: flex-start;
+  gap: 10px;
+  color: inherit;
+  text-decoration: none;
+  transition: color 0.2s ease;
+}
+
+.footer-contacto-link:hover {
+  color: #4abcb1;
+  text-decoration: underline;
 }

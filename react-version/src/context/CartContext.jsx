@@ -1,4 +1,6 @@
 import { createContext, useContext, useEffect, useState } from "react";
+import { sonar } from "../lib/sonido";
+import { registrarConsulta } from "../lib/consultas";
 import { WHATSAPP_NUMBER } from "../data/contacto";
 
 const CartContext = createContext(null);
@@ -38,6 +40,7 @@ export function CartProvider({ children }) {
 
   function mostrarNotificacion() {
     setNotificacionVisible(true);
+    sonar("carrito");
     setTimeout(() => setNotificacionVisible(false), 2000);
   }
 
@@ -62,6 +65,9 @@ export function CartProvider({ children }) {
         p.color ? ` - ${p.color}` : ""
       } x ${p.cantidad}\n`;
     });
+    // Solo el hecho de que se envio un pedido: nada del contenido del carrito.
+    registrarConsulta({ tipo: "carrito" });
+
     window.open(`https://wa.me/${WHATSAPP_NUMBER}?text=${encodeURIComponent(msg)}`);
   }
 
