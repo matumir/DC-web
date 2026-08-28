@@ -1,5 +1,12 @@
 import { Link } from "react-router-dom";
 import {
+  DIRECCION,
+  EMAIL,
+  TELEFONO,
+  WHATSAPP_NUMBER,
+  WHATSAPP_VISIBLE,
+} from "../data/contacto";
+import {
   IconEnvelope,
   IconFacebook,
   IconInstagram,
@@ -29,6 +36,12 @@ export default function Footer() {
             <li>
               <Link to="/carrito">Carrito</Link>
             </li>
+            <li>
+              <Link to="/politica-de-privacidad">Política de Privacidad</Link>
+            </li>
+            <li>
+              <Link to="/terminos-y-condiciones">Términos y Condiciones</Link>
+            </li>
           </ul>
 
           {/* Data Fiscal de AFIP. El sitio va por HTTPS, asi que la imagen se
@@ -55,16 +68,28 @@ export default function Footer() {
           <h4>Contacto</h4>
           <ul className="footer-contacto">
             <li>
-              <IconLocationDot /> Castelli 2948, San Francisco
+              <IconLocationDot /> {DIRECCION}
             </li>
             <li>
-              <IconWhatsapp /> +54 9 3564 598969
+              <a
+                className="footer-contacto-link"
+                href={`https://wa.me/${WHATSAPP_NUMBER}`}
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <IconWhatsapp /> {WHATSAPP_VISIBLE}
+              </a>
             </li>
             <li>
-              <IconPhone /> +54 9 3564 435909 (Tel.)
+              {/* tel: no admite espacios, por eso el numero va en dos formatos. */}
+              <a className="footer-contacto-link" href={`tel:${TELEFONO.enlace}`}>
+                <IconPhone /> {TELEFONO.visible} (Tel.)
+              </a>
             </li>
             <li>
-              <IconEnvelope /> castellidistribuidorasf@gmail.com
+              <a className="footer-contacto-link" href={`mailto:${EMAIL}`}>
+                <IconEnvelope /> {EMAIL}
+              </a>
             </li>
           </ul>
         </div>

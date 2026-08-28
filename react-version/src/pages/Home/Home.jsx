@@ -9,6 +9,7 @@ import CtaFinalHome from "./CtaFinalHome";
 import { useDocumentMeta } from "../../hooks/useDocumentMeta";
 import { useStructuredData } from "../../hooks/useStructuredData";
 import { SITE_URL } from "../../data/siteUrl";
+import { EMAIL, TELEFONO } from "../../data/contacto";
 
 export default function Home() {
   useDocumentMeta({
@@ -29,8 +30,8 @@ export default function Home() {
     url: SITE_URL,
     image: SITE_URL + "/og-image.jpg",
     logo: SITE_URL + "/imagenes/logos/LOGO.webp",
-    telephone: "+5493564435909",
-    email: "castellidistribuidorasf@gmail.com",
+    telephone: TELEFONO.enlace,
+    email: EMAIL,
     address: {
       "@type": "PostalAddress",
       streetAddress: "Castelli 2948",

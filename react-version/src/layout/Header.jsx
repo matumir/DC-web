@@ -4,6 +4,7 @@ import { IconWhatsapp } from "../components/icons/Icon";
 import { useCart } from "../context/CartContext";
 import { imagenPrincipal } from "../hooks/useProductSearch";
 import SearchBar from "./SearchBar";
+import UserMenu from "./UserMenu";
 
 export default function Header() {
   const { carrito, cartCount, enviarWhatsapp } = useCart();
@@ -21,9 +22,16 @@ export default function Header() {
 
   return (
     <header className="header">
-      <div className="logo">
-        <img src="/imagenes/logos/logohead.webp" loading="lazy" decoding="async" alt="Logo" />
-      </div>
+      {/* El scroll manual cubre el caso de estar ya en el inicio, donde el
+          Link no navega a ningun lado y no pasaria nada al hacer click. */}
+      <Link className="logo" to="/" onClick={() => window.scrollTo({ top: 0, behavior: "smooth" })}>
+        <img
+          src="/imagenes/logos/logohead.webp"
+          loading="lazy"
+          decoding="async"
+          alt="Distribuidora Castelli - Ir al inicio"
+        />
+      </Link>
 
       <div className="header-center">
         <SearchBar />
@@ -43,6 +51,8 @@ export default function Header() {
           </Link>
         </nav>
       </div>
+
+      <UserMenu />
 
       <div
         className="carrito-wrapper"
