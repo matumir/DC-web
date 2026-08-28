@@ -49,6 +49,29 @@ AddDefaultCharset UTF-8
 </IfModule>
 
 <IfModule mod_headers.c>
+  # ---- Cabeceras de seguridad ----
+
+  # Impide que el navegador "adivine" el tipo de archivo. Sin esto, un archivo
+  # subido como imagen pero con contenido HTML podria ejecutarse como pagina.
+  Header always set X-Content-Type-Options "nosniff"
+
+  # Nadie puede meter el sitio en un iframe: evita clickjacking, que es
+  # superponer el sitio invisible sobre otro para robar clicks.
+  Header always set X-Frame-Options "SAMEORIGIN"
+
+  # Al salir del sitio solo se informa el dominio, nunca la URL completa.
+  # Importante porque hay rutas privadas como /panel y /favoritos.
+  Header always set Referrer-Policy "strict-origin-when-cross-origin"
+
+  # No usamos camara, microfono ni ubicacion: se niegan explicitamente para
+  # que ningun script de terceros pueda pedirlos.
+  Header always set Permissions-Policy "camera=(), microphone=(), geolocation=(), payment=()"
+
+  # HSTS: obliga al navegador a usar HTTPS por un año, incluso si alguien
+  # escribe http://. Se activa recien despues de confirmar que todo el sitio
+  # carga bien por HTTPS, porque revertirlo lleva tiempo.
+  Header always set Strict-Transport-Security "max-age=31536000; includeSubDomains"
+
   <FilesMatch "\.(js|css)$">
     Header set Cache-Control "public, max-age=31536000, immutable"
   </FilesMatch>
