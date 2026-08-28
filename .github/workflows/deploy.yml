@@ -35,13 +35,39 @@ jobs:
         working-directory: react-version
         run: npx playwright install --with-deps chromium
 
+      # ---- Controles de calidad ----
+      # Si alguno falla, el job se corta acá y NO se sube nada: el sitio en
+      # producción queda intacto.
+
+      - name: Lint
+        working-directory: react-version
+        run: npm run lint
+
+      - name: Verificar integridad del catálogo
+        working-directory: react-version
+        # Imágenes y fichas que no existen, ids duplicados, nombres con
+        # mayúsculas que fallan solo en Linux.
+        run: npm run verificar
+
       - name: Build (Vite + sitemap)
         working-directory: react-version
+        env:
+          # Sin estas variables el bundle sale sin cliente de Supabase y el
+          # sitio se publica sin login, favoritos ni panel, en silencio.
+          # Son claves públicas (viajan en el bundle); van como secrets solo
+          # para no tenerlas escritas en el repo.
+          VITE_SUPABASE_URL: ${{ secrets.VITE_SUPABASE_URL }}
+          VITE_SUPABASE_ANON_KEY: ${{ secrets.VITE_SUPABASE_ANON_KEY }}
         run: npm run build
 
       - name: Pre-render de rutas a HTML estático
         working-directory: react-version
         run: npm run prerender
+
+      - name: Smoke test sobre el build
+        working-directory: react-version
+        # Visita las rutas principales con un navegador real contra dist/.
+        run: npm run smoke
 
       - name: Deploy a Hostinger por FTP
         uses: SamKirkland/FTP-Deploy-Action@v4.3.5

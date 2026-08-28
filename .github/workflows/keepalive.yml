@@ -1,0 +1,45 @@
+name: Keep-alive Supabase
+
+# El plan gratuito de Supabase pausa los proyectos que quedan sin actividad.
+# Si eso pasa, el login, los favoritos y el panel dejan de funcionar hasta que
+# alguien lo reactive a mano desde el panel. Esta consulta trivial cada dos
+# días alcanza para que el proyecto cuente como activo.
+#
+# Se corre cada 2 días y no cada 7 a propósito: los cron de GitHub no son
+# puntuales, se encolan y pueden demorarse bastante cuando hay carga.
+
+on:
+  schedule:
+    - cron: "0 6 */2 * *"
+  # Permite dispararlo a mano desde la pestaña Actions. Sirve además para
+  # reactivarlo: GitHub apaga los cron de los repos que pasan mucho tiempo sin
+  # actividad, y este es justo el momento en que más falta hace.
+  workflow_dispatch:
+
+jobs:
+  ping:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Consultar Supabase
+        env:
+          SUPABASE_URL: ${{ secrets.VITE_SUPABASE_URL }}
+          SUPABASE_ANON_KEY: ${{ secrets.VITE_SUPABASE_ANON_KEY }}
+        run: |
+          if [ -z "$SUPABASE_URL" ] || [ -z "$SUPABASE_ANON_KEY" ]; then
+            echo "Faltan los secrets VITE_SUPABASE_URL / VITE_SUPABASE_ANON_KEY"
+            exit 1
+          fi
+
+          # perfiles tiene RLS: sin sesión devuelve [] igual. No importa el
+          # contenido, solo que la petición llegue y el proyecto cuente activo.
+          codigo=$(curl -s -o /dev/null -w "%{http_code}" --max-time 30 \
+            -H "apikey: $SUPABASE_ANON_KEY" \
+            "$SUPABASE_URL/rest/v1/perfiles?select=id&limit=1")
+
+          echo "Respuesta de Supabase: $codigo"
+
+          # 200 y 206 son respuestas válidas de PostgREST.
+          if [ "$codigo" != "200" ] && [ "$codigo" != "206" ]; then
+            echo "Supabase no respondió correctamente. ¿Proyecto pausado?"
+            exit 1
+          fi
