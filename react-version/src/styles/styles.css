@@ -4408,3 +4408,41 @@ button.user-item {
   text-align: left;
   cursor: pointer;
 }
+
+/* Checklist de requisitos de la contraseña. Se va tildando al escribir. */
+.password-requisitos {
+  margin: 7px 0 0;
+  padding: 0;
+  list-style: none;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 3px 10px;
+}
+
+/* Colores mas oscuros que el gris de ayuda del resto del sitio: a 12px, el
+   #9aabad da 2.4:1 contra blanco y estas cuatro lineas hay que poder leerlas. */
+.password-requisitos li {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  color: #5f6f71;
+  font-size: 12px;
+  transition: color 0.15s ease;
+}
+
+.password-requisitos li.cumple {
+  color: #17765f;
+}
+
+.password-requisito-marca {
+  display: inline-flex;
+  justify-content: center;
+  width: 12px;
+  font-weight: 700;
+}
+
+@media (max-width: 420px) {
+  .password-requisitos {
+    grid-template-columns: 1fr;
+  }
+}

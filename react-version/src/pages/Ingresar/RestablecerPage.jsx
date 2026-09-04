@@ -1,9 +1,9 @@
 import { useEffect, useState } from "react";
 import { Link, useNavigate } from "react-router-dom";
+import RequisitosPassword from "../../components/RequisitosPassword";
 import { useAuth } from "../../context/AuthContext";
 import { useDocumentMeta } from "../../hooks/useDocumentMeta";
-
-const LARGO_MINIMO = 8;
+import { errorPassword } from "../../utils/password";
 
 /**
  * Adonde aterriza el enlace del correo de recuperacion.
@@ -31,8 +31,9 @@ export default function RestablecerPage() {
   async function enviar(e) {
     e.preventDefault();
 
-    if (password.length < LARGO_MINIMO) {
-      setError(`La contraseña necesita al menos ${LARGO_MINIMO} caracteres.`);
+    const falla = errorPassword(password);
+    if (falla) {
+      setError(falla);
       return;
     }
     if (password !== repetir) {
@@ -104,7 +105,7 @@ export default function RestablecerPage() {
                   setError(null);
                 }}
               />
-              <span className="auth-ayuda">Mínimo {LARGO_MINIMO} caracteres.</span>
+              <RequisitosPassword valor={password} id="nueva-requisitos" />
             </div>
 
             <div className="auth-campo">

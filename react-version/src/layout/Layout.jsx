@@ -11,6 +11,7 @@ import Notificacion from "./Notificacion";
 import AvisoNovedades from "./AvisoNovedades";
 import ModalAuth from "./auth/ModalAuth";
 import ModalContrasena from "./auth/ModalContrasena";
+import InvitacionIngresar from "./auth/InvitacionIngresar";
 import { useAuth } from "../context/AuthContext";
 import WhatsAppFlotante from "./WhatsAppFlotante";
 import ScrollToTopButton from "./ScrollToTopButton";
@@ -37,6 +38,7 @@ export default function Layout() {
       <AvisoNovedades />
       <ModalAuth abierto={modalAuth} onCerrar={cerrarModalAuth} />
       <ModalContrasena abierto={modalContrasena} onCerrar={cerrarModalContrasena} />
+      <InvitacionIngresar />
       <WhatsAppFlotante />
       <ScrollToTopButton />
     </>

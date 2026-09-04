@@ -2,10 +2,11 @@ import { useEffect, useRef, useState } from "react";
 import { Link } from "react-router-dom";
 import { IconEnvelope, IconGoogle } from "../../components/icons/Icon";
 import { useAuth } from "../../context/AuthContext";
+import RequisitosPassword from "../../components/RequisitosPassword";
+import { errorPassword } from "../../utils/password";
 
-// Supabase rechaza contraseñas mas cortas; validamos antes de la llamada para
-// no gastar un viaje y poder mostrar el mensaje al lado del campo.
-const LARGO_MINIMO = 8;
+// Las reglas de la contraseña viven en utils/password.js, compartidas con el
+// cambio desde el perfil y con el restablecimiento por correo.
 
 const VACIO = { nombre: "", email: "", telefono: "", password: "" };
 
@@ -64,8 +65,16 @@ export default function FormularioAuth({ onListo, modoInicial = "ingresar" }) {
 
     if (modo !== "recuperar") {
       if (!valores.password) e.password = "Ingresá tu contraseña.";
-      else if (modo === "registrar" && valores.password.length < LARGO_MINIMO)
-        e.password = `Usá al menos ${LARGO_MINIMO} caracteres.`;
+      // Las reglas se exigen solo al registrarse. Al ingresar hay que aceptar
+      // la contraseña que la persona ya tenga, aunque sea de antes de esta
+      // regla: si no, quedaria afuera de su propia cuenta.
+      else if (modo === "registrar") {
+        // OJO: errorPassword devuelve null si esta bien, y asignarlo igual
+        // dejaria la clave "password" en el objeto y el formulario nunca
+        // se enviaria.
+        const falla = errorPassword(valores.password);
+        if (falla) e.password = falla;
+      }
     }
 
     if (modo === "registrar" && !valores.nombre.trim()) e.nombre = "Ingresá tu nombre.";
@@ -237,12 +246,11 @@ export default function FormularioAuth({ onListo, modoInicial = "ingresar" }) {
                   {verPassword ? "Ocultar" : "Ver"}
                 </button>
               </div>
-              {errores.password ? (
+              {errores.password && (
                 <span className="auth-error-campo" id="auth-password-error">{errores.password}</span>
-              ) : (
-                modo === "registrar" && (
-                  <span className="auth-ayuda">Mínimo {LARGO_MINIMO} caracteres.</span>
-                )
+              )}
+              {modo === "registrar" && (
+                <RequisitosPassword valor={valores.password} id="auth-password-requisitos" />
               )}
             </div>
           )}

@@ -1,8 +1,8 @@
 import { useEffect, useRef, useState } from "react";
 import { IconEnvelope } from "../../components/icons/Icon";
+import RequisitosPassword from "../../components/RequisitosPassword";
 import { useAuth } from "../../context/AuthContext";
-
-const LARGO_MINIMO = 8;
+import { errorPassword } from "../../utils/password";
 
 /**
  * Cambio de contraseña desde el menu de perfil.
@@ -61,8 +61,11 @@ export default function ModalContrasena({ abierto, onCerrar }) {
     if (!actual) e.actual = "Ingresá tu contraseña actual.";
 
     if (!nueva) e.nueva = "Ingresá la contraseña nueva.";
-    else if (nueva.length < LARGO_MINIMO) e.nueva = `Usá al menos ${LARGO_MINIMO} caracteres.`;
     else if (nueva === actual) e.nueva = "La nueva tiene que ser distinta de la actual.";
+    else {
+      const falla = errorPassword(nueva);
+      if (falla) e.nueva = falla;
+    }
 
     if (nueva && repetir !== nueva) e.repetir = "Las dos contraseñas no coinciden.";
 
@@ -199,7 +202,9 @@ export default function ModalContrasena({ abierto, onCerrar }) {
                         setErrores((p) => ({ ...p, nueva: null }));
                       }}
                       aria-invalid={Boolean(errores.nueva)}
-                      aria-describedby={errores.nueva ? "clave-nueva-error" : "clave-nueva-ayuda"}
+                      aria-describedby={
+                        errores.nueva ? "clave-nueva-error" : "clave-nueva-requisitos"
+                      }
                     />
                     <button
                       type="button"
@@ -210,15 +215,12 @@ export default function ModalContrasena({ abierto, onCerrar }) {
                       {ver ? "Ocultar" : "Ver"}
                     </button>
                   </div>
-                  {errores.nueva ? (
+                  {errores.nueva && (
                     <span className="auth-error-campo" id="clave-nueva-error">
                       {errores.nueva}
                     </span>
-                  ) : (
-                    <span className="auth-ayuda" id="clave-nueva-ayuda">
-                      Mínimo {LARGO_MINIMO} caracteres.
-                    </span>
                   )}
+                  <RequisitosPassword valor={nueva} id="clave-nueva-requisitos" />
                 </div>
 
                 <div className="auth-campo">
