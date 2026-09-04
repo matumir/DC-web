@@ -1,11 +1,11 @@
 import { useEffect, useRef, useState } from "react";
 import { Link } from "react-router-dom";
-import { IconChart, IconGoogle, IconHeartSolid, IconLogout, IconUser } from "../components/icons/Icon";
+import { IconChart, IconHeartSolid, IconLock, IconLogout, IconUser } from "../components/icons/Icon";
 import { useFavoritos } from "../context/FavoritosContext";
 import { useAuth } from "../context/AuthContext";
 
 export default function UserMenu() {
-  const { usuario, nombre, avatar, email, cargando, disponible, errorLogin, descartarError, entrarConGoogle, salir, aceptaNovedades, responderNovedades, esAdmin } =
+  const { usuario, nombre, avatar, email, cargando, disponible, errorLogin, descartarError, salir, aceptaNovedades, responderNovedades, esAdmin, abrirModalAuth, abrirModalContrasena, tieneContrasena } =
     useAuth();
   const { cantidad } = useFavoritos();
   const [abierto, setAbierto] = useState(false);
@@ -36,8 +36,10 @@ export default function UserMenu() {
   if (!usuario) {
     return (
       <div className="user-menu">
-        <button className="btn-login" onClick={entrarConGoogle}>
-          <IconGoogle />
+        {/* Abre el modal en vez de ir derecho a Google: ahora tambien se puede
+            entrar con correo y contraseña. */}
+        <button className="btn-login" onClick={abrirModalAuth}>
+          <IconUser />
           <span>Iniciar sesión</span>
         </button>
 
@@ -99,6 +101,19 @@ export default function UserMenu() {
             />
             <span>Recibir novedades por mail</span>
           </label>
+
+          {/* Quien entro con Google todavia no tiene contraseña: para esa cuenta
+              el mismo item ofrece crearla. */}
+          <button
+            className="user-item"
+            onClick={() => {
+              setAbierto(false);
+              abrirModalContrasena();
+            }}
+            role="menuitem"
+          >
+            <IconLock /> {tieneContrasena ? "Cambiar contraseña" : "Crear una contraseña"}
+          </button>
 
           <button className="user-salir" onClick={salir} role="menuitem">
             <IconLogout /> Cerrar sesión

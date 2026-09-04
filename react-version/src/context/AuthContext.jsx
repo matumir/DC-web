@@ -2,6 +2,7 @@ import { createContext, useCallback, useContext, useEffect, useState } from "rea
 import { authDisponible, supabase } from "../lib/supabase";
 import { esperarPendientes, registrar } from "../lib/pendientes";
 import { VERSION_TERMINOS } from "../data/legal";
+import { traducirErrorAuth } from "../lib/erroresAuth";
 
 const AuthContext = createContext(null);
 
@@ -32,6 +33,10 @@ export function AuthProvider({ children }) {
   const [caido, setCaido] = useState(false);
   const [errorLogin, setErrorLogin] = useState(null);
   const [perfil, setPerfil] = useState(null);
+  // Estado del modal de ingreso: vive aca para que lo pueda abrir tanto el
+  // menu de escritorio como el de mobile sin pasar props por medio arbol.
+  const [modalAuth, setModalAuth] = useState(false);
+  const [modalContrasena, setModalContrasena] = useState(false);
 
   useEffect(() => {
     if (!supabase) return;
@@ -58,6 +63,7 @@ export function AuthProvider({ children }) {
     const { data } = supabase.auth.onAuthStateChange((_evento, nuevaSesion) => {
       setSesion(nuevaSesion);
       setCaido(false);
+      if (nuevaSesion) setModalAuth(false);
     });
 
     return () => {
@@ -157,6 +163,90 @@ export function AuthProvider({ children }) {
     [usuarioId, perfil]
   );
 
+  // ---- Registro e ingreso con correo y contraseña -------------------------
+  // Todas devuelven { ok, error } con el mensaje ya en castellano, para que
+  // los formularios no tengan que saber nada de los errores de Supabase.
+
+  const registrarConMail = useCallback(async ({ nombre, email, password, telefono }) => {
+    if (!supabase) return { ok: false, error: "El servicio no está disponible." };
+    setErrorLogin(null);
+
+    const { data, error } = await supabase.auth.signUp({
+      email,
+      password,
+      options: {
+        // Viaja a raw_user_meta_data, de donde el trigger arma el perfil.
+        // Sin esto los registrados por mail quedarían sin nombre.
+        data: { full_name: nombre.trim(), telefono: telefono?.trim() || null },
+        emailRedirectTo: `${window.location.origin}/`,
+      },
+    });
+
+    if (error) return { ok: false, error: traducirErrorAuth(error) };
+
+    // Con confirmación de correo activada, signUp no devuelve sesión: el
+    // usuario tiene que abrir el enlace del mail antes de poder entrar.
+    return { ok: true, necesitaConfirmar: !data.session };
+  }, []);
+
+  const entrarConMail = useCallback(async ({ email, password }) => {
+    if (!supabase) return { ok: false, error: "El servicio no está disponible." };
+    setErrorLogin(null);
+
+    const { error } = await supabase.auth.signInWithPassword({ email, password });
+    if (error) return { ok: false, error: traducirErrorAuth(error) };
+    return { ok: true };
+  }, []);
+
+  const recuperarContrasena = useCallback(async (email) => {
+    if (!supabase) return { ok: false, error: "El servicio no está disponible." };
+
+    const { error } = await supabase.auth.resetPasswordForEmail(email, {
+      redirectTo: `${window.location.origin}/restablecer-contrasena`,
+    });
+    if (error) return { ok: false, error: traducirErrorAuth(error) };
+    return { ok: true };
+  }, []);
+
+  const definirContrasena = useCallback(async (password) => {
+    if (!supabase) return { ok: false, error: "El servicio no está disponible." };
+
+    const { error } = await supabase.auth.updateUser({ password });
+    if (error) return { ok: false, error: traducirErrorAuth(error) };
+    return { ok: true };
+  }, []);
+
+  /**
+   * Cambio de contraseña desde el perfil, con la sesion ya abierta.
+   *
+   * Pide la contraseña actual y la verifica con signInWithPassword antes de
+   * tocar nada. Supabase no lo exige por defecto: con solo tener la sesion
+   * abierta alcanza para cambiarla. Eso significa que quien se siente frente a
+   * una computadora con la sesion sin cerrar puede cambiar la clave y dejar
+   * afuera al dueño de la cuenta. Verificarla aca cierra esa puerta.
+   */
+  const cambiarContrasena = useCallback(
+    async ({ actual, nueva }) => {
+      if (!supabase) return { ok: false, error: "El servicio no está disponible." };
+
+      const correo = sesion?.user?.email;
+      if (!correo) return { ok: false, error: "Tu sesión venció. Volvé a iniciar sesión." };
+
+      const { error: errorVerificacion } = await supabase.auth.signInWithPassword({
+        email: correo,
+        password: actual,
+      });
+      if (errorVerificacion) {
+        return { ok: false, error: "La contraseña actual no es correcta." };
+      }
+
+      const { error } = await supabase.auth.updateUser({ password: nueva });
+      if (error) return { ok: false, error: traducirErrorAuth(error) };
+      return { ok: true };
+    },
+    [sesion]
+  );
+
   const entrarConGoogle = useCallback(async () => {
     if (!supabase) return;
     setErrorLogin(null);
@@ -209,6 +299,23 @@ export function AuthProvider({ children }) {
     // en las funciones de la base, que verifican es_admin del lado del
     // servidor: falsear esto en el navegador no da acceso a ningun dato.
     esAdmin: perfil?.es_admin === true,
+    registrarConMail,
+    entrarConMail,
+    recuperarContrasena,
+    definirContrasena,
+    cambiarContrasena,
+    // Quien entro solo con Google no tiene contraseña que cambiar: para esa
+    // cuenta el formulario de "contraseña actual" no tendria nada que validar.
+    tieneContrasena: Boolean(
+      usuario?.identities?.some((i) => i.provider === 'email') ??
+        usuario?.app_metadata?.providers?.includes('email')
+    ),
+    modalAuth,
+    abrirModalAuth: () => setModalAuth(true),
+    cerrarModalAuth: () => setModalAuth(false),
+    modalContrasena,
+    abrirModalContrasena: () => setModalContrasena(true),
+    cerrarModalContrasena: () => setModalContrasena(false),
   };
 
   return <AuthContext.Provider value={valor}>{children}</AuthContext.Provider>;

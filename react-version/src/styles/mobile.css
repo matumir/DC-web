@@ -1194,3 +1194,7 @@ transform: translateY(-10px);
   font-weight: 700;
 }
 }
+/* Separa el boton de contraseña del de cerrar sesion. */
+.menu-sesion-clave {
+  margin-bottom: 9px;
+}

@@ -1,10 +1,10 @@
 import { Link } from "react-router-dom";
-import { IconGoogle, IconLogout, IconUser } from "../components/icons/Icon";
+import { IconLock, IconLogout, IconUser } from "../components/icons/Icon";
 import { useAuth } from "../context/AuthContext";
 import { useFavoritos } from "../context/FavoritosContext";
 
 export default function MobileMenu({ open, onClose }) {
-  const { usuario, nombre, avatar, email, disponible, errorLogin, entrarConGoogle, salir, esAdmin } =
+  const { usuario, nombre, avatar, email, disponible, errorLogin, salir, esAdmin, abrirModalAuth, abrirModalContrasena, tieneContrasena } =
     useAuth();
   const { cantidad } = useFavoritos();
 
@@ -52,6 +52,15 @@ export default function MobileMenu({ open, onClose }) {
                 </div>
               </div>
               <button
+                className="menu-sesion-boton menu-sesion-clave"
+                onClick={() => {
+                  abrirModalContrasena();
+                  onClose();
+                }}
+              >
+                <IconLock /> {tieneContrasena ? "Cambiar contraseña" : "Crear una contraseña"}
+              </button>
+              <button
                 className="menu-sesion-boton"
                 onClick={() => {
                   salir();
@@ -63,8 +72,14 @@ export default function MobileMenu({ open, onClose }) {
             </>
           ) : (
             <>
-              <button className="menu-sesion-boton menu-sesion-entrar" onClick={entrarConGoogle}>
-                <IconGoogle /> Iniciar sesión con Google
+              <button
+                className="menu-sesion-boton menu-sesion-entrar"
+                onClick={() => {
+                  abrirModalAuth();
+                  onClose();
+                }}
+              >
+                <IconUser /> Iniciar sesión
               </button>
               {errorLogin && <p className="menu-sesion-error">{errorLogin}</p>}
             </>

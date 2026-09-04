@@ -9,11 +9,15 @@ import CartMobileDrawer from "./CartMobileDrawer";
 import Footer from "./Footer";
 import Notificacion from "./Notificacion";
 import AvisoNovedades from "./AvisoNovedades";
+import ModalAuth from "./auth/ModalAuth";
+import ModalContrasena from "./auth/ModalContrasena";
+import { useAuth } from "../context/AuthContext";
 import WhatsAppFlotante from "./WhatsAppFlotante";
 import ScrollToTopButton from "./ScrollToTopButton";
 
 export default function Layout() {
   const [menuOpen, setMenuOpen] = useState(false);
+  const { modalAuth, cerrarModalAuth, modalContrasena, cerrarModalContrasena } = useAuth();
 
   return (
     <>
@@ -31,6 +35,8 @@ export default function Layout() {
       <Footer />
       <Notificacion />
       <AvisoNovedades />
+      <ModalAuth abierto={modalAuth} onCerrar={cerrarModalAuth} />
+      <ModalContrasena abierto={modalContrasena} onCerrar={cerrarModalContrasena} />
       <WhatsAppFlotante />
       <ScrollToTopButton />
     </>

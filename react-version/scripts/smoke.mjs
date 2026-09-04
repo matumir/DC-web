@@ -23,6 +23,8 @@ const RUTAS = [
   "/politica-de-privacidad",
   "/terminos-y-condiciones",
   "/panel",
+  "/ingresar",
+  "/restablecer-contrasena",
 ];
 
 // Ruido conocido que no depende de nuestro código: el iframe de Google Maps

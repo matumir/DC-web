@@ -11,6 +11,8 @@ const FavoritosPage = lazy(() => import("./pages/Favoritos/FavoritosPage"));
 const PoliticaPrivacidad = lazy(() => import("./pages/Legal/PoliticaPrivacidad"));
 const TerminosCondiciones = lazy(() => import("./pages/Legal/TerminosCondiciones"));
 const PanelPage = lazy(() => import("./pages/Panel/PanelPage"));
+const IngresarPage = lazy(() => import("./pages/Ingresar/IngresarPage"));
+const RestablecerPage = lazy(() => import("./pages/Ingresar/RestablecerPage"));
 const NosotrosPage = lazy(() => import("./pages/Nosotros/NosotrosPage"));
 const EmpresasPage = lazy(() => import("./pages/Empresas/EmpresasPage"));
 const ComingSoon = lazy(() => import("./pages/ComingSoon"));
@@ -32,6 +34,8 @@ export default function App() {
             <Route path="politica-de-privacidad" element={<PoliticaPrivacidad />} />
             <Route path="terminos-y-condiciones" element={<TerminosCondiciones />} />
             <Route path="panel" element={<PanelPage />} />
+            <Route path="ingresar" element={<IngresarPage />} />
+            <Route path="restablecer-contrasena" element={<RestablecerPage />} />
             <Route path="*" element={<ComingSoon titulo="Página no encontrada" />} />
           </Route>
         </Routes>

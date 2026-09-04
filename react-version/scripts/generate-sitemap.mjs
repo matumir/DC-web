@@ -63,6 +63,8 @@ const robots = `User-agent: *
 Allow: /
 Disallow: /panel
 Disallow: /favoritos
+Disallow: /ingresar
+Disallow: /restablecer-contrasena
 
 Sitemap: ${SITE_URL}/sitemap.xml
 `;

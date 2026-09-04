@@ -2,5 +2,7 @@ User-agent: *
 Allow: /
 Disallow: /panel
 Disallow: /favoritos
+Disallow: /ingresar
+Disallow: /restablecer-contrasena
 
 Sitemap: https://www.distribuidoracastelli.com/sitemap.xml

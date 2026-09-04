@@ -22,3 +22,9 @@ dist-ssr
 *.njsproj
 *.sln
 *.sw?
+
+# Variables de entorno: contienen las claves de Supabase.
+# .env.local ya caia en "*.local", pero un .env o .env.production no.
+.env
+.env.*
+!.env.example
