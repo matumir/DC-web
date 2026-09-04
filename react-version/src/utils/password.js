@@ -6,10 +6,12 @@
 
 export const LARGO_MINIMO = 8;
 
-// Conjunto explicito de simbolos en vez de "cualquier cosa que no sea letra o
-// numero": asi la eñe y las vocales acentuadas cuentan como letras y no le
-// hacen creer a alguien que ya puso un simbolo.
-const SIMBOLOS = /[!@#$%^&*()_+\-=[\]{};':"\\|,.<>/?~`¡¿°ª º·]/;
+// Esta es exactamente la lista de simbolos que acepta Supabase con la opcion
+// "Lowercase, uppercase letters, digits and symbols". Tiene que coincidir: si
+// aca aceptaramos alguno de mas (¿ ¡ º, o un espacio), el formulario daria la
+// contraseña por buena y el servidor la rechazaria despues, sin que la persona
+// entienda por que.
+const SIMBOLOS = /[!@#$%^&*()_+\-=[\]{};'\\:"|<>?,./`~]/;
 
 export const REQUISITOS = [
   {
@@ -17,7 +19,12 @@ export const REQUISITOS = [
     texto: `Al menos ${LARGO_MINIMO} caracteres`,
     cumple: (v) => v.length >= LARGO_MINIMO,
   },
-  { id: "mayuscula", texto: "Una letra mayúscula", cumple: (v) => /[A-ZÁÉÍÓÚÜÑ]/.test(v) },
+  // Sin acentos ni eñe, igual que Supabase: si aceptaramos "Á" como mayuscula,
+  // una contraseña que solo tenga acentuadas pasaria aca y fallaria alla.
+  { id: "mayuscula", texto: "Una letra mayúscula", cumple: (v) => /[A-Z]/.test(v) },
+  // Supabase exige minuscula ademas de mayuscula. Sin esta regla, "ABCDEF1!"
+  // pasaria el formulario y moriria en el servidor.
+  { id: "minuscula", texto: "Una letra minúscula", cumple: (v) => /[a-z]/.test(v) },
   { id: "numero", texto: "Un número", cumple: (v) => /[0-9]/.test(v) },
   { id: "simbolo", texto: "Un símbolo (! ? # $ % & *)", cumple: (v) => SIMBOLOS.test(v) },
 ];
