@@ -3,6 +3,7 @@ import { Link } from "react-router-dom";
 import { IconEnvelope, IconGoogle } from "../../components/icons/Icon";
 import { useAuth } from "../../context/AuthContext";
 import RequisitosPassword from "../../components/RequisitosPassword";
+import Turnstile from "../../components/Turnstile";
 import { errorPassword } from "../../utils/password";
 
 // Las reglas de la contraseña viven en utils/password.js, compartidas con el
@@ -32,6 +33,10 @@ export default function FormularioAuth({ onListo, modoInicial = "ingresar" }) {
   const [enviando, setEnviando] = useState(false);
   const [verPassword, setVerPassword] = useState(false);
   const primerCampoRef = useRef(null);
+  // Token del CAPTCHA. Se consume en cada intento, asi que despues de cada
+  // envio hay que pedirle uno nuevo al widget.
+  const [captchaToken, setCaptchaToken] = useState(null);
+  const captchaRef = useRef(null);
 
   // Al cambiar de modo se limpia todo: dejar un error de "contraseña incorrecta"
   // visible sobre el formulario de registro no tiene sentido.
@@ -100,19 +105,23 @@ export default function FormularioAuth({ onListo, modoInicial = "ingresar" }) {
     let resultado;
 
     if (modo === "ingresar") {
-      resultado = await entrarConMail({ email, password: valores.password });
+      resultado = await entrarConMail({ email, password: valores.password, captchaToken });
     } else if (modo === "registrar") {
       resultado = await registrarConMail({
         nombre: valores.nombre,
         email,
         password: valores.password,
         telefono: valores.telefono,
+        captchaToken,
       });
     } else {
-      resultado = await recuperarContrasena(email);
+      resultado = await recuperarContrasena(email, captchaToken);
     }
 
     setEnviando(false);
+    // El token ya se gasto (Supabase lo acepte o no). Sin esto, el segundo
+    // intento de quien erro la contraseña falla por captcha y no por la clave.
+    captchaRef.current?.reset();
 
     if (!resultado.ok) {
       setErrorGeneral(resultado.error);
@@ -254,6 +263,8 @@ export default function FormularioAuth({ onListo, modoInicial = "ingresar" }) {
               )}
             </div>
           )}
+
+          <Turnstile ref={captchaRef} onToken={setCaptchaToken} accion={modo} />
 
           {errorGeneral && (
             <div className="auth-error-general" role="alert">{errorGeneral}</div>

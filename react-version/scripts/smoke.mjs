@@ -29,7 +29,17 @@ const RUTAS = [
 
 // Ruido conocido que no depende de nuestro código: el iframe de Google Maps
 // tira un ReferenceError propio, y los recursos externos pueden no cargar en CI.
-const RUIDO = [/maps\.gstatic/i, /google is not defined/i, /afip\.gob\.ar/i, /supabase\.co/i];
+// challenges.cloudflare.com da error 110200 ("dominio no autorizado") porque
+// el widget de Turnstile solo acepta el dominio real, y esta prueba corre en
+// localhost. En produccion no pasa.
+const RUIDO = [
+  /maps\.gstatic/i,
+  /google is not defined/i,
+  /afip\.gob\.ar/i,
+  /supabase\.co/i,
+  /challenges\.cloudflare\.com/i,
+  /turnstile/i,
+];
 
 function esRuido(texto) {
   return RUIDO.some((r) => r.test(texto));

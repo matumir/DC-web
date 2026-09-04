@@ -4446,3 +4446,28 @@ button.user-item {
     grid-template-columns: 1fr;
   }
 }
+
+/* Turnstile. El widget mide 300x65 fijo; se centra y se le reserva el alto
+   para que el boton de enviar no salte cuando termina de cargar. */
+.turnstile {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 65px;
+  margin: 16px 0 4px;
+}
+
+.turnstile-error {
+  margin: 6px 0 0;
+  color: #c0392b;
+  font-size: 12px;
+  text-align: center;
+}
+
+@media (max-width: 360px) {
+  /* Abajo de 300px el widget desbordaria la tarjeta. */
+  .turnstile > div {
+    transform: scale(0.9);
+    transform-origin: center;
+  }
+}

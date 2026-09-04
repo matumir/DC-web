@@ -5,6 +5,10 @@
 
 const TRADUCCIONES = [
   [
+    /captcha/i,
+    "No pudimos verificar que no seas un robot. Recargá la página e intentá de nuevo.",
+  ],
+  [
     /invalid login credentials/i,
     "El correo o la contraseña no son correctos. Revisá los datos e intentá de nuevo.",
   ],

@@ -167,7 +167,7 @@ export function AuthProvider({ children }) {
   // Todas devuelven { ok, error } con el mensaje ya en castellano, para que
   // los formularios no tengan que saber nada de los errores de Supabase.
 
-  const registrarConMail = useCallback(async ({ nombre, email, password, telefono }) => {
+  const registrarConMail = useCallback(async ({ nombre, email, password, telefono, captchaToken }) => {
     if (!supabase) return { ok: false, error: "El servicio no está disponible." };
     setErrorLogin(null);
 
@@ -179,6 +179,7 @@ export function AuthProvider({ children }) {
         // Sin esto los registrados por mail quedarían sin nombre.
         data: { full_name: nombre.trim(), telefono: telefono?.trim() || null },
         emailRedirectTo: `${window.location.origin}/`,
+        captchaToken,
       },
     });
 
@@ -189,20 +190,25 @@ export function AuthProvider({ children }) {
     return { ok: true, necesitaConfirmar: !data.session };
   }, []);
 
-  const entrarConMail = useCallback(async ({ email, password }) => {
+  const entrarConMail = useCallback(async ({ email, password, captchaToken }) => {
     if (!supabase) return { ok: false, error: "El servicio no está disponible." };
     setErrorLogin(null);
 
-    const { error } = await supabase.auth.signInWithPassword({ email, password });
+    const { error } = await supabase.auth.signInWithPassword({
+      email,
+      password,
+      options: { captchaToken },
+    });
     if (error) return { ok: false, error: traducirErrorAuth(error) };
     return { ok: true };
   }, []);
 
-  const recuperarContrasena = useCallback(async (email) => {
+  const recuperarContrasena = useCallback(async (email, captchaToken) => {
     if (!supabase) return { ok: false, error: "El servicio no está disponible." };
 
     const { error } = await supabase.auth.resetPasswordForEmail(email, {
       redirectTo: `${window.location.origin}/restablecer-contrasena`,
+      captchaToken,
     });
     if (error) return { ok: false, error: traducirErrorAuth(error) };
     return { ok: true };
@@ -226,7 +232,7 @@ export function AuthProvider({ children }) {
    * afuera al dueño de la cuenta. Verificarla aca cierra esa puerta.
    */
   const cambiarContrasena = useCallback(
-    async ({ actual, nueva }) => {
+    async ({ actual, nueva, captchaToken }) => {
       if (!supabase) return { ok: false, error: "El servicio no está disponible." };
 
       const correo = sesion?.user?.email;
@@ -235,6 +241,7 @@ export function AuthProvider({ children }) {
       const { error: errorVerificacion } = await supabase.auth.signInWithPassword({
         email: correo,
         password: actual,
+        options: { captchaToken },
       });
       if (errorVerificacion) {
         return { ok: false, error: "La contraseña actual no es correcta." };

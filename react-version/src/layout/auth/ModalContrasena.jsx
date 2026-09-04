@@ -1,6 +1,7 @@
 import { useEffect, useRef, useState } from "react";
 import { IconEnvelope } from "../../components/icons/Icon";
 import RequisitosPassword from "../../components/RequisitosPassword";
+import Turnstile from "../../components/Turnstile";
 import { useAuth } from "../../context/AuthContext";
 import { errorPassword } from "../../utils/password";
 
@@ -25,6 +26,10 @@ export default function ModalContrasena({ abierto, onCerrar }) {
   const [aviso, setAviso] = useState(null);
   const [ver, setVer] = useState(false);
   const cajaRef = useRef(null);
+  // Verificar la contraseña actual pasa por signInWithPassword, que tambien
+  // esta detras del CAPTCHA. Y pedir el correo pasa por resetPasswordForEmail.
+  const [captchaToken, setCaptchaToken] = useState(null);
+  const captchaRef = useRef(null);
 
   useEffect(() => {
     if (!abierto) return;
@@ -85,8 +90,9 @@ export default function ModalContrasena({ abierto, onCerrar }) {
 
     setEnviando(true);
     setErrorGeneral(null);
-    const resultado = await cambiarContrasena({ actual, nueva });
+    const resultado = await cambiarContrasena({ actual, nueva, captchaToken });
     setEnviando(false);
+    captchaRef.current?.reset();
 
     if (!resultado.ok) {
       setErrorGeneral(resultado.error);
@@ -103,8 +109,9 @@ export default function ModalContrasena({ abierto, onCerrar }) {
     if (enviando) return;
     setEnviando(true);
     setErrorGeneral(null);
-    const resultado = await recuperarContrasena(email);
+    const resultado = await recuperarContrasena(email, captchaToken);
     setEnviando(false);
+    captchaRef.current?.reset();
 
     if (!resultado.ok) {
       setErrorGeneral(resultado.error);
@@ -144,6 +151,8 @@ export default function ModalContrasena({ abierto, onCerrar }) {
                 Entrás con tu cuenta de Google, así que todavía no tenés una contraseña. Podemos
                 enviarte un correo a {email} para que crees una y puedas entrar de las dos formas.
               </p>
+
+              <Turnstile ref={captchaRef} onToken={setCaptchaToken} accion="crear-clave" />
 
               {errorGeneral && (
                 <div className="auth-error-general" role="alert">
@@ -243,6 +252,8 @@ export default function ModalContrasena({ abierto, onCerrar }) {
                     </span>
                   )}
                 </div>
+
+                <Turnstile ref={captchaRef} onToken={setCaptchaToken} accion="cambiar-clave" />
 
                 {errorGeneral && (
                   <div className="auth-error-general" role="alert">
