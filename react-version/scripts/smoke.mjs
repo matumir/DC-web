@@ -25,6 +25,7 @@ const RUTAS = [
   "/panel",
   "/ingresar",
   "/restablecer-contrasena",
+  "/baja",
 ];
 
 // Ruido conocido que no depende de nuestro código: el iframe de Google Maps

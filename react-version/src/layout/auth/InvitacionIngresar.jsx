@@ -14,7 +14,11 @@ const DEMORA_MS = 2500;
 
 // Paginas donde estorbaria: en /ingresar el formulario ya esta a la vista, y
 // en /restablecer-contrasena taparia el campo de la contraseña nueva.
-const RUTAS_EXCLUIDAS = ["/ingresar", "/restablecer-contrasena"];
+//
+// En /baja seria directamente contraproducente: la persona acaba de pedir que
+// le escribamos menos, y lo primero que veria es un cartel ofreciendole crear
+// una cuenta.
+const RUTAS_EXCLUIDAS = ["/ingresar", "/restablecer-contrasena", "/baja"];
 
 // localStorage tira excepcion en modo privado de algunos navegadores. No vale
 // la pena romper la pagina por no poder recordar si ya lo mostramos.

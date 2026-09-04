@@ -65,6 +65,7 @@ Disallow: /panel
 Disallow: /favoritos
 Disallow: /ingresar
 Disallow: /restablecer-contrasena
+Disallow: /baja
 
 Sitemap: ${SITE_URL}/sitemap.xml
 `;
