@@ -30,16 +30,26 @@ jobs:
             exit 1
           fi
 
-          # perfiles tiene RLS: sin sesión devuelve [] igual. No importa el
-          # contenido, solo que la petición llegue y el proyecto cuente activo.
+          # Llama a public.ping() (migración 010), que solo devuelve 'ok'.
+          #
+          # Antes consultaba la tabla perfiles, hasta que el 009 le quitó el
+          # SELECT a anon y esto empezó a fallar. El ping no debe depender de
+          # los permisos de ninguna tabla: lo único que tiene que probar es que
+          # la base responde.
           codigo=$(curl -s -o /dev/null -w "%{http_code}" --max-time 30 \
+            -X POST \
             -H "apikey: $SUPABASE_ANON_KEY" \
-            "$SUPABASE_URL/rest/v1/perfiles?select=id&limit=1")
+            -H "Content-Type: application/json" \
+            -d '{}' \
+            "$SUPABASE_URL/rest/v1/rpc/ping")
 
           echo "Respuesta de Supabase: $codigo"
 
           # 200 y 206 son respuestas válidas de PostgREST.
           if [ "$codigo" != "200" ] && [ "$codigo" != "206" ]; then
-            echo "Supabase no respondió correctamente. ¿Proyecto pausado?"
+            echo "Supabase no respondió correctamente."
+            echo "  401/403 -> falta correr 010_ping.sql, o le revocaron el permiso a anon."
+            echo "  404     -> la función ping() no existe todavía en esta base."
+            echo "  000     -> no hubo respuesta: proyecto pausado o caído."
             exit 1
           fi
