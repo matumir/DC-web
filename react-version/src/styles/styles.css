@@ -4471,3 +4471,243 @@ button.user-item {
     transform-origin: center;
   }
 }
+
+/* ---------------------------------------------------------------------------
+   Modal para agregar al carrito desde el catálogo y desde favoritos.
+   Se monta por portal en el body, así que no hereda nada de la tarjeta.
+   --------------------------------------------------------------------------- */
+.carrito-modal-fondo {
+  position: fixed;
+  inset: 0;
+  z-index: 9999998;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  overflow-y: auto;
+  background: rgba(6, 26, 30, 0.55);
+  backdrop-filter: blur(2px);
+  animation: modal-novedades-fondo-entrada 0.18s ease;
+}
+
+.carrito-modal {
+  position: relative;
+  width: 100%;
+  max-width: 420px;
+  max-height: 100%;
+  overflow-y: auto;
+  padding: 26px 24px 22px;
+  background: #fff;
+  border-radius: 16px;
+  box-shadow: 0 10px 40px rgba(0, 0, 0, 0.25);
+  animation: fadeUp 0.22s ease both;
+}
+
+.carrito-modal-cerrar {
+  position: absolute;
+  top: 10px;
+  right: 12px;
+  width: 32px;
+  height: 32px;
+  border: 0;
+  border-radius: 50%;
+  background: transparent;
+  color: #6a7c7e;
+  font-size: 24px;
+  line-height: 1;
+  cursor: pointer;
+}
+
+.carrito-modal-cerrar:hover {
+  background: #eef6f5;
+  color: #12414a;
+}
+
+.carrito-modal-producto {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  margin-bottom: 18px;
+  padding-right: 30px;
+}
+
+.carrito-modal-producto img {
+  width: 64px;
+  height: 64px;
+  object-fit: contain;
+  flex-shrink: 0;
+  border-radius: 8px;
+  background: #f5f8f8;
+}
+
+.carrito-modal-marca {
+  display: block;
+  color: #4abcb1;
+  font-size: 12px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.4px;
+}
+
+.carrito-modal-producto h2 {
+  margin: 2px 0 0;
+  color: #12414a;
+  font-size: 16px;
+  line-height: 1.3;
+}
+
+.carrito-modal-campo {
+  margin-bottom: 16px;
+}
+
+.carrito-modal-label {
+  display: block;
+  margin-bottom: 7px;
+  color: #12414a;
+  font-size: 13px;
+  font-weight: 600;
+}
+
+.carrito-modal-label strong {
+  color: #5f6f71;
+  font-weight: 500;
+}
+
+.carrito-modal-colores {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.carrito-modal-color {
+  width: 30px;
+  height: 30px;
+  padding: 0;
+  border: 2px solid #dfe7e7;
+  border-radius: 50%;
+  cursor: pointer;
+  transition: transform 0.15s ease, border-color 0.15s ease;
+}
+
+.carrito-modal-color:hover {
+  transform: scale(1.1);
+}
+
+.carrito-modal-color.activo {
+  border-color: #12414a;
+  box-shadow: 0 0 0 2px rgba(74, 188, 177, 0.4);
+}
+
+.carrito-modal-talles {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 7px;
+}
+
+.carrito-modal-talles:focus {
+  outline: none;
+}
+
+.carrito-modal-talle {
+  min-width: 42px;
+  padding: 8px 10px;
+  border: 1px solid #dfe7e7;
+  border-radius: 8px;
+  background: #fff;
+  color: #12414a;
+  font-family: inherit;
+  font-size: 13px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.15s ease;
+}
+
+.carrito-modal-talle:hover {
+  border-color: #4abcb1;
+  background: #f2fbfa;
+}
+
+.carrito-modal-talle.activo {
+  border-color: #12414a;
+  background: #12414a;
+  color: #fff;
+}
+
+.carrito-modal-cantidad {
+  display: flex;
+  align-items: center;
+  width: fit-content;
+  border: 1px solid #dfe7e7;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.carrito-modal-cantidad button {
+  width: 40px;
+  height: 42px;
+  border: 0;
+  background: #f5f8f8;
+  color: #12414a;
+  font-size: 19px;
+  cursor: pointer;
+  transition: background 0.15s ease;
+}
+
+.carrito-modal-cantidad button:hover:not(:disabled) {
+  background: #dff2f0;
+}
+
+.carrito-modal-cantidad button:disabled {
+  color: #b9c6c7;
+  cursor: not-allowed;
+}
+
+.carrito-modal-cantidad input {
+  width: 62px;
+  height: 42px;
+  border: 0;
+  border-left: 1px solid #dfe7e7;
+  border-right: 1px solid #dfe7e7;
+  text-align: center;
+  color: #12414a;
+  font-family: inherit;
+  font-size: 15px;
+  font-weight: 600;
+}
+
+.carrito-modal-cantidad input:focus {
+  outline: 2px solid #4abcb1;
+  outline-offset: -2px;
+}
+
+/* Las flechitas nativas quedan muy chicas al lado de los botones grandes. */
+.carrito-modal-cantidad input::-webkit-outer-spin-button,
+.carrito-modal-cantidad input::-webkit-inner-spin-button {
+  appearance: none;
+  margin: 0;
+}
+
+.carrito-modal-cantidad input[type="number"] {
+  appearance: textfield;
+  -moz-appearance: textfield;
+}
+
+.carrito-modal-error {
+  margin: 0 0 12px;
+  color: #c0392b;
+  font-size: 13px;
+}
+
+.carrito-modal-agregar {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  width: 100%;
+}
+
+@media (max-width: 480px) {
+  .carrito-modal {
+    padding: 24px 18px 20px;
+  }
+}

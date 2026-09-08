@@ -1,21 +1,20 @@
 import { useEffect, useRef, useState } from "react";
 import { Link } from "react-router-dom";
 import { IconCartPlus, IconHeart, IconHeartSolid } from "../../components/icons/Icon";
-import { useCart } from "../../context/CartContext";
+import ModalAgregarCarrito from "../../components/ModalAgregarCarrito";
 import { useFavoritos } from "../../context/FavoritosContext";
 import { obtenerColorCSS } from "../Detalle/detalleUtils";
 import { productoUrl } from "../../utils/productoUrl";
 
 export default function TarjetaProducto({ producto }) {
-  const { agregarAlCarrito } = useCart();
   const { esFavorito, alternar } = useFavoritos();
   const [colorIndex, setColorIndex] = useState(0);
+  const [modalAbierto, setModalAbierto] = useState(false);
   const [imgIndex, setImgIndex] = useState(0);
   const intervalRef = useRef(null);
 
   const tieneColores = Array.isArray(producto.colores) && producto.colores.length > 0;
   const imagenes = tieneColores ? producto.colores[colorIndex].imagenes : producto.imagenes || [];
-  const sinVariantes = !producto.talles?.length && !producto.colores?.length;
 
   useEffect(() => () => clearInterval(intervalRef.current), []);
 
@@ -61,19 +60,20 @@ export default function TarjetaProducto({ producto }) {
         {esFavorito(producto.id) ? <IconHeartSolid /> : <IconHeart />}
       </button>
 
-      {sinVariantes && (
-        <button
-          className="btn-quick-add"
-          title="Agregar al carrito"
-          aria-label="Agregar al carrito"
-          onClick={(e) => {
-            e.stopPropagation();
-            agregarAlCarrito(producto, { cantidad: 1 });
-          }}
-        >
-          <IconCartPlus />
-        </button>
-      )}
+      {/* Antes solo aparecia en los productos sin variantes, porque agregaba
+          de una y no habia donde elegir talle. Ahora abre el modal, asi que
+          esta en todas las tarjetas. */}
+      <button
+        className="btn-quick-add"
+        title="Agregar al carrito"
+        aria-label={`Agregar ${producto.nombre} al carrito`}
+        onClick={(e) => {
+          e.stopPropagation();
+          setModalAbierto(true);
+        }}
+      >
+        <IconCartPlus />
+      </button>
       <img
         key={`${colorIndex}-${imgIndex}`}
         src={imagenes[imgIndex] || imagenes[0]}
@@ -104,6 +104,17 @@ export default function TarjetaProducto({ producto }) {
       >
         Ver en detalle
       </Link>
+
+      {/* Se monta solo al abrirse: si no, habria un modal por cada tarjeta del
+          catalogo. Arranca en el color que la tarjeta esta mostrando. */}
+      {modalAbierto && (
+        <ModalAgregarCarrito
+          producto={producto}
+          colorInicial={colorIndex}
+          abierto
+          onCerrar={() => setModalAbierto(false)}
+        />
+      )}
     </div>
   );
 }
