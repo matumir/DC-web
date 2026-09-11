@@ -798,7 +798,7 @@ export const respiratoria = [
     marca: "LIBUS",
     destacado: false,
     imagenes: [
-      "/imagenes/Productos/respiratoria/libus/mascara.webp"
+      "/imagenes/Productos/respiratoria/libus/semimascara.webp"
     ]
   },
   {
