@@ -33,6 +33,23 @@ export default function PanelPage() {
     [datos, porId]
   );
 
+  // Se ordena por unidades, que es lo que se pidió de verdad. El número de
+  // consultas va como detalle porque distingue un pedido grande de un producto
+  // que se pide todo el tiempo.
+  const solicitados = useMemo(
+    () =>
+      (datos?.topConsultados ?? []).map((c) => {
+        const p = porId.get(c.producto_id);
+        return {
+          clave: c.producto_id,
+          cantidad: c.unidades,
+          consultas: c.consultas,
+          nombre: p ? `${p.marca ? `${p.marca} | ` : ""}${p.nombre}` : c.producto_id,
+        };
+      }),
+    [datos, porId]
+  );
+
   const provincias = useMemo(
     () =>
       (datos?.consultasPorProvincia ?? []).map((c) => ({
@@ -145,6 +162,15 @@ export default function PanelPage() {
           <div className="panel-bloque">
             <h2>Productos más guardados</h2>
             <Ranking filas={favoritos} vacio="Nadie guardó favoritos todavía." />
+          </div>
+
+          <div className="panel-bloque">
+            <h2>Productos más solicitados</h2>
+            <Ranking
+              filas={solicitados}
+              detalle={(f) => `en ${f.consultas} consulta${Number(f.consultas) === 1 ? "" : "s"}`}
+              vacio="Todavía no se pidió ningún producto. Se empieza a contar desde ahora."
+            />
           </div>
 
           <div className="panel-bloque">

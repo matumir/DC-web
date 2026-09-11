@@ -1,6 +1,6 @@
 import { createContext, useContext, useEffect, useState } from "react";
 import { sonar } from "../lib/sonido";
-import { registrarConsulta } from "../lib/consultas";
+import { registrarConsultaCarrito } from "../lib/consultas";
 import { WHATSAPP_NUMBER } from "../data/contacto";
 
 const CartContext = createContext(null);
@@ -65,8 +65,9 @@ export function CartProvider({ children }) {
         p.color ? ` - ${p.color}` : ""
       } x ${p.cantidad}\n`;
     });
-    // Solo el hecho de que se envio un pedido: nada del contenido del carrito.
-    registrarConsulta({ tipo: "carrito" });
+    // Ademas del hecho de que se envio un pedido, ahora se guarda que
+    // productos y cuantas unidades. Sigue sin guardarse quien lo mando.
+    registrarConsultaCarrito(carrito);
 
     window.open(`https://wa.me/${WHATSAPP_NUMBER}?text=${encodeURIComponent(msg)}`);
   }

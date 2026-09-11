@@ -25,19 +25,26 @@ export function useMetricas(habilitado) {
     setError(null);
 
     (async () => {
-      const [resumen, registros, consultasMes, topFavoritos, porProvincia] = await Promise.all([
+      const [resumen, registros, consultasMes, topFavoritos, topConsultados, porProvincia] =
+        await Promise.all([
         supabase.rpc("metricas_resumen"),
         supabase.rpc("metricas_registros_por_mes"),
         supabase.rpc("metricas_consultas_por_mes"),
         supabase.rpc("metricas_top_favoritos", { limite: 15 }),
+        supabase.rpc("metricas_top_consultados", { limite: 15 }),
         supabase.rpc("metricas_consultas_por_provincia"),
       ]);
 
       if (!vivo) return;
 
-      const fallo = [resumen, registros, consultasMes, topFavoritos, porProvincia].find(
-        (r) => r.error
-      );
+      const fallo = [
+        resumen,
+        registros,
+        consultasMes,
+        topFavoritos,
+        topConsultados,
+        porProvincia,
+      ].find((r) => r.error);
       if (fallo) {
         console.error("[panel] error al traer metricas:", fallo.error.message);
         setError(fallo.error.message);
@@ -51,6 +58,7 @@ export function useMetricas(habilitado) {
         registrosPorMes: registros.data ?? [],
         consultasPorMes: consultasMes.data ?? [],
         topFavoritos: topFavoritos.data ?? [],
+        topConsultados: topConsultados.data ?? [],
         consultasPorProvincia: porProvincia.data ?? [],
       });
       setCargando(false);

@@ -42,7 +42,11 @@ export function BarrasPorMes({ datos, color = "#4abcb1", vacio }) {
   );
 }
 
-export function Ranking({ filas, vacio, etiqueta = (f) => f.nombre }) {
+// `detalle` es opcional: si se pasa, va en chico debajo del nombre. Lo usa el
+// ranking de productos consultados para aclarar en cuantas consultas entraron
+// esas unidades, que es lo que separa un pedido grande de un producto que se
+// pide siempre.
+export function Ranking({ filas, vacio, etiqueta = (f) => f.nombre, detalle }) {
   if (!filas.length) return <p className="panel-vacio">{vacio}</p>;
 
   const maximo = Math.max(...filas.map((f) => Number(f.cantidad)));
@@ -56,6 +60,7 @@ export function Ranking({ filas, vacio, etiqueta = (f) => f.nombre }) {
             <span className="panel-ranking-pos">{i + 1}</span>
             <div className="panel-ranking-cuerpo">
               <span className="panel-ranking-nombre">{etiqueta(f)}</span>
+              {detalle && <span className="panel-ranking-detalle">{detalle(f)}</span>}
               <div className="panel-ranking-riel">
                 <div
                   className="panel-ranking-relleno"
