@@ -82,3 +82,12 @@ AddDefaultCharset UTF-8
     Header set Cache-Control "no-cache, must-revalidate"
   </FilesMatch>
 </IfModule>
+
+# El deploy por FTP deja .ftp-deploy-sync-state.json en la raiz, y quedaba
+# accesible desde el navegador: son 482 KB con el nombre, el tamaño y el hash
+# de los 2327 archivos del servidor, incluido cualquiera que no este enlazado
+# desde ninguna pagina. El deploy lo lee por FTP, asi que bloquearlo por HTTP
+# no lo afecta.
+<FilesMatch "^\.ftp-deploy-sync-state\.json$">
+  Require all denied
+</FilesMatch>

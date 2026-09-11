@@ -646,7 +646,7 @@ export const respiratoria = [
     marca: "FRAVIDA",
     destacado: false,
     imagenes: [
-      "/imagenes/Productos/respiratoria/fravida/fullface.webp"
+      "/imagenes/Productos/respiratoria/fravida/5530.webp"
     ]
   },
 //==================================
