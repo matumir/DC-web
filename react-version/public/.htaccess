@@ -75,8 +75,12 @@ AddDefaultCharset UTF-8
   <FilesMatch "\.(js|css)$">
     Header set Cache-Control "public, max-age=31536000, immutable"
   </FilesMatch>
+  # 2 días y no 30: las imágenes se referencian a mano y no llevan hash en el
+  # nombre, así que reemplazar una conservando el nombre la dejaba invisible
+  # hasta un mes para quien ya la había visto. Con 2 días el reemplazo se ve
+  # solo; renombrar el archivo lo sigue haciendo instantáneo.
   <FilesMatch "\.(webp|png|jpe?g|svg)$">
-    Header set Cache-Control "public, max-age=2592000"
+    Header set Cache-Control "public, max-age=172800"
   </FilesMatch>
   <FilesMatch "\.(html|xml|txt)$">
     Header set Cache-Control "no-cache, must-revalidate"

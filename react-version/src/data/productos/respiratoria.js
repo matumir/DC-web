@@ -645,6 +645,7 @@ export const respiratoria = [
     subcategoria: "Máscaras / Semimáscaras",  
     marca: "FRAVIDA",
     destacado: false,
+    oferta: true,
     imagenes: [
       "/imagenes/Productos/respiratoria/fravida/5530.webp"
     ]
