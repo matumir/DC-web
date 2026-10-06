@@ -563,4 +563,22 @@ export const calzado = [
       { nombre: "Marron claro", imagenes: ["/imagenes/Productos/calzado/geo/nature-03-1.webp","/imagenes/Productos/calzado/geo/nature-03-2.webp","/imagenes/Productos/calzado/geo/nature-03-suela.webp"] }
     ]
   },
+  {
+    id: "calzado-33",
+    nombre: "Zapatilla Trekking Otto",
+    Descripcion: "Zapatilla urbana ultraliviana de seguridad. Cuero 100% natural, diseño y tecnología de vanguardia. Confort sin limites y máxima protección.",
+    Especificaciones: "Zapatilla 100% cuero. Cosido y pegado en su suela.\nForro Interior Textil: Genera un ambiente confortable y más respirable.\nPieza en caucho que garantiza sustentación y agarre, evitando torceduras en los pies.\nMaterial anti desgarro, respirable y durable\nPlantilla fabricada en PU Gel entrega confort y amortiguación.\nPlantilla removible de fácil limpieza.",
+    Documentacion: [
+    { nombre: "Ficha técnica no disponible"}
+    ],
+    categoria: "Calzado",
+    subcategoria: "Zapatillas",
+    marca: "PAMPERO",
+    destacado: false,
+    oferta: true,
+    talles: [38,39,40,41,42,43,44,45,46],
+    colores: [
+      { nombre: "Marron", imagenes: ["/imagenes/Productos/calzado/pampero/trekking otto1.webp","/imagenes/Productos/calzado/pampero/trekking otto2.webp"] },
+    ]
+  },
 ];
