@@ -596,7 +596,7 @@ export const calzado = [
     oferta: true,
     talles: [38,39,40,41,42,43,44,45,46],
     colores: [
-      { nombre: "Marron", imagenes: ["/imagenes/Productos/calzado/pampero/trekking bayo1.webp","/imagenes/Productos/calzado/pampero/trekking bayo2.webp"] },
+      { nombre: "Negro", imagenes: ["/imagenes/Productos/calzado/pampero/trekking bayo1.webp","/imagenes/Productos/calzado/pampero/trekking bayo2.webp"] },
     ]
   },
 ];
