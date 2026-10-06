@@ -30,7 +30,7 @@ export default function CategoriasHome() {
 
       <div className="categorias-wrapper">
         <button
-          className="flecha-categoria izquierda"
+          className="carrusel-flecha flecha-categoria izquierda"
           type="button"
           onClick={() => mover(-1)}
           aria-label="Anterior"
@@ -56,7 +56,7 @@ export default function CategoriasHome() {
         </div>
 
         <button
-          className="flecha-categoria derecha"
+          className="carrusel-flecha flecha-categoria derecha"
           type="button"
           onClick={() => mover(1)}
           aria-label="Siguiente"

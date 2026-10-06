@@ -30,7 +30,7 @@ export default function MarcasCarrusel() {
       <h3>Marcas que trabajamos</h3>
 
       <div className="marcas-carrusel">
-        <button className="flecha izquierda" onClick={() => mover(-1)} aria-label="Anterior">
+        <button className="carrusel-flecha flecha izquierda" onClick={() => mover(-1)} aria-label="Anterior">
           ‹
         </button>
 
@@ -54,7 +54,7 @@ export default function MarcasCarrusel() {
           </div>
         </div>
 
-        <button className="flecha derecha" onClick={() => mover(1)} aria-label="Siguiente">
+        <button className="carrusel-flecha flecha derecha" onClick={() => mover(1)} aria-label="Siguiente">
           ›
         </button>
       </div>

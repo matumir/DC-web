@@ -37,8 +37,8 @@ export default function Destacados() {
       <div className="divisor" />
       <h2>Artículos destacados</h2>
       <div className="destacados-container">
-        <button className="flecha-destacados izquierda" onClick={() => mover(-1)} aria-label="Anterior">
-          ❮
+        <button className="carrusel-flecha flecha-destacados izquierda" onClick={() => mover(-1)} aria-label="Anterior">
+          ‹
         </button>
         <div className="destacados-carrusel">
           <div
@@ -66,8 +66,8 @@ export default function Destacados() {
             ))}
           </div>
         </div>
-        <button className="flecha-destacados derecha" onClick={() => mover(1)} aria-label="Siguiente">
-          ❯
+        <button className="carrusel-flecha flecha-destacados derecha" onClick={() => mover(1)} aria-label="Siguiente">
+          ›
         </button>
       </div>
     </section>

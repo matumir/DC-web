@@ -581,4 +581,22 @@ export const calzado = [
       { nombre: "Marron", imagenes: ["/imagenes/Productos/calzado/pampero/trekking otto1.webp","/imagenes/Productos/calzado/pampero/trekking otto2.webp"] },
     ]
   },
+  {
+    id: "calzado-34",
+    nombre: "Zapatilla Trekking Bayó",
+    Descripcion: "Zapatilla urbana ultraliviana de seguridad. Cuero 100% natural, diseño y tecnología de vanguardia. Confort sin limites y máxima protección.",
+    Especificaciones: "Zapatilla 100% cuero. Cosido y pegado en su suela.\nForro Interior Textil: Genera un ambiente confortable y más respirable.\nPieza en caucho que garantiza sustentación y agarre, evitando torceduras en los pies.\nMaterial anti desgarro, respirable y durable\nPlantilla fabricada en PU Gel entrega confort y amortiguación.\nPlantilla removible de fácil limpieza.",
+    Documentacion: [
+    { nombre: "Ficha técnica no disponible"}
+    ],
+    categoria: "Calzado",
+    subcategoria: "Zapatillas",
+    marca: "PAMPERO",
+    destacado: false,
+    oferta: true,
+    talles: [38,39,40,41,42,43,44,45,46],
+    colores: [
+      { nombre: "Marron", imagenes: ["/imagenes/Productos/calzado/pampero/trekking bayo1.webp","/imagenes/Productos/calzado/pampero/trekking bayo2.webp"] },
+    ]
+  },
 ];

@@ -7,8 +7,14 @@ import { productoUrl } from "../../utils/productoUrl";
 const AUTOPLAY_DELAY = 3000;
 const AUTOPLAY_INTERVAL = 5000;
 
-// Producto destacado en el primer slide del banner (zapatilla GEO Nature)
-const productoBannerPrincipal = productos.find((p) => p.id === "calzado-32");
+// Resuelve el destino del boton de un slide: una URL fija, o la ficha del
+// producto si viene por id.
+function destino(slide) {
+  if (slide.enlace) return slide.enlace;
+  if (!slide.productoId) return null;
+  const producto = productos.find((p) => p.id === slide.productoId);
+  return producto ? productoUrl(producto) : null;
+}
 
 export default function Banner() {
   const [index, setIndex] = useState(0);
@@ -95,28 +101,31 @@ export default function Banner() {
         onTouchStart={onTouchStart}
         onTouchEnd={onTouchEnd}
       >
-        {bannerImagenes.map((src, i) => (
-          <div className="banner-slide" key={src}>
-            <img
-              src={src}
-              alt={`Banner ${i + 1}`}
-              loading={i === 0 ? "eager" : "lazy"}
-              fetchPriority={i === 0 ? "high" : undefined}
-              decoding="async"
-            />
-            {i === 0 && productoBannerPrincipal && (
-              <Link className="banner-ver-detalle" to={productoUrl(productoBannerPrincipal)}>
-                Ver detalle
-              </Link>
-            )}
-          </div>
-        ))}
+        {bannerImagenes.map((slide, i) => {
+          const a = slide.texto ? destino(slide) : null;
+          return (
+            <div className="banner-slide" key={slide.src}>
+              <img
+                src={slide.src}
+                alt={`Banner ${i + 1}`}
+                loading={i === 0 ? "eager" : "lazy"}
+                fetchPriority={i === 0 ? "high" : undefined}
+                decoding="async"
+              />
+              {a && (
+                <Link className="banner-ver-detalle" to={a}>
+                  {slide.texto}
+                </Link>
+              )}
+            </div>
+          );
+        })}
       </div>
 
       <div id="bannerIndicadores" className="banner-indicadores">
-        {bannerImagenes.map((src, i) => (
+        {bannerImagenes.map((slide, i) => (
           <div
-            key={src}
+            key={slide.src}
             className={`banner-indicador${i === index ? " activo" : ""}`}
             onClick={() => irA(i)}
           />

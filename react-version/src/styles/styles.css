@@ -2596,25 +2596,17 @@ display: none;
   opacity: 1;
 }
 /* FLECHAS DESKTOP */
+/* Solo posición: el tamaño, el color y el centrado los pone .carrusel-flecha.
+   Esta regla tiene dos clases, así que todo lo que declare acá le gana a la
+   clase compartida por especificidad y rompe la unificación. */
 .marcas-carrusel .flecha {
-  background: rgba(18,65,74,.9);
-  color: #fff;
-  border: none;
-  width: 38px;
-  height: 38px;
-  border-radius: 50%;
-  cursor: pointer;
   position: absolute;
   z-index: 5;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  transition: background .2s ease;
 }
 
-.marcas-carrusel .flecha:hover {
-  background: #12414a;
-}
+/* El hover de las flechas lo define .carrusel-flecha. Acá vivía una regla de
+   dos clases que le ganaba por especificidad y dejaba a marcas con otro color
+   al pasar el mouse. */
 
 .marcas-carrusel .flecha.izquierda {
   left: -10px;
@@ -4718,4 +4710,48 @@ button.user-item {
   margin-top: 1px;
   color: #8fa0a2;
   font-size: 11px;
+}
+
+/* ---------------------------------------------------------------------------
+   Flechas de los carruseles de la portada (categorías, destacados, marcas).
+
+   Las tres tenían su propia clase con medidas, color y tipografía distintos:
+   40px #0b3c45, 40px #12414a y 34px negro al 50%, con dos glifos diferentes.
+   Esta clase unifica SOLO la apariencia; la posición y el ocultarse en mobile
+   siguen a cargo de la clase propia de cada carrusel, porque cada una vive en
+   un contenedor distinto (dos absolutas, una como item de flex).
+
+   Va al final del archivo a propósito: compite por igual especificidad con
+   .flecha, .flecha-categoria y .flecha-destacados, así que gana por orden.
+   --------------------------------------------------------------------------- */
+.carrusel-flecha {
+  width: 40px;
+  height: 40px;
+  /* La de destacados es item de un flex: sin esto el contenedor se la achica
+     y queda más angosta que las otras dos. */
+  flex: 0 0 auto;
+  padding: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 0;
+  border-radius: 50%;
+  background: #12414a;
+  color: #fff;
+  font-size: 26px;
+  line-height: 1;
+  cursor: pointer;
+  /* Solo cambia el color al pasar por encima. Un scale() obligaria a repetir el
+     translateY(-50%) con el que se centran las de categorias y marcas, y
+     cualquier olvido las descolocaria justo al pasarles el mouse. */
+  transition: background 0.18s ease;
+}
+
+.carrusel-flecha:hover {
+  background: #4abcb1;
+}
+
+.carrusel-flecha:focus-visible {
+  outline: 2px solid #4abcb1;
+  outline-offset: 2px;
 }
