@@ -351,7 +351,7 @@ export const indumentaria = [
   },
   {
     id: "indumentaria-20",
-    nombre: "Bermuda Cargo",
+    nombre: "Bermuda Cargo Aire Libre",
     Descripcion: "La Bermuda de Trabajo A/L está confeccionada en gabardina mediana, resistente y estable, ideal para jornadas de uso intensivo. Cuenta con costuras reforzadas que aumentan la durabilidad y soportan tareas exigentes sin perder estructura. Incluye bolsillos cargo traseros con tabla central y bolsillo lateral, pensados para ofrecer mayor capacidad de guardado y funcionalidad real en el día a día.\nEs una prenda firme, práctica y alineada al ADN industrial de A/L: diseño simple, materiales robustos y rendimiento diario asegurado.",
     Especificaciones: "Gabardina Mediana de Alta Resistencia: Tejido firme y estable, preparado para soportar uso intensivo sin deformarse ni perder estructura.\nCosturas Reforzadas: Confección robusta que incrementa la vida útil de la prenda y resiste tareas exigentes y movimiento constante.\nBolsillos Cargo Funcionales: Bolsillos traseros con tabla central que aportan mayor capacidad y resistencia estructural.\nBolsillo Lateral Utilitario: Diseñado para facilitar el acceso rápido a herramientas u objetos de uso frecuente.\nEstructura Workwear Real: Prenda pensada para acompañar jornadas largas, combinando practicidad, comodidad y durabilidad.",
     Documentacion: [
@@ -921,6 +921,98 @@ export const indumentaria = [
     colores: [
       { nombre: "GRIS", imagenes: ["/imagenes/Productos/indumentaria/propio/chombaalgodongris.webp"] },
       { nombre: "AZUL MARINO", imagenes: ["/imagenes/Productos/indumentaria/propio/chombaalgodonazulmarino.webp"] }
+    ]
+  },
+  {
+    id: "indumentaria-53",
+    nombre: "Bermuda Cargo Legacy",
+    Descripcion: "• Gabardina de algodón\n• Doble costura\n• Atraques de seguridad en bolsillos y tapas",
+    Especificaciones: "4 bolsillos con tapa - velcro\nAmplios bolsillos laterales con fuelle\nBordado trasero y grifa lateral\nBotón metálico",
+    Documentacion: [
+    { nombre: "Ficha técnica", url:"/fichas/otros/bermudalegacy.pdf"}
+    ],
+    categoria: "Indumentaria",
+    subcategoria: "Bermudas",  
+    marca: "LEGACY",
+    destacado: false,
+    talles: [38,40,42,44,46,48,50,52,54,56,58,60],
+    colores: [
+      { nombre: "VERDE", imagenes: ["/imagenes/Productos/indumentaria/bermudas/bermuda-cargo-legacy-v.webp"] },
+      { nombre: "AZUL", imagenes: ["/imagenes/Productos/indumentaria/bermudas/bermuda-cargo-legacy-a.webp"]},
+      { nombre: "BEIGE", imagenes: ["/imagenes/Productos/indumentaria/bermudas/bermuda-cargo-legacy-b.webp"] },
+    ]
+  },
+  {
+    id: "indumentaria-54",
+    nombre: "Chomba de Pique Pampero",
+    Descripcion: "Chombas de algodón, consultar por bordados.",
+    Especificaciones: "Material: Piqué\nBordado: Opcional",
+    Documentacion: [
+    { nombre: "Ficha técnica no disponible"}
+    ],
+    categoria: "Indumentaria",
+    subcategoria: "Chombas",  
+    marca: "PAMPERO",
+    destacado: false,
+    talles: ["S","M","L","XL","XXL","XXXL","4XL"],
+    colores: [
+      { nombre: "GRIS", imagenes: ["/imagenes/Productos/indumentaria/propio/chombapamperogris.webp"] },
+      { nombre: "NEGRO", imagenes: ["/imagenes/Productos/indumentaria/propio/chombapamperonegro.webp"] },
+      { nombre: "AZUL MARINO", imagenes: ["/imagenes/Productos/indumentaria/propio/chombapamperoazul.webp"] }
+    ]
+  },
+  {
+    id: "indumentaria-55",
+    nombre: "Mameluco Steelgen / WS 60 grs Respirable",
+    Descripcion: "Mameluco desechable STEELGEN Microporoso es un elemento de protección personal contra polvos y spray de líquidos. El equipo de seguridad industrial se encuentra confeccionado en tela no tejida de 50/60 grs, compuesta por 3 capas:\n1° capa exterior, 100% PE (Polietileno), película respirable de 20 grs.\n2° capa intermedia, película de recubrimiento termofusible adhesiva de 2 gramos.\n3° capa interior, 100% PP (Polipropileno) de 28 grs",
+    Especificaciones: "Mameluco de proteccion Steelgen Plus +, Certificado Registro ISP. \nBlanco. \nConfeccionado en tela no tejida recubierta con film microporoso.",
+    Documentacion: [
+    { nombre: "Ficha técnica no disponible"}
+    ],
+    categoria: "Indumentaria",
+    subcategoria: "Mamelucos",  
+    marca: "STEELGEN",
+    destacado: false,
+    talles: ["M","L","XL","XXL","XXXL"],
+     imagenes: [
+      "/imagenes/Productos/indumentaria/mamelucos/mamelucosteelgen.webp"
+    ]
+  },
+   {
+    id: "indumentaria-56",
+    nombre: "Mameluco Tychem 2000 QC Dupont laminado amarillo",
+    Descripcion: "DuPont Tychem QC es la protección ideal contra salpicaduras líquidas y contacto ocasional con pesticidas, ácidos inorgánicos y álcalis.\nLos trajes Tychem QC son realizados con un film de polietileno de alta calidad colocado sobre la tela Tyvek. El film conjuntamente con las cualidades inherentes a Tyvek dan origen a la prenda de protección más confortabte del mercado: Tychem QC. Tychem@ QC es confortable, liviano, durable y es utilizado para protegerse de salpicaduras en una gran variedad de ambientes industriates, induyendo refinerías de petróteo, manufactura de papel y pulpa, procesamiento de alimentos, procesamiento de agentes químicos y la industria farmacéutica, entre otras.",
+    Especificaciones: "Sensibilidad óptica del color cuando es expuesto a luz brillante.\nSensibilidad óptica del color cuando es expuesto a poca luz.\nContraste del color cuando se encuentra con fondos de distintos colores.",
+    Documentacion: [
+    { nombre: "Ficha técnica no disponible"}
+    ],
+    categoria: "Indumentaria",
+    subcategoria: "Mamelucos",  
+    marca: "DUPONT",
+    destacado: false,
+    talles: ["L","XL","XXL"],
+     imagenes: [
+      "/imagenes/Productos/indumentaria/mamelucos/mamelucodupont.webp"
+    ]
+  },
+  {
+    id: "indumentaria-57",
+    nombre: "Remera cuello redondo Pampero",
+    Descripcion: "Remera básica manga corta escote redondo. consultar por bordados.",
+    Especificaciones: "Composición: 65% algodón, 35% poliéster.\nCuello: Redondo\nBordado: Opcional",
+    Documentacion: [
+    { nombre: "Ficha técnica no disponible"}
+    ],
+    categoria: "Indumentaria",
+    subcategoria: "Remeras",  
+    marca: "PAMPERO",
+    destacado: false,
+    talles: ["S","M","L","XL","XXL","XXXL"],
+    colores: [
+      { nombre: "GRIS", imagenes: ["/imagenes/Productos/indumentaria/propio/remerapamperogris.webp"] },
+      { nombre: "AZUL", imagenes: ["/imagenes/Productos/indumentaria/propio/remerapamperoazul.webp"] },
+      { nombre: "NEGRO", imagenes: ["/imagenes/Productos/indumentaria/propio/remerapamperonegro.webp"] },
+      { nombre: "BLANCO", imagenes: ["/imagenes/Productos/indumentaria/propio/remerapamperoblanco.webp"] }
     ]
   },
 ];
