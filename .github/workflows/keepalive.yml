@@ -2,17 +2,22 @@ name: Keep-alive Supabase
 
 # El plan gratuito de Supabase pausa los proyectos que quedan sin actividad.
 # Si eso pasa, el login, los favoritos y el panel dejan de funcionar hasta que
-# alguien lo reactive a mano desde el panel. Esta consulta trivial cada dos
-# días alcanza para que el proyecto cuente como activo.
+# alguien lo reactive a mano desde el panel.
 #
-# Se corre cada 2 días y no cada 7 a propósito: los cron de GitHub no son
-# puntuales, se encolan y pueden demorarse bastante cuando hay carga.
+# Corre cada 6 horas. Hasta noviembre de 2026 corria cada 2 dias con un ping
+# que no tocaba ninguna tabla, y aunque respondia "ok" sin fallar el proyecto
+# se pausaba igual: Supabase mide "actividad de usuario sobre la base" en la
+# ultima semana y pide "unas pocas consultas por dia". Ahora son cuatro por dia
+# y cada una escribe en una tabla (migracion 012).
+#
+# El minuto 17 y no el 0 a proposito: a la hora en punto GitHub encola todos
+# los cron del mundo y los demora mas.
 
 on:
   schedule:
-    - cron: "0 6 */2 * *"
+    - cron: "17 */6 * * *"
   # Permite dispararlo a mano desde la pestaña Actions. Sirve además para
-  # reactivarlo: GitHub apaga los cron de los repos que pasan mucho tiempo sin
+  # reactivarlo: GitHub apaga los cron de los repos que pasan 60 días sin
   # actividad, y este es justo el momento en que más falta hace.
   workflow_dispatch:
 
@@ -30,26 +35,36 @@ jobs:
             exit 1
           fi
 
-          # Llama a public.ping() (migración 010), que solo devuelve 'ok'.
+          # Llama a public.ping() (migraciones 010 y 012). Desde el 012
+          # actualiza una fila de public.keepalive y devuelve "ok N".
           #
-          # Antes consultaba la tabla perfiles, hasta que el 009 le quitó el
-          # SELECT a anon y esto empezó a fallar. El ping no debe depender de
-          # los permisos de ninguna tabla: lo único que tiene que probar es que
-          # la base responde.
-          codigo=$(curl -s -o /dev/null -w "%{http_code}" --max-time 30 \
+          # Reintenta ante cortes de red o DNS: dos veces fallo con "no se pudo
+          # resolver el host", y sin reintento ese ping se perdia entero.
+          # El "|| true" evita que un error de curl corte el script antes de
+          # poder explicar que paso.
+          rm -f respuesta.txt
+          codigo=$(curl -s -o respuesta.txt -w "%{http_code}" --max-time 30 \
+            --retry 4 --retry-delay 20 --retry-all-errors \
             -X POST \
             -H "apikey: $SUPABASE_ANON_KEY" \
             -H "Content-Type: application/json" \
             -d '{}' \
-            "$SUPABASE_URL/rest/v1/rpc/ping")
+            "$SUPABASE_URL/rest/v1/rpc/ping") || true
+          cuerpo=$(cat respuesta.txt 2>/dev/null || true)
 
-          echo "Respuesta de Supabase: $codigo"
+          echo "Respuesta de Supabase: $codigo $cuerpo"
 
           # 200 y 206 son respuestas válidas de PostgREST.
           if [ "$codigo" != "200" ] && [ "$codigo" != "206" ]; then
             echo "Supabase no respondió correctamente."
-            echo "  401/403 -> falta correr 010_ping.sql, o le revocaron el permiso a anon."
+            echo "  401/403 -> le revocaron el permiso de ping() a anon."
             echo "  404     -> la función ping() no existe todavía en esta base."
             echo "  000     -> no hubo respuesta: proyecto pausado o caído."
             exit 1
+          fi
+
+          # El ping viejo del 010 contesta "ok" a secas: responde, pero no
+          # toca ninguna tabla y probablemente no cuente como actividad.
+          if [ "$cuerpo" = '"ok"' ]; then
+            echo "::warning::ping() responde pero sin escribir: falta correr supabase/012_ping_con_escritura.sql en el SQL Editor."
           fi
