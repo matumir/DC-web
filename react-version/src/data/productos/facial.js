@@ -69,19 +69,19 @@ export const facial = [
   },
   {
     id: "facial-5",
-    nombre: "Máscara para soldar fotosensible",
-    Descripcion: "Máscara Fotosensible Black Panther\nArnés de ajuste rápido con absorción del sudor para más comodidad.\nCuenta con alimentación por panel solar o cartucho de batería (intercambiable).",
-    Especificaciones: "DIN 9-13\nOscurecimiento de la lente variable (DIN 9 A DIN 13)\nUV-IR protección DIN 16\n1/25000S VISOR 93X43\nTotalmente automática\nÁrea de visualización 93x43mm\nTiempo de pasaje de luz \noscuro INSTANTÁNEO (1/25000s)\nProtección Ultravioleta UV / Infrarroja IR (DIN 16)\nFiltro en luminosidad: DIN 4\nAlimentación solar\nBatería reemplazable CR2032\nDimensiones 320 x 260 x 260 mm\nPeso 0.46 Kg",
+    nombre: "Mascara Para Soldar Fotosensible Automática",
+    Descripcion: "Máscara Fotosensible Green Park",
+    Especificaciones: "Area de visión: 90x35mm\nTamaño de pantalla: 110x90x9mm\nSensor: 2 Proteccion UV/IR: Hasta DIN 16\nEstado luminoso: DIN 3\nEstado oscuro: DIN 11\nControl de sensitividad: AUTOMATICO\nTiempo de oscurecimiento: 1/15000S\nControl de retorno a claro: 0.25-0.45S, automatico\nSuminisitro de energia: Celda de soldar 1 x CR2032 BATERIA DE LITIO",
     Documentacion: [
-    { nombre: "Ficha técnica", url: "/fichas/facial/fravida/careta 2570.pdf"}
+    { nombre: "Ficha técnica no disponible"}
     ],
     categoria: "Protección facial",
     subcategoria: "Soldadura",  
-    marca: "BLACK PANTHER",
+    marca: "GREEN PARK",
     destacado: false,
     
     imagenes: [
-      "/imagenes/Productos/facial/mascara1.webp","/imagenes/Productos/facial/mascara2.webp"
+      "/imagenes/Productos/facial/mascaragreenpark1.webp","/imagenes/Productos/facial/mascaragreenpark2.webp"
     ]
   },
   {
