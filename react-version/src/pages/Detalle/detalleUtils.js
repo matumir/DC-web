@@ -29,6 +29,23 @@ export function obtenerColorCSS(nombre) {
   return MAPA_COLORES[nombre.toLowerCase()] || "#ccc";
 }
 
+// Los productos que se pueden bordar lo dicen en el texto ("Bordado: Opcional"
+// en las especificaciones). Se lee de ahi para que un producto nuevo cargado
+// igual quede con la casilla, sin tener que acordarse de un campo aparte.
+const BORDADO_OPCIONAL = /bordado\s*:?\s*opcional/i;
+
+export function admiteBordado(producto) {
+  return BORDADO_OPCIONAL.test(`${producto?.Especificaciones || ""}\n${producto?.Descripcion || ""}`);
+}
+
+// Texto para el carrito y el mensaje. Solo los productos que admiten bordado
+// tienen el dato (true o false); el resto queda en null y no se muestra.
+export function textoBordado(bordado) {
+  if (bordado === true) return "Con bordado";
+  if (bordado === false) return "Sin bordado";
+  return "";
+}
+
 export function construirGaleria(producto) {
   if (producto.colores) {
     const imgs = [];

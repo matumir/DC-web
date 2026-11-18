@@ -3,7 +3,7 @@ import { createPortal } from "react-dom";
 import { IconCartPlus } from "./icons/Icon";
 import { useCart } from "../context/CartContext";
 import { useDialogo } from "../hooks/useDialogo";
-import { obtenerColorCSS } from "../pages/Detalle/detalleUtils";
+import { admiteBordado, obtenerColorCSS } from "../pages/Detalle/detalleUtils";
 
 const MAXIMO = 999;
 
@@ -23,6 +23,7 @@ export default function ModalAgregarCarrito({ producto, abierto, onCerrar, color
   const colores = Array.isArray(producto.colores) ? producto.colores : [];
   const tieneTalles = talles.length > 0;
   const tieneColores = colores.length > 0;
+  const bordadoOpcional = admiteBordado(producto);
 
   // Con un solo talle no tiene sentido hacerlo elegir: se da por elegido.
   const [talle, setTalle] = useState(talles.length === 1 ? String(talles[0]) : "");
@@ -31,6 +32,7 @@ export default function ModalAgregarCarrito({ producto, abierto, onCerrar, color
   const [colorIndex, setColorIndex] = useState(colorInicial);
   const [cantidad, setCantidad] = useState("1");
   const [error, setError] = useState(null);
+  const [conBordado, setConBordado] = useState(false);
 
   useDialogo({ abierto, onCerrar, cajaRef });
 
@@ -61,6 +63,7 @@ export default function ModalAgregarCarrito({ producto, abierto, onCerrar, color
       cantidad: Math.min(MAXIMO, numero),
       talle: tieneTalles ? talle : null,
       color: tieneColores ? colores[colorIndex].nombre : null,
+      bordado: bordadoOpcional ? conBordado : null,
     });
     onCerrar();
   }
@@ -169,6 +172,19 @@ export default function ModalAgregarCarrito({ producto, abierto, onCerrar, color
             </button>
           </div>
         </div>
+
+        {bordadoOpcional && (
+          <div className="carrito-modal-campo">
+            <label className="carrito-modal-bordado">
+              <input
+                type="checkbox"
+                checked={conBordado}
+                onChange={(e) => setConBordado(e.target.checked)}
+              />
+              Quiero la prenda con bordado
+            </label>
+          </div>
+        )}
 
         {error && (
           <p className="carrito-modal-error" role="alert">

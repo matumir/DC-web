@@ -2,6 +2,7 @@ import { Link } from "react-router-dom";
 import { useCart } from "../context/CartContext";
 import { IconWhatsapp } from "../components/icons/Icon";
 import { imagenPrincipal } from "../hooks/useProductSearch";
+import { textoBordado } from "../pages/Detalle/detalleUtils";
 
 export default function CartMobileDrawer() {
   const { carrito, eliminarDelCarrito, enviarWhatsapp, cartMobileOpen, cerrarCarritoMobile } = useCart();
@@ -41,6 +42,7 @@ export default function CartMobileDrawer() {
                     Cant: {p.cantidad}
                     {p.talle ? ` | Talle: ${p.talle}` : ""}
                     {p.color ? ` | Color: ${p.color}` : ""}
+                    {textoBordado(p.bordado) ? ` | ${textoBordado(p.bordado)}` : ""}
                   </div>
                 </div>
                 <button onClick={() => eliminarDelCarrito(i)}>×</button>

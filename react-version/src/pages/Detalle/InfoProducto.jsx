@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 import { IconCartPlus, IconShare } from "../../components/icons/Icon";
 import { useCart } from "../../context/CartContext";
-import { obtenerColorCSS } from "./detalleUtils";
+import { admiteBordado, obtenerColorCSS } from "./detalleUtils";
 import { productoUrl } from "../../utils/productoUrl";
 import { SITE_URL } from "../../data/siteUrl";
 
@@ -10,9 +10,11 @@ export default function InfoProducto({ producto, detalle }) {
   const { talle, setTalle, cantidad, onCantidadChange, colorSeleccionado, seleccionarColor } = detalle;
   const [errores, setErrores] = useState({});
   const [copiado, setCopiado] = useState(false);
+  const [conBordado, setConBordado] = useState(false);
 
   useEffect(() => {
     setErrores({});
+    setConBordado(false);
   }, [producto]);
 
   async function compartir() {
@@ -39,6 +41,7 @@ export default function InfoProducto({ producto, detalle }) {
 
   const tieneTalles = Array.isArray(producto.talles) && producto.talles.length > 0;
   const tieneColores = Array.isArray(producto.colores) && producto.colores.length > 0;
+  const bordadoOpcional = admiteBordado(producto);
 
   function agregar() {
     const nuevosErrores = {};
@@ -52,6 +55,7 @@ export default function InfoProducto({ producto, detalle }) {
       cantidad: parseInt(cantidad, 10),
       talle: tieneTalles ? talle : null,
       color: tieneColores ? producto.colores[colorSeleccionado].nombre : null,
+      bordado: bordadoOpcional ? conBordado : null,
     });
   }
 
@@ -116,6 +120,19 @@ export default function InfoProducto({ producto, detalle }) {
         />
         {errores.cantidad && <span className="empresas-error">{errores.cantidad}</span>}
       </div>
+
+      {bordadoOpcional && (
+        <div className="campo-detalle campo-bordado">
+          <label>
+            <input
+              type="checkbox"
+              checked={conBordado}
+              onChange={(e) => setConBordado(e.target.checked)}
+            />
+            Quiero la prenda con bordado
+          </label>
+        </div>
+      )}
 
       <button id="detalleAgregar" className="btn-secundario" onClick={agregar}>
         <IconCartPlus /> Agregar al carrito

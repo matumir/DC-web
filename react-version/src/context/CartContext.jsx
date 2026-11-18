@@ -2,6 +2,7 @@ import { createContext, useContext, useEffect, useState } from "react";
 import { sonar } from "../lib/sonido";
 import { registrarConsultaCarrito } from "../lib/consultas";
 import { WHATSAPP_NUMBER } from "../data/contacto";
+import { textoBordado } from "../pages/Detalle/detalleUtils";
 
 const CartContext = createContext(null);
 const STORAGE_KEY = "carrito";
@@ -23,17 +24,23 @@ export function CartProvider({ children }) {
     localStorage.setItem(STORAGE_KEY, JSON.stringify(carrito));
   }, [carrito]);
 
-  function agregarAlCarrito(producto, { cantidad, talle = null, color = null }) {
+  // bordado: true/false en los productos que lo admiten, null en el resto.
+  // Con y sin bordado van en renglones separados, como dos talles distintos.
+  function agregarAlCarrito(producto, { cantidad, talle = null, color = null, bordado = null }) {
     setCarrito((prev) => {
       const existente = prev.find(
-        (p) => p.id === producto.id && p.talle === talle && p.color === color
+        (p) =>
+          p.id === producto.id &&
+          p.talle === talle &&
+          p.color === color &&
+          (p.bordado ?? null) === bordado
       );
       if (existente) {
         return prev.map((p) =>
           p === existente ? { ...p, cantidad: p.cantidad + cantidad } : p
         );
       }
-      return [...prev, { ...producto, cantidad, talle, color }];
+      return [...prev, { ...producto, cantidad, talle, color, bordado }];
     });
     mostrarNotificacion();
   }
@@ -61,9 +68,10 @@ export function CartProvider({ children }) {
   function enviarWhatsapp() {
     let msg = "**PEDIDO WEB**\nHola, quiero consultar por:\n";
     carrito.forEach((p) => {
+      const bordado = textoBordado(p.bordado);
       msg += `-${p.marca} | ${p.nombre} ${p.talle ? `(${p.talle})` : ""} ${
         p.color ? ` - ${p.color}` : ""
-      } x ${p.cantidad}\n`;
+      }${bordado ? ` - ${bordado}` : ""} x ${p.cantidad}\n`;
     });
     // Ademas del hecho de que se envio un pedido, ahora se guarda que
     // productos y cuantas unidades. Sigue sin guardarse quien lo mando.

@@ -4565,6 +4565,28 @@ button.user-item {
   font-weight: 500;
 }
 
+/* Casilla de bordado: en la ficha y en el modal del listado */
+.campo-bordado label,
+.carrito-modal-bordado {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  cursor: pointer;
+  color: #333;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.campo-bordado input,
+.carrito-modal-bordado input {
+  width: 18px;
+  height: 18px;
+  margin: 0;
+  flex-shrink: 0;
+  cursor: pointer;
+  accent-color: #4abcb1;
+}
+
 .carrito-modal-colores {
   display: flex;
   flex-wrap: wrap;

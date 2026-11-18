@@ -4,6 +4,7 @@ import { IconCartShopping, IconWhatsapp } from "../../components/icons/Icon";
 import { useCart } from "../../context/CartContext";
 import { imagenPrincipal } from "../../hooks/useProductSearch";
 import { useDocumentMeta } from "../../hooks/useDocumentMeta";
+import { textoBordado } from "../Detalle/detalleUtils";
 
 export default function CarritoPage() {
   const { carrito, eliminarDelCarrito, enviarWhatsapp, abrirCarritoMobile } = useCart();
@@ -61,6 +62,7 @@ export default function CarritoPage() {
                 <p>Cantidad: {p.cantidad}</p>
                 {p.talle && <p>Talle: {p.talle}</p>}
                 {p.color && <p>Color: {p.color}</p>}
+                {textoBordado(p.bordado) && <p>{textoBordado(p.bordado)}</p>}
                 <button onClick={() => eliminarDelCarrito(i)}>Eliminar</button>
               </div>
             );
